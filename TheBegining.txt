@@ -1,0 +1,491 @@
+
+						UNA NUEVA COMPUTADORA :)
+
+1) Ubuntu 14.04.1
+
+Como formatear tu computadora e instalar Ubuntu 14.04.1
+
+1.1) Compra un DVD-R virgen
+
+1.2) Descarga “Brasero Disc Burner”
+
+1.3) Entra a la página
+
+http://www.ubuntu.com/download/desktop
+
+Escoge entre 32 bits  o 64 bits. (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
+
+Dale click en Download, te va a llevar a una página en la qué te da la opción de aportar dinero, no le hagas caso, vete hasta abajo y dale click en  “Not now, take me to the download”.
+
+Se debe de empezar a descargar automáticamente.
+
+1.4) Una vez que se acabe de descargar, abre  “Brasero Disc Burner”, selecciona “Burn Image”, dale click en “Click here to select a disc image”, vete a Downloads y slelecciona el archivo que acabas de descargar que lleva por nombre algo parecido a  “ubuntu-14.04.1-desktop-i386.iso”.
+
+Luego incerta el DVD-R virgen en tu compu, dale click a “Burn”.
+
+Listo, una vez grabado el disco, se expulsará, sácalo, cierra todo lo que tengas abierto.
+
+Introduce nuevamente el disco.
+
+1.5) Reinicia tu computadora, estate atento, cuando esté en la primera pantalla, antes de que ocurra otra cosa presiona F2, con las flechas de tu teclado muévete a Boot, luego con las flechas vete a CD/DVD y con F5 y F6 (que te permiten moverlo para arriba o para abajo) ponlo hasta arriba. Luego presiona F10 para guardar y salir.
+
+1.6) Aparecéra la instalación de Ubunru, te permitirá formatear o particionar tu computadora, escoge tus preferencias y sigue la instalación. (procura estar conectado a interet)
+
+1.7) Al finalizar la instalación se expulsará el disco, retíralo y dale Enter. Antes de que entre a Ubuntu haz lo mismo que el paso 5) dejando ahora a HDD/SDD hasta arriba.
+
+1.8) Listo, ya tiene Instalado Ubuntu en tu computadora y tendrás el disco de instalación listo para prestárselo a tus amigos o usarlo nuevamente si lo deseas. 
+
+2) IJulia
+
+Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
+
+En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira)
+ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T
+
+2.1) Entrar a http://continuum.io/downloads
+
+Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
+
+2.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
+
+Abre la Terminal y escribe: bash Anaconda-2.1.0-Linux-x86.sh
+
+Dale enter leyendo todo lo qué aparece hasta que aparezca 
+
+“Do you approve the license terms? [yes|no] [no] >>>” 
+
+escribe: yes 
+presiona: Enter
+
+Luego te aparecerán tres opciones:
+
+“  - Press ENTER to confirm the location 
+  - Press CTRL-C to abort the installation 
+- Or specify an different location below ”
+
+presiona: Enter
+
+Luego te aparecerá 
+
+“Do you wish the installer to prepend the Anaconda install location to PATH in your /home/a9lara/.bashrc ? [yes|no] [no] >>> “
+
+escribe: yes
+presiona: Enter
+
+2.3)  Ahí mismo en la terminal, (una vez que se acabó de instalar Anaconda) escribir:
+(Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
+
+escribe: sudo add-apt-repository ppa:staticfloat/juliareleases
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julia-deps
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julianightlies
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt install ipython
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt install ipython-notebook
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get install julia 
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt-get upgrade
+presiona: Enter
+
+escribe: sudo apt-get install git 
+presiona: Enter
+
+escribe: julia
+presiona: Enter
+
+escribe: Pkg.add("IJulia")
+presiona: Enter
+
+escribe: Pkg.build("IJulia")
+presiona: Enter
+
+escibre: Pkg.update()
+presiona: Enter
+
+escribe: quit()
+presiona: Enter
+
+2.4) escribe: ipython notebook --profile julia 
+presiona: Enter
+
+Se abrira tu navegador, donde te aparecerá la página principal de Ijulia.
+
+Vete de nuevo a la Terminal que sigue corriendo:
+presiona: Ctrl+c
+escribe: y
+presiona: Enter
+
+Se cerrará IJulia
+
+2.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
+
+Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en la qué tengas todos tus documentos de julia)
+
+Ve a la Terminal:
+
+escribir:  ipython notebook --profile julia 
+presionar: Enter
+
+Una vez en Ijulia:
+selecciona tu careta “X” y crea un nuevo Notebook.
+
+escribe: Pkg.add("PyPlot")
+presiona Shift+Enter 
+
+escribe: Pkg.add("PyCall")
+presiona Shift+Enter
+
+escribe: Pkg.add("SymPy")
+presiona Shift+Enter
+
+escribe: Pkg.add ("Compose")
+presiona Shift+Enter
+
+Le ponemos un nombre a nustro documento, por ejemplo “Pkg.add()” para acordarnos qué será el notebook donde estarémos agregando paquetes, pero puede ser cualquier nombre. (Para cambiar el nombre del notebook le damos click en donde dice “Untitled0” y escribirmos el nombre qué queramos, luego le damos Ok.
+
+Ahora lo salvamos, para ello presionamos el disquito a la izquierda.
+Ahora cerramos la pestaña del notebook(la cuál corresponde a una pestaña de nuestro navegador).
+
+Ahora, la pestaña de nuestro navegador que nos sobra es la plataforma ques e abrió desde la terminal, ahí, le damos click en “Runnung” y le damos “Shudown” al notebook qué acabamos de usar.
+
+Una vez que se cerró el notebook, cerramos la pestaña del navegador en la qué estamos trabajando, es decir de la plataforma que nos abrió la emrinal para trabajar en IJulia.
+
+Nos vamos a la Terminal:
+presiona: Ctrl+c
+escribe: y
+presiona: Enter
+
+escribe: exit
+presiona: Enter
+
+2.6) Para empezar a trabajar en IJulia
+
+3) GitHub
+
+Ahora vamos a usar Git Hub (solo el mensaje de commit va entre comillas, todo lo demás no lleva comillas)
+
+El chiste de usar GitHub es poder compartir los documentos .txt y de programación en .ipynb, pero no solamente eso sinó que también poder colaborar con una o varias personas en el mismo documento teniendo registro de las modificaciones y con la posiblidad de hacer ramas del trabajo para trabajar en ellas sin perder el trabajo original que vamos haciendo sobre la estrucutra principal.
+
+3.1)Creando una cuenta en GitHub
+
+Entra a la página de https://github.com/
+
+Crea una cuenta
+
+Abre la Terminal y escribe: $ git config --global user.name "YOUR NAME"
+presiona: Enter
+
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+presinoa: Enter
+
+3.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+
+less .ssh/id_rsa.pub
+
+3.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
+
+3.3.1) Crea un repositorio en https://github.com/
+
+Para ello dale en el signo de más ("+") qué está en la parte superior derecha, dale "New repository".
+
+Llamalo como quieras, de preferencia que un nombre corto y de una palabra. (Me voy a referir a este nombre del repositorio como "a")
+
+Al crear un repositorio te aparecerán varios comandos, guarda los siguientes:
+
+i)   git remote add origin ...  (voy a llamarla "x" para referimre a este comando)
+ii)  git push -u ...  (voy a llamarla "y" para referimre a este comando)
+iii) la dirección que aparece en HTTP  (voy a llamarla "z" para referimre a este comando)
+
+3.3.2) Escribe en la terminal: 
+
+Jalamos nuestro repositorio escribiendo:
+
+git clone "z"
+
+Entramos a la carpeta escribiendo:
+
+cd "a"
+
+Ahora creamos un archivo de .txt nuevo (el nombre de este archivo lo voy a llamar "b.txt") escribiendo:
+
+touch "b.txt"
+
+Agregamos el archivo a git escribiendo:
+
+git add "b.txt"
+
+Lo guardamos en nuestro git escribiendo:
+
+git commit -m "" (entre las comillas puede ir un mensaje que es como una nota para acordarte que cambios hiciste)
+
+Luego lo subimos a GitHub escribiendo:
+
+git push
+
+Ahora nos salimos de nuestro directorio escribiendo:
+
+cd
+
+Ahora nos salimos de la terminal escribiendo:
+
+exit
+
+3.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
+
+Abrimos la Terminal y nos vamos a IJulia escribinedo: ipython notebook --profile julia
+
+Dentro de IJulia nos vamos a la carpeta "a", y creamos un nuevo Notebook con nombre "c".
+
+Ahora, en este notebook, vamos a escribir y correr los siguientes comandos, uno por cada liena de comando:
+
+;git init
+
+;git config --global user.name "Your Name" 
+
+;git cinfig --global user.email "your@email.com".
+
+;git config user.name "Your Name" 
+
+;git remote add origin "z"
+
+;git push -u origin master
+
+Ahora lo salvamos, (presionar el boton en la parte superior izquierda en forma de disco)
+
+Cerramos la pestaña de nuestro navegador en la qué estamos.
+
+Le damos Shutdown al notebook "c"
+
+Nos vamos a la Terminal
+
+Cerramos IJulia.
+
+Escribimos: cd
+
+Prsionamos: Enter
+
+Ahora escribimos: cd "a"
+
+Escribimos: git add "c.ipynb"
+
+Escribimos: git commit -m "(escribimos un mensaje señalando los cambios qué hicimos"
+
+Escribimos: git push (Puede ser aqué nos pida el nombre de usuario y contraseña, se lo escribimos.)
+
+Escribimos: cd
+
+Escribimos exit.
+
+Listo, nuestro archivo ya está en GitHub.
+
+3.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
+
+3.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
+
+3.4.2)Le damos git clone al repositorio desde la terminal.
+
+3.4.2)Entramos a nuestro repositorio.
+
+3.4.4) Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
+
+git branch nombre_de_la_rama_secundaria (ponle el nombre que queiras)
+
+Trabaja en ella el archivo en el qué estás trabajando en colaboración.
+
+3.4.4.1) Aquí menciono como usar las ramas:
+
+Para cambiamos a esa rama escribimos:
+
+git checkout nombre_de_la_rama_secundaria
+
+Agregamos el archivo que queremos modificar (llamemosle "hola.txt" para este ejemplo)
+
+git add "hola.txt"
+
+git commit -m "Agregue el archivo nuevo.txt"
+
+Con el siguiente comando podemos ver todas las modificaciones:
+
+git log
+
+Con el sieguiente comando podemos saber el estado de nuestro git, así mismo nos dice en que rama estamos trabajando:
+
+git status
+
+Una vez que estemos seguros de querer incorporar todos los cambios de la rama secundaria a nuestra rama principal, vamos a escribir, desde nuestra rama principal, lo sieguiente:
+
+git merge  nombre_de_la_rama_secundaria
+
+En caso de qué quieras eliminar esa rama secundaria escirbe lo siguiente:
+
+git branch -d nombre_de_la_rama_secundaria
+
+3.4.5) Ahora vamos a mandar lo qué hicimos a GitHub para seguir trabajando en equipo.
+
+Una vez que se trabajó el archivo en la rama secundaria, se guardaron los cambios, se hizo git add, y se hizo el git commit hacemos lo siguiente:
+
+Mandamos los commits locales a nuestra versión remota escrbiendo:
+
+git push origin nombre_de_la_rama_secundaria
+
+Nuestras modificaciones ahora están listas en GitHub para poderlas compartir con los demás usuarios.
+
+3.4.6) Recomendar estos cambios a nuestros colaboradores:
+
+En la página de Git Hub, localiza tu repositorio, asegurate de estar en la rama "nombre_de_la_rama_secundaria" (Fijate que no diga "master"). Y le damos click donde dice: Pull Request
+
+Listo, ahora estarás trabajando en colabroación mediante GitHub.
+
+4) Light Table
+
+4.1) Vamos a descargarlo.
+
+4.2) Vamos a instalarlo.
+
+Una vez descargado:
+
+Abrimos una terminal 
+sudo apt-get install nautilus-open-terminal 
+
+
+ (podemos abrir terminal desde donde estemos)
+
+para reiniciarlo escribimos
+
+nautilus -q
+
+le damos un click derecho y abrir una temrinal y me abre ya en ese directorio
+
+Bueno, regresando
+
+estando en descarga
+
+la descomprime
+
+tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
+tar zxvf LightTableLinux62.tar.gz  (si es de 64bits)
+
+esto va a crear una carpeta
+
+ahora:
+
+ sudo mv LightTable /opt
+
+Luego hay que instalar un programita:
+
+sudo apt-get install --no-install-recommends gnome-panel
+
+Luego
+
+escribimos: sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
+
+esto va a hacer que se arreglen  unos problemitas que tiene ubuntu
+
+Luego
+
+escribimos: sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
+
+que va a crear  un iconico bonito para abrirlo como cualquier programa
+
+
+
+luego nos aparece un cuadrito y escribimos:
+
+el icóno: (le das click al icpono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
+el nomre : LightTable
+COmando:  /LightTable/
+
+
+y listo, lo podemos abrrir desde nuestro escribtorio
+
+
+
+less .ssh/id_rsa.pub
+
+COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS NUESTRA CONTRASELA DE GITHUB Y LISTO
+
+Y 
+
+4.3) Vamos a hacer qué pueda correr comandos de Julia.
+
+En la página principal de Light Tabel:
+
+Ctrl+Spacebar
+
+En el recuadro escribimos: 
+
+show plugin manager
+
+Le damos click a la primera ocpión qué aparezca.
+
+En el recuadro del buscador (el cuál dice "search available plugins") escribimos: 
+
+juno
+
+Presionamos: 
+
+Ctrl+Spacebar
+
+Escribimos:
+
+user behaviors
+
+Aparecerá un texto escrito. Ahí borramos donde dice "default” y escribimos “june".
+
+Guárdalo (Hasta arriba, en la barra de herramientas: "file" y luego "save")
+
+Cierra Light Tabel y vuelvelo a abrir.
+
+Listo, ya podrás correr códigos de Julia. (Recuerda qué para correr códigos debes presionar Ctrl+Spacebar con el cursor al final del código.)
+
+5) Comandos
+
+Vamos a hacer una recopilación de Comandos
+
+Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
+
+5.1)Para aprender a Programar en Julia: http://julialang.org/
+
+5.2) Comandos básicos en IJulia: 
+
+Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
+
+5.3) Comandos básicos enGit Hub: 
+
+5.4) Comandos básicos en Light Table
+
+6) Aplicaciones
+
+Agregando programas a nuestrea nueva y limpia computadora.
+
+Después de instalar Ubunutu y el lenguaje de programación Julia es recomendable tener otras aplicacions qué nos serán de mucha utilidad a lo largo de nuestro tiempo frente a la computadora. Algunas de estas aplicaciones de ayuda son Vuze, Latexila, VisualBoyAdvance Telegram, desde google store, etc...
+
+
+
+
+
+
+
+
+
