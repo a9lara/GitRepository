@@ -97,6 +97,11 @@ aparecerá “Do you want to continue [Y/N]”
 escribir: Y
 presiona: Enter
 
+escribe: sudo apt install ubuntu-restricted-extras
+aparecerá “Terms and Conditions” 
+escribir: Ok
+presiona: Enter
+
 escribe: sudo apt-get install julia 
 aparecerá “Do you want to continue [Y/N]” 
 escribir: Y
@@ -206,6 +211,8 @@ $ git config --global user.email "YOUR EMAIL ADDRESS"
 presinoa: Enter
 
 3.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+
+En los próximos días agrego esta parte.
 
 less .ssh/id_rsa.pub
 
