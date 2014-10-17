@@ -209,7 +209,7 @@ Y en un Notebook nuevo empezar a programar.
 
 No se necesita usar internet, sin embargo, habrá que descargar algunos paquetes para que esto sea posible, no te preocupes, solitos aparecerán y ya solo quéda seguir las intrucciones para su instalación.
 
-Para aprender a programar en Julia visita la página julialang.org donde vienen muchos ejemplos y material interactivo para que aprendas a programar.
+Para aprender a programar en Julia visita la página http://julialang.org/ donde vienen muchos ejemplos y material interactivo para que aprendas a programar.
 
 ############################################################################################################################################
 
@@ -223,23 +223,21 @@ El chiste de usar GitHub es poder compartir los documentos .txt y de programaci�
 
 Entra a la página de https://github.com/
 
-Crea una cuenta
+Crea una cuenta y después:
 
-Abre la Terminal y escribe: $ git config --global user.name "YOUR NAME"
-presiona: Enter
+Abre la Terminal y escribe:
 
-$ git config --global user.email "YOUR EMAIL ADDRESS"
-presinoa: Enter
+$ git init
 
-4.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+$ git config --global user.name "Your Name" 
 
-En los próximos días agrego esta parte.
+$ git cinfig --global user.email "your@email.com"
 
-less .ssh/id_rsa.pub
+$ git config user.name "Your Name" 
 
-4.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
+4.2) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
 
-4.3.1) Crea un repositorio en https://github.com/
+4.2.1) Crea un repositorio en https://github.com/
 
 Para ello dale en el signo de más ("+") qué está en la parte superior derecha, dale "New repository".
 
@@ -251,7 +249,7 @@ i)   git remote add origin ...  (voy a llamarla "x" para referimre a este comand
 ii)  git push -u ...  (voy a llamarla "y" para referimre a este comando)
 iii) la dirección que aparece en HTTP  (voy a llamarla "z" para referimre a este comando)
 
-4.3.2) Escribe en la terminal: 
+4.2.2) Escribe en la terminal: 
 
 Jalamos nuestro repositorio escribiendo:
 
@@ -285,25 +283,13 @@ Ahora nos salimos de la terminal escribiendo:
 
 exit
 
-4.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
+4.2.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
 
 Abrimos la Terminal y nos vamos a IJulia escribinedo: ipython notebook --profile julia
 
 Dentro de IJulia nos vamos a la carpeta "a", y creamos un nuevo Notebook con nombre "c".
 
 Ahora, en este notebook, vamos a escribir y correr los siguientes comandos, uno por cada liena de comando:
-
-;git init
-
-;git config --global user.name "Your Name" 
-
-;git cinfig --global user.email "your@email.com".
-
-;git config user.name "Your Name" 
-
-;git remote add origin "z"
-
-;git push -u origin master
 
 Ahora lo salvamos, (presionar el boton en la parte superior izquierda en forma de disco)
 
@@ -333,6 +319,12 @@ Escribimos exit.
 
 Listo, nuestro archivo ya está en GitHub.
 
+4.3) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+
+En los próximos días agrego esta parte.
+
+less .ssh/id_rsa.pub
+
 4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
 4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
@@ -341,7 +333,7 @@ Listo, nuestro archivo ya está en GitHub.
 
 4.4.2)Entramos a nuestro repositorio.
 
-4.4.4) Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
+4.4.4)Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
 
 git branch nombre_de_la_rama_secundaria (ponle el nombre que queiras)
 
@@ -505,21 +497,19 @@ Después de instalar Ubunutu y el lenguaje de programación Julia es recomendabl
 
 ############################################################################################################################################
 
-7) Comandos
+7) Comandos 
 
 Vamos a hacer una recopilación de Comandos
 
 Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
 
-7.1)Para aprender a Programar en Julia: http://julialang.org/
+7.1) Comandos en Julia
 
-7.2) Comandos básicos en IJulia: 
+Shift+Enter - Manda ejecutar lo qué se escribió en la linea.
 
-Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
+7.2) Comandos en Github
 
-7.3) Comandos básicos en GitHub: 
-
-7.4) Comandos básicos en Light Table
+7.3) Comandos en Ligh Table
 
 ############################################################################################################################################
 
