@@ -162,6 +162,12 @@ presiona Shift+Enter
 escribe: Pkg.add ("Compose")
 presiona Shift+Enter
 
+Pkg.add("Interact")
+presiona Shift+Enter
+
+Pkg.add("ODE")
+presiona Shift+Enter
+
 Le ponemos un nombre a nustro documento, por ejemplo “Pkg.add()” para acordarnos qué será el notebook donde estarémos agregando paquetes, pero puede ser cualquier nombre. (Para cambiar el nombre del notebook le damos click en donde dice “Untitled0” y escribirmos el nombre qué queramos, luego le damos Ok.
 
 Ahora lo salvamos, para ello presionamos el disquito a la izquierda.
