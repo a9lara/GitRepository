@@ -1,9 +1,11 @@
 
-						UNA NUEVA COMPUTADORA :)
+						UNA MANERA DE TRABAJAR EN LIMPIO
+
+############################################################################################################################################
 
 1) Ubuntu 14.04.1
 
-Como formatear tu computadora e instalar Ubuntu 14.04.1
+Como formatear tu computadora e instalar Ubuntu 
 
 1.1) Compra un DVD-R virgen
 
@@ -19,7 +21,7 @@ Dale click en Download, te va a llevar a una página en la qué te da la opción
 
 Se debe de empezar a descargar automáticamente.
 
-1.4) Una vez que se acabe de descargar, abre  “Brasero Disc Burner”, selecciona “Burn Image”, dale click en “Click here to select a disc image”, vete a Downloads y slelecciona el archivo que acabas de descargar que lleva por nombre algo parecido a  “ubuntu-14.04.1-desktop-i386.iso”.
+1.4) Una vez que se acabe de descargar, abre  “Brasero Disc Burner”, selecciona “Burn Image”, dale click en “Click here to select a disc image”, vete a Downloads y slelecciona el archivo que acabas de descargar que lleva por nombre algo parecido a  “ubuntu-14.04.1-desktop i386.iso”.
 
 Luego incerta el DVD-R virgen en tu compu, dale click a “Burn”.
 
@@ -34,19 +36,34 @@ Introduce nuevamente el disco.
 1.7) Al finalizar la instalación se expulsará el disco, retíralo y dale Enter. Antes de que entre a Ubuntu haz lo mismo que el paso 5) dejando ahora a HDD/SDD hasta arriba.
 
 1.8) Listo, ya tiene Instalado Ubuntu en tu computadora y tendrás el disco de instalación listo para prestárselo a tus amigos o usarlo nuevamente si lo deseas. 
+  
+############################################################################################################################################
 
-2) IJulia
+2) Terminal
+
+Vamos a instalar varios programas qué nos serán de ayuda a lo largo de nuestro uso masivo en Ubuntu.
+
+En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira) ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T.
+
+$ sudo apt-get install gnuplot (Graficador)
+
+$ sudo apt-get install xclip (Copia tus claves cuando quieras hacer una Key SSH)
+
+$ sudo apt-get install git (Te permite usar Git para guardar archivos de texto de manera inteligente)
+
+$ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación)
+
+############################################################################################################################################
+
+3) IJulia
 
 Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
 
-En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira)
-ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T
-
-2.1) Entrar a http://continuum.io/downloads
+3.1) Entrar a http://continuum.io/downloads
 
 Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
 
-2.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
+3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
 
 Abre la Terminal y escribe: bash Anaconda-2.1.0-Linux-x86.sh
 
@@ -72,7 +89,7 @@ Luego te aparecerá
 escribe: yes
 presiona: Enter
 
-2.3)  Ahí mismo en la terminal, (una vez que se acabó de instalar Anaconda) escribir:
+3.3)  Ahí mismo en la terminal, (una vez que se acabó de instalar Anaconda) escribir:
 (Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
 
 escribe: sudo add-apt-repository ppa:staticfloat/juliareleases
@@ -97,11 +114,6 @@ aparecerá “Do you want to continue [Y/N]”
 escribir: Y
 presiona: Enter
 
-escribe: sudo apt install ubuntu-restricted-extras
-aparecerá “Terms and Conditions” 
-escribir: Ok
-presiona: Enter
-
 escribe: sudo apt-get install julia 
 aparecerá “Do you want to continue [Y/N]” 
 escribir: Y
@@ -111,9 +123,6 @@ escribe: sudo apt-get update
 presiona: Enter
 
 escribe: sudo apt-get upgrade
-presiona: Enter
-
-escribe: sudo apt-get install git 
 presiona: Enter
 
 escribe: julia
@@ -131,7 +140,7 @@ presiona: Enter
 escribe: quit()
 presiona: Enter
 
-2.4) escribe: ipython notebook --profile julia 
+3.4) escribe: ipython notebook --profile julia 
 presiona: Enter
 
 Se abrira tu navegador, donde te aparecerá la página principal de Ijulia.
@@ -143,7 +152,7 @@ presiona: Enter
 
 Se cerrará IJulia
 
-2.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
+3.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
 
 Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en la qué tengas todos tus documentos de julia)
 
@@ -190,15 +199,27 @@ presiona: Enter
 escribe: exit
 presiona: Enter
 
-2.6) Para empezar a trabajar en IJulia
+3.6) Para empezar a trabajar en IJulia
 
-3) GitHub
+Cada vez que queramos programar, lo único qué hay que hacer es abrir la Terminal y escribir:
+
+$ ipython notebook --profile julia 
+
+Y en un Notebook nuevo empezar a programar. 
+
+No se necesita usar internet, sin embargo, habrá que descargar algunos paquetes para que esto sea posible, no te preocupes, solitos aparecerán y ya solo quéda seguir las intrucciones para su instalación.
+
+Para aprender a programar en Julia visita la página julialang.org donde vienen muchos ejemplos y material interactivo para que aprendas a programar.
+
+############################################################################################################################################
+
+4) GitHub
 
 Ahora vamos a usar Git Hub (solo el mensaje de commit va entre comillas, todo lo demás no lleva comillas)
 
 El chiste de usar GitHub es poder compartir los documentos .txt y de programación en .ipynb, pero no solamente eso sinó que también poder colaborar con una o varias personas en el mismo documento teniendo registro de las modificaciones y con la posiblidad de hacer ramas del trabajo para trabajar en ellas sin perder el trabajo original que vamos haciendo sobre la estrucutra principal.
 
-3.1)Creando una cuenta en GitHub
+4.1)Creando una cuenta en GitHub
 
 Entra a la página de https://github.com/
 
@@ -210,15 +231,15 @@ presiona: Enter
 $ git config --global user.email "YOUR EMAIL ADDRESS"
 presinoa: Enter
 
-3.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+4.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
 En los próximos días agrego esta parte.
 
 less .ssh/id_rsa.pub
 
-3.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
+4.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
 
-3.3.1) Crea un repositorio en https://github.com/
+4.3.1) Crea un repositorio en https://github.com/
 
 Para ello dale en el signo de más ("+") qué está en la parte superior derecha, dale "New repository".
 
@@ -230,7 +251,7 @@ i)   git remote add origin ...  (voy a llamarla "x" para referimre a este comand
 ii)  git push -u ...  (voy a llamarla "y" para referimre a este comando)
 iii) la dirección que aparece en HTTP  (voy a llamarla "z" para referimre a este comando)
 
-3.3.2) Escribe en la terminal: 
+4.3.2) Escribe en la terminal: 
 
 Jalamos nuestro repositorio escribiendo:
 
@@ -264,7 +285,7 @@ Ahora nos salimos de la terminal escribiendo:
 
 exit
 
-3.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
+4.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
 
 Abrimos la Terminal y nos vamos a IJulia escribinedo: ipython notebook --profile julia
 
@@ -312,21 +333,21 @@ Escribimos exit.
 
 Listo, nuestro archivo ya está en GitHub.
 
-3.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
+4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
-3.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
+4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
 
-3.4.2)Le damos git clone al repositorio desde la terminal.
+4.4.2)Le damos git clone al repositorio desde la terminal.
 
-3.4.2)Entramos a nuestro repositorio.
+4.4.2)Entramos a nuestro repositorio.
 
-3.4.4) Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
+4.4.4) Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
 
 git branch nombre_de_la_rama_secundaria (ponle el nombre que queiras)
 
 Trabaja en ella el archivo en el qué estás trabajando en colaboración.
 
-3.4.4.1) Aquí menciono como usar las ramas:
+4.4.4.1) Aquí menciono como usar las ramas:
 
 Para cambiamos a esa rama escribimos:
 
@@ -354,7 +375,7 @@ En caso de qué quieras eliminar esa rama secundaria escirbe lo siguiente:
 
 git branch -d nombre_de_la_rama_secundaria
 
-3.4.5) Ahora vamos a mandar lo qué hicimos a GitHub para seguir trabajando en equipo.
+4.4.5) Ahora vamos a mandar lo qué hicimos a GitHub para seguir trabajando en equipo.
 
 Una vez que se trabajó el archivo en la rama secundaria, se guardaron los cambios, se hizo git add, y se hizo el git commit hacemos lo siguiente:
 
@@ -364,17 +385,19 @@ git push origin nombre_de_la_rama_secundaria
 
 Nuestras modificaciones ahora están listas en GitHub para poderlas compartir con los demás usuarios.
 
-3.4.6) Recomendar estos cambios a nuestros colaboradores:
+4.4.6) Recomendar estos cambios a nuestros colaboradores:
 
 En la página de Git Hub, localiza tu repositorio, asegurate de estar en la rama "nombre_de_la_rama_secundaria" (Fijate que no diga "master"). Y le damos click donde dice: Pull Request
 
 Listo, ahora estarás trabajando en colabroación mediante GitHub.
 
-4) Light Table
+############################################################################################################################################
 
-4.1) Vamos a descargarlo.
+5) Light Table
 
-4.2) Vamos a instalarlo.
+5.1) Vamos a descargarlo.
+
+5.2) Vamos a instalarlo.
 
 Una vez descargado:
 
@@ -440,7 +463,7 @@ COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS 
 
 Y 
 
-4.3) Vamos a hacer qué pueda correr comandos de Julia.
+5.3) Vamos a hacer qué pueda correr comandos de Julia.
 
 En la página principal de Light Tabel:
 
@@ -472,27 +495,37 @@ Cierra Light Tabel y vuelvelo a abrir.
 
 Listo, ya podrás correr códigos de Julia. (Recuerda qué para correr códigos debes presionar Ctrl+Spacebar con el cursor al final del código.)
 
-5) Comandos
-
-Vamos a hacer una recopilación de Comandos
-
-Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
-
-5.1)Para aprender a Programar en Julia: http://julialang.org/
-
-5.2) Comandos básicos en IJulia: 
-
-Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
-
-5.3) Comandos básicos enGit Hub: 
-
-5.4) Comandos básicos en Light Table
+############################################################################################################################################
 
 6) Aplicaciones
 
 Agregando programas a nuestrea nueva y limpia computadora.
 
 Después de instalar Ubunutu y el lenguaje de programación Julia es recomendable tener otras aplicacions qué nos serán de mucha utilidad a lo largo de nuestro tiempo frente a la computadora. Algunas de estas aplicaciones de ayuda son Vuze, Latexila, VisualBoyAdvance Telegram, desde google store, etc...
+
+############################################################################################################################################
+
+7) Comandos
+
+Vamos a hacer una recopilación de Comandos
+
+Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
+
+7.1)Para aprender a Programar en Julia: http://julialang.org/
+
+7.2) Comandos básicos en IJulia: 
+
+Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
+
+7.3) Comandos básicos en GitHub: 
+
+7.4) Comandos básicos en Light Table
+
+############################################################################################################################################
+
+Armando J. Lara D.I.
+
+############################################################################################################################################
 
 
 
