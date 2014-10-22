@@ -505,7 +505,7 @@ Luego nos aparece un cuadrito y escribimos:
 
 el icóno: (le das click al icono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
 el nomre : LightTable
-Comando:  ????????????????????
+Comando:  /opt/LightTable/LightTable/core/img/lticon.png
 
 Listo, lo podemos abrir desde nuestro escritorio.
 
