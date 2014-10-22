@@ -1,4 +1,6 @@
 
+		############################################################################################################################################
+
 						UNA MANERA DE TRABAJAR EN LIMPIO
 
 ############################################################################################################################################
@@ -56,6 +58,8 @@ $ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en l
 $ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
 
 $ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no installe basura de los programas qué vayamos isntalando)
+
+$ sudo apt-get install wine (Te permite ejecutar archivos que por lo general son para Windows)
 
 ############################################################################################################################################
 
@@ -325,11 +329,25 @@ Listo, nuestro archivo ya está en GitHub.
 
 4.3) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
+Escribimos en la terminal
 
-------------------------
+$ ssh-keygen (Esto te genera claves en el directorio `.ssh` en tu directorio hogar)
 
+$ ssh-add ~/.ssh/id_rsa
 
-Entra a tu cuenta de GitHub.
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+
+Verifica qué se haya creado correctamente escribiendo:
+
+$ ssh -T git@github.com
+
+Si no está correctamente hecha, entra a:
+
+https://help.github.com/articles/generating-ssh-keys/
+
+y revisa en qué pudo fallar.
+
+Una vez verificado esto entra a tu cuenta de GitHub.
 
 Selecciona Settings, que está en a la parte superior derecha en el engrante, son los settings.
 
@@ -564,53 +582,50 @@ http://coolrom.com/roms/gba/
 
 12) Stellarium
 
+Para los astronomos aficionados, esta es una app muy útil que nos permite saber cómo se veía el cielo en años pasados, como se ve el cielo en el presente y como se verá el cielo en el futuro. 
+
+Esta aplicacion nos ayuda  distinguir objeto en el cielo como por ejemplo los planetas y nos ayuda a predecir la hora en la qué estarán en cierta posición. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Un muy buen complemento es bajar esta aplicación para el celular.
+
 ############################################################################################################################################
 
 13) Skype
+
+La forma más popular de mantenerte en contacto con tus amigos de manera íntima mientras trabajas y escuhcas música. Con Skype puedes tener videollamadas para sentirte en contacto con los demás o para discutir algún tema de clases importante.
+
+Para instalarla navega a:
+
+http://www.skype.com/es/
+
+y descargala.
+
+Una vez descargada usa Wine para ejecutalra.
+
+Listo,, ahora puedes trabajar solo, pero acompañado.
 
 ############################################################################################################################################
 
 14) DropBox
 
+Tu escritorio en la nube, nunca fue tan seguro tener todas tus cosas salvadas y a la mano. No te preocupes por fallos inesperados en tu computadora, teniendo todo guardado en tu carpeta de DropBox siempre tendrás todo en la nube, listo para descargarlo y seguirlo usando desde donde te quedaste cuando quieras y donde quieras.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
 ############################################################################################################################################
 
 15) Google Chrome
 
-############################################################################################################################################
+La más importante de todas. Es importente recalcar qué es necesario tener una cuenta en Google Chrome para sacar el potencial de esta inovadora forma de navegar, pues te permite mantener todas tus páginas favoritas guardadas, así como el tema del navegador y tus configuraciones en general sin importar en qué computadora te encuentres o en qué momento. Tu forma de usar internet nunca fue tan personal.
 
-16)
-
-############################################################################################################################################
-
-17)
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
 ############################################################################################################################################
 
-18)
+							Armando J. Lara D.I.
 
 ############################################################################################################################################
-
-19)
-
-############################################################################################################################################
-
-Armando J. Lara D.I.
-
-############################################################################################################################################
-
-
-En los próximos días agrego esta parte.
-
-less .ssh/id_rsa.pub
-
-less .ssh/id_rsa.pub
-
-COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS NUESTRA CONTRASELA DE GITHUB Y LISTO
-
-Y 
-
-
-
-
 
 
