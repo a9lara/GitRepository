@@ -408,6 +408,16 @@ Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS enla URL de tu
 
 Listo, ya no te pedirá la cuenta otra vez.z.
 
+Si al quererle dar:
+
+$ git push 
+
+antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, entonces, escribe en la terminal:
+
+$ git config --global push.default matching
+
+Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos.
+
 4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
 4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
