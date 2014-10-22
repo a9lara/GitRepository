@@ -344,7 +344,7 @@ Escribimos: git push (Puede ser aqué nos pida el nombre de usuario y contraseñ
 
 Escribimos: cd
 
-Escribimos exit.
+Escribimos exit
 
 Listo, nuestro archivo ya está en GitHub.
 
@@ -352,7 +352,7 @@ Listo, nuestro archivo ya está en GitHub.
 
 Escribimos en la terminal
 
-$ ssh-keygen (Esto te genera claves en el directorio `.ssh` en tu directorio hogar)
+$ ssh-keygen (Esto te genera claves en el directorio `.ssh` en tu directorio hogar - fíjate en lo qué aparece entre paréntesis cuando escribes el código, eso lo deberás de copiar y pegar ahí mismol, pues te estará preguntando en qué archivo quieres guardar tu llave.-) Luego te pedirá una palabra de pase, solo presiona Enter, en seguida te aparecerá unletrero para qué la confirmes, solo vuleve a presionar Enter.
 
 $ ssh-add ~/.ssh/id_rsa
 
@@ -396,13 +396,17 @@ $ cd "a"
 
 $ cd .git
 
-$ gedit config.
+$ gedit config
 
 Cambia el URL de -remote "origin"- por el que copiaste.
 
-Regresa a tu GitHub, y vuelve a cambiar SSH por HTTPS.
+Regresa a tu GitHub.
 
-Listo, ya no te pedirá la cuenta otra vez.
+Salvalo y cierralo.
+
+Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS enla URL de tu repositorio.
+
+Listo, ya no te pedirá la cuenta otra vez.z.
 
 4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
