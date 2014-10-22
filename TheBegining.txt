@@ -1,4 +1,3 @@
-
 		############################################################################################################################################
 
 						UNA MANERA DE TRABAJAR EN LIMPIO
@@ -55,7 +54,7 @@ $ sudo apt-get install git (Te permite usar Git para guardar archivos de texto d
 
 $ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación -para seleccionar Ok, presiona Tab y después Enter-) 
 
-$ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
+$ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
 
 $ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no installe basura de los programas qué vayamos isntalando)
 
@@ -672,5 +671,4 @@ Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalar
 							Armando J. Lara D.I.
 
 ############################################################################################################################################
-
 
