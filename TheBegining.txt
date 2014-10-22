@@ -53,6 +53,10 @@ $ sudo apt-get install git (Te permite usar Git para guardar archivos de texto d
 
 $ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación)
 
+$ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
+
+$ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no installe basura de los programas qué vayamos isntalando)
+
 ############################################################################################################################################
 
 3) IJulia
@@ -321,10 +325,6 @@ Listo, nuestro archivo ya está en GitHub.
 
 4.3) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
-En los próximos días agrego esta parte.
-
-less .ssh/id_rsa.pub
-
 4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
 4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
@@ -393,67 +393,38 @@ Listo, ahora estarás trabajando en colabroación mediante GitHub.
 
 Una vez descargado:
 
-Abrimos una terminal 
-sudo apt-get install nautilus-open-terminal 
+Le damos un click derecho y abrir una temrinal y me abre ya en ese directorio.
 
+La descomprimimos escribiendo:
 
- (podemos abrir terminal desde donde estemos)
+$ tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
+$ tar zxvf LightTableLinux62.tar.gz   (si es de 64bits)
 
-para reiniciarlo escribimos
+Esto va a crear una carpeta.
 
-nautilus -q
+Ahora escribimos:
 
-le damos un click derecho y abrir una temrinal y me abre ya en ese directorio
+$ sudo mv LightTable /opt
 
-Bueno, regresando
+Luego escribimos:
 
-estando en descarga
+$ sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
 
-la descomprime
+Esto va a hacer que se arreglen unos problemitas que tiene ubuntu
 
-tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
-tar zxvf LightTableLinux62.tar.gz  (si es de 64bits)
+Luego escribimos: 
 
-esto va a crear una carpeta
+$ sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
 
-ahora:
+Esto va a crear  un iconico bonito para abrirlo como cualquier programa
 
- sudo mv LightTable /opt
+Luego nos aparece un cuadrito y escribimos:
 
-Luego hay que instalar un programita:
-
-sudo apt-get install --no-install-recommends gnome-panel
-
-Luego
-
-escribimos: sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
-
-esto va a hacer que se arreglen  unos problemitas que tiene ubuntu
-
-Luego
-
-escribimos: sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
-
-que va a crear  un iconico bonito para abrirlo como cualquier programa
-
-
-
-luego nos aparece un cuadrito y escribimos:
-
-el icóno: (le das click al icpono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
+el icóno: (le das click al icono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
 el nomre : LightTable
-COmando:  /LightTable/
+Comando:  /LightTable/
 
-
-y listo, lo podemos abrrir desde nuestro escribtorio
-
-
-
-less .ssh/id_rsa.pub
-
-COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS NUESTRA CONTRASELA DE GITHUB Y LISTO
-
-Y 
+Listo, lo podemos abrir desde nuestro escritorio.
 
 5.3) Vamos a hacer qué pueda correr comandos de Julia.
 
@@ -489,27 +460,97 @@ Listo, ya podrás correr códigos de Julia. (Recuerda qué para correr códigos 
 
 ############################################################################################################################################
 
-6) Aplicaciones
+6) TiddlyWiki
 
-Agregando programas a nuestrea nueva y limpia computadora.
+TiddlyWiki nos sirve para tener un archivero lleno de notas las cuales podemos consultar de manera rápida y sencilla. Esta aplicación está disponible desde:
 
-Después de instalar Ubunutu y el lenguaje de programación Julia es recomendable tener otras aplicacions qué nos serán de mucha utilidad a lo largo de nuestro tiempo frente a la computadora. Algunas de estas aplicaciones de ayuda son Vuze, Latexila, VisualBoyAdvance Telegram, desde google store, etc...
+http://tiddlywiki.com/
+
+o podemos descargar TiddlyDesktop desde:
+
+https://github.com/Jermolene/TiddlyDesktop/releases
 
 ############################################################################################################################################
 
-7) Comandos 
+7) Latexilla
 
-Vamos a hacer una recopilación de Comandos
+Es indispensable tener un editor de textos científico. Latexilla es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica.
 
-Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
-7.1) Comandos en Julia
+############################################################################################################################################
 
-Shift+Enter - Manda ejecutar lo qué se escribió en la linea.
+8) Telegram
 
-7.2) Comandos en Github
+No hay manera más completa y versatil de chatear en tu celular y al llegar a tu casa seguir la conversación desde tu computadora. Telegram es la mejor opción para ello.
 
-7.3) Comandos en Ligh Table
+Para instalarla es necesario qué vayas a tu buscador de Google, busques Google Store, te metas a la página y busqués Telegram, descarga la primera opción y disfruta. (Para ello es necesario qué ya lo tengas instalado entu celular.)
+
+############################################################################################################################################
+
+9) VCL media player
+
+No existe un reproductor de películas tan amigable como VCL media player, en el puedes buscar por subtitulos y tener la mejor calidad de tu película.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+############################################################################################################################################
+
+10) Vuze
+
+No hay una forma mejor de descargar archivos pesados por medio de Torrent, para ello es indispensable un programa qué los baje. Vuze es un programa esencial pero poderoso qué permite descargar de manera sencilla los archivos torrent a tu navegador. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+La página de la cuál recomiendo bajar los Torrent es:
+
+http://kickass.to/
+
+Una vez descargados, usa Vuze para descargar el contenido. (CLick derecho sobre el archivo descargado desde kickass.to, darle click en -abrir con- y seleccionar Vuze.
+
+############################################################################################################################################
+
+11) VisualBoy Advance
+
+Si te gusta revivir momentos jugando MarioKart, Pokémon o NagryBirds, VisuaBoy Advance te gustará mucho pues te permite correr juegos emulados que puedes descargar desde la una de las muchas páginas que proporcionan estos juegos emulados. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Aquí te dejo la liga de una página de la cuál podrás descargar muchos juegos para estrenar tu VisualBoy Advance. 
+
+http://coolrom.com/roms/gba/
+
+############################################################################################################################################
+
+12) Stellarium
+
+############################################################################################################################################
+
+13) Skype
+
+############################################################################################################################################
+
+14) DropBox
+
+############################################################################################################################################
+
+15) Google Chrome
+
+############################################################################################################################################
+
+16)
+
+############################################################################################################################################
+
+17)
+
+############################################################################################################################################
+
+18)
+
+############################################################################################################################################
+
+19)
 
 ############################################################################################################################################
 
@@ -518,7 +559,15 @@ Armando J. Lara D.I.
 ############################################################################################################################################
 
 
+En los próximos días agrego esta parte.
 
+less .ssh/id_rsa.pub
+
+less .ssh/id_rsa.pub
+
+COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS NUESTRA CONTRASELA DE GITHUB Y LISTO
+
+Y 
 
 
 
