@@ -325,6 +325,46 @@ Listo, nuestro archivo ya está en GitHub.
 
 4.3) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
+
+------------------------
+
+
+Entra a tu cuenta de GitHub.
+
+Selecciona Settings, que está en a la parte superior derecha en el engrante, son los settings.
+
+Selecciona SSH Keys.
+
+Selecciona Add SSH key.
+
+Ponle un título.
+
+Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
+
+Dale click en Add Key.
+
+Ahora regresate a tu paǵina principal.
+
+Entr al repositorio qué quieres pushear sin que te pida tu contraseña.
+
+Ahora, donde dice clonar selecciona SSH. Copia el URL.
+
+Ve a la Terminal.
+
+Abre el directorio de tu repo, es decir, escribe:
+
+$ cd "a"
+
+$ cd .git
+
+$ gedit config.
+
+Cambia el URL de -remote "origin"- por el que copiaste.
+
+Regresa a tu GitHub, y vuelve a cambiar SSH por HTTPS.
+
+Listo, ya no te pedirá la cuenta otra vez.
+
 4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
 
 4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
@@ -422,7 +462,7 @@ Luego nos aparece un cuadrito y escribimos:
 
 el icóno: (le das click al icono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
 el nomre : LightTable
-Comando:  /LightTable/
+Comando:  ????????????????????
 
 Listo, lo podemos abrir desde nuestro escritorio.
 
