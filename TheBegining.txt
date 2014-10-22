@@ -53,7 +53,7 @@ $ sudo apt-get install xclip (Copia tus claves cuando quieras hacer una Key SSH)
 
 $ sudo apt-get install git (Te permite usar Git para guardar archivos de texto de manera inteligente)
 
-$ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación)
+$ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación -para seleccionar Ok, presiona Tab y después Enter-) 
 
 $ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
 
@@ -73,9 +73,11 @@ Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cu
 
 3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
 
-Abre la Terminal y escribe: bash Anaconda-2.1.0-Linux-x86.sh
+Abre la Terminal y escribe: 
 
-Dale enter leyendo todo lo qué aparece hasta que aparezca 
+bash Anaconda-2.1.0-Linux-x86.sh  (Si es qué bajaste el de 32 bits, si fue el de 64 revisa en http://continuum.io/downloads qué debes de pegar.
+
+Vele dando enter y ve leyendo todo lo qué aparece hasta que aparezca 
 
 “Do you approve the license terms? [yes|no] [no] >>>” 
 
@@ -148,10 +150,18 @@ presiona: Enter
 escribe: quit()
 presiona: Enter
 
-3.4) escribe: ipython notebook --profile julia 
+3.4.1) escribe: ipython notebook --profile julia 
 presiona: Enter
 
 Se abrira tu navegador, donde te aparecerá la página principal de Ijulia.
+
+Crea un Notebook nuevo.
+
+escribe:
+
+$ Pkg.build()
+ 
+Córrelo presionando Shift+Enter
 
 Vete de nuevo a la Terminal que sigue corriendo:
 presiona: Ctrl+c
@@ -159,6 +169,17 @@ escribe: y
 presiona: Enter
 
 Se cerrará IJulia
+
+3.4.2) En la Terminal escribimo y ejecutamos cada uno de los comandos qué siguen:
+
+$ Pkg.build()
+
+$ julia
+
+julia>  Pkg.build()
+
+julia>  quit()
+
 
 3.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
 
@@ -239,7 +260,7 @@ $ git init
 
 $ git config --global user.name "Your Name" 
 
-$ git cinfig --global user.email "your@email.com"
+$ git config --global user.email "your@email.com"
 
 $ git config user.name "Your Name" 
 
@@ -619,6 +640,16 @@ Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalar
 15) Google Chrome
 
 La más importante de todas. Es importente recalcar qué es necesario tener una cuenta en Google Chrome para sacar el potencial de esta inovadora forma de navegar, pues te permite mantener todas tus páginas favoritas guardadas, así como el tema del navegador y tus configuraciones en general sin importar en qué computadora te encuentres o en qué momento. Tu forma de usar internet nunca fue tan personal.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Una vez instalado recuerda hacerlo tu navegador predefinido.
+
+############################################################################################################################################
+
+16) GIMP Image Editor
+
+Esta aplicación te permite hacer cambios básicos pero versátiles en imágenes, fotos y demás que te ayudarán a completar tus documentos que así lo requieran.
 
 Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
