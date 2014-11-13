@@ -1,0 +1,41 @@
+Reportes Completos
+
+Antes de hacer un estudio y querer reportarlo es importante saber ¿Por qué se quiere hacer? Muchas veces la respuesta a esta pregunta es "Es obligatorio en este curso"
+
+Esto es el esqueleto de un reporte completo. Todas las variaciones qué se puedan llegar a encontrar con otros formatos, son simplemente accesorios qué la pueden llegar a sobresaturar si no se saben usar. 
+
+RESUMEN
+Se analizó el número de personas que traen mochila azul los días viernes. Se encontró qué un 50% de personas traén mochcila azul los díaz viernes. Esto varía un tanto % de la teoiría qué predecía un 70%.
+
+INTRODUCCIÓN
+OBJETIVOS: ¿Qué queremos?
+MATERIALES: ¿Qué usamos?
+DESARROLLO EXPERIMENTAL: ¿Cómo lo hicimos?
+
+RESULTADOS
+Poner las mediciones con las incertidumbres asociadas del aparato. (Mencionar qué en el anexo se meciona la incertidumbre de los aparatos.)
+
+ANÁLISIS DE RESULTADOS
+Mediante las ecuaciones de la teoría (poner las ecuaciones) sacar los resultados del objetivo. (Mencionar qué en el anexo se meciona como se obtuvo (el método) la incertidumbre a estos datos.)
+
+DISCUSIÓN
+¿Qué tanto se parecen nuestros resultados del análisis a los teóricos? ¿Qué nos están diciendo estos resultados? 
+
+CONCLUSIÓN
+¿Se lograrón los objetivos? ¿Sí? ¿No? ¿Por qué? Porqué la teoría predice tal cosa y obtuvimos tal cosa.
+Nuestro resultado varía un % con respecto al esperado por la taoría.
+
+ANEXO
+Poner la incertidumbre asociada al material para cada material usado.
+Poner el método usado para obtener la incertidumbre asociada a los resultados obtenidos en el análisis.
+Poner lo qué sea necesario anexar
+
+BIBLIOGRAFÍA
+Escribir de donde se obtuvieron las ecuaciones y la teoría del experimento, así como la idea.
+Si es página de internet mencionar qué día se consultó. (No usar Wikipedia) Usar páginas oficiales de investigación.
+
+
+
+
+
+
