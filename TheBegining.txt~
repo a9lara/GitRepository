@@ -1,0 +1,674 @@
+		############################################################################################################################################
+
+						UNA MANERA DE TRABAJAR EN LIMPIO
+
+############################################################################################################################################
+
+1) Ubuntu 14.04.1
+
+Como formatear tu computadora e instalar Ubuntu 
+
+1.1) Compra un DVD-R virgen
+
+1.2) Descarga “Brasero Disc Burner”
+
+1.3) Entra a la página
+
+http://www.ubuntu.com/download/desktop
+
+Escoge entre 32 bits  o 64 bits. (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
+
+Dale click en Download, te va a llevar a una página en la qué te da la opción de aportar dinero, no le hagas caso, vete hasta abajo y dale click en  “Not now, take me to the download”.
+
+Se debe de empezar a descargar automáticamente.
+
+1.4) Una vez que se acabe de descargar, abre  “Brasero Disc Burner”, selecciona “Burn Image”, dale click en “Click here to select a disc image”, vete a Downloads y slelecciona el archivo que acabas de descargar que lleva por nombre algo parecido a  “ubuntu-14.04.1-desktop i386.iso”.
+
+Luego incerta el DVD-R virgen en tu compu, dale click a “Burn”.
+
+Listo, una vez grabado el disco, se expulsará, sácalo, cierra todo lo que tengas abierto.
+
+Introduce nuevamente el disco.
+
+1.5) Reinicia tu computadora, estate atento, cuando esté en la primera pantalla, antes de que ocurra otra cosa presiona F2, con las flechas de tu teclado muévete a Boot, luego con las flechas vete a CD/DVD y con F5 y F6 (que te permiten moverlo para arriba o para abajo) ponlo hasta arriba. Luego presiona F10 para guardar y salir.
+
+1.6) Aparecéra la instalación de Ubunru, te permitirá formatear o particionar tu computadora, escoge tus preferencias y sigue la instalación. (procura estar conectado a interet)
+
+1.7) Al finalizar la instalación se expulsará el disco, retíralo y dale Enter. Antes de que entre a Ubuntu haz lo mismo que el paso 5) dejando ahora a HDD/SDD hasta arriba.
+
+1.8) Listo, ya tiene Instalado Ubuntu en tu computadora y tendrás el disco de instalación listo para prestárselo a tus amigos o usarlo nuevamente si lo deseas. 
+  
+############################################################################################################################################
+
+2) Terminal
+
+Vamos a instalar varios programas qué nos serán de ayuda a lo largo de nuestro uso masivo en Ubuntu.
+
+En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira) ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T.
+
+$ sudo apt-get install gnuplot (Graficador)
+
+$ sudo apt-get install xclip (Copia tus claves cuando quieras hacer una Key SSH)
+
+$ sudo apt-get install git (Te permite usar Git para guardar archivos de texto de manera inteligente)
+
+$ sudo apt install ubuntu-restricted-extras (Te permite generar animaciones en los lenguajes de programación -para seleccionar Ok, presiona Tab y después Enter-) 
+
+$ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la terminal desde cualquier caréta donde estemos y con esa dirección)
+
+$ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no installe basura de los programas qué vayamos isntalando)
+
+$ sudo apt-get install wine (Te permite ejecutar archivos que por lo general son para Windows)
+
+############################################################################################################################################
+
+3) IJulia
+
+Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
+
+3.1) Entrar a http://continuum.io/downloads
+
+Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
+
+3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
+
+Abre la Terminal y escribe: 
+
+bash Anaconda-2.1.0-Linux-x86.sh  (Si es qué bajaste el de 32 bits, si fue el de 64 revisa en http://continuum.io/downloads qué debes de pegar.
+
+Vele dando enter y ve leyendo todo lo qué aparece hasta que aparezca 
+
+“Do you approve the license terms? [yes|no] [no] >>>” 
+
+escribe: yes 
+presiona: Enter
+
+Luego te aparecerán tres opciones:
+
+“  - Press ENTER to confirm the location 
+  - Press CTRL-C to abort the installation 
+- Or specify an different location below ”
+
+presiona: Enter
+
+Luego te aparecerá 
+
+“Do you wish the installer to prepend the Anaconda install location to PATH in your /home/a9lara/.bashrc ? [yes|no] [no] >>> “
+
+escribe: yes
+presiona: Enter
+
+3.3)  Ahí mismo en la terminal, (una vez que se acabó de instalar Anaconda) escribir:
+(Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
+
+escribe: sudo add-apt-repository ppa:staticfloat/juliareleases
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julia-deps
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julianightlies
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt install ipython
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt install ipython-notebook
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get install julia 
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt-get upgrade
+presiona: Enter
+
+escribe: julia
+presiona: Enter
+
+escribe: Pkg.add("IJulia")
+presiona: Enter
+
+escribe: Pkg.build("IJulia")
+presiona: Enter
+
+escibre: Pkg.update()
+presiona: Enter
+
+escribe: quit()
+presiona: Enter
+
+3.4.1) escribe: ipython notebook --profile julia 
+presiona: Enter
+
+Se abrira tu navegador, donde te aparecerá la página principal de Ijulia.
+
+Crea un Notebook nuevo.
+
+escribe:
+
+$ Pkg.build()
+ 
+Córrelo presionando Shift+Enter
+
+Vete de nuevo a la Terminal que sigue corriendo:
+presiona: Ctrl+c
+escribe: y
+presiona: Enter
+
+Se cerrará IJulia
+
+3.4.2) En la Terminal escribimo y ejecutamos cada uno de los comandos qué siguen:
+
+$ Pkg.build()
+
+$ julia
+
+julia>  Pkg.build()
+
+julia>  quit()
+
+
+3.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
+
+Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en la qué tengas todos tus documentos de julia)
+
+Ve a la Terminal:
+
+escribir:  ipython notebook --profile julia 
+presionar: Enter
+
+Una vez en Ijulia:
+selecciona tu careta “X” y crea un nuevo Notebook.
+
+escribe: Pkg.add("PyPlot")
+presiona Shift+Enter 
+
+escribe: Pkg.add("PyCall")
+presiona Shift+Enter
+
+escribe: Pkg.add("SymPy")
+presiona Shift+Enter
+
+escribe: Pkg.add ("Compose")
+presiona Shift+Enter
+
+Pkg.add("Interact")
+presiona Shift+Enter
+
+Pkg.add("ODE")
+presiona Shift+Enter
+
+Le ponemos un nombre a nustro documento, por ejemplo “Pkg.add()” para acordarnos qué será el notebook donde estarémos agregando paquetes, pero puede ser cualquier nombre. (Para cambiar el nombre del notebook le damos click en donde dice “Untitled0” y escribirmos el nombre qué queramos, luego le damos Ok.
+
+Ahora lo salvamos, para ello presionamos el disquito a la izquierda.
+Ahora cerramos la pestaña del notebook(la cuál corresponde a una pestaña de nuestro navegador).
+
+Ahora, la pestaña de nuestro navegador que nos sobra es la plataforma ques e abrió desde la terminal, ahí, le damos click en “Runnung” y le damos “Shudown” al notebook qué acabamos de usar.
+
+Una vez que se cerró el notebook, cerramos la pestaña del navegador en la qué estamos trabajando, es decir de la plataforma que nos abrió la emrinal para trabajar en IJulia.
+
+Nos vamos a la Terminal:
+presiona: Ctrl+c
+escribe: y
+presiona: Enter
+
+escribe: exit
+presiona: Enter
+
+3.6) Para empezar a trabajar en IJulia
+
+Cada vez que queramos programar, lo único qué hay que hacer es abrir la Terminal y escribir:
+
+$ ipython notebook --profile julia 
+
+Y en un Notebook nuevo empezar a programar. 
+
+No se necesita usar internet, sin embargo, habrá que descargar algunos paquetes para que esto sea posible, no te preocupes, solitos aparecerán y ya solo quéda seguir las intrucciones para su instalación.
+
+Para aprender a programar en Julia visita la página http://julialang.org/ donde vienen muchos ejemplos y material interactivo para que aprendas a programar.
+
+############################################################################################################################################
+
+4) GitHub
+
+Ahora vamos a usar Git Hub (solo el mensaje de commit va entre comillas, todo lo demás no lleva comillas)
+
+El chiste de usar GitHub es poder compartir los documentos .txt y de programación en .ipynb, pero no solamente eso sinó que también poder colaborar con una o varias personas en el mismo documento teniendo registro de las modificaciones y con la posiblidad de hacer ramas del trabajo para trabajar en ellas sin perder el trabajo original que vamos haciendo sobre la estrucutra principal.
+
+4.1)Creando una cuenta en GitHub
+
+Entra a la página de https://github.com/
+
+Crea una cuenta y después:
+
+Abre la Terminal y escribe:
+
+$ git init
+
+$ git config --global user.name "Your Name" 
+
+$ git config --global user.email "your@email.com"
+
+$ git config user.name "Your Name" 
+
+4.2) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
+
+4.2.1) Crea un repositorio en https://github.com/
+
+Para ello dale en el signo de más ("+") qué está en la parte superior derecha, dale "New repository".
+
+Llamalo como quieras, de preferencia que un nombre corto y de una palabra. (Me voy a referir a este nombre del repositorio como "a")
+
+Al crear un repositorio te aparecerán varios comandos, guarda los siguientes:
+
+i)   git remote add origin ...  (voy a llamarla "x" para referimre a este comando)
+ii)  git push -u ...  (voy a llamarla "y" para referimre a este comando)
+iii) la dirección que aparece en HTTP  (voy a llamarla "z" para referimre a este comando)
+
+4.2.2) Escribe en la terminal: 
+
+Jalamos nuestro repositorio escribiendo:
+
+git clone "z"
+
+Entramos a la carpeta escribiendo:
+
+cd "a"
+
+Ahora creamos un archivo de .txt nuevo (el nombre de este archivo lo voy a llamar "b.txt") escribiendo:
+
+touch "b.txt"
+
+Agregamos el archivo a git escribiendo:
+
+git add "b.txt"
+
+Lo guardamos en nuestro git escribiendo:
+
+git commit -m "" (entre las comillas puede ir un mensaje que es como una nota para acordarte que cambios hiciste)
+
+Luego lo subimos a GitHub escribiendo:
+
+git push
+
+Ahora nos salimos de nuestro directorio escribiendo:
+
+cd
+
+Ahora nos salimos de la terminal escribiendo:
+
+exit
+
+4.2.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
+
+Abrimos la Terminal y nos vamos a IJulia escribinedo: ipython notebook --profile julia
+
+Dentro de IJulia nos vamos a la carpeta "a", y creamos un nuevo Notebook con nombre "c".
+
+Ahora, en este notebook, vamos a escribir y correr los siguientes comandos, uno por cada liena de comando:
+
+Ahora lo salvamos, (presionar el boton en la parte superior izquierda en forma de disco)
+
+Cerramos la pestaña de nuestro navegador en la qué estamos.
+
+Le damos Shutdown al notebook "c"
+
+Nos vamos a la Terminal
+
+Cerramos IJulia.
+
+Escribimos: cd
+
+Prsionamos: Enter
+
+Ahora escribimos: cd "a"
+
+Escribimos: git add "c.ipynb"
+
+Escribimos: git commit -m "(escribimos un mensaje señalando los cambios qué hicimos"
+
+Escribimos: git push (Puede ser aqué nos pida el nombre de usuario y contraseña, se lo escribimos.)
+
+Escribimos: cd
+
+Escribimos exit
+
+Listo, nuestro archivo ya está en GitHub.
+
+4.3) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
+
+Escribimos en la terminal
+
+$ ssh-keygen (Esto te genera claves en el directorio `.ssh` en tu directorio hogar - fíjate en lo qué aparece entre paréntesis cuando escribes el código, eso lo deberás de copiar y pegar ahí mismol, pues te estará preguntando en qué archivo quieres guardar tu llave.-) Luego te pedirá una palabra de pase, solo presiona Enter, en seguida te aparecerá unletrero para qué la confirmes, solo vuleve a presionar Enter.
+
+$ ssh-add ~/.ssh/id_rsa
+
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+
+Verifica qué se haya creado correctamente escribiendo:
+
+$ ssh -T git@github.com
+
+Si no está correctamente hecha, entra a:
+
+https://help.github.com/articles/generating-ssh-keys/
+
+y revisa en qué pudo fallar.
+
+Una vez verificado esto entra a tu cuenta de GitHub.
+
+Selecciona Settings, que está en a la parte superior derecha en el engrante, son los settings.
+
+Selecciona SSH Keys.
+
+Selecciona Add SSH key.
+
+Ponle un título.
+
+Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
+
+Dale click en Add Key.
+
+Ahora regresate a tu paǵina principal.
+
+Entr al repositorio qué quieres pushear sin que te pida tu contraseña.
+
+Ahora, donde dice clonar selecciona SSH. Copia el URL.
+
+Ve a la Terminal.
+
+Abre el directorio de tu repo, es decir, escribe:
+
+$ cd "a"
+
+$ cd .git
+
+$ gedit config
+
+Cambia el URL de -remote "origin"- por el que copiaste.
+
+Regresa a tu GitHub.
+
+Salvalo y cierralo.
+
+Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS enla URL de tu repositorio.
+
+Listo, ya no te pedirá la cuenta otra vez.z.
+
+Si al quererle dar:
+
+$ git push 
+
+antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, entonces, escribe en la terminal:
+
+$ git config --global push.default matching
+
+Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos.
+
+4.4) Ahora vamos a hacer distintas ramas de nuestro proyecto para poderlo modificar tanto nosotros como otros colaboradores sin perder cambios.
+
+4.4.1)Para ello vamos a la cuenta de nuestro compañero en GitHub, seleccionamos un repositorio y le damos Fork.
+
+4.4.2)Le damos git clone al repositorio desde la terminal.
+
+4.4.2)Entramos a nuestro repositorio.
+
+4.4.4)Creamos una rama secundaria. (Es imporante hacer saber qué para colaborar en archivos se debe de crear y trabajar desde una rama nueva.)
+
+git branch nombre_de_la_rama_secundaria (ponle el nombre que queiras)
+
+Trabaja en ella el archivo en el qué estás trabajando en colaboración.
+
+4.4.4.1) Aquí menciono como usar las ramas:
+
+Para cambiamos a esa rama escribimos:
+
+git checkout nombre_de_la_rama_secundaria
+
+Agregamos el archivo que queremos modificar (llamemosle "hola.txt" para este ejemplo)
+
+git add "hola.txt"
+
+git commit -m "Agregue el archivo nuevo.txt"
+
+Con el siguiente comando podemos ver todas las modificaciones:
+
+git log
+
+Con el sieguiente comando podemos saber el estado de nuestro git, así mismo nos dice en que rama estamos trabajando:
+
+git status
+
+Una vez que estemos seguros de querer incorporar todos los cambios de la rama secundaria a nuestra rama principal, vamos a escribir, desde nuestra rama principal, lo sieguiente:
+
+git merge  nombre_de_la_rama_secundaria
+
+En caso de qué quieras eliminar esa rama secundaria escirbe lo siguiente:
+
+git branch -d nombre_de_la_rama_secundaria
+
+4.4.5) Ahora vamos a mandar lo qué hicimos a GitHub para seguir trabajando en equipo.
+
+Una vez que se trabajó el archivo en la rama secundaria, se guardaron los cambios, se hizo git add, y se hizo el git commit hacemos lo siguiente:
+
+Mandamos los commits locales a nuestra versión remota escrbiendo:
+
+git push origin nombre_de_la_rama_secundaria
+
+Nuestras modificaciones ahora están listas en GitHub para poderlas compartir con los demás usuarios.
+
+4.4.6) Recomendar estos cambios a nuestros colaboradores:
+
+En la página de Git Hub, localiza tu repositorio, asegurate de estar en la rama "nombre_de_la_rama_secundaria" (Fijate que no diga "master"). Y le damos click donde dice: Pull Request
+
+Listo, ahora estarás trabajando en colabroación mediante GitHub.
+
+############################################################################################################################################
+
+5) Light Table
+
+5.1) Vamos a descargarlo.
+
+5.2) Vamos a instalarlo.
+
+Una vez descargado:
+
+Le damos un click derecho y abrir una temrinal y me abre ya en ese directorio.
+
+La descomprimimos escribiendo:
+
+$ tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
+$ tar zxvf LightTableLinux62.tar.gz   (si es de 64bits)
+
+Esto va a crear una carpeta.
+
+Ahora escribimos:
+
+$ sudo mv LightTable /opt
+
+Luego escribimos:
+
+$ sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
+
+Esto va a hacer que se arreglen unos problemitas que tiene ubuntu
+
+Luego escribimos: 
+
+$ sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
+
+Esto va a crear  un iconico bonito para abrirlo como cualquier programa
+
+Luego nos aparece un cuadrito y escribimos:
+
+el icóno: (le das click al icono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
+el nomre : LightTable
+Comando:  /opt/LightTable/LightTable/core/img/lticon.png
+
+Listo, lo podemos abrir desde nuestro escritorio.
+
+5.3) Vamos a hacer qué pueda correr comandos de Julia.
+
+En la página principal de Light Tabel:
+
+Ctrl+Spacebar
+
+En el recuadro escribimos: 
+
+show plugin manager
+
+Le damos click a la primera ocpión qué aparezca.
+
+En el recuadro del buscador (el cuál dice "search available plugins") escribimos: 
+
+juno
+
+Presionamos: 
+
+Ctrl+Spacebar
+
+Escribimos:
+
+user behaviors
+
+Aparecerá un texto escrito. Ahí borramos donde dice "default” y escribimos “june".
+
+Guárdalo (Hasta arriba, en la barra de herramientas: "file" y luego "save")
+
+Cierra Light Tabel y vuelvelo a abrir.
+
+Listo, ya podrás correr códigos de Julia. (Recuerda qué para correr códigos debes presionar Ctrl+Spacebar con el cursor al final del código.)
+
+############################################################################################################################################
+
+6) TiddlyWiki
+
+TiddlyWiki nos sirve para tener un archivero lleno de notas las cuales podemos consultar de manera rápida y sencilla. Esta aplicación está disponible desde:
+
+http://tiddlywiki.com/
+
+o podemos descargar TiddlyDesktop desde:
+
+https://github.com/Jermolene/TiddlyDesktop/releases
+
+############################################################################################################################################
+
+7) Latexilla
+
+Es indispensable tener un editor de textos científico. Latexilla es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+############################################################################################################################################
+
+8) Telegram
+
+No hay manera más completa y versatil de chatear en tu celular y al llegar a tu casa seguir la conversación desde tu computadora. Telegram es la mejor opción para ello.
+
+Para instalarla es necesario qué vayas a tu buscador de Google, busques Google Store, te metas a la página y busqués Telegram, descarga la primera opción y disfruta. (Para ello es necesario qué ya lo tengas instalado entu celular.)
+
+############################################################################################################################################
+
+9) VCL media player
+
+No existe un reproductor de películas tan amigable como VCL media player, en el puedes buscar por subtitulos y tener la mejor calidad de tu película.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+############################################################################################################################################
+
+10) Vuze
+
+No hay una forma mejor de descargar archivos pesados por medio de Torrent, para ello es indispensable un programa qué los baje. Vuze es un programa esencial pero poderoso qué permite descargar de manera sencilla los archivos torrent a tu navegador. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+La página de la cuál recomiendo bajar los Torrent es:
+
+http://kickass.to/
+
+Una vez descargados, usa Vuze para descargar el contenido. (CLick derecho sobre el archivo descargado desde kickass.to, darle click en -abrir con- y seleccionar Vuze.
+
+############################################################################################################################################
+
+11) VisualBoy Advance
+
+Si te gusta revivir momentos jugando MarioKart, Pokémon o NagryBirds, VisuaBoy Advance te gustará mucho pues te permite correr juegos emulados que puedes descargar desde la una de las muchas páginas que proporcionan estos juegos emulados. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Aquí te dejo la liga de una página de la cuál podrás descargar muchos juegos para estrenar tu VisualBoy Advance. 
+
+http://coolrom.com/roms/gba/
+
+############################################################################################################################################
+
+12) Stellarium
+
+Para los astronomos aficionados, esta es una app muy útil que nos permite saber cómo se veía el cielo en años pasados, como se ve el cielo en el presente y como se verá el cielo en el futuro. 
+
+Esta aplicacion nos ayuda  distinguir objeto en el cielo como por ejemplo los planetas y nos ayuda a predecir la hora en la qué estarán en cierta posición. 
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Un muy buen complemento es bajar esta aplicación para el celular.
+
+############################################################################################################################################
+
+13) Skype
+
+La forma más popular de mantenerte en contacto con tus amigos de manera íntima mientras trabajas y escuhcas música. Con Skype puedes tener videollamadas para sentirte en contacto con los demás o para discutir algún tema de clases importante.
+
+Para instalarla navega a:
+
+http://www.skype.com/es/
+
+y descargala.
+
+Una vez descargada usa Wine para ejecutalra.
+
+Listo,, ahora puedes trabajar solo, pero acompañado.
+
+############################################################################################################################################
+
+14) DropBox
+
+Tu escritorio en la nube, nunca fue tan seguro tener todas tus cosas salvadas y a la mano. No te preocupes por fallos inesperados en tu computadora, teniendo todo guardado en tu carpeta de DropBox siempre tendrás todo en la nube, listo para descargarlo y seguirlo usando desde donde te quedaste cuando quieras y donde quieras.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+############################################################################################################################################
+
+15) Google Chrome
+
+La más importante de todas. Es importente recalcar qué es necesario tener una cuenta en Google Chrome para sacar el potencial de esta inovadora forma de navegar, pues te permite mantener todas tus páginas favoritas guardadas, así como el tema del navegador y tus configuraciones en general sin importar en qué computadora te encuentres o en qué momento. Tu forma de usar internet nunca fue tan personal.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+Una vez instalado recuerda hacerlo tu navegador predefinido.
+
+############################################################################################################################################
+
+16) GIMP Image Editor
+
+Esta aplicación te permite hacer cambios básicos pero versátiles en imágenes, fotos y demás que te ayudarán a completar tus documentos que así lo requieran.
+
+Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+############################################################################################################################################
+
+							Armando J. Lara D.I.
+
+############################################################################################################################################
+
