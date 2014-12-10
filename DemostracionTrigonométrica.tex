@@ -1,0 +1,73 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\title{}
+\author{}
+
+\begin{document}
+
+Demostraciones Trigonométricas.\\
+
+(Uso algunas igualdades que doy por hecho que se conocen.)\\
+
+Demuestra qué:\\
+
+$sen(2\alpha) = \frac{2tan(\alpha)}{1+tan^2 (\alpha)}$\\
+
+Solución:\\
+
+Sabemos qué:\\
+
+$sen(2\alpha)=sen(\alpha+\alpha)=sen(\alpha)cos(\alpha)+sen(\alpha)cos(\alpha)=2cos(\alpha)sen(\alpha)$\\
+
+$\Rightarrow sen(2\alpha)=2cos(\alpha)sen(\alpha)$\\
+
+Multiplicamos la relación anterior por 1, donde 1 va a ser de la forma:\\
+
+$\frac{cos(\alpha)}{cos(\alpha)}=1$\\
+
+Entonces:\\
+
+$sen(2\alpha)=2cos(\alpha)sen(\alpha)\frac{cos(\alpha)}{cos(\alpha)}$\\
+
+$2cos(\alpha)sen(\alpha)\frac{cos(\alpha)}{cos(\alpha)}=2cos^2(\alpha)\frac{sen(\alpha)}{cos(\alpha)}$\\
+
+Ahora, sabemos qué\\
+
+$\frac{sen(\alpha)}{cos(\alpha)}= tan(\alpha)$\\
+
+y qué\\
+
+$cos(\alpha)=\frac{1}{sec(\alpha)}$ $\Rightarrow$ $cos^2(\alpha)=\frac{1}{sec^2(\alpha)}$\\
+
+Pero también sabemos qué\\
+
+$sec^2(\alpha)=1+tan^2(\alpha)$\\
+
+$\Rightarrow cos^2(\alpha)=\frac{1}{1+tan^2(\alpha)}$\\
+
+Entonces:\\
+
+$2cos^2(\alpha)\frac{sen(\alpha)}{cos(\alpha)}=2\frac{1}{sec^2(\alpha)}tan(\alpha)$\\
+
+$\Rightarrow 2\frac{1}{sec^2(\alpha)}tan(\alpha)=2\frac{1}{1+tan^2(\alpha)}tan(\alpha)$\\
+
+Por lo tanto:\\
+
+$sen(2\alpha) = \frac{2tan(\alpha)}{1+tan^2 (\alpha)}$\\
+
+Qué era lo qué queríamos demostrar.\\
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
