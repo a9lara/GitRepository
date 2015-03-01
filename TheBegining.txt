@@ -614,7 +614,7 @@ Una vez descargados, usa Vuze para descargar el contenido. (CLick derecho sobre 
 
 11) VisualBoy Advance
 
-Si te gusta revivir momentos jugando MarioKart, Pokémon o NagryBirds, VisuaBoy Advance te gustará mucho pues te permite correr juegos emulados que puedes descargar desde la una de las muchas páginas que proporcionan estos juegos emulados. 
+Si te gusta revivir momentos jugando MarioKart, Pokémon o AngryBirds. VisuaBoy Advance te gustará mucho pues te permite correr juegos emulados que puedes descargar desde la una de las muchas páginas que proporcionan estos juegos emulados. 
 
 Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
