@@ -574,9 +574,9 @@ https://github.com/Jermolene/TiddlyDesktop/releases
 
 ############################################################################################################################################
 
-7) Latexilla
+7) TeXstudio
 
-Es indispensable tener un editor de textos científico. Latexilla es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica.
+Es indispensable tener un editor de textos científico. TeXstudio es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica de manera mucho más rápida que otros programas que trabajan en Latex pues al complitar el documento lo muestra en la misma pantalla a un lado y uno puede ir viendo el progreso al confrome va haciendo los cambios.
 
 Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
