@@ -181,7 +181,7 @@ julia>  quit()
 
 Ahora vamos a crear un documento de texto.
 
-Abrimos Text Editor, lo salvamos como "programando_para_julia.jl" de preferencia en la carpeta home de nuestra laprop, o algúna enla que contenga desempacado a Julia. Vamos a escribir dos funciones para este ejemplo ilustrativo.
+Abrimos Text Editor, lo salvamos como "programando_para_julia.jl" de preferencia en la carpeta home de nuestra computadora o en la carpeta donde se haya instalado Julia, o algúna enla que contenga desempacado a Julia. Vamos a escribir dos funciones para este ejemplo ilustrativo.
 
 Escribimos en este documento de texto:
 
