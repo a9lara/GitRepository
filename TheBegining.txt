@@ -62,7 +62,7 @@ $ sudo apt-get install wine (Te permite ejecutar archivos que por lo general son
 
 ############################################################################################################################################
 
-3) IJulia
+3) Julia y IJulia
 
 Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
 
@@ -179,6 +179,27 @@ julia>  Pkg.build()
 
 julia>  quit()
 
+Ahora vamos a crear un documento de texto.
+
+Abrimos Text Editor, lo salvamos como "programando_para_julia.jl" de preferencia en la carpeta home de nuestra laprop, o algúna enla que contenga desempacado a Julia. Vamos a escribir dos funciones para este ejemplo ilustrativo.
+
+Escribimos en este documento de texto:
+
+f(x)=5+x
+
+g(x)x-5
+
+ahora vamos en la terminal y dentro de Julia (entramos a Julia como se acaba de mostrar unas lineas arriba) escribimos:
+
+julia>   include("programando_para_julia.jl")
+
+Listo, ahora podemos usar nuestras funciones dentro de julia, por ejemplo, podemos poner:
+
+julia> f(5)
+
+julia> g(5)
+
+Y nos dará el resultado, pues estará evaluando la función.
 
 3.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
 
