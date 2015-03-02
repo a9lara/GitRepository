@@ -205,7 +205,7 @@ Es recomendable tener enla mitad izquierda de la pantalla de tu computadora Text
 
 Esta página puede ser de utilidad: http://quant-econ.net/jl/getting_started.html. 
 
-3.5) Ahora que ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. (Echarle un ojo al paquete DataFrame.
+3.5) Ahora que ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. (Echarle un ojo a los paquetes Distributions y  DataFrame.
 
 Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en la qué tengas todos tus documentos de julia)
 
