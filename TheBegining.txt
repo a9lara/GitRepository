@@ -201,6 +201,10 @@ julia> g(5)
 
 Y nos dará el resultado, pues estará evaluando la función.
 
+Es recomendable tener enla mitad izquierda de la pantalla de tu computadora Text Editor minimizado a la mitad para que lo puedas ver y escribir en él y en la mitad derecha de la pantalla tener la Terminal con Julia abierto y probando lo que vas programando en el Text Editor, es decir las funciones que vas escribiendo en "programando_para_julia.jl", puede ser por ejemplo agregar una t(x)=g(x)+f(x). Pero hay que recordar que cuando se haga este cambio se debe de Salvar el documento (no cuesta más que darle click en Save y en la terminal volver a escribir include("programando_para_julia.jl"). Para poder hacer esto más rápido existen programas que incluyen tanto el editor de textos como la interfaz del lenguaje de programación. Uno de ellos es Light Tabel que se ve en alguno de los apartados en este .txt
+
+Esta página puede ser de utilidad: http://quant-econ.net/jl/getting_started.html
+
 3.5) Ahora qué ya está instalado IJulia, vamos a agregarle los paquétes que nos permitiran trabajar de manera muy completa. 
 
 Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en la qué tengas todos tus documentos de julia)
