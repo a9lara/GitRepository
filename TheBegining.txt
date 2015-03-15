@@ -611,7 +611,10 @@ Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalar
 
 No hay manera más completa y versatil de chatear en tu celular y al llegar a tu casa seguir la conversación desde tu computadora. Telegram es la mejor opción para ello.
 
-Para instalarla es necesario qué vayas a tu buscador de Google, busques Google Store, te metas a la página y busqués Telegram, descarga la primera opción y disfruta. (Para ello es necesario qué ya lo tengas instalado entu celular.)
+Para instalarla es necesario qué vayas a tu buscador de Google, busques Google Store, te metas a la página y busqués Telegram, descarga la primera opción y disfruta. (Para ello es necesario qué ya lo tengas instalado en tu celular.)
+
+Para desinstalarlo de tu computadora es super sencillo, abres Google Chromium, le das en el boton de Costumize (es el que está en la parte superior derecha con forma de rayas chiquitas, luego seleccionas Settings->Extensions  ahora buscas Telegram, le das en el botesito de basura, lo eliminas. Listo quedó eliminado, si quieres volver a instalarlo solo te vas a la Chrome Web Store (que había nombrado Google Store en el parrafo anterior) y buscas Telegram y lo instalas. 
+
 
 ############################################################################################################################################
 
