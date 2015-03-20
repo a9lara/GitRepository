@@ -516,11 +516,15 @@ Listo, ahora estarás trabajando en colabroación mediante GitHub.
 
 5.1) Vamos a descargarlo.
 
+Desde http://lighttable.com/ se puede descargar.
+
 5.2) Vamos a instalarlo.
 
 Una vez descargado:
 
-Le damos un click derecho y abrir una temrinal y me abre ya en ese directorio.
+Nos vamos a la carpeta dónde se descargó. (Por lo general se descargan a la carpeta de Descargas, depende de la configuración de la computadora, lo que queremos es quitarla de esa carpeta y moverla a una más "cómoda") Lo movemos (cortar y pegar) a la carpeta dónde queremos que esté, por ejemplo en /home. Dentro de la carpeta en la que lo hemos puesto, y sobre un espacio entre archivos le damos click derecho y "abrir desde terminal".
+
+Ahora en la terminal:
 
 La descomprimimos escribiendo:
 
@@ -531,7 +535,7 @@ Esto va a crear una carpeta.
 
 Ahora escribimos:
 
-$ sudo mv LightTable /opt
+$ sudo mv LightTable /opt      (Puede ser que no nos permita hacer esta acción, si no lo permite, no importa, continua con lo que sigue escribiendo lo de abajo)
 
 Luego escribimos:
 
@@ -539,7 +543,9 @@ $ sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
 
 Esto va a hacer que se arreglen unos problemitas que tiene ubuntu
 
-Luego escribimos: 
+Ahora vamos a irnos al buscador de nuestra computadora (el cuadrito con el simbolo de ubuntu que se encuentra en la lista de apps, "Search your computer and online sources". y vamos a buscar "lticon.png"  le damos "abrir en folder" y nos fijamos la dirección que tiene. **
+
+Luego escribimos en la terminal: 
 
 $ sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
 
@@ -547,9 +553,9 @@ Esto va a crear  un iconico bonito para abrirlo como cualquier programa
 
 Luego nos aparece un cuadrito y escribimos:
 
-el icóno: (le das click al icono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
-el nomre : LightTable
-Comando:  /opt/LightTable/LightTable/core/img/lticon.png
+el icóno: (le das click al icono y lo buscas en la dirección **) por ejemplo: /opt/LightTable/LightTable/core/img/lticon.png 
+el nombre : LightTable
+comando:  ** por ejemplo: /opt/LightTable/LightTable/core/img/lticon.png
 
 Listo, lo podemos abrir desde nuestro escritorio.
 
@@ -604,6 +610,10 @@ https://github.com/Jermolene/TiddlyDesktop/releases
 Es indispensable tener un editor de textos científico. TeXstudio es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica de manera mucho más rápida que otros programas que trabajan en Latex pues al complitar el documento lo muestra en la misma pantalla a un lado y uno puede ir viendo el progreso al confrome va haciendo los cambios.
 
 Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
+
+7.1) Latexila
+
+ Otro buen editor de textos científicos es Latexila. Aunque no permite ver la compilación en la misma página el campo de visión es mucho mayor y las herramientas son más accesibles.
 
 ############################################################################################################################################
 
