@@ -720,6 +720,14 @@ Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalar
 
 Otro lenguaje de Programación, parecido a Julia pero más amigable para el usuario, pero de costo. Algúnas escuelas proporcionan una clave para que sus alumnos la puedan bajar de manera gratuita.
 
+Por ejemplo:
+
+El vínculo para descargar el software es el siguiente:
+
+http://software.unam.mx/
+
+Un tutorial para instalar el software se puede consultar en la parte final de la página en el mismo vínculo.
+
 ############################################################################################################################################
 
 							Armando J. Lara D.I.
