@@ -38,6 +38,13 @@ Introduce nuevamente el disco.
 
 1.8) Listo, ya tiene Instalado Ubuntu en tu computadora y tendrás el disco de instalación listo para prestárselo a tus amigos o usarlo nuevamente si lo deseas. 
   
+Si por algúna razón tu Wifi no funciona, abre la terminal y escribe:
+
+$ sudo apt-get purge bcmw1*
+
+dale Enter, cierra la terminal, reinicia la computadora y debería de funcionar el WiFi sin problemas, en caso de que no , visita la siguiente página para más soluciones. 
+
+http://blog.desdelinux.net/solucionar-problema-con-wifi-broadcom-43xx-en-ubuntu-despues-de-la-actualizacion/
 ############################################################################################################################################
 
 2) Terminal
