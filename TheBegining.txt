@@ -716,6 +716,12 @@ Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalar
 
 ############################################################################################################################################
 
+17) Mathematica
+
+Otro lenguaje de Programación, parecido a Julia pero más amigable para el usuario, pero de costo. Algúnas escuelas proporcionan una clave para que sus alumnos la puedan bajar de manera gratuita.
+
+############################################################################################################################################
+
 							Armando J. Lara D.I.
 
 ############################################################################################################################################
