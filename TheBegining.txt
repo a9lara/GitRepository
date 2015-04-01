@@ -49,7 +49,7 @@ http://blog.desdelinux.net/solucionar-problema-con-wifi-broadcom-43xx-en-ubuntu-
 
 2) Terminal
 
-Vamos a instalar varios programas qué nos serán de ayuda a lo largo de nuestro uso masivo en Ubuntu.
+2.1) Vamos a instalar varios programas qué nos serán de ayuda a lo largo de nuestro uso masivo en Ubuntu.
 
 En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira) ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T.
 
@@ -66,6 +66,32 @@ $ sudo apt-get install nautilus-open-terminal (Con click derecho demos abrir la 
 $ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no installe basura de los programas qué vayamos isntalando)
 
 $ sudo apt-get install wine (Te permite ejecutar archivos que por lo general son para Windows)
+
+2.2) Formateando una USB/SD
+
+Desde la Terminal:
+
+Instalamos:
+
+$ sudo aptitude install dosfstools
+
+Escribimos lo que sigue y ubicamos el lugar de la USB/SD fijándonos en /dev/sdb1     ----  nos fijamos en "sdb1" o lo que diga.
+
+$ sudo fdisk -1
+
+Escribimos (según en lo que diga en "sdb1":
+
+$ sudo umount /dev/sdb1
+
+Ponemos nombre a nuestra memoria y formateamos (De igual manera nos fijamos en "sdb1"):
+
+$ sudo mkfs.vfat -F 32 -n Mi_Memoria /dev/sdb1
+
+$ exit
+
+2.3) Borrar usuario guardado en el login de Skype
+
+rm -r/home/$USER/.Skype/usuario_a_borrar
 
 ############################################################################################################################################
 
