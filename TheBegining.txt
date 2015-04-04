@@ -299,7 +299,7 @@ No se necesita usar internet, sin embargo, habrá que descargar algunos paquetes
 
 Para aprender a programar en Julia visita la página http://julialang.org/ donde vienen muchos ejemplos y material interactivo para que aprendas a programar.
 
-3.7 Quitar Julia 4
+3.7) Quitar Julia 4
 
 Como Julia 4 tiene errores, es conveniente regresarse al Julia 0.3.2 y aquí así es cómo:
 
@@ -308,6 +308,17 @@ sudo apt-get remove julia
 sudo apt-add-repository ppa:staticfloat/juliareleases
 sudo apt-get update
 sudo apt-get install julia
+
+3.8) Guardar el archivo como PDF
+
+Arriba y a la derecha está File/Download as/PDF
+
+Pero a veces no sirve, por lo que otra alternativa es escribir en la terminal:
+
+ipython nbconvert --to latex Pkg.ipynb
+
+correrlo con Latex y compliarlo en PDF
+
 
 ############################################################################################################################################
 
