@@ -67,6 +67,8 @@ $ sudo apt-get install --no-install-recommends gnome-panel (Hace qué no install
 
 $ sudo apt-get install wine (Te permite ejecutar archivos que por lo general son para Windows)
 
+$ sudo apt-get install pandoc (Permite descargar los códigos que hagamos en IJulia o en Jupyter en PDF)
+
 2.2) Formateando una USB/SD
 
 Desde la Terminal:
@@ -95,7 +97,7 @@ rm -r/home/$USER/.Skype/usuario_a_borrar
 
 ############################################################################################################################################
 
-3) Julia y IJulia
+3) Julia , IJulia , Jupyter
 
 Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
 
