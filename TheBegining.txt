@@ -651,15 +651,23 @@ https://github.com/Jermolene/TiddlyDesktop/releases
 
 ############################################################################################################################################
 
-7) TeXstudio
+7) Latex
+
+Para mandar una tabal de LIbrCal a Latex revisa:
+
+http://www.thelinuxdaily.com/2008/09/how-to-install-and-use-calc2latex-tutorial/
+
+7.1) TeXstudio
 
 Es indispensable tener un editor de textos científico. TeXstudio es la opción, con este versatil editor de textos puedes hacer desde reportes de prácticas hasta artículos de publicación científica de manera mucho más rápida que otros programas que trabajan en Latex pues al complitar el documento lo muestra en la misma pantalla a un lado y uno puede ir viendo el progreso al confrome va haciendo los cambios.
 
 Para instalarla solo basta con abrir Ubuntu Software Center, buscarla e instalarla.
 
-7.1) Latexila
+7.2) Latexila
 
  Otro buen editor de textos científicos es Latexila. Aunque no permite ver la compilación en la misma página el campo de visión es mucho mayor y las herramientas son más accesibles.
+
+
 
 ############################################################################################################################################
 
@@ -783,6 +791,7 @@ Perfecta forma de aprender Frances en temproadas donde no se puede salir a viaja
 De aquí se descarga la versión completa:
 
 http://www.ouinolanguages.com/
+
 ############################################################################################################################################
 
 							Armando J. Lara D.I.
