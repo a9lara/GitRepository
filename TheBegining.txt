@@ -313,12 +313,15 @@ sudo apt-get install julia
 
 Arriba y a la derecha está File/Download as/PDF
 
-Pero a veces no sirve, por lo que otra alternativa es escribir en la terminal:
+Pero a veces no sirve aquí hay otra alternativa:
 
-ipython nbconvert --to latex Pkg.ipynb
+Arriba y a la derecha está File/Download as/HTML
 
-correrlo con Latex y compliarlo en PDF
+El archivo que descargaste lo abres en tu navegador.
 
+Le das imprimir y seleccionas "imprimir como PDF"
+
+Le dices dónde lo quieres guardar y listo.
 
 ############################################################################################################################################
 
