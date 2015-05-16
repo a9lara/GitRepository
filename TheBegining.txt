@@ -785,6 +785,15 @@ http://software.unam.mx/
 
 Un tutorial para instalar el software se puede consultar en la parte final de la página en el mismo vínculo.
 
+17.1) Como Pasar Tablas de Excel a de Mathematica 
+
+Copiar la tabla de excel a un editor de texto. 
+Nombrar como file y guardarlo en Home.
+En Mathematica escribir Import["file", "Table"].
+Darle enter.
+Darle click al final de la lista que aparezca.
+Abajo aparecerán opciones, seleccionar Plot Points.
+
 ############################################################################################################################################
 
 18) Ouino 
