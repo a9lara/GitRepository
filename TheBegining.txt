@@ -381,7 +381,7 @@ git add "b.txt"
 
 Lo guardamos en nuestro git escribiendo:
 
-git commit -m "" (entre las comillas puede ir un mensaje que es como una nota para acordarte que cambios hiciste)
+git commit -m"" (entre las comillas puede ir un mensaje que es como una nota para acordarte que cambios hiciste)
 
 Luego lo subimos a GitHub escribiendo:
 
