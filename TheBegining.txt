@@ -246,6 +246,12 @@ Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en
 
 Ve a la Terminal:
 
+#########
+
+Antes de seguir revisa el documento con título: Instalando sin problemas PyPlot.
+
+#########
+
 escribir:  ipython notebook --profile julia 
 presionar: Enter
 
