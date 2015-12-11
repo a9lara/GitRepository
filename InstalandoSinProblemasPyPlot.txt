@@ -1,0 +1,145 @@
+Instalando sin problemas PyPlot en:
+
+Linux Ubuntu 15.10 LTS 64-bits
+Anaconda for Linux - PYTHON 3.5
+Julia 0.5.0-dev
+IJulia 
+Jupyter 
+
+
+3) Julia , IJulia , Jupyter
+
+Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
+
+3.1) Entrar a http://continuum.io/downloads
+
+Escoger entre Linux 32 bit Python 3.5 o Linux 64 bit Python 3.5.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type. O también puedes saber escribiendo "lscpu" en la Terminal)
+
+3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
+
+Abre la Terminal; 
+
+escribe: sudo apt-get install git
+presiona: Enter
+
+escribe: bash Anaconda3-2.4.0-Linux-x86_64.sh (Si es qué bajaste el de 64 bits, si fue el de 32 revisa en http://continuum.io/downloads qué debes de escribir.)
+presiona: Enter 
+
+Vele dando enter y ve leyendo todo lo qué aparece hasta que aparezca 
+
+“Do you approve the license terms? [yes|no] [no] >>>” 
+
+escribe: yes 
+presiona: Enter
+
+Luego te aparecerán tres opciones:
+
+“  - Press ENTER to confirm the location 
+  - Press CTRL-C to abort the installation 
+- Or specify an different location below ”
+
+presiona: Enter
+
+Luego te aparecerá 
+
+“Do you wish the installer to prepend the Anaconda install location to PATH in your /home/a9lara/.bashrc ? [yes|no] [no] >>> “
+
+escribe: yes
+presiona: Enter
+
+escribe: exit
+presiona: Enter
+
+3.3)  Abre una nueva Terminal. (Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
+
+escribe: sudo apt-get install python-matplotlib
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/juliareleases
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julia-deps
+presiona: Enter
+
+escribe: sudo add-apt-repository ppa:staticfloat/julianightlies
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt install ipython
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt install ipython-notebook
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get install julia 
+aparecerá “Do you want to continue [Y/N]” 
+escribir: Y
+presiona: Enter
+
+escribe: sudo apt-get update
+presiona: Enter
+
+escribe: sudo apt-get upgrade
+presiona: Enter
+
+escribe: julia
+presiona: Enter
+
+escribe: Pkg.add("IJulia")
+presiona: Enter
+
+escribe: Pkg.build("IJulia")
+presiona: Enter
+
+escibre: Pkg.update()
+presiona: Enter
+
+escribe: quit()
+presiona: Enter
+
+escribe: exit
+presiona: Enter
+
+Abre una nueva Terminal.
+
+escibre: julia
+presiona: Enter
+
+escribe: ENV["PYTHON"]=""
+presiona: Enter
+
+escribe: Pkg.add("PyPlot")
+presiona: Enter
+
+escribe: quit()
+presiona: Enter
+
+escribe: exit
+presiona: Enter
+
+Abre una nueva Terminal
+
+escribe: ipython notebook
+presiona: Enter
+
+En IJulia crea un nuevo notebook Julia 0.5.0-dev y escribe: 
+
+escibe: using PyPlot
+
+Se deberán descargar e instalar unas cosas sin arrojar errores. Una vez finalizado guarda el notebook, cierralo y cierra IJulia.
+
+Salte de todo (el notebook, IJulia y la Terminal). 
+
+Abre una nueva Terminal y entra a IJulia, prueba escribiendo en un nuevo notebook "using PyPlot", debería funcionar sin problemas.
+
+
+
+
+
+
