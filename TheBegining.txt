@@ -95,6 +95,14 @@ $ exit
 
 rm -r/home/$USER/.Skype/usuario_a_borrar
 
+2.4) Ejecturar .sh desde la terminal.
+
+Escribir dentro de el "camino" que llega hasta el .sh
+
+sudo sh "nombre".sh
+
+y ya con eso.
+
 ############################################################################################################################################
 
 3) Julia , IJulia , Jupyter
