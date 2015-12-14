@@ -9,7 +9,7 @@ Jupyter
 
 3) Julia , IJulia , Jupyter
 
-Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
+Cómo Instalar IJulia Notebook en Linux-Ubuntu 15.10 LTS paso a paso.
 
 3.1) Entrar a http://continuum.io/downloads
 
@@ -22,7 +22,7 @@ Abre la Terminal;
 escribe: sudo apt-get install git
 presiona: Enter
 
-escribe: bash Anaconda3-2.4.0-Linux-x86_64.sh (Si es qué bajaste el de 64 bits, si fue el de 32 revisa en http://continuum.io/downloads qué debes de escribir.)
+escribe: bash Anaconda3-2.4.1-Linux-x86_64.sh (Si es qué bajaste el de 64 bits, si fue el de 32 revisa en http://continuum.io/downloads qué debes de escribir.)
 presiona: Enter 
 
 Vele dando enter y ve leyendo todo lo qué aparece hasta que aparezca 
