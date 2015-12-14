@@ -4,7 +4,7 @@
 
 ############################################################################################################################################
 
-1) Ubuntu 14.04.1
+1) Linux Ubuntu 15.10 LTS 64-bit
 
 Como formatear tu computadora e instalar Ubuntu 
 
@@ -16,7 +16,7 @@ Como formatear tu computadora e instalar Ubuntu
 
 http://www.ubuntu.com/download/desktop
 
-Escoge entre 32 bits  o 64 bits. (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
+Escoge entre 32 bits  o 64 bits. (Para saber cuál escoger abrir una terminal y escribir "lscpu")
 
 Dale click en Download, te va a llevar a una página en la qué te da la opción de aportar dinero, no le hagas caso, vete hasta abajo y dale click en  “Not now, take me to the download”.
 
@@ -107,7 +107,15 @@ y ya con eso.
 
 3) Julia , IJulia , Jupyter
 
-Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
+Cómo Instalar 
+
+Anaconda for Linux - PYTHON 3.5
+Julia 0.5.0-dev
+IJulia 
+Jupyter
+PyPlot
+
+en Linux Ubuntu 15.10 LTS 64-bits paso a paso.
 
 3.1) Entrar a http://continuum.io/downloads
 
@@ -835,7 +843,7 @@ http://www.ouinolanguages.com/
 
 19) PRÓXIMAMENTE Eclipse (Para programar apps para Android)
 
-Los siguientes pasos son derivados del video en YouTube con título "How to Build an Android App Part 1: Setting up Eclipse and Android SDK" 
+Los siguientes pasos son derivados del video en YouTube con título "How to Build an Android App Part 1: Setting up Eclipse and Android SDK" aunque quizás existe una manera más rápida, directa y limpia de instalarlo desde Ubuntu Software Center.
 
 Entrar a http://www.eclipse.org/downloads/packages/eclipse-classic-372/indigosr2
 
@@ -850,11 +858,6 @@ Ir a la sección que dice "SDK Tools Only"
 Descarcar la opción correspondiente, en este caso android-sdk_r24.4.1-linux.tgz
 
 Tardarán unos minutos en descargarse. 
-
-
-
-
-
 
 ############################################################################################################################################
 
