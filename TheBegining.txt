@@ -119,15 +119,7 @@ en Linux Ubuntu 15.10 LTS 64-bits paso a paso.
 
 3.1) Entrar a http://continuum.io/downloads
 
-Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
-
-3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
-
-Abre la Terminal y escribe: 
-
-3.1) Entrar a http://continuum.io/downloads
-
-Escoger entre Linux 32 bit Python 3.5 o Linux 64 bit Python 3.5.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type. O también puedes saber escribiendo "lscpu" en la Terminal)
+Escoger entre Linux 32 bit Python 3.5 o Linux 64 bit Python 3.5.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)
 
 3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
 
