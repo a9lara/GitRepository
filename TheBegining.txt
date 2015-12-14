@@ -117,7 +117,19 @@ Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cu
 
 Abre la Terminal y escribe: 
 
-bash Anaconda-2.1.0-Linux-x86.sh  (Si es qué bajaste el de 32 bits, si fue el de 64 revisa en http://continuum.io/downloads qué debes de pegar.
+3.1) Entrar a http://continuum.io/downloads
+
+Escoger entre Linux 32 bit Python 3.5 o Linux 64 bit Python 3.5.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type. O también puedes saber escribiendo "lscpu" en la Terminal)
+
+3.2) Una vez descargado el archivo. Vete a la carpeta de Downloads, click derecho sobre el archivo, “Cut”, y luego vete a /home y click derecho, “Paste”.
+
+Abre la Terminal; 
+
+escribe: sudo apt-get install git
+presiona: Enter
+
+escribe: bash Anaconda3-2.4.1-Linux-x86_64.sh (Si es qué bajaste el de 64 bits, si fue el de 32 revisa en http://continuum.io/downloads qué debes de escribir.)
+presiona: Enter 
 
 Vele dando enter y ve leyendo todo lo qué aparece hasta que aparezca 
 
@@ -141,8 +153,13 @@ Luego te aparecerá
 escribe: yes
 presiona: Enter
 
-3.3)  Ahí mismo en la terminal, (una vez que se acabó de instalar Anaconda) escribir:
-(Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
+escribe: exit
+presiona: Enter
+
+3.3)  Abre una nueva Terminal. (Quizás muchas de las instalaciónes pidan la contraseña, solo ponla - es la misma que usas para entrar a tu sesión de Ubuntu - y presiona: Enter)
+
+escribe: sudo apt-get install python-matplotlib
+presiona: Enter
 
 escribe: sudo add-apt-repository ppa:staticfloat/juliareleases
 presiona: Enter
@@ -192,35 +209,40 @@ presiona: Enter
 escribe: quit()
 presiona: Enter
 
-3.4.1) escribe: ipython notebook --profile julia 
+escribe: exit
 presiona: Enter
 
-Se abrira tu navegador, donde te aparecerá la página principal de Ijulia.
+Abre una nueva Terminal.
 
-Crea un Notebook nuevo.
-
-escribe:
-
-$ Pkg.build()
- 
-Córrelo presionando Shift+Enter
-
-Vete de nuevo a la Terminal que sigue corriendo:
-presiona: Ctrl+c
-escribe: y
+escibre: julia
 presiona: Enter
 
-Se cerrará IJulia
+escribe: ENV["PYTHON"]=""
+presiona: Enter
 
-3.4.2) En la Terminal escribimo y ejecutamos cada uno de los comandos qué siguen:
+escribe: Pkg.add("PyPlot")
+presiona: Enter
 
-$ Pkg.build()
+escribe: quit()
+presiona: Enter
 
-$ julia
+escribe: exit
+presiona: Enter
 
-julia>  Pkg.build()
+Abre una nueva Terminal
 
-julia>  quit()
+escribe: ipython notebook
+presiona: Enter
+
+En IJulia crea un nuevo notebook Julia 0.5.0-dev y escribe: 
+
+escibe: using PyPlot
+
+Se deberán descargar e instalar unas cosas sin arrojar errores. Una vez finalizado guarda el notebook, cierralo y cierra IJulia.
+
+Salte de todo (el notebook, IJulia y la Terminal). 
+
+Abre una nueva Terminal y entra a IJulia, prueba escribiendo en un nuevo notebook "using PyPlot", debería funcionar sin problemas.
 
 Ahora vamos a crear un documento de texto.
 
@@ -254,20 +276,11 @@ Vete a /home y crea una carpeta y ponle un nombre “X” (Esta carpeta será en
 
 Ve a la Terminal:
 
-#########
-
-Antes de seguir revisa el documento con título: Instalando sin problemas PyPlot.
-
-#########
-
 escribir:  ipython notebook --profile julia 
 presionar: Enter
 
 Una vez en Ijulia:
 selecciona tu careta “X” y crea un nuevo Notebook.
-
-escribe: Pkg.add("PyPlot")
-presiona Shift+Enter 
 
 escribe: Pkg.add("PyCall")
 presiona Shift+Enter
@@ -817,6 +830,10 @@ Perfecta forma de aprender Frances en temproadas donde no se puede salir a viaja
 De aquí se descarga la versión completa:
 
 http://www.ouinolanguages.com/
+
+############################################################################################################################################
+
+19) PRÓXIMAMENTE Eclipse (Para programar apps para Android)
 
 ############################################################################################################################################
 
