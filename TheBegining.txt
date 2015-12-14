@@ -847,6 +847,8 @@ Ir a la sección que dice "SDK Tools Only"
 
 Descarcar la opción correspondiente, en este caso android-sdk_r24.4.1-linux.tgz
 
+Tardarán unos minutos en descargarse. 
+
 
 
 
