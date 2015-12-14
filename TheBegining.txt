@@ -835,6 +835,8 @@ http://www.ouinolanguages.com/
 
 19) PRÓXIMAMENTE Eclipse (Para programar apps para Android)
 
+Los siguientes pasos son derivados del video en YouTube con título "How to Build an Android App Part 1: Setting up Eclipse and Android SDK" 
+
 Entrar a http://www.eclipse.org/downloads/packages/eclipse-classic-372/indigosr2
 
 Elegir del lado derecho la opción correspondiente al sistemo operativo que usas. En este caso elegir Linux 64-bit
