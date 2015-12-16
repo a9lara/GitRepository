@@ -107,6 +107,8 @@ y ya con eso.
 
 3) Julia , IJulia , Jupyter
 
+Julia es un Lenguaje de Programación Dinámico Relativamente Nuevo de Alto Rendimiento para Cómputo Científico.
+
 Cómo Instalar 
 
 Anaconda for Linux - PYTHON 3.5
