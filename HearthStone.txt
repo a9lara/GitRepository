@@ -1,0 +1,229 @@
+Original Deck -> Modified Deck
+
+//////////////////////////////////
+
+Jaina Proudmoore - Mage
+(Fireblast - Hace 1 daño) 
+10 hechizos, 20 criaturas
+
+* Arcane Explosion (2) '
+* Arcane Intellect (2) [3 manas robas 2 cartas] -> * Mirror Image (2) [1 mana pones dos criaturas 0/2 con Taunt]
+* Arcane Missiles (2) ' 
++ Bloodfen Raptor (2) ' 
++ Boulderfist Ogre (2) [6 manas ciartura 6/7] -> + Lord of the Arena (2) [6 manas criatura 6/5]  
+* Fireballe (2) '
++ Murloc Raider (2) [1 mana criatura 2/1] -> + Voodoo Doctor (2) [1 mana ciratura 2/1 Battlecry: Restaura 2 de vida]
++ Nightblade (2) '
++ Novice Engineer (2) '
++ Oasis Snapjaw (2) [4 manas criatura 2/7] -> + Tournament Medic (2) [4 manas ciratura 1/8 Inspire: Restaura 2 vidas del heroe]
+* Polymorph (2) '
++ Raid Leader (2) '
++ River Crocolisk (2) ' 
++ Sen'jin Shieldmasta (2) '
++ Wolfrider (2) '
+
+
+//////////////////////////////////
+
+Rexxar - Hunter
+(Steady Shot - Hace 2 daños al heroe enemigo) 
+6 hechizos, 24 criaturas
+
+* Arcane Shot '
++ Bloodfen Raptor [3/2] 2 '
++ Core Hound ~ [9/5] 7 algo parecido pero con taunt y que sea bestia
++ Houndmaster (2) '
++ Ironforge Rifleman (2) [2/1 hace un daño cuando entra] 3 -> Algo parecido pero en bestia, si se puede con Taunt
+* Multi-Shot '
++ Oasis Snapjaw (2) [2/7] 4 -> + Tournament Medic (2) [4 manas ciratura 1/8 Inspire: Restaura 2 vidas del heroe]
++ Raid Leader (2) [2/3] 2 '
++ Razorfen Hunter (2) [2/3 pone una 1/1] 3 ->
++ River Crocolisk (2) '
++ Silverback Patriarch (2) ~ 
++ Stonetusk Boar [1/1 Charge] 1 ~ algo parecido con charge pero más fuerte y que sea bestia, si no hay, pues esta está bien
++ Stormpike Commando [4/2 hace 2 daños] 5 ~ algo que sea bestia si se puede con taunt
++ Timber Wolf (2) '
+* Tracking '
+
+Poner puras que sean bestias
+
+//////////////////////////////////
+
+
+Mis Decks:
+
+///// BETTET MAGE DECK /////
+
+Jaina Proudmoore - Mage
+(Fireblast - Hace 1 daño) 
+10 hechizos, 20 criaturas
+
+* Arcane Explosion (2) [1 daño a todos los enemigos] 2
+* Arcane Missiles (2) [3 daños divididos de manera aleatoria entre personajes enemigos] 1
++ Bloodfen Raptor (2) [3/2] 2
+* Fireballe (2) [hace 6 daños] 4
++ Lord of the Arena (2) [TANUNT 6/5] 6
+* Mirror Image (2) [Pone 2 criaturas TAUNT 0/2] 1
++ Nightblade (2) [4/4 Hace 3 de daño al heroe enemigo] 5
++ Novice Engineer (2) [1/1 robas una carta] 2
+* Polymorph (2) [transforma un minion en 1/1] 4
++ Raid Leader (2) [2/2 le da 1 de ataque a las criaturas] 3 
++ River Crocolisk (2)  [2/3] 2
++ Sen'jin Shieldmasta (2) [TAUNT 3/5] 4
++ Tournament Medic (2) [1/8 Inspire: Restaura 2 vidas del heroe] 4
++ Voodoo Doctor (2) [2/1 restaura dos de salud] 1
++ Wolfrider (2) [3/1 charge] 3
+
+
+///// BETTET WARLOCK DECK /////
+
+Gul'dan - Warlock
+(Life Tap - Robas 1 carta y recibes 2 daños) 
+10 hechizos, 20 criaturas
+
++ Booty Bay Bodyguard (2) [TAUNT 5/4]
++ Darkscale Healer (2) [+2 de salud a todo] 5
+* Drain Life (2) [Haces dos daños y restauras 2 puntos de salud del heroe]
+* Corruption (2) [escoges una criatura y al siguiente turno bye] 1
+* Hellfire (2) [3 daños a todos los personajes]
++ Ironfur Grizzly (2) [TAUNT 3/3] 3
++ Lord of the Arena (2)  [TANUNT 6/5] 6
+* Mortal Coil (2) [hace 1 daño a una criatura y roba carta]
++ Nightblade (2) [4/4 Hace 3 de daño al heroe enemigo] 5
++ Novice Engineer (2) [1/1 robas una carta] 2
++ Raid Leader (2) [2/2 le da 1 de ataque a las criaturas] 3
++ Sen'jin Shieldmasta (2) [TAUNT 3/5] 4
+* Shadow Bolt (2) [4 daños a una criatura]
++ Voodoo Doctor (2) [2/1 restaura dos de salud] 1
++ Wolfrider (2) [3/1 charge] 3
+
+8 TAUNT 
+6 de salud
+12 de daño
+4 de robar una carta
+
+
+///// BETTET HUNTER DECK /////
+
+Rexxar - Hunter
+(Steady Shot - Hace 2 daños al heroe enemigo) 
+10 hechizos, 20 criaturas
+
++ Angry Chicken (2)
+* Animal Companion (2) 
+* Arcane Shot (2)
++ Bloodfen Raptor (2)
++ Houndmaster (2) 
++ Ironfur Grizzly (2) 
+* Kill Command (2)
+* Multi-Shot (2)
++ Raid Leader (2) 
++ River Crocolisk (2) 
++ Stonetusk Boar (2)
++ Timber Wolf (2) 
+* Tracking (2)
++ Tournament Medic (2)
++ Tundra Rhino (2)
+
+
+//// ANGRY CHICKEN DECK ////
+
+//MANÁ
+* Innervate (2) [Agrega 2 manas este turno] 0 //
+
+// BUSCAR
++ Novice Engineer (2) [1/1 robas una carta] 2 //
++ Gnomish INventor (2) [2/4 Battlecry: Draw a card] 4 //
+
+
+// +/+
++ Mark of the Wild (2) [Le da TAUNT y suma en 2 su ataque y defensa] 2 //
+* Power of the Wild (2) [Give your minions +1/+1; or Summon a 3/2 Panther] 2
+* Mark of Nature (2) [Give a minion +4 Attack; or +4 Health and Taunt] 3
+
+
+
+CAMBIAR DEFENSA POR FUERZA
++ Crazed Alchemist (2) [Battlecry: Swap the Attack and Health of a minion] 2 /
+
+
+
+DAÑO
+* Wrath (2) [Deal 3 damage to a minion; or 1 damage and draw a card] 2 /
+* Moonfire (2) [Deal 1 damage] 0 //
+
+
+
+MEJORAR SALUD
++ Voodoo Doctor (2) [2/1 restaura dos de salud] 1 //
+
+
+
+
+CRIATURAS
++ Angry Chiken (2) [1/1 Enrage: +5 Ataque] 1 /
++ Young Priestess (2) [2/1 At the end of your turn, give another random firendly minion +1 Health] 1 
+
+15/24
+COMBO:
+
+
+
+
+
+* Swipe (2)
+
++ Marck 
+* Healing Touch (2) [Restaura 8 puntos de salud] 3
+
+
+
+
+
+
+Combo
+
+
+// Con Warrior //
+
++ Angry Chiken (2) [1/1 Enrage: +5 Ataque] 1 //
++ Young Priestess (2) [2/1 At the end of your turn, give another random firendly minion +1 Health] 1 
+* Inner Rage (2) [Deal 1 damage to a minion and give it +2 Attack] 0 //
+* Rampage (2) [Give a damaged minion +3/+3] 2 //
+* Charge (2) //
++ Warsongcomander (2)
++ Defender of Argus (2)
+
+Combo:
+
+Manas: 
+1) Warsongcomander 3
+2) Angry Chiken 1
+3) Angry Chiken 1
+4) Defender of Argus 4 (Lo pones entre las gallinas)
+5) Inner Rage (A una gallina) 0
+6) Inner Rage (A la otra gallina) 0
+7) Abussive Sargent o algo que infle más a las gallinas
+
+
+
+
+Combo:
+
+Manas 2 y 3
+2 turnos
+
+1T
+1) Angry Chiken 1 
+2) Young Priestess 1
+
+2T
+3) Inner Rage (A una gallina) 0
+
+
+
+4) Rampage (a la gallina) 2
+
+
+
+
