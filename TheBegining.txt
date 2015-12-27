@@ -853,6 +853,45 @@ Descarcar la opción correspondiente, en este caso android-sdk_r24.4.1-linux.tgz
 
 Tardarán unos minutos en descargarse. 
 
+Extraer la carpeta en /home/
+
+Escribir en la terminal
+
+$ cd android-sdk-linux
+
+$ cd tools
+
+$ sh -e android
+
+Agregar Andorid...?
+
+En Eclipse irse a
+
+Help
+
+luego:
+
+Install New Software
+
+y escribir
+
+https://dl-ssl.google.com/android/eclipse/
+
+Selecciona 
+
+Add
+
+Ahora dale un nombre, llamémosle
+
+AndroidSDK
+
+y dale Ok.
+
+Seleccionar Developer Tools y darle continuar.
+
+Aceptar la licencia y esperar a que se instale.
+
+Acabando se reiniciará el programa y te pedira que localices el folder del SDK, localizalo en la carpeta workspace , después te pedira intalar SDK, a ese dale continuar y espera a que se instale. 
 ############################################################################################################################################
 
 							Armando J. Lara D.I.
