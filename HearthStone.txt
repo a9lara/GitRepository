@@ -257,6 +257,70 @@ Upgrade!
 Azure Drake
 Execute
 
+////////////////////////////////////
+
+Deck Murloc
+
+Druid ese
+
+
++ Murloc Warleader
+* Innervate
++ Coldlight Seer
++ Bluegilli Warrior
++ Murloc Tidecaller
++ Murloc Raider
+* Savage Roar
+* Power of the Wild
+* Naturalize
++ Old MUrloc Eye
++ Grime Scale Oracle
+
+////////////////////////////////////
+
+Budget Control
+
+Priest
+
++ Ancient Watcher (2) - 
++ Auchenai Soulpriest (2) ^ 
++ Chillwind Yeti (2) ^
+* Cirlce of Heating (2) ^
++ Defender of Argus (2) - 
+* Holy Nova (2) ^
+* Holy Smite (2) ^
++ Injured Blademaster (2) - 
+* Mind Control (2) ^
++ Northsire Cleric (2) ^
+* Power Word: Shield (2) ^
+* Shadow Word: Death (2) ^
++ Sunfury Protector (2) -
++ Temple Enforcer (2) ^
+* Thoughtsteal (2) ^ 
+ 
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Better Priest
+
+Priest
+
++ Crazed Alchemist (2) 
++ Auchenai Soulpriest (2) 
++ Chillwind Yeti (2) 
+* Cirlce of Heating (2) 
++ River Crocolisk (2)
+* Holy Nova (2) 
+* Holy Smite (2) 
++ Lord of the Arena (2)  
+* Mind Control (2) 
++ Northsire Cleric (2) 
+* Power Word: Shield (2) 
+* Shadow Word: Death (2) 
++ Gurubashi Berserker (2) 
++ Temple Enforcer (2) 
+* Thoughtsteal (2)  
 
 
 //////////////////////////////////
@@ -264,4 +328,7 @@ Execute
 CARTAS QUE QUIERO 
 
 Mech-Bear-Cat
+Al Akir the windlord - Combo con Rebirth
+Rebirth
+Elemental Distruction
 
