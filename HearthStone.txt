@@ -321,25 +321,25 @@ Priest
  
 ///////////////////////////////////////
 
-With a Pair of Eggs
+With a Pair of Eggs ($1100 pesos) 
 
 Druid
 
 + Abusive Sergeant (2) -
 + Defender of Argus (2) ^
-+ Dragon Egg (2) °
-+ Echoing Ooze (2) ° 
-+ Haunted Creepers (2) °
++ Dragon Egg (2) ° BLACKROCK MOUNTAIN EXPANTION
++ Echoing Ooze (2) ° CURSE OF NAXRAMAS EXPANTION
++ Haunted Creepers (2) ° CURSE OF NAXRAMAS EXPANTION
 * Innervate (2) ^
 + Jeeves (2) - 
 + Keeper of the Grove (1) - 
 * Living Roots (2) - 
 * Mark of the Wild (2) ^
-+ Mounted Raptor (2) °
-+ Nerubian Egg (2) °
++ Mounted Raptor (2) ° THE LEAGUE OF EXPLORERS EXPANTION
++ Nerubian Egg (2) ° CURSE OF NAXRAMAS EXPANTION
 * Power of the Wild (2) - 
 * Savage Roar (2) ^
-+ Sir Finley Muggleton (1) °
++ Sir Finley Mrrgglton (1) ° THE LEAGUE OF EXPLORERS EXPANTION
 * Soul of the Forest (2) - 
  
 
