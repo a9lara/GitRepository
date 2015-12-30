@@ -285,7 +285,6 @@ Deck Murloc
 
 Druid ese
 
-
 + Murloc Warleader
 * Innervate
 + Coldlight Seer
@@ -298,7 +297,7 @@ Druid ese
 + Old MUrloc Eye
 + Grime Scale Oracle
 
-////////////////////////////////////
+///////////////////////////////////////
 
 Budget Control
 
@@ -308,7 +307,7 @@ Priest
 + Auchenai Soulpriest (2) ^ 
 + Chillwind Yeti (2) ^
 * Cirlce of Heating (2) ^
-+ Defender of Argus (2) - 
++ Defender of Argus (2) ^ 
 * Holy Nova (2) ^
 * Holy Smite (2) ^
 + Injured Blademaster (2) - 
@@ -316,14 +315,33 @@ Priest
 + Northsire Cleric (2) ^
 * Power Word: Shield (2) ^
 * Shadow Word: Death (2) ^
-+ Sunfury Protector (2) -
++ Sunfury Protector (2) ^
 + Temple Enforcer (2) ^
 * Thoughtsteal (2) ^ 
  
+///////////////////////////////////////
 
+With a Pair of Eggs
 
+Druid
 
-
++ Abusive Sergeant (2) -
++ Defender of Argus (2) ^
++ Dragon Egg (2) °
++ Echoing Ooze (2) ° 
++ Haunted Creepers (2) °
+* Innervate (2) ^
++ Jeeves (2) - 
++ Keeper of the Grove (1) - 
+* Living Roots (2) - 
+* Mark of the Wild (2) ^
++ Mounted Raptor (2) °
++ Nerubian Egg (2) °
+* Power of the Wild (2) - 
+* Savage Roar (2) ^
++ Sir Finley Muggleton (1) °
+* Soul of the Forest (2) - 
+ 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -334,4 +352,12 @@ Mech-Bear-Cat
 Al Akir the windlord - Combo con Rebirth
 Rebirth
 Elemental Distruction
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+MIS LEYENDAS:
+
+Wilfred Fizzlebang.  VENDIDA
+
 
