@@ -303,21 +303,21 @@ Budget Control
 
 Priest
 
-+ Ancient Watcher (2) - 
-+ Auchenai Soulpriest (2) ^ 
-+ Chillwind Yeti (2) ^
-* Cirlce of Heating (2) ^
-+ Defender of Argus (2) ^ 
-* Holy Nova (2) ^
-* Holy Smite (2) ^
-+ Injured Blademaster (2) - 
-* Mind Control (2) ^
-+ Northsire Cleric (2) ^
-* Power Word: Shield (2) ^
-* Shadow Word: Death (2) ^
-+ Sunfury Protector (2) ^
-+ Temple Enforcer (2) ^
-* Thoughtsteal (2) ^ 
++ Ancient Watcher (2)  
++ Auchenai Soulpriest (2) 
++ Chillwind Yeti (2) 
+* Cirlce of Heating (2) 
++ Defender of Argus (2)  
+* Holy Nova (2) 
+* Holy Smite (2) 
++ Injured Blademaster (2) 
+* Mind Control (2) 
++ Northsire Cleric (2) 
+* Power Word: Shield (2) 
+* Shadow Word: Death (2) 
++ Sunfury Protector (2) 
++ Temple Enforcer (2) 
+* Thoughtsteal (2) 
  
 ///////////////////////////////////////
 
