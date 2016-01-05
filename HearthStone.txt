@@ -329,14 +329,14 @@ Druid
 + Defender of Argus (2) ^
 + Dragon Egg (2) ^
 + Echoing Ooze (2) ° CURSE OF NAXRAMAS EXPANTION [5th wing (Frostwyrm Lair)]
-+ Haunted Creepers (2) ° CURSE OF NAXRAMAS EXPANTION [1st wing (Arachnid Quarter)]
++ Haunted Creepers (2) ^
 * Innervate (2) ^
 + Jeeves (2) - 200 crafting
-+ Keeper of the Grove (1) - 200 crafting
++ Keeper of the Grove (1) - 100 crafting
 * Living Roots (2) ^ 
 * Mark of the Wild (2) ^
 + Mounted Raptor (2) ° THE LEAGUE OF EXPLORERS EXPANTION [Class Challenge (Druid)]
-+ Nerubian Egg (2) ° CURSE OF NAXRAMAS EXPANTION [1st wing (Arachnid Quarter)]
++ Nerubian Egg (2) ^
 * Power of the Wild (2) - 80 crafting 
 * Savage Roar (2) ^
 + Sir Finley Mrrgglton (1) ^
