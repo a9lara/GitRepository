@@ -328,20 +328,46 @@ Druid
 + Abusive Sergeant (2) - 80 crafting 
 + Defender of Argus (2) ^
 + Dragon Egg (2) ^
-+ Echoing Ooze (2) ° CURSE OF NAXRAMAS EXPANTION [5th wing (Frostwyrm Lair)]
++ Echoing Ooze (2) ^
 + Haunted Creepers (2) ^
 * Innervate (2) ^
 + Jeeves (2) - 200 crafting
 + Keeper of the Grove (1) - 100 crafting
 * Living Roots (2) ^ 
 * Mark of the Wild (2) ^
-+ Mounted Raptor (2) ° THE LEAGUE OF EXPLORERS EXPANTION [Class Challenge (Druid)]
++ Mounted Raptor (2) ^
 + Nerubian Egg (2) ^
 * Power of the Wild (2) - 80 crafting 
 * Savage Roar (2) ^
 + Sir Finley Mrrgglton (1) ^
 * Soul of the Forest (2) - 80 crafting 
  
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Xixo
+
+Hunter
+
++ Abusive Sergeant (2) - 80 crafting 
+* Animal Companion (2) ^
++ Arcane Golem (2) - 200 crafting
++ Clockwork Gnome (1) - 40 crafting
+* Eaglehorn Bow (2) - 200 crafting
+* Explosive Trap (2) - 80 Crafting
+* Glaivezooka (2) - 80 Crafting
++ Haunted Creeper (2) ^
+* Hunter's Mark (1) ^
++ Ironbeak Owl (1) ^
++ Knife Juggler (2) 200 crafting
++ Leper Gnome (2) - (1) 40 crafting
++ Mad Scientist (2) ° Naxxram Adventure THe COnstuct Quarter
+* Tracking (1) ^
+* Unleash the Hounds (2) - (1) 40 crafting
++ Wolfrider (2) ^
+
+
+
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
