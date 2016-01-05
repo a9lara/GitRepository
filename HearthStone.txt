@@ -297,11 +297,20 @@ Druid ese
 + Old MUrloc Eye
 + Grime Scale Oracle
 
-///////////////////////////////////////
 
-Budget Control
 
-Priest
+
+
+
+
+
+
+/////////////////////////////////////////////////////
+
+/////////// BUDGET CONTROL ////////////
+
+//// ANDUIN WRYNN (PRIEST)
+//// LESSER HEAL (RESTORE 2 HEALTH)
 
 + Ancient Watcher (2)  
 + Auchenai Soulpriest (2) 
@@ -319,11 +328,18 @@ Priest
 + Temple Enforcer (2) 
 * Thoughtsteal (2) 
  
-///////////////////////////////////////
+/////////////////////////////////////////////////////
 
-With a Pair of Eggs ($1100 pesos) O con monedas del juego
 
-Druid
+
+
+
+/////////////////////////////////////////////////////
+
+/////// WITH A PAIR OF EGGS ////////
+
+//// MALFURION STORMRAGE (DRUID)
+//// SHAPESHIFT (+1 ATTACK THIS TURN. +1 ARMOR.)
 
 + Abusive Sergeant (2) - 80 crafting 
 + Defender of Argus (2) ^
@@ -341,11 +357,17 @@ Druid
 * Savage Roar (2) ^
 + Sir Finley Mrrgglton (1) ^
 * Soul of the Forest (2) - 80 crafting 
- 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/////////////////////////////////////////////////////
 
-Xixo
+
+
+
+
+/////////////////////////////////////////////////////
+
+
+/////// XIXO ////////
 
 Hunter
 
@@ -361,15 +383,13 @@ Hunter
 + Ironbeak Owl (1) ^
 + Knife Juggler (2) 200 crafting
 + Leper Gnome (2) - (1) 40 crafting
-+ Mad Scientist (2) ° Naxxram Adventure THe COnstuct Quarter
++ Mad Scientist (2) ° Naxxram Adventure THe Constuct Quarter
 * Tracking (1) ^
 * Unleash the Hounds (2) - (1) 40 crafting
 + Wolfrider (2) ^
 
+/////////////////////////////////////////////////////
 
-
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 CARTAS QUE QUIERO 
