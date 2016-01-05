@@ -325,22 +325,22 @@ With a Pair of Eggs ($1100 pesos) O con monedas del juego
 
 Druid
 
-+ Abusive Sergeant (2) -
++ Abusive Sergeant (2) - 80 crafting 
 + Defender of Argus (2) ^
-+ Dragon Egg (2) ° BLACKROCK MOUNTAIN EXPANTION
-+ Echoing Ooze (2) ° CURSE OF NAXRAMAS EXPANTION
-+ Haunted Creepers (2) ° CURSE OF NAXRAMAS EXPANTION
++ Dragon Egg (2) ^
++ Echoing Ooze (2) ° CURSE OF NAXRAMAS EXPANTION [5th wing (Frostwyrm Lair)]
++ Haunted Creepers (2) ° CURSE OF NAXRAMAS EXPANTION [1st wing (Arachnid Quarter)]
 * Innervate (2) ^
-+ Jeeves (2) - 
-+ Keeper of the Grove (1) - 
-* Living Roots (2) - 
++ Jeeves (2) - 200 crafting
++ Keeper of the Grove (1) - 200 crafting
+* Living Roots (2) ^ 
 * Mark of the Wild (2) ^
-+ Mounted Raptor (2) ° THE LEAGUE OF EXPLORERS EXPANTION
-+ Nerubian Egg (2) ° CURSE OF NAXRAMAS EXPANTION
-* Power of the Wild (2) - 
++ Mounted Raptor (2) ° THE LEAGUE OF EXPLORERS EXPANTION [Class Challenge (Druid)]
++ Nerubian Egg (2) ° CURSE OF NAXRAMAS EXPANTION [1st wing (Arachnid Quarter)]
+* Power of the Wild (2) - 80 crafting 
 * Savage Roar (2) ^
-+ Sir Finley Mrrgglton (1) ° THE LEAGUE OF EXPLORERS EXPANTION
-* Soul of the Forest (2) - 
++ Sir Finley Mrrgglton (1) ^
+* Soul of the Forest (2) - 80 crafting 
  
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
