@@ -598,44 +598,35 @@ Desde http://lighttable.com/ se puede descargar.
 
 5.2) Vamos a instalarlo.
 
-Una vez descargado:
+Una vez descargado lo movemos a /home y lo extraemos.
 
-Nos vamos a la carpeta dónde se descargó. (Por lo general se descargan a la carpeta de Descargas, depende de la configuración de la computadora, lo que queremos es quitarla de esa carpeta y moverla a una más "cómoda") Lo movemos (cortar y pegar) a la carpeta dónde queremos que esté, por ejemplo en /home. Dentro de la carpeta en la que lo hemos puesto, y sobre un espacio entre archivos le damos click derecho y "abrir desde terminal".
+En la terminal escribimos:
 
-Ahora en la terminal:
+$ cd lighttable-0.8.1-linux
 
-La descomprimimos escribiendo:
+y luego 
 
-$ tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
-$ tar zxvf LightTableLinux62.tar.gz   (si es de 64bits)
+$ sudo mv LightTable /opt 
 
-Esto va a crear una carpeta.
+Nos vamos a Files --> Computer --> opt 
 
-Ahora escribimos:
+Le damos click derecho sobre LighTable y luego en Propiedades.
+ 
+Le damos clcik sobre el cuadrito de la imagen para editarla.
 
-$ sudo mv LightTable /opt      (Puede ser que no nos permita hacer esta acción, si no lo permite, no importa, continua con lo que sigue escribiendo lo de abajo)
+Buscamos el icono de Ligh Table en:
 
-Luego escribimos:
+ lighttable-0.8.1-linux --> resources --> app --> core --> img 
 
-$ sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
+y seleccionamos la que dice:
 
-Esto va a hacer que se arreglen unos problemitas que tiene ubuntu
+ lticon.png
 
-Ahora vamos a irnos al buscador de nuestra computadora (el cuadrito con el simbolo de ubuntu que se encuentra en la lista de apps, "Search your computer and online sources". y vamos a buscar "lticon.png"  le damos "abrir en folder" y nos fijamos la dirección que tiene. **
+Una vez que ya tenga el ícono le damos click derecho y "Copy to...", y lo copiamos en lighttable-0.8.1-linux.
 
-Luego escribimos en la terminal: 
+Desde la carpeta de lighttable lo corremos, una vez que se haya abierto le damos en Lock to Launcher.
 
-$ sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
-
-Esto va a crear  un iconico bonito para abrirlo como cualquier programa
-
-Luego nos aparece un cuadrito y escribimos:
-
-el icóno: (le das click al icono y lo buscas en la dirección **) por ejemplo: /opt/LightTable/LightTable/core/img/lticon.png 
-el nombre : LightTable
-comando:  ** por ejemplo: /opt/LightTable/LightTable/core/img/lticon.png
-
-Listo, lo podemos abrir desde nuestro escritorio.
+Listo, ya tenemos Lightable ejecutable desde el Launcher. :)
 
 5.3) Vamos a hacer qué pueda correr comandos de Julia.
 
