@@ -1,0 +1,11 @@
+
+Calificación 
+
+* Pésima
+** Mala
+*** Buena
+**** Favorita
+
+Original ****
+Pizza **
+Tortilla Chips Salsa ****
