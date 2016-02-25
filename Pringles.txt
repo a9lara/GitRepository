@@ -1,11 +1,21 @@
 
-Calificación 
+#######  Calificación ######
 
-* Pésima
-** Mala
-*** Buena
 **** Favorita
+*** Buena
+** Mala
+* Pésima
+
+###### Sabores ########
 
 Original ****
-Pizza **
 Tortilla Chips Salsa ****
+
+
+Chile y Limón ***
+
+
+Pizza **
+Queso **
+Crema y Cebolla **
+
