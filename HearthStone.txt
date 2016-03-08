@@ -406,4 +406,201 @@ MIS LEYENDAS:
 
 Wilfred Fizzlebang.  VENDIDA
 
+///////////////////////////////////////////////
+
+
+Chicken Surprise (Warrior)
+
+LA SORPRESA
+
++ Angry Chicken (x2) 1
+
+PARA INFLAR A LA GALLINA (X2)
+
+* Inner Rage 1
+* Rampage 1
+* Charge 1
++ Shattered Sun Cleric 1
+
+
+PARA DESPEJAR CAMINO (x2)
+
+* Revenge 
+* Execute 1
+* Cleave 1 1 
+
+PARA GANAR ARMADURA (x2)
+
+* Bash 1
+* Shield Block 
+
+TAUNT (x1)
+
+Golsdhire Footman 1 - 1/2
+Annoy-o-Tron 2 - 1/2
+Fierce Monkey 3 - 3/4
+Sen'jin Shieldmasta 4 - 3/5
+Sludge Belcher 5 - 3/5
+Sunwalker 6 - 4/5
+
+
+EXTRAS (x1)
+
++ Ironbeak Owl - Para silenciar un minion
++ Emperor Thaurissan - Para que cuesten menos los minions
++ Reno Jackson - Para restaurar toda vida
++ Antique Healbot - para subir 8 de vida
+
+/////////////////////////////////////
+
+
+
+Chicken Surprise (Warrior)
+
+LA SORPRESA
+
++ Angry Chicken (x2) 
+
+PARA INFLAR A LA GALLINA (X2)
+
+* Inner Rage 
+* Rampage 
+* Charge 
++ Shattered Sun Cleric 
++ Abusiv Sargent
++ Cruel Taskmaster
+
+PARA QUE FUNCIONE
+
++ Emperor Thaurissan - Para que cuesten menos los minions
++ Ironbeak Owl
+
+TAUNT (x2)
+
+Golsdhire Footman 1 - 1/2
+Annoy-o-Tron 2 - 1/2
+Fierce Monkey 3 - 3/4
+Sen'jin Shieldmasta 4 - 3/5
+Sludge Belcher 5 - 3/5
+Sunwalker 6 - 4/5
+
+
+
+
+/////////////////////////////////////
+
+Raging Worgen (Warrior)
+
+
+Se necesita en juego a Thaurissan
+Y en la mano a
+
++ Raging Worgen              
+* Inner Rage 0
++ Abusiv Sargent 1
+* Rampage 2
++ Cruel Taskmaster 2
+* Charge 3
++ Shattered Sun Cleric 3
++ Warsong Commander 3         
++ Iron Beak Owl
+
+LA SORPRESA (x1)
+
++ Raging Worgen  3
+
+PARA INFLAR (x1)
+
+* Inner Rage 0
++ Abusiv Sargent 1
+* Rampage 2
++ Cruel Taskmaster 2
+* Charge 3
++ Shattered Sun Cleric 3
++ Warsong Commander 3
+
+
+
+8 cartas, 17 manas, - 8 = 9 manas
+
+Es para el 9no turno
+
++ Iron Beak Owl
+
+Iron Beak Owl
+Emperor Thaurissan
+Reno Jackson
+
+
+
+
+PARA QUE FUNCIONE
+
++ Emperor Thaurissan - Para que cuesten menos los minions
++ Ironbeak Owl
+
+TAUNT (x2)
+
+Golsdhire Footman 1 - 1/2
+Annoy-o-Tron 2 - 1/2
+Fierce Monkey 3 - 3/4
+Sen'jin Shieldmasta 4 - 3/5
+Sludge Belcher 5 - 3/5
+Sunwalker 6 - 4/5
+
+
+
+
+/////////////////////////////////////
+
+
+Homing Chicken x2
+Loot Hoarder x2
+Novice Engeneer x2
+
+
+
+//////////////////////////////////////////////////////////      MIS DECKS      //////////////////////////////////////////
+
+
+
+XIXO
+
+
+* Hunter's Mark x1
+* Tracking x1
+
+
+
+
+////////////////////////////////////////////////////////////
+
+
+F&P Rouge
+(Dagger Mastery - Equip a 1/2 Dagger) 
+16 hechizos, 14 criaturas
+
+
+* Backstab x2
+* Deadly Poison x2
+* Sinister Strike x2
++ Buccaneer x2
+* Betrayal x1
+* Eviscerate x1
++ Cutpurse x1
++ Defias Ringleader x1
++ Goblin Auto-Barber x1
++ Undercity Valiant x2
+* Perdition's Blade x1
+* Burgle x1
+* Fan of Knives x2
++ Unearthed Raptor x1
++ Tomb Pillager x2
+* Assassin's Blade x2
+* Assassinate x2
++ Dark Iron Skulker x2
++ Shado-Pan Rider x2
+
+
+////////////////////////////////////////////////////////////
 
