@@ -604,3 +604,32 @@ F&P Rouge
 
 ////////////////////////////////////////////////////////////
 
+
+The Hero Paladin
+(Reinforce - Summon a 1/1 Silver Hand Recruit)
+17 hechizos, 13 criaturas
+
+
+* Avenge x2
+* Blessing of Might x2
+* Competitive Spirit x1
+* Humility x2
+* Sacred Trial x2
++ Lowly Squire x1
++ Annoy-o-Tron x2
++ Ironbeak Owl x1
++ Mad Scientist x1
++ Murloc Tidehunter x1
+* Muster for Battle x1
+* Seal of Champions x2
++ Deathlord x1
++ Silver Hand Regent x2
++ Warhorse Trainer x2
+* Truesilver Champion x2
+* Blessing of Kings x1
+* Consecration x2
++ Murloc Knight x1
++ Mysterious Challenger x1
+
+
+////////////////////////////////////////////////////////////
