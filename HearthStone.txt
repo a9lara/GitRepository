@@ -564,19 +564,36 @@ Novice Engeneer x2
 
 
 
-XIXO
+Xixo
+Rexxar - Hunter
+(Steady Shot - Deal 2 damage to the enemy hero)
+14 hechizos, 16 criaturas
 
 
 * Hunter's Mark x1
 * Tracking x1
-
-
++ Abusive Sergeant x2
++ Clockwork Gnome x1
++ Leper Gnome x2
+* Glaivezooka x2
+* Explosive Trap x2
++ Haunted Creeper x2
++ Ironbeak Owl x1
++ Knife Juggler x2
++ Mad Scientist x2
+* Eaglehorn Bow x2
+* Animal Companion x2
+* Kill Command x2
+* Unleash the Hounds x2
++ Arcane Golem x2
++ Wolfrider x2
 
 
 ////////////////////////////////////////////////////////////
 
 
 F&P Rouge
+Valeera Sanguinar - Rouge
 (Dagger Mastery - Equip a 1/2 Dagger) 
 16 hechizos, 14 criaturas
 
@@ -606,6 +623,7 @@ F&P Rouge
 
 
 The Hero Paladin
+Uther Lightbringer - Paladin
 (Reinforce - Summon a 1/1 Silver Hand Recruit)
 17 hechizos, 13 criaturas
 
