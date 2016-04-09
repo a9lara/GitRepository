@@ -651,3 +651,87 @@ Uther Lightbringer - Paladin
 
 
 ////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hello. 
+
+I hope you're having fun playing Hearthstone. 
+
+Today I'll post the decks I used to beat Heroic Patchwerk (Naxxramas) and Heroic Garr (Blackrock Mountain).
+
+
+
+
+Heroic Garr
+
+The idea of this deck is to have Mass Dispel in the hand in turn 4 and play it. The rest of the game is very simple. Use the Enrage ability of your minions at the start of your turn and heal them at the end of your turn. The deck is the following:
+
+Priest
+
+Northshire Cleric x2
+Convert x2
+Divine Spirit x2
+Mind Blast x2
+Amani Berserker x1
+Nerubian Egg x2
+Shadow Word: Death x2
+Thoughtsteal x2
+Dark Cultist x2
+Raging Worgen x2
+Tauren Warrior x1
+Mass Dispel x2
+Lightspawn x2
+Spellbreaker x1
+Holy Nova x2
+Antique Healbot x1
+Mind Control x2
+
+
+
+
+
+
+Heroic Patchwerk.
+
+The idea of this deck is to use Acidic Swamp Ooze in the first turn using The Coin. Then put as many Taunt minions you can and when Patchwerk plays the weapon again play the second  Acidic Swamp Ooze along with Mind Vision. Keep playing Taunt minions and some spells that help you heal. The deck is the following:
+
+Priest
+
+Flash Heal x2
+Inner Fire x2
+Mind Vision x2
+Power Word: Glory x2
+Power Word: Shield x2
+Goldshire Footman x2
+Young Priestess x2
+Divine Spirit x2
+Acid Swamp Ooze x2
+Annoy-o-Tron x2
+Murloc Tidehunter x2
+Novice Engineer x1 
+Sunfury Protector x2
+Lightspawn x2
+Antique Healbot x2
+Holy Fire x1
+
+
+
+
+
+I hope these decks will help some of you.  
+
+Regards.
