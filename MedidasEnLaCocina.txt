@@ -21,7 +21,7 @@ tbsp = tablespoon
 1 tsp = 1 cucharadita
 1 tbsp = 1 cucharada
 
-1/4 tsp =1.25 ml
+1/4 tsp ~ 1.25 ml
 1/2 tsp ~ 2.5 ml
 1 tsp ~ 5 ml
 1/2 tbsp ~ 7.5 ml
