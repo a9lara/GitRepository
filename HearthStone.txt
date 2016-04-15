@@ -670,7 +670,7 @@ Uther Lightbringer - Paladin
 * Consecration x2
 * Hammer of Wrath x2
 + Dragonkin Sorcerer x2
-+ Hungrey Dragon x2
++ Hungry Dragon x2
 + Keeper of Uldaman x2
 + Murloc Knight x1
 + Blackwing Corruptor x2
