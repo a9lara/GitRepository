@@ -654,17 +654,32 @@ Uther Lightbringer - Paladin
 
 
 
+Dragon Paladin
+Uther Lightbringer - Paladin
+(Reinforce - Summon a 1/1 Silver Hand Recruit)
+13 hechizos, 17 criaturas
 
 
+* Light's Justice x2
+* Holy Light x2
+* Seal of Light x1
++ Faerie Dragon x1
++ Silver Hand Regent x2
+* Truesilver Champion x2
+* Blessing of Kings x2
+* Consecration x2
+* Hammer of Wrath x2
++ Dragonkin Sorcerer x2
++ Hungrey Sragon x2
++ Keeper of Uldaman x2
++ Murloc Knight x1
++ Blackwing Corruptor x2
++ Dragon Consort x2
++ Kodorider x1
++ Guardian of Kings x2
 
 
-
-
-
-
-
-
-
+//////////////////////////////////////////////////////////////
 
 
 Hello. 
