@@ -28,3 +28,103 @@ M Forest x8
 M Cinder Glade x2
 M Rootbound Crag x2
 M Evolving Wilds x4
+
+
+//////////////////////////////////////////////////
+
+Infect
+
+3 Ichorclaw Myr 
+2 Nécropède
+3 Plague Stinger
+2 Contagious Nim
+3 Cystbearer
+2 Ichor Rats
+2 Corpse Cur
+2 Blackcleave Goblin
+3 Hand of the Praetors
+2 Tangle Angler
+2 Putrefax
+1 Skithiryx, the Blight Dragon
+2 Assassinate
+3 Giant Growth
+2 Bladed Pinions
+13 Swamp
+13 Forest
+
+//////////////////////////////////////////////////
+
+Cascade
+
+1 Guard Gomazoa
+1 Whirlpool Warrior
+2 Shardless Agent
+1 Primal Plasma
+1 Ondu Giant
+2 Bloodbraid Elf
+1 Fusion Elemental
+1 Etherium-Horn Sorcerer
+1 Enlisted Wurm
+1 Enigma Sphinx
+1 Maelstrom Wanderer
+1 Wall of Denial
+1 Malfegor
+1 Spellbound Dragon
+1 Defiler of Souls
+1 Sphinx Sovereign
+1 Arc Trail
+1 Erratic Explosion
+1 Cultivate
+1 Rivals' Duel
+1 Mass Mutiny
+1 Deny Reality
+1 Last Stand
+1 Divination
+1 Bituminous Blast
+2 Fiery Fall
+2 Armillary Sphere
+1 Fractured Powerstone
+1 Fist of Suns
+1 Sunken Hope
+1 Exotic Orchard
+2 Rupture Spire
+1 Shimmering Grotto
+1 Terramorphic Expanse
+1 Vivid Creek
+1 Sunpetal Grove
+1 Azorius Guildgate
+2 Plains
+5 Island
+2 Swamp
+5 Mountain
+4 Forest
+
+//////////////////////////////////////////////////
+
+Affinity
+
+2 Ornithopter
+2 Silver Myr
+3 Broodstar
+3 Myr Enforcer
+2 Thoughtcast
+2 Leaden Myr
+2 Myr Retriever
+2 Memnite
+3 Talisman of Dominance
+2 Lightning Greaves
+1 Chromescale Drake
+2 Cranial Plating
+4 Seat of the Synod
+2 Thirst for Knowledge
+4 Vault of Whispers
+2 Nim Shrieker
+2 Steal Wall
+4 Frogmite
+2 Override
+2 AEther Spellbomb
+2 Swamp
+10 Island
+
+//////////////////////////////////////////////////
+
