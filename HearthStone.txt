@@ -784,41 +784,48 @@ Pirate Deck
 
 
 
-
-
-
-
-
 Totemic Shaman
 
-+ Draeni Totemcarver x2 (**4** [4/4] Battlecry: Gain +1/+1 for each friendly Totem.)
-+ Fire Elemental x2 (**6** [6/5] Battlecry: Deal 3 damage.)
-+ Tuskarr Totemic x2 
-* Hex x2
-+ Sunwalker x2
-* Elemental Destruction x2 (**3** Deal 4-5 damaged to all minions. Overload: (5))
-+ Totem Golem x2
-* Stormforged Axe x2
-* Lightning Bolt x2 (**1** Deal 3 damage. Overload: (1))
++ Tunnel Trogg x2  (**1** [1/3] Whenever you Overload, gain +1 attack per locked Mana Crystal.)
 + Flametongue Totem x2 (**2** Adjacent minions have +2 Attack.)
-+ Thunder Bluff Valiant x2
-+ Mana Tide Totemic x2
-+ Tunnel Trogg x2 
-* Rockbiter Weapon x2 (**1** Give a friendly character +2 Attack this turn.)
-* Primal Fusion x2 (**1** Give a minion +1/+1 for each of your totems.) x2
-
-
-Puede llevar el Antique y el Healbot y pos las otras pero neta mejor no... jajaja, lol.
-+ Piloted Shredder
-* Earth Shock (**1** Silence a minion, then deal 1 damage to it.)
-+ Antique Healbot
-+ Madder Bomber 
-
-
-
++ Totem Golem x2 (**2** [3/4] Overload: (1))
++ Mana Tide Totem x2 (**3** [0/3] At the end of your turn, draw a card.)
++ Tuskarr Totemic x2 (**3** [3/2] Battlecry: Summon ANY random Totem.)
++ Draeni Totemcarver x2 (**4** [4/4] Battlecry: Gain +1/+1 for each friendly Totem.)
++ Thunder Bluff Valiant x2 (**5** [3/6] Inspire: Give your Totems +2 Attack.)
++ Fire Elemental x2 (**6** [6/5] Battlecry: Deal 3 damage.)
++ Sunwalker x2 (**6** [4/5] Taunt Divine Shield) 
+* Rockbiter Weapon x2 (**1** Give a friendly character +3 Attack this turn.)
+* Lightning Bolt x2 (**1** Deal 3 damage. Overload: (1))
+* Primal Fusion x2 (**1** Give a minion +1/+1 for each of your totems.) 
+* Stormforged Axe x2  (**2** Weapon [2/3] Overload: (1))
+* Hex x2 (**3** Transform a minion into a 0/1 Frog with Taunt.)
+* Elemental Destruction x2 (**3** Deal 4-5 damaged to all minions. Overload: (5))
 
 
 
+Totally Totems
+
+* Earth Shock x1 (**1** Silence a minion, then deal 1 damage to it.)
+* Lightning Bolt x2 (**1** Deal 3 damage. Overload: (1))
+* Primal Fusion x1 (**1** Give a minion +1/+1 for each of your totems.) 
+* Rockbiter Weapon x2 (**1** Give a friendly character +3 Attack this turn.)
++ Tunnel Trogg x2 (**1** [1/3] Whenever you Overload, gain +1 attack per locked Mana Crystal.)
+* Stormforged Axe x1 (**2** Weapon [2/3] Overload: (1))
+* Stormcrack x1 (**2** Deal 4 damage to a minion. Overload: (1))
++ Flametongue Totem x2 (**2** Adjacent minions have +2 Attack.)
++ Totem Golem x2 (**2** [3/4] Overload: (1))
+* Elemental Destruction x1 (**3** Deal 4-5 damaged to all minions. Overload: (5))
+* Hex x2 (**3** Transform a minion into a 0/1 Frog with Taunt.)
++ Mana Tide Totem x1 (**3** [0/3] At the end of your turn , draw a card.)
++ Tuskarr Totemic x2 (**3** [3/2] Battlecry: Summon ANY random Totem.)
++ Draeni Totemcarver x1 (**4** [4/4] Battlecry: Gain +1/+1 for each friendly Totem.)
++ Piloted Shredder x1 (**4** [4/3] Deathrattle: Summon a random 2-Cost minion.)
++ Antique Healbot x1 (**5** [3/3] Battlecry: Restore 8 Health to your hero.)
++ Madder Bomber x1 (**5** [5/4] Battlecry: Deal 6 damage randomly split between all other characters.)
++ Thunder Bluff Valiant x2 (**5** [3/6] Inspire: Give your Totems +2 Attack.)
++ Fire Elemental x2 (**6** [6/5] Battlecry: Deal 3 damage.)
++ Sunwalker x2 (**6** [4/5] Taunt Divine Shield) 
 
 
 
