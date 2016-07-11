@@ -789,4 +789,37 @@ Pirate Deck
 
 
 
+Totemic Shaman
+
++ Draeni Totemcarver x2 (**4** [4/4] Battlecry: Gain +1/+1 for each friendly Totem.)
++ Fire Elemental x2 (**6** [6/5] Battlecry: Deal 3 damage.)
++ Tuskarr Totemic x2 
+* Hex x2
++ Sunwalker x2
+* Elemental Destruction x2 (**3** Deal 4-5 damaged to all minions. Overload: (5))
++ Totem Golem x2
+* Stormforged Axe x2
+* Lightning Bolt x2 (**1** Deal 3 damage. Overload: (1))
++ Flametongue Totem x2 (**2** Adjacent minions have +2 Attack.)
++ Thunder Bluff Valiant x2
++ Mana Tide Totemic x2
++ Tunnel Trogg x2 
+* Rockbiter Weapon x2 (**1** Give a friendly character +2 Attack this turn.)
+* Primal Fusion x2 (**1** Give a minion +1/+1 for each of your totems.) x2
+
+
+Puede llevar el Antique y el Healbot y pos las otras pero neta mejor no... jajaja, lol.
++ Piloted Shredder
+* Earth Shock (**1** Silence a minion, then deal 1 damage to it.)
++ Antique Healbot
++ Madder Bomber 
+
+
+
+
+
+
+
+
+
 
