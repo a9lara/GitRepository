@@ -128,3 +128,39 @@ Affinity
 
 //////////////////////////////////////////////////
 
+Control
+
+2 Dispel
+2 Fiery Impulse
+1 Stormchaser Mage
+1 Inferno Fist
+2 Twin Bolt
+3 Frost Lynx
+2 Iroas's Champion
+1 Jori En, Ruin Diver
+2 Sphinx's Tutelage
+2 Claustrophobia
+2 Containment Membrane
+1 Fevered Visions
+2 Grip of the Roil
+1 Kozilek's Return
+1 Geistblast
+1 Fiery Temper
+2 Suppression Bonds
+2 Pyromancer's Assault
+2 Comparative Analysis
+1 Boulder Salvo
+1 Jace, Unraveler of Secrets
+1 Chandra, Flamecaller
+1 Alhammarret, High Arbiter
+2 Plains
+8 Island
+7 Mountain
+2 Clifftop Retreat
+2 Sulfur Falls
+2 Glacial Fortress
+1 Skyline Cascade
+
+//////////////////////////////////////////////////
+
+
