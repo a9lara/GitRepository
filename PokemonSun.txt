@@ -1,0 +1,41 @@
+
+Pokémon Sun & Moon
+
+#################################### TEAM ################################################
+
+Pokémon: Oranguru (Normal-Psychic)
+
+	Nature: Calm
+	Ability: Inner Focus
+
+	Moves:
+
+	+ Instruct   (Status - Psychic)         * Lv. 32
+	+ Psychic    (Special Attack - Psychic) * Lv. 43 
+	+ Trick Room (Status - Psychic)         * Lv. 50
+	+ Sleep Talk (Status - Normal)          * TM88
+
+	Held Item:
+
+	+ Odd Incense
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              252
+	+ Attack:          0
+	+ Defense:         132
+	+ Special Attack:  0
+	+ Special Defense: 126
+	+ Speed:           0
+
+	
+
