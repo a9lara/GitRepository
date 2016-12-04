@@ -5,7 +5,18 @@ Pokémon Sun & Moon
 
 Pokémon: Oranguru (Normal-Psychic)
 
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	90	60	80	90	110	 60
+
 	Nature: Calm
+
+	Sp. Def.  ↑   (Bitter)
+	Attack    ↓    (Spicy)	
+
+	Characteristic: Alert to Sounds
+
 	Ability: Inner Focus
 
 	Moves:
