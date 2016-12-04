@@ -13,7 +13,7 @@ Pokémon: Oranguru (Normal-Psychic)
 	Nature: Calm
 
 	Sp. Def.  ↑   (Bitter)
-	Attack    ↓    (Spicy)	
+	Attack    ↓   (Spicy)	
 
 	Characteristic: Alert to Sounds
 
