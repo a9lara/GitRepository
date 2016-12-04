@@ -37,5 +37,31 @@ Pokémon: Oranguru (Normal-Psychic)
 	+ Special Defense: 126
 	+ Speed:           0
 
-	
+	Daño Recibido:
+
+	x0.0  Ghost
+
+	x0.5  Psychic
+
+	x1.0  Normal
+	      Fire	
+	      Water
+	      Electric
+	      Grass
+	      Ice
+	      Fight
+	      Poison	
+	      Ground
+	      Flying
+	      Rock
+	      Dragon
+	      Steel	
+	      Fairy
+
+	x2.0  Bug
+	      Dark
+
+
+
+
 
