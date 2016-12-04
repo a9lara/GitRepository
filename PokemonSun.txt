@@ -1,6 +1,35 @@
 
 Pokémon Sun & Moon
 
+################################# DITTO'S TEAM ###########################################
+
+Pokémon: Munchlax 
+
+	Moves: Recycle
+
+Pokémon: Hypno 
+
+	Moves: Switcheroo 
+
+	Held Item: Leppa Berry
+
+Pokémon: X1
+
+	Moves: False Swipe
+
+Pokémon: X2
+
+	With strong moves
+
+Pokémon: X3
+
+	With strong moves
+
+
+Bag: Adrenaline Orbs, Pokéballs
+
+
+
 #################################### TEAM ################################################
 
 Pokémon: Oranguru (Normal-Psychic)
