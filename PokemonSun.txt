@@ -1,6 +1,9 @@
 
 Pokémon Sun & Moon
 
+
+
+
 ################################# DITTO'S TEAM ###########################################
 
 Pokémon: Munchlax 
@@ -26,8 +29,7 @@ Pokémon: X3
 	With strong moves
 
 
-Bag: Adrenaline Orbs, Pokéballs
-
+Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
 
 
 #################################### TEAM ################################################
@@ -101,7 +103,78 @@ Pokémon: Oranguru (Normal-Psychic)
 	x2.0  Bug
 	      Dark
 
+#################################################################################
 
+Pokémon: Dewpider (Water-Bug)
 
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	38	40	52	40	72	 27
+
+	Nature: Sassy
+
+	Sp. Def.  ↑   (Bitter)
+	Speed     ↓   (Sweet)		
+
+	Characteristic: Likes to thrash about
+
+	Ability: Water Bubble
+
+	Moves:
+
+	+ Water Sport (Water-Status)    *  -                        
+	+ Leech Life (Bug-Attak)        * Lv. 29   
+	+ Aqua Ring (Water-Status)      * Lv. 24                
+	+ Waterfall (Water-Attack)      * TM98 
+
+	Z Moves:
+
+	+ Hydro Vortex 
+
+	Held Item:
+
+	+ Waterium Z
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              0
+	+ Attack:          126
+	+ Defense:         132
+	+ Special Attack:  0
+	+ Special Defense: 252
+	+ Speed:           0
+
+	Daño Recibido:
+
+	x0.5  Water
+ 	      Ice
+	      Fight
+	      Ground
+	      Steel
+
+	x1.0  Normal
+	      Fire
+	      Grass
+	      Poison	
+	      Psychic
+	      Bug
+	      Ghost
+	      Dragon
+	      Dark	
+	      Fairy
+
+	x2.0  Electric
+	      Flying
+	      Rock
 
 
