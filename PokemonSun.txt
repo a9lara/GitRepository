@@ -123,9 +123,9 @@ Pokémon: Dewpider (Water-Bug)
 
 	Moves:
 
-	+ Water Sport (Water-Status)    *  -                        
-	+ Leech Life (Bug-Attak)        * Lv. 29   
-	+ Aqua Ring (Water-Status)      * Lv. 24                
+	+ Water Sport (Water-Status)    *  -  
+	+ Aqua Ring (Water-Status)      * Lv. 24                      
+	+ Leech Life (Bug-Attak)        * Lv. 29                   
 	+ Waterfall (Water-Attack)      * TM98 
 
 	Z Moves:
@@ -177,4 +177,4 @@ Pokémon: Dewpider (Water-Bug)
 	      Flying
 	      Rock
 
-
+#################################################################################
