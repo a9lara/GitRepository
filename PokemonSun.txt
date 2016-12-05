@@ -1,7 +1,59 @@
 
 Pokémon Sun & Moon
 
-################################   BATTLE ROYAL!   #######################################
+
+##############################   POWER ITEMS    #########################################################################
+
+
+Power Weight -  HP
+Power Bracer -  Attack
+Power Belt   -  Defense
+Power Lens   -
+Power Band   -  Special Deffense  
+Power Ankle  -
+
+
+##############################    S.O.S CHAIN    #########################################################################
+
+
+EV = Effort Values Earned 
+PI = Power Item
+P  = Pokérus 
+AP = Assistant Pokémon
+
+if the Pokémon has Pokérus
+P = 2
+else
+P = 1
+
+if the target is an Assistant Pokémon
+AP = 2
+else
+AP = 1 
+
+if the Power Item is held by the Pokémon
+PI = 8
+else
+PI = 0
+
+Total EVs Earned when target faints = (EV+PI)*P*AP
+
+
+##############################  EFFORT VALUES EARNED   ###################################################################
+
+
+Effort Values Earned		Pokémon						Location 	
+
+1 HP				Caterpie
+1 Attack Point			Lillipup
+1 Defense Point			Geodude			Ula'ula Island - Route 12 - In the dry grass before entering Secluded Shore
+1 Sp. Attack Point
+1 Sp. Defense Point		Tentacool		Akala Island   - Route 8  - In the bay before entering Route 5
+1 Speed Point 
+
+
+################################   BATTLE ROYAL!   ########################################################################
+
 
 Normal Rank
 
@@ -26,13 +78,14 @@ Hyper Rank
 
 Master Rank
 
-	1° = 
+	1° = 5 BP
 	2° = 3 BP
-	3° = 
+	3° = 2 BP
 	4° = 1 BP
 
 
-################################   DITTO'S TEAM   ########################################
+################################   DITTO'S TEAM   #########################################################################
+
 
 Pokémon: Munchlax 
 
@@ -60,7 +113,8 @@ Pokémon: X3
 Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
 
 
-#################################### TEAM ################################################
+#################################### TEAM #################################################################################
+
 
 Pokémon: Oranguru (Normal-Psychic)
 
@@ -80,17 +134,18 @@ Pokémon: Oranguru (Normal-Psychic)
 
 	Moves:
 
+	+ Protect    (Status - Normal)          * TM17
 	+ Instruct   (Status - Psychic)         * Lv. 32
 	+ Psychic    (Special Attack - Psychic) * Lv. 43 
 	+ Trick Room (Status - Psychic)         * Lv. 50
-	+ Sleep Talk (Status - Normal)          * TM88
+
 
 	Held Item:
 
 	+ Odd Incense
 
 	Individual Values:
-
+     
 	+ HP:              31
 	+ Attack:          31
 	+ Defense:         31
@@ -131,7 +186,8 @@ Pokémon: Oranguru (Normal-Psychic)
 	x2.0  Bug
 	      Dark
 
-#################################################################################
+########################################################################################################################
+
 
 Pokémon: Dewpider (Water-Bug)
 
@@ -205,4 +261,5 @@ Pokémon: Dewpider (Water-Bug)
 	      Flying
 	      Rock
 
-#################################################################################
+
+##########################################################################################################################
