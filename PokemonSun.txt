@@ -134,10 +134,10 @@ Pokémon: Oranguru (Normal-Psychic)
 
 	Moves:
 
-	+ Protect    (Status - Normal)          * TM17
-	+ Instruct   (Status - Psychic)         * Lv. 32
-	+ Psychic    (Special Attack - Psychic) * Lv. 43 
-	+ Trick Room (Status - Psychic)         * Lv. 50
+	+ Instruct     (Psychic - Status)          * Lv. 32
+	+ Psychic      (Psychic - Special Attack)  * Lv. 43 
+	+ Future Sight (Psychic - Special Attack)  * Lv. 46
+	+ Trick Room   (Psychic - Status)          * Lv. 50
 
 
 	Held Item:
@@ -207,10 +207,10 @@ Pokémon: Dewpider (Water-Bug)
 
 	Moves:
 
-	+ Water Sport (Water-Status)    *  -  
-	+ Aqua Ring   (Water-Status)    * Lv. 24                      
-	+ Leech Life  (Bug-Attak)       * Lv. 29                   
-	+ Waterfall   (Water-Attack)    * TM98 
+	+ Water Sport (Water - Status)    *  -                     
+	+ Leech Life  (Bug   - Attack)    * Lv. 29  
+	+ Lunge       (Bug   - Attack)    * Lv. 37                   
+	+ Liquidation (Water - Attack)    * Lv. 45 
 
 	Z Moves:
 
