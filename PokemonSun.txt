@@ -405,12 +405,14 @@ Pokémon: Muk *Alola* (Poison-Dark)
 
 	Moves:
 
-	+                     
-	+ 
-	+ Minimize  (Normal - Status)  * Lv. 21               
-	+ 
+	+ Gunk Shot                
+	+ Knock Off
+	+ Minimize     (Normal - Status)  * Lv. 21               
+	+ Substitue
 
+	Held Item:
 
+	+ Black Sludge
 
 
 	Individual Values:
