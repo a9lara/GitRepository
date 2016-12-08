@@ -2,6 +2,32 @@
 Pokémon Sun & Moon
 
 
+Rowlet (Rash) Male 
+Lv.13
+Destiny Knot
+
+HP 		31
+Attack 		31
+Defense 	31
+Sp. Attack 	31
+Sp. Defense 	31
+Speed 		Decent
+
+
+Rowlet (Brave) Female 
+Lv. 1
+Everstone
+
+
+HP 		Decent
+Attack 		31
+Defense 	31
+Sp. Attack 	31
+Sp. Defense 	Pretty Good
+Speed 		31
+
+
+
 ##############################   POWER ITEMS    #########################################################################
 
 
@@ -263,3 +289,118 @@ Pokémon: Dewpider (Water-Bug)
 
 
 ##########################################################################################################################
+
+
+Pokémon: Decidueye (Grass-Ghost)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	78	107	75	100	100	 70
+
+	Nature: Brave
+
+	Attack    ↑   (Spicy)
+	Speed     ↓   (Sweet)	
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              0
+	+ Attack:          252
+	+ Defense:         0
+	+ Special Attack:  126
+	+ Special Defense: 132
+	+ Speed:           0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################################################################
+
+######################################     FOR COMPETITION     ###########################################################
+
+
+Pokémon: Mudsdale (Ground)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	100	125	100	55	85	 35
+
+	Nature: Brave
+
+	Attack    ↑   (Spicy)
+	Speed     ↓   (Sweet)	
+
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              132
+	+ Attack:          252
+	+ Defense:         126
+	+ Special Attack:  0
+	+ Special Defense: 0
+	+ Speed:           0
+
+##########################################################################################################################
+
+Pokémon: Tentacruel (Water-Poison)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	80	70	65	80	120	100
+
+	Nature: Gentle
+
+	Special Defense    ↑   (Bitter)
+	Defense  	   ↓   (Sour)	
+
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              
+	+ Attack:          0
+	+ Defense:         0
+	+ Special Attack:  126
+	+ Special Defense: 252
+	+ Speed:           132
+
