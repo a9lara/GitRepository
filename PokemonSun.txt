@@ -44,7 +44,15 @@ Alola Pokédex - Pokémon Best Nature
 # 290		Cosmoem		Calm
 # 291		Solgaleo	Brave
 # 292		Lunala		Mild
-
+# 293		Nihilego	Gentle
+# 294		Buzzwole	Naughty	
+# 295		Pheromosa	Hasty
+# 296		Xurkitree	Mild
+# 267		Celesteela	Quiet
+# 298		Kartana		Naughty
+# 299		Guzzlord	Brave
+# 300		Necrozma	Quiet
+# 301		Magearna	Quiet
 
 
 
