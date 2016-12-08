@@ -1,8 +1,16 @@
 
-Pokémon Sun & Moon
+					
+				###################################
+
+					Pokémon Sun & Moon
+
+				###################################
 
 
-Alola Pokédex - Pokémon Best Nature
+
+#############################   Alola Pokédex - Pokémon Best Nature    ####################################
+
+
 
 # 001 	   	Rowlet	 	Brave
 # 002  		Dartrix 	Brave
@@ -56,34 +64,6 @@ Alola Pokédex - Pokémon Best Nature
 # 299		Guzzlord	Brave
 # 300		Necrozma	Quiet
 # 301		Magearna	Quiet
-
-
-
-###########################################################
-
-Rowlet (Rash) Male 
-Lv.13
-Destiny Knot
-
-HP 		31
-Attack 		31
-Defense 	31
-Sp. Attack 	31
-Sp. Defense 	31
-Speed 		Decent
-
-
-Rowlet (Brave) Female 
-Lv. 1
-Everstone
-
-
-HP 		Decent
-Attack 		31
-Defense 	31
-Sp. Attack 	31
-Sp. Defense 	Pretty Good
-Speed 		31
 
 
 
@@ -362,6 +342,25 @@ Pokémon: Decidueye (Grass-Ghost)
 	Attack    ↑   (Spicy)
 	Speed     ↓   (Sweet)	
 
+	Characteristic: Likes to thrash about
+
+	Ability: Overgrow
+
+	Moves:
+
+	+ Razor Leaf 	  (Grass - Attack) 	* Lv. 15
+	+ Spirit Shackle  (Ghost - Attack) 	* Lv. 34                  
+	+ Shadow Claw	  (Ghost - Attack)   	* TM  65               
+	+ Leaf Blade 	  (Grass - Attack) 	* Lv. 44
+
+	Z Moves:
+
+	+ Sinister Arrow Raid
+
+	Held Item:
+
+	+ Decidium Z
+
 	Individual Values:
 
 	+ HP:              31
@@ -373,10 +372,10 @@ Pokémon: Decidueye (Grass-Ghost)
 
 	Effort Values:
 
-	+ HP:              0
+	+ HP:              126
 	+ Attack:          252
 	+ Defense:         0
-	+ Special Attack:  126
+	+ Special Attack:  0
 	+ Special Defense: 132
 	+ Speed:           0
 
