@@ -10,6 +10,9 @@ Alola Pokédex - Pokémon Best Nature
 # 004		Litten		Hasty
 # 005		Torracat	Hasty
 # 006		Incineroar	Brave
+# 007		Popplio		Quiet
+# 008		Brionne		Quiet
+# 009		Primarina	Quiet
 # 024		Pichu		Hasty
 # 025		Pikachu		Hasty	
 # 050		Grimer		Brave
