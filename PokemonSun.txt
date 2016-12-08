@@ -156,7 +156,7 @@ Pokémon: Oranguru (Normal-Psychic)
 
 	Characteristic: Alert to Sounds
 
-	Ability: Inner Focus
+	Ability: Telepathy
 
 	Moves:
 
@@ -323,9 +323,55 @@ Pokémon: Decidueye (Grass-Ghost)
 
 
 
+##########################################################################################################################
+
+##########################################################################################################################
+
+######################################     FOR BATTLE ROYAL     ###########################################################
+
+Pokémon: Muk *Alola* (Poison-Dark)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	105	105	75	65	100	50
+
+	Nature: Brave
+
+	Attack    ↑   (Spicy)
+	Speed     ↓   (Sweet)	
+
+	Characteristic: 
+
+	Ability: Poison Touch
+
+	Moves:
+
+	+                     
+	+ 
+	+ Minimize  (Normal - Status)  * Lv. 21               
+	+ 
 
 
 
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              252
+	+ Attack:          132
+	+ Defense:         0
+	+ Special Attack:  0
+	+ Special Defense: 126
+	+ Speed:           0
 
 
 
