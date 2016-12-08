@@ -352,6 +352,19 @@ Pokémon: Mudsdale (Ground)
 	Attack    ↑   (Spicy)
 	Speed     ↓   (Sweet)	
 
+	Characteristic: 
+
+	Ability: Stamina
+
+	Moves:
+
+	+                     
+	+ 
+	+ Earthquake  (Ground - Attack)  * Lv. 47               
+	+ 
+
+
+
 
 	Individual Values:
 
