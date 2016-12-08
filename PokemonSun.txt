@@ -2,6 +2,54 @@
 Pokémon Sun & Moon
 
 
+Alola Pokédex - Pokémon Best Nature
+
+# 001 	   	Rowlet	 	Brave
+# 002  		Dartrix 	Brave
+# 003		Decidueye	Brave
+# 004		Litten		Hasty
+# 005		Torracat	Hasty
+# 006		Incineroar	Brave
+# 024		Pichu		Hasty
+# 025		Pikachu		Hasty	
+# 050		Grimer		Brave
+# 051		Muk		Brave
+# 106		Tentacool	Gentle
+# 107		Tentacruel	Gentle
+# 132		Mudbray		Adamant
+# 133		Mudsdale	Brave
+# 141		Dewpider	Sassy
+# 142		Araquanid	Sassy
+# 163		Cubone		Relaxed
+# 164		Marowak		Relaxed
+# 176		Oranguru	Calm
+# 177		Passimian	Adamant
+# 186		Sandygast	Relaxed
+# 187		Palossand	Relaxed
+# 213		Minior		Hasty
+# 220		Pancham		Brave
+# 221		Pangoro		Brave
+# 241		Klefki		Relaxed
+# 242		Mimikyu		Careful
+# 244		Drampa		Quiet
+# 245		Absol		Lonely
+# 263		Dhelmise	Brave
+# 279		Riolu		Lonely
+# 280		Lucario		Naughty
+# 285		Tapu Koko	Naive
+# 286		Tapu Lele	Mild
+# 287		Tapu Bulu	Brave
+# 288		Tapu Fini	Calm
+# 289		Cosmog		Timid
+# 290		Cosmoem		Calm
+# 291		Solgaleo	Brave
+# 292		Lunala		Mild
+
+
+
+
+###########################################################
+
 Rowlet (Rash) Male 
 Lv.13
 Destiny Knot
