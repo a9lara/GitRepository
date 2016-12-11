@@ -466,9 +466,89 @@ Pokémon: Decidueye (Grass-Ghost)
 	+ Special Defense: 132
 	+ Speed:           0
 
-
+	
 
 ##########################################################################################################################
+
+Pokémon: Dhelmise (Ghost-Grass)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	70	131	100	86	90	 40
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	145	201	137	106	126	54
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	281	397	269	208	247	104
+
+	Nature: Brave
+
+	Attack    ↑   (Spicy)
+	Speed     ↓   (Sweet)	
+
+	Characteristic: Capable of taking hits
+
+	Ability: Steelworker
+
+	Moves:
+
+	+ Anchor Shot     (Steel - Attack) 	* Lv. 32                  
+	+ Heavy Slam	  (Steel - Attack)   	* Lv. 50               
+	+ Phantom Force   (Ghost - Attack) 	* Lv. 54
+	+ Power Whip	  (Grass - Attack) 	* Lv. 59
+
+	Held Item:
+
+	+ ?
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              0
+	+ Attack:          252
+	+ Defense:         132
+	+ Special Attack:  0
+	+ Special Defense: 126
+	+ Speed:           0
+
+	Daño Recibido:
+
+	x0.0  Normal
+	      Fight
+
+	x0.5  Water
+	      Electric
+	      Grass
+	      Ground
+
+	x1.0  Poison
+	      Psychic	
+	      Bug
+	      Rock
+	      Dragon
+	      Steel
+	      Fairy
+
+	x2.0  Fire
+	      Ice
+	      Flying
+	      Ghost
+	      Dark
+            
 
 ##########################################################################################################################
 
@@ -519,13 +599,6 @@ Pokémon: Muk *Alola* (Poison-Dark)
 	+ Special Attack:  0
 	+ Special Defense: 126
 	+ Speed:           0
-
-
-
-
-
-
-
 
 
 ##########################################################################################################################
