@@ -8,6 +8,60 @@
 
 
 
+#############################  POKÉMON NURSERY LADY  ############################################
+
+Pokémon:	Mudbray 
+
+Lv.:		1
+Gender:		Female
+Nature: 	Brave
+Ability: 	Stamina
+Held Item: 	Everstone
+
+HP: 		31
+Attack:		Pretty good
+Defense: 	31
+Sp. Atk: 	31
+Sp. Def: 	31
+Spped: 		31
+
+
+++++++++++++++++++++++++++++++++++
+
+Pokémon:	Mudbray
+
+Lv.:		1
+Gender: 	Male
+Nature: 	Brave 
+Ability: 	Own Tempo
+Held Item: 	Destiny Knot
+
+HP: 		31
+Attack:		31
+Defense: 	31
+Sp. Atk: 	31
+Sp. Def: 	31
+Spped: 		Pretty good
+
+
+=================================
+
+
+Pokémon:	Mudbray
+
+Gender: 	Male
+Nature: 	Brave 
+Ability: 	Stamina
+Held Item: 	-
+
+HP: 		31
+Attack:		31
+Defense: 	31
+Sp. Atk: 	31
+Sp. Def: 	31
+Spped: 		31
+
+
 #############################   Alola Pokédex - Pokémon Best Nature    ####################################
 
 
@@ -37,6 +91,7 @@
 # 177		Passimian	Adamant
 # 186		Sandygast	Relaxed
 # 187		Palossand	Relaxed
+# 205		Zygarde		Relaxed
 # 213		Minior		Hasty
 # 220		Pancham		Brave
 # 221		Pangoro		Brave
@@ -75,7 +130,7 @@ Power Bracer -  Attack
 Power Belt   -  Defense
 Power Lens   -
 Power Band   -  Special Deffense  
-Power Ankle  -
+Power Ankle  -  Speed
 
 
 ##############################    S.O.S CHAIN    #########################################################################
@@ -181,77 +236,6 @@ Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
 #################################### TEAM #################################################################################
 
 
-Pokémon: Oranguru (Normal-Psychic)
-
-	Base Stats:
-
-	HP	A	D	S.A.	S.D	Speed
-	90	60	80	90	110	 60
-
-	Nature: Calm
-
-	Sp. Def.  ↑   (Bitter)
-	Attack    ↓   (Spicy)	
-
-	Characteristic: Alert to Sounds
-
-	Ability: Telepathy
-
-	Moves:
-
-	+ Instruct     (Psychic - Status)          * Lv. 32
-	+ Psychic      (Psychic - Special Attack)  * Lv. 43 
-	+ Future Sight (Psychic - Special Attack)  * Lv. 46
-	+ Trick Room   (Psychic - Status)          * Lv. 50
-
-
-	Held Item:
-
-	+ Odd Incense
-
-	Individual Values:
-     
-	+ HP:              31
-	+ Attack:          31
-	+ Defense:         31
-	+ Special Attack:  31
-	+ Special Defense: 31
-	+ Speed:           31
-
-	Effort Values:
-
-	+ HP:              252
-	+ Attack:          0
-	+ Defense:         132
-	+ Special Attack:  0
-	+ Special Defense: 126
-	+ Speed:           0
-
-	Daño Recibido:
-
-	x0.0  Ghost
-
-	x0.5  Psychic
-
-	x1.0  Normal
-	      Fire	
-	      Water
-	      Electric
-	      Grass
-	      Ice
-	      Fight
-	      Poison	
-	      Ground
-	      Flying
-	      Rock
-	      Dragon
-	      Steel	
-	      Fairy
-
-	x2.0  Bug
-	      Dark
-
-########################################################################################################################
 
 
 Pokémon: Dewpider (Water-Bug)
@@ -260,6 +244,16 @@ Pokémon: Dewpider (Water-Bug)
 
 	HP	A	D	S.A.	S.D	Speed
 	38	40	52	40	72	 27
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	113	76	89	60	136	 42
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	217	147	173	116	267	 81
 
 	Nature: Sassy
 
@@ -327,6 +321,89 @@ Pokémon: Dewpider (Water-Bug)
 	      Rock
 
 
+########################################################################################################################
+
+Pokémon: Oranguru (Normal-Psychic)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	90	60	80	90	110	 60
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	197	58	117	110	160	 81
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	384	112	229	216	315	 156
+
+	Nature: Calm
+
+	Sp. Def.  ↑   (Bitter)
+	Attack    ↓   (Spicy)	
+
+	Characteristic: Alert to Sounds
+
+	Ability: Telepathy
+
+	Moves:
+
+	+ Instruct     (Psychic - Status)          * Lv. 32
+	+ Psychic      (Psychic - Special Attack)  * Lv. 43 
+	+ Future Sight (Psychic - Special Attack)  * Lv. 46
+	+ Trick Room   (Psychic - Status)          * Lv. 50
+
+
+	Held Item:
+
+	+ Odd Incense
+
+	Individual Values:
+     
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              252
+	+ Attack:          0
+	+ Defense:         132
+	+ Special Attack:  0
+	+ Special Defense: 126
+	+ Speed:           0
+
+	Daño Recibido:
+
+	x0.0  Ghost
+
+	x0.5  Psychic
+
+	x1.0  Normal
+	      Fire	
+	      Water
+	      Electric
+	      Grass
+	      Ice
+	      Fight
+	      Poison	
+	      Ground
+	      Flying
+	      Rock
+	      Dragon
+	      Steel	
+	      Fairy
+
+	x2.0  Bug
+	      Dark
+
+
 ##########################################################################################################################
 
 
@@ -336,6 +413,16 @@ Pokémon: Decidueye (Grass-Ghost)
 
 	HP	A	D	S.A.	S.D	Speed
 	78	107	75	100	100	 70
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	169	174	95	120	137	 81
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	328	344	186	236	269	 158
 
 	Nature: Brave
 
