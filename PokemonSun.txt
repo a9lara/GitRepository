@@ -232,10 +232,16 @@ Pokémon: X3
 
 Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
 
-####################################     BUENOS STATS AL NIVEL 100      ##################################################
+####################################     BUENOS STATS      ##################################################
 
 
-				HP	A	D	S.A.	S.D	Speed
+BASE				HP	A	D	S.A.	S.D	Speed
+(680)				137	137	107	113	89	97
+
+
+
+
+AL NIVEL 100 			HP	A	D	S.A.	S.D	Speed
 				451	370	275	273	228	 217
 
 
