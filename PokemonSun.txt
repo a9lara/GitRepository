@@ -128,7 +128,7 @@ Spped: 		31
 Power Weight -  HP
 Power Bracer -  Attack
 Power Belt   -  Defense
-Power Lens   -
+Power Lens   -	Special Attack
 Power Band   -  Special Deffense  
 Power Ankle  -  Speed
 
@@ -165,9 +165,9 @@ Total EVs Earned when target faints = (EV+PI)*P*AP
 Effort Values Earned		Pokémon						Location 	
 
 1 HP				Caterpie
-1 Attack Point			Lillipup
+1 Attack Point			Lillipup		Akala Island   - Route 6
 1 Defense Point			Geodude			Ula'ula Island - Route 12 - In the dry grass before entering Secluded Shore
-1 Sp. Attack Point
+1 Sp. Attack Point		Psyduck			Akala Island   - Booklet Hill
 1 Sp. Defense Point		Tentacool		Akala Island   - Route 8  - In the bay before entering Route 5
 1 Speed Point 
 
@@ -515,9 +515,13 @@ Pokémon: Dhelmise (Ghost-Grass)
 	+ Phantom Force   (Ghost - Attack) 	* Lv. 54
 	+ Power Whip	  (Grass - Attack) 	* Lv. 59
 
+	Z Moves:	
+	
+	+ Corkscrew Crash
+
 	Held Item:
 
-	+ ?
+	+ Steelium Z
 
 	Individual Values:
 
@@ -562,7 +566,171 @@ Pokémon: Dhelmise (Ghost-Grass)
 	      Dark
             
 
+
 ##########################################################################################################################
+
+
+
+
+Pokémon: Drampa (Normal-Dragon)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	78	60	85	135	91	36
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	153	80	121	205	127	50
+	
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	297	156	238	405	250	97
+
+	Nature: Quiet
+
+	Special Attack    ↑   (Dry)
+	Speed   	  ↓   (Sweet)	
+
+	Characteristic: Alert to sounds
+
+	Ability: Berserk
+
+	Moves:
+
+	+ Dragon Rage     (Dragon - Special Attack) 	* Lv. 21                 
+	+ Dragon Breath	  (Dragon - Special Attack)   	* Lv. 29               
+	+ Dragon Pulse    (Dragon - Special Attack) 	* Lv. 41
+	+ Hyper Voice	  (Normal - Special Attack) 	* Lv. 49 
+
+	Z Moves:	
+	
+	+ ?
+
+	Held Item:
+
+	+ Dragonium Z
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              0
+	+ Attack:          0
+	+ Defense:         130
+	+ Special Attack:  252
+	+ Special Defense: 128
+	+ Speed:           0
+
+	Daño Recibido:
+
+	x0.0  Ghost
+
+	x0.5  Fire
+	      Water
+	      Electric
+	      Grass
+
+	x1.0  Normal
+	      Poison
+	      Ground
+	      Flying
+	      Psychic	
+	      Bug
+	      Rock
+	      Dark
+	      Steel
+
+	x2.0  Ice
+	      Fight
+	      Dragon
+	      Fairy
+
+
+
+
+
+
+##########################################################################################################################
+
+
+
+
+
+Pokémon: Marowak  (Fire-Ghost)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	60	80	110	50	80	45
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	
+
+	Nature: Relaxed
+
+	Attack    ↑   (Spicy)
+	Speed  	  ↓   (Sweet)	
+
+	Characteristic:
+
+	Ability: Berserk
+
+	Moves:
+
+	+
+	+
+	+ Flare Blitz	  (Fire - Attack) 	* Lv.  43
+	+
+
+	Z Moves:	
+	
+	+ ?
+
+	Held Item:
+
+	+ ?
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              ?
+	+ Attack:          ?
+	+ Defense:         ?
+	+ Special Attack:  ?
+	+ Special Defense: ?
+	+ Speed:           ?
+
+
+
+
+##########################################################################################################################
+
 
 ######################################     FOR BATTLE ROYAL     ###########################################################
 
