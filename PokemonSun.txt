@@ -689,16 +689,16 @@ Pokémon: Marowak  (Fire-Ghost)
 	Attack    ↑   (Spicy)
 	Speed  	  ↓   (Sweet)	
 
-	Characteristic:
+	Characteristic: Alert to sounds
 
 	Ability: Berserk
 
 	Moves:
 
-	+
-	+
-	+ Flare Blitz	  (Fire - Attack) 	* Lv.  43
-	+
+	+ Flame Wheel	  (Fire     -   Attack)         * Lv.  11
+	+ Shadow Bone	  (Ghost    -   Attack) 	* Lv.  27
+	+ Flare Blitz	  (Fire     -   Attack) 	* Lv.  53
+	+ Bone Rush	  (Ground   -   Attack) 	* Lv.  65
 
 	Z Moves:	
 	
@@ -719,12 +719,12 @@ Pokémon: Marowak  (Fire-Ghost)
 
 	Effort Values:
 
-	+ HP:              ?
-	+ Attack:          ?
-	+ Defense:         ?
-	+ Special Attack:  ?
-	+ Special Defense: ?
-	+ Speed:           ?
+	+ HP:              0
+	+ Attack:          130
+	+ Defense:         252
+	+ Special Attack:  0
+	+ Special Defense: 128
+	+ Speed:           0
 
 
 
