@@ -6,7 +6,22 @@
 
 				###################################
 
+#############################  BP EARNED & SPENT ############################################
 
+1 Destiny Knot 	    =     48  BP
+
+1 Power Bracer	    =     16  BP
+1 Power Belt  	    =     16  BP
+1 Power Lens   	    =     16  BP
+1 Power Band  	    =     16  BP
+1 Power Anklet 	    =     16  BP
+1 Power Weight 	    =     16  BP
+
+2 Ability Capsule   =     200 BP
+
+Battle Points 	    =     7   BP
+
+Total               =     351 BP
 
 #############################  POKÉMON NURSERY LADY  ############################################
 
@@ -28,7 +43,7 @@ Spped: 		31
 
 ++++++++++++++++++++++++++++++++++
 
-Pokémon:	Mudbray
+Pokémon:	Mudbray     
 
 Lv.:		1
 Gender: 	Male
@@ -79,6 +94,7 @@ Spped: 		31
 # 025		Pikachu		Hasty	
 # 050		Grimer		Brave
 # 051		Muk		Brave
+# 065		Alakazam	Mild
 # 106		Tentacool	Gentle
 # 107		Tentacruel	Gentle
 # 132		Mudbray		Adamant
@@ -91,6 +107,7 @@ Spped: 		31
 # 177		Passimian	Adamant
 # 186		Sandygast	Relaxed
 # 187		Palossand	Relaxed
+# 196		Espeon		Mild
 # 205		Zygarde		Relaxed
 # 213		Minior		Hasty
 # 220		Pancham		Brave
@@ -164,12 +181,12 @@ Total EVs Earned when target faints = (EV+PI)*P*AP
 
 Effort Values Earned		Pokémon						Location 	
 
-1 HP				Caterpie
-1 Attack Point			Lillipup		Akala Island   - Route 6
-1 Defense Point			Geodude			Ula'ula Island - Route 12 - In the dry grass before entering Secluded Shore
-1 Sp. Attack Point		Psyduck			Akala Island   - Booklet Hill
-1 Sp. Defense Point		Tentacool		Akala Island   - Route 8  - In the bay before entering Route 5
-1 Speed Point 
+1 HP				Caterpie		Melemele Island - Route 1
+1 Attack Point			Lillipup		Akala Island    - Route 6
+1 Defense Point			Geodude			Ula'ula Island  - Route 12 - In the dry grass before entering Secluded Shore
+1 Sp. Attack Point		Psyduck			Akala Island    - Booklet Hill
+1 Sp. Defense Point		Tentacool		Akala Island    - Route 8  - In the bay before entering Route 5
+1 Speed Point 			Rattata			Melemele Island - Route 1
 
 
 ################################   BATTLE ROYAL!   ########################################################################
@@ -667,7 +684,7 @@ Pokémon: Drampa (Normal-Dragon)
 
 
 
-Pokémon: Marowak  (Fire-Ghost)
+Pokémon: Marowak *Alola* (Fire-Ghost)
 
 	Base Stats:
 
@@ -691,7 +708,7 @@ Pokémon: Marowak  (Fire-Ghost)
 
 	Characteristic: Alert to sounds
 
-	Ability: Berserk
+	Ability: Rock Head
 
 	Moves:
 
@@ -725,6 +742,71 @@ Pokémon: Marowak  (Fire-Ghost)
 	+ Special Attack:  0
 	+ Special Defense: 128
 	+ Speed:           0
+
+##########################################################################################################################
+
+
+
+
+
+Pokémon: Espeon (Psychic)
+
+	Base Stats:
+
+	HP	A	D	S.A.	S.D	Speed
+	65	65	60	130	95	110
+
+	At level 50:
+
+	HP	A	D	S.A.	S.D	Speed
+	
+
+	At level 100:
+
+	HP	A	D	S.A.	S.D	Speed
+	
+
+	Nature: Mild
+
+	Sp.Atk  	↑ 	(Dry)
+	Defense 	↓   	(Sour)	
+
+	Characteristic: 
+
+	Ability: 
+
+	Moves:
+
+	+       * Lv.  
+	+ 	* Lv.  
+	+ 	* Lv.  
+	+ 	* Lv.  
+
+	Z Moves:	
+	
+	+ ?
+
+	Held Item:
+
+	+ ?
+
+	Individual Values:
+
+	+ HP:              31
+	+ Attack:          31
+	+ Defense:         31
+	+ Special Attack:  31
+	+ Special Defense: 31
+	+ Speed:           31
+
+	Effort Values:
+
+	+ HP:              0
+	+ Attack:          0
+	+ Defense:         0
+	+ Special Attack:  168
+	+ Special Defense: 90
+	+ Speed:           252
 
 
 
