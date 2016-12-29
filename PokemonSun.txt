@@ -249,7 +249,22 @@ Pokémon: X3
 
 Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
 
-####################################     BUENOS STATS      ##################################################
+################################   POLITOAD'S TEAM   #########################################################################
+
+
+Pokémon: Sneasel 
+
+	Moves:
+ 
+	+ Rain Dance 	(TM18)
+	+ False Swipe 	(TM54)
+	+ Thief 	(TM46) 
+	+ Rest		(tm44)
+
+
+Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
+
+####################################     GOOD STATS      ##################################################
 
 
 BASE				HP	A	D	S.A.	S.D	Speed
