@@ -29,14 +29,18 @@ Total               =     376 BP
 
 #############################  POKÉMON QUE QUIERO CRIAR   ########################################
 
-Pokémon:	Abra
-Naturaleza:	Mild
-Abilidad:	Mega Guard
+Pokémon:	Cubone
+Naturaleza:	Relaxed
+Abilidad:	Rock Head
 
 
 Pokémon:	Abra
 Naturaleza:	Mild
 Abilidad:	Mega Guard
+
+Pokémon:	Mudbray
+Naturaleza:	Brave
+Abilidad:	Stamina
 
 #############################  POKÉMON NURSERY LADY  ############################################
 
