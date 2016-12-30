@@ -19,44 +19,57 @@
 
 2 Ability Capsule   =     200 BP
 
-Battle Points 	    =     7   BP
+1 Up-Grade	    =	  32  BP
 
-Total               =     351 BP
+Battle Points 	    =     0   BP
+
+Total               =     376 BP
+
+#############################  ACOMPAÑANTE POKÉMON   ############################################
+
+#############################  POKÉMON QUE QUIERO CRIAR   ########################################
+
+Pokémon:	Abra
+Naturaleza:	Mild
+Abilidad:	Mega Guard
+
+
+Pokémon:	Abra
+Naturaleza:	Mild
+Abilidad:	Mega Guard
 
 #############################  POKÉMON NURSERY LADY  ############################################
 
-Pokémon:	Mudbray 
+Pokémon:	Ditto
 
-Lv.:		1
-Gender:		Female
-Nature: 	Brave
-Ability: 	Stamina
-Held Item: 	Everstone
-
-HP: 		31
-Attack:		Pretty good
-Defense: 	31
-Sp. Atk: 	31
-Sp. Def: 	31
-Spped: 		31
+Lv.:		28
+Gender:		-
+Nature: 	Adamant
+Ability: 	Imposter
+Held Item: 	Destiny Knot
+IV HP: 		31
+IV Attack:	31
+IV Defense: 	31
+IV Sp. Atk: 	31
+IV Sp. Def: 	31
+IV Spped: 	31
 
 
 ++++++++++++++++++++++++++++++++++
 
-Pokémon:	Mudbray     
+Pokémon:	Abra    
 
 Lv.:		1
-Gender: 	Male
-Nature: 	Brave 
-Ability: 	Own Tempo
-Held Item: 	Destiny Knot
-
-HP: 		31
-Attack:		31
-Defense: 	31
-Sp. Atk: 	31
-Sp. Def: 	31
-Spped: 		Pretty good
+Gender: 	Female
+Nature: 	Mild 
+Ability: 	Inner Focus
+Held Item: 	Everstone
+IV HP: 		31
+IV Attack:	Decent
+IV Defense: 	31
+IV Sp. Atk: 	Decent
+IV Sp. Def: 	31
+IV Spped: 	31
 
 
 =================================
@@ -191,7 +204,7 @@ Effort Values Earned		Pokémon						Location
 
 ################################   BATTLE ROYAL!   ########################################################################
 
-
+  
 Normal Rank
 
 	1°
@@ -259,7 +272,7 @@ Pokémon: Sneasel
 	+ Rain Dance 	(TM18)
 	+ False Swipe 	(TM54)
 	+ Thief 	(TM46) 
-	+ Rest		(tm44)
+	+ Rest		(TM44)
 
 
 Bag: Adrenaline Orbs, Pokéballs, Leppa Berrys
