@@ -32,6 +32,47 @@ M Evolving Wilds x4
 
 //////////////////////////////////////////////////
 
+Planeswalkers
+
+x1 Oath of Nissa
+x1 Oath of Chandra
+x2 Declaration in Stone
+x2 Rolling Thunder
+x2 Lifespring Druid
+x2 Thriving Rhino
+x2 Jori En , Ruin Diver
+x3 Guardians of Leletis
+x1 Oath of Gideon
+x1 Oath of Jave
+x2 Claustrophobia
+x2 Call of the Gatewatch
+x2 Sheer Drop
+x1 Nissa, Voice of Zendikar
+x2 Suppression Bonds
+x2 Explosive Vegetation
+x1 Gideon, Ally of Zendikar
+x1 Tamiyo, Field Researcher
+x1 Kiora, Master of the Dephts
+x1 Arlinn Kord
+x1 Jave, Unraveler of Secrets
+x1 Ob Nixilis Rignited
+x1  Linvala, the Preserver
+x1 Chandra, Flamecaller
+x1 Sorin, Grim Nemesis
+x4 Plain
+x2 Island
+x3 Swamp
+x3 Mountain
+x3 FOrest
+x1 Cinder Glade
+x2 Drowned Caracomb
+x2 Rootbound Crag
+x2 Isolated Chapel
+x2 Sulfur Falls
+x2 Sunpetal Grove
+
+//////////////////////////////////////////////////
+
 Infect
 
 3 Ichorclaw Myr 
