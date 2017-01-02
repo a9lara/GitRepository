@@ -29,6 +29,41 @@ M Cinder Glade x2
 M Rootbound Crag x2
 M Evolving Wilds x4
 
+///////////////////////////////////////////////////
+
+
+Vampiros Luis Armando
+
+x3 Indulgent Aristocrat
+x2 Sinister Concotion
+x2 Asylum Visitor [2]
+x2 Heir of Falkenrath
+x1 Olivia Bloodsworn
+x1 Ravenous Bloodseeker
+x1 Grasp of Darkness
+x2 macabre waltz [1]
+x4 Murderous Compulsion [3]
+x2 Avacyn's Judgement [2]
+x1 Liliana's Elite [1]
+x4 Bloodmad Vampire [1]
+x1 Olivia Mobilized For War [1]
+x2 Stensia Masquerade [1]
+x3 Stromkirk Mentor [3]
+x2 Bloodhall Priest [2]
+x1 Labguish
+x1 Twins of Maurer Estate [1]
+x1 Incorrigible Youths
+x1 Ob Nixilis Reignited 
+x6 Swamp
+x6 Mountain
+x2 Dragonskull Summit
+x1 Drownyard Temple
+x2 Evolving Wilds
+x4 Cinder Barrens 
+x1 Geier Reach Sanitarium [1]
+x1 Mortuary Mire
+
+
 
 //////////////////////////////////////////////////
 
