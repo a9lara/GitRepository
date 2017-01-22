@@ -977,3 +977,9 @@ Pokémon: Tentacruel (Water-Poison)
 	+ Special Defense: 252
 	+ Speed:           132
 
+
+################################# NUEVO TEAM 1 ##########################################################################
+
+
+Marrowack
+
