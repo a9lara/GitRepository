@@ -982,4 +982,5 @@ Pokémon: Tentacruel (Water-Poison)
 
 
 Marrowak
+tENTA
 
