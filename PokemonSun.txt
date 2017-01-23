@@ -1036,5 +1036,48 @@ Brave Nature
 - Mega Kick  
 - Superpower  
 
+#######################################################  TEAM 2  #################################
+
+Alakazam (M) @ Life Orb  
+Ability: Magic Guard  
+EVs: 130 SpA / 128 SpD / 252 Spe  
+Mild Nature  
+IVs: 0 Atk  
+- Psychic  
+- Shadow Ball  
+- Energy Ball  
+- Protect  
+
+Tentacruel (M) @ Black Sludge  
+Ability: Rain Dish  
+EVs: 126 SpA / 252 SpD / 132 Spe  
+Gentle Nature  
+IVs: 0 Atk  
+- Hex  
+- Sludge Wave  
+- Hydro Pump  
+- Wring Out  
+
+Muk-Alola (M) @ Figy Berry  
+Ability: Gluttony  
+EVs: 252 HP / 132 Atk / 126 SpD  
+Brave Nature  
+- Gunk Shot  
+- Minimize  
+- Substitute  
+- Knock Off  
+
+Talonflame  
+Ability: Flame Body  
+Level: 50  
+
+Pikachu  
+Ability: Static  
+Level: 50  
+
+Palossand (M)  
+Ability: Water Compaction  
+Shiny: Yes  
+
 
 
