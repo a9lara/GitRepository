@@ -21,9 +21,11 @@
 
 1 Up-Grade	    =	  32  BP
 
+1 Assault Vest      =     48  BP
+
 Battle Points 	    =     0   BP
 
-Total               =     376 BP
+Total               =     424 BP
 
 #############################  ACOMPAÑANTE POKÉMON   ############################################
 
