@@ -981,8 +981,60 @@ Pokémon: Tentacruel (Water-Poison)
 ################################# NUEVO TEAM 1 ##########################################################################
 
 
-Marrowak
-tENTA
-askjdf
-asfd
+Dewpider (M) @ Eviolite  
+Ability: Water Bubble  
+EVs: 126 Atk / 132 Def / 252 SpD  
+Sassy Nature  
+- Liquidation  
+- Lunge  
+- Aqua Ring  
+- Entrainment  
+
+Oranguru (M) @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 132 Def / 126 SpD  
+Calm Nature  
+IVs: 0 Atk / 0 Spe  
+- Trick Room  
+- Instruct  
+- Thunderbolt  
+- Protect  
+
+Dhelmise @ Steelium Z  
+Ability: Steelworker  
+EVs: 252 Atk / 132 Def / 126 SpD  
+Brave Nature  
+- Heavy Slam  
+- Phantom Force  
+- Power Whip  
+- Shadow Claw  
+
+Drampa (M) @ Life Orb  
+Ability: Berserk  
+EVs: 130 Def / 252 SpA / 128 SpD  
+Quiet Nature  
+- Dragon Pulse  
+- Hyper Voice  
+- Thunder Wave  
+- Protect  
+
+Marowak-Alola (M) @ Thick Club  
+Ability: Rock Head  
+EVs: 130 Atk / 252 Def / 128 SpD  
+Relaxed Nature  
+- Flare Blitz  
+- Shadow Ball  
+- Bonemerang  
+- Protect  
+
+Mudsdale @ Assault Vest  
+Ability: Stamina  
+EVs: 132 HP / 252 Atk / 126 Def  
+Brave Nature  
+- Heavy Slam  
+- Earthquake  
+- Mega Kick  
+- Superpower  
+
+
 
