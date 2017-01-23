@@ -23,9 +23,9 @@
 
 1 Assault Vest      =     48  BP
 
-Battle Points 	    =     0   BP
+Battle Points 	    =     1   BP
 
-Total               =     424 BP
+Total               =     425 BP
 
 #############################  ACOMPAÑANTE POKÉMON   ############################################
 
