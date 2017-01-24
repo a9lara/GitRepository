@@ -1081,5 +1081,63 @@ Palossand (M)
 Ability: Water Compaction  
 Shiny: Yes  
 
+########################################################3 TEAM 3 ######################################################
+
+Alakazam (M) @ Life Orb  
+Ability: Magic Guard  
+EVs: 130 SpA / 128 SpD / 252 Spe  
+Mild Nature  
+IVs: 0 Atk  
+- Psychic  
+- Shadow Ball  
+- Energy Ball  
+- Protect  
+
+Tentacruel (M) @ Black Sludge  
+Ability: Rain Dish  
+EVs: 126 SpA / 252 SpD / 132 Spe  
+Gentle Nature  
+IVs: 0 Atk  
+- Hex  
+- Sludge Wave  
+- Hydro Pump  
+- Wring Out  
+
+Muk-Alola (M) @ Figy Berry  
+Ability: Gluttony  
+EVs: 252 HP / 132 Atk / 126 SpD  
+Brave Nature  
+- Gunk Shot  
+- Minimize  
+- Substitute  
+- Knock Off  
+
+Espeon (M) @ Mind Plate  
+Ability: Synchronize  
+EVs: 168 SpA / 90 SpD / 252 Spe  
+Mild Nature  
+- Psychic  
+- Bite  
+- Swift  
+- Last Resort  
+
+Decidueye (M) @ Decidium Z  
+Ability: Overgrow  
+EVs: 126 HP / 252 Atk / 132 SpD  
+Brave Nature  
+- Spirit Shackle  
+- Leaf Blade  
+- Toxic  
+- Protect  
+
+Marowak-Alola (M) @ Thick Club  
+Ability: Cursed Body  
+EVs: 130 Atk / 252 Def / 128 SpD  
+Relaxed Nature  
+- Flare Blitz  
+- Shadow Ball  
+- Bonemerang  
+- Protect  
+
 
 
