@@ -1146,19 +1146,15 @@ Relaxed Nature
 
 Mi equipo va a ser:
 
-Ninetales
-
+Pokémon: Ninetales
 Nature: Timid
 6iv
 EVS: 
 252 Speed
 252 Sp. Def 
 6 Def
-
 Abilidad: Snow Warning
-
 Moves:
-
 Blizzard
 Psyshock
 Hiperbeam
