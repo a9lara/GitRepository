@@ -1148,7 +1148,10 @@ Mi equipo va a ser:
 
 Pokémon: Ninetales
 Nature: Timid
+Genero: Hembra
+Item: ?
 6iv
+Lv. 100
 EVS: 
 252 Speed
 252 Sp. Def 
@@ -1159,6 +1162,40 @@ Blizzard
 Psyshock
 Hiperbeam
 Protect
+
+Pokémon: Torkoal
+Nature: Relaxed
+6IVs
+Item: ?
+Lv. 100
+Genero: Macho
+EVs: 
+Attack 129
+Def. 252
+Sp. Att 129 
+Abilidad: Shell Armor
+Moves:
+Inferno
+Rock Slive
+Sludge Bomb
+Solar Beam
+
+Pokémon: Tapu Fini
+Nature: Calm
+6IVs
+Item: ?
+Lv. 100
+Genero: Mujer
+EVs: 
+Def 252
+Sp. Def. 129
+Sp. Att 129 
+Abilidad: Telepathy
+Moves:
+Hydro Pump
+Dazzling Gleam
+?
+?
 
 
 ########################################
