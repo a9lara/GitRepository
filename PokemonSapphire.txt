@@ -1,59 +1,58 @@
 
-* Tropius [Grass/Flying] # Item: {} - Ability: {} - Nature: {}
+#############   TEAM 1 {GAME PLAY}  #########################
 
-Cut 		[Grass] 	(HM  01)
-Solarbeam 	[Grass] 	(Lv. 41)
-Rock Smash 	[Fight] 	(HM  06)
-Fly 		[Flying] 	(HM  02)
 
-*Alakazam [Psychic] # Item: {} - Ability: {} - Nature: {}
+* Tropius [Grass/Flying] # Item: {} - Ability: {} - Nature: {} - Gender {}
 
-Psychic 	[Psychic] 	(Lv. 36)
-Flash 		[Normal] 	(HM  05)
-Hyper Beam	[Normal]	(TM  15)
-Toxic 		[Poison] 	(TM  06)
+Cut 		[Normal] 	(HM  01)	 50	
+Solarbeam 	[Grass] 	(Lv. 41)	120
+Rock Smash 	[Fight] 	(HM  06)	 20
+Fly 		[Flying] 	(HM  02)	 70
+
+*Alakazam [Psychic] # Item: {} - Ability: {} - Nature: {} - Gender {}
+
+Psychic 	[Psychic] 	(Lv. 36)	 90
+Flash 		[Normal] 	(HM  05)	 --
+Hyper Beam	[Normal]	(TM  15)	150
+Toxic 		[Poison] 	(TM  06)	 --
  
 
-* Blaziken [Fire/Fight] # Item: {} - Ability: {} - Nature: {}
+* Blaziken [Fire/Fight] # Item: {} - Ability: {} - Nature: {} - Gender {}
 
-Strength 	[Normal] 	(HM  04)
-Overheat 	[Fire]		(TM  50)
-Earthquake 	[Ground] 	(TM  26)
-Dig 		[Ground] 	(TM  28)
-
-
-*Tentacuel [Water/Posion] # Item: {} - Ability: {} - Nature: {}
-
-Surf		[Water] 	(HM  03)
-Waterfall 	[Water] 	(HM  07)
-Dive 		[Water]		(HM  08)
-Acid 		[Poison] 	(Lv. 11)
+Strength 	[Normal] 	(HM  04)	 80
+Overheat 	[Fire]		(TM  50)	140
+Earthquake 	[Ground] 	(TM  26)	100
+Dig 		[Ground] 	(TM  28)	 60
 
 
-* Manectric [Electric] # Item: {} - Ability: {} - Nature: {}
+*Tentacuel [Water/Posion] # Item: {} - Ability: {} - Nature: {} - Gender {}
 
-Bite 		[Dark] 		(Lv. 39)
-Iron Tail 	[Steel] 	(TM  23)
-Thunder 	[Electric] 	(Lv. 45)
-Secret Power 	[Normal] 	(TM  43)
+Surf		[Water] 	(HM  03)	 95
+Waterfall 	[Water] 	(HM  07)	 80
+Dive 		[Water]		(HM  08)	 60
+Acid 		[Poison] 	(Lv. 19)	 40
 
 
-* Flygon [Ground/Dragon] # Item: {} - Ability: {} - Nature: {}
+* Manectric [Electric] # Item: {} - Ability: {} - Nature: {} - Gender {}
 
-Dragon Claw 	[Dragon] 	(TM  02)
-Fire Blast 	[Fire] 		(TM  38)
-Double Team 	[Normal] 	(TM  32)
-Sandstorm 	[Rock] 		(Lv. 53)
+Bite 		[Dark] 		(Lv. 39)	 60
+Iron Tail 	[Steel] 	(TM  23)	100
+Thunder 	[Electric] 	(Lv. 45)	120
+Secret Power 	[Normal] 	(TM  43)	 70
+
+
+* Flygon [Ground/Dragon] # Item: {} - Ability: {} - Nature: {} - Gender {}
+
+Dragon Claw 	[Dragon] 	(TM  02)	 80	
+Fire Blast 	[Fire] 		(TM  38)	120	
+Double Team 	[Normal] 	(TM  32)	 --
+Sandstorm 	[Rock] 		(Lv. 53)	 --
 
 
 #######################################################################################################################
 
 
-
-
-
-
-2nd Team {Legendary Team}
+TEAM 2 {Legendary Team}
 
 * Kyrogue [Water] # Item: {}
 
