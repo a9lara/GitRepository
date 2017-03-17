@@ -5,47 +5,47 @@
 
 * Alakazam [Psychic] 
 
-Psychic 	[Psychic] 	(Lv. 36)	 90
-Flash 		[Normal] 	(HM  05)	 --
-Hyper Beam	[Normal]	(TM  15)	150
-Toxic 		[Poison] 	(TM  06)	 --
+Psychic 	[Psychic] 	(Lv. 36)	 90	Leveling Up
+Flash 		[Normal] 	(HM  05)	 --	Route 2
+Hyper Beam	[Normal]	(TM  15)	150	Celadon City - Game Corner Exchange
+Toxic 		[Poison] 	(TM  06)	 --	Fuchsia City — Pokémon Gym
  
 
 * Charizard [Fire/Flying] 
 
-Cut 		[Normal] 	(HM  01)	 50	
-Fire Blast 	[Fire] 		(TM  38)	120
-Slash		[Normal]	(Lv. 36)	 70
-Earthquake 	[Ground] 	(TM  26)	100
+Cut 		[Normal] 	(HM  01)	 50	S.S. Anne	
+Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym
+Slash		[Normal]	(Lv. 36)	 70	Leveling Up
+Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.
 
 
-* Tentacuel [Water/Posion] 
+* Tentacruel [Water/Posion] 
 
-Surf		[Water] 	(HM  03)	 95
-Acid 		[Poison] 	(Lv. 00)	 40
-Blizzard	[Ice]		(TM  14)	120
-Substitute	[Normal]	(TM  50)	 --
+Surf		[Water] 	(HM  03)	 95	Fuchsia City - Safari Zone
+Acid 		[Poison] 	(Lv. 00)	 40	Leveling Up
+Blizzard	[Ice]		(TM  14)	120	Cinnabar Island's Pokemon Mansion
+Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
 
 
 * Arbok [Poison] 
 
-Strength 	[Normal] 	(HM  04)	 80
-Dig 		[Ground] 	(TM  28)	100
-Rock Slide	[Rock]		(TM  48)	 75
-Mega Drain	[Grass]		(TM  21)	 45
+Strength 	[Normal] 	(HM  04)	 80	Fuchsia City
+Dig 		[Ground] 	(TM  28)	100	Cerulean City
+Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda
+Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym
 
 
 * Pidgeot [Normal/Flying] 
 
-Fly 		[Flying] 	(HM  02)	 70
-Quick Attack	[Normal]	(Lv. 00)	 40
-Sky Attack	[Flying] 	(HM  02)	140
-Sand-Attack	[Normal]	(Lv. 00)	 --
+Fly 		[Flying] 	(HM  02)	 70	Route 16
+Quick Attack	[Normal]	(Lv. 00)	 40	Leveling Up
+Sky Attack	[Flying] 	(TM  43)	140	Victory Road
+Sand-Attack	[Normal]	(Lv. 00)	 --	Leveling Up
 
 
 * Rhydon [Ground/Rock]
 
-Submission 	[Fight] 	(TM  17)	 80
-Thunder 	[Electric] 	(TM  25)	120
-Double-Edge	[Normal] 	(TM  10)	100
-Mega Kick	[Normal]	(TM  05)	120
+Submission 	[Fight] 	(TM  17)	 80	Victory Road, Celadon Dept. Store
+Thunder 	[Electric] 	(TM  25)	120	Power Plant
+Double-Edge	[Normal] 	(TM  10)	100	Rocket Hideout
+Mega Kick	[Normal]	(TM  05)	120	Victory Road, Celadon Dept. Store
