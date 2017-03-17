@@ -1,15 +1,12 @@
 
-
-
-
-* Tropius [Grass/Flying] # Item: {}
+* Tropius [Grass/Flying] # Item: {} - Ability: {} - Nature: {}
 
 Cut 		[Grass] 	(HM  01)
 Solarbeam 	[Grass] 	(Lv. 41)
 Rock Smash 	[Fight] 	(HM  06)
 Fly 		[Flying] 	(HM  02)
 
-*Alakazam [Psychic] # Item: {}
+*Alakazam [Psychic] # Item: {} - Ability: {} - Nature: {}
 
 Psychic 	[Psychic] 	(Lv. 36)
 Flash 		[Normal] 	(HM  05)
@@ -17,7 +14,7 @@ Hyper Beam	[Normal]	(TM  15)
 Toxic 		[Poison] 	(TM  06)
  
 
-* Blaziken [Fire/Fight] # Item: {}
+* Blaziken [Fire/Fight] # Item: {} - Ability: {} - Nature: {}
 
 Strength 	[Normal] 	(HM  04)
 Overheat 	[Fire]		(TM  50)
@@ -25,7 +22,7 @@ Earthquake 	[Ground] 	(TM  26)
 Dig 		[Ground] 	(TM  28)
 
 
-*Tentacuel [Water/Posion] # Item: {}
+*Tentacuel [Water/Posion] # Item: {} - Ability: {} - Nature: {}
 
 Surf		[Water] 	(HM  03)
 Waterfall 	[Water] 	(HM  07)
@@ -33,7 +30,7 @@ Dive 		[Water]		(HM  08)
 Acid 		[Poison] 	(Lv. 11)
 
 
-* Manectric [Electric] # Item: {}
+* Manectric [Electric] # Item: {} - Ability: {} - Nature: {}
 
 Bite 		[Dark] 		(Lv. 39)
 Iron Tail 	[Steel] 	(TM  23)
@@ -41,7 +38,7 @@ Thunder 	[Electric] 	(Lv. 45)
 Secret Power 	[Normal] 	(TM  43)
 
 
-* Flygon [Ground/Dragon] # Item: {}
+* Flygon [Ground/Dragon] # Item: {} - Ability: {} - Nature: {}
 
 Dragon Claw 	[Dragon] 	(TM  02)
 Fire Blast 	[Fire] 		(TM  38)
