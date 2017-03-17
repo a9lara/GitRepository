@@ -1,0 +1,71 @@
+
+
+
+
+* Tropius [Grass/Flying] # Item: {}
+
+Cut 		[Grass] 	(HM  01)
+Solarbeam 	[Grass] 	(Lv. 41)
+Rock Smash 	[Fight] 	(HM  06)
+Fly 		[Flying] 	(HM  02)
+
+*Alakazam [Psychic] # Item: {}
+
+Psychic 	[Psychic] 	(Lv. 36)
+Flash 		[Normal] 	(HM  05)
+Hyper Beam	[Normal]	(TM  15)
+Toxic 		[Poison] 	(TM  06)
+ 
+
+* Blaziken [Fire/Fight] # Item: {}
+
+Strength 	[Normal] 	(HM  04)
+Overheat 	[Fire]		(TM  50)
+Earthquake 	[Ground] 	(TM  26)
+Dig 		[Ground] 	(TM  28)
+
+
+*Tentacuel [Water/Posion] # Item: {}
+
+Surf		[Water] 	(HM  03)
+Waterfall 	[Water] 	(HM  07)
+Dive 		[Water]		(HM  08)
+Acid 		[Poison] 	(Lv. 11)
+
+
+* Manectric [Electric] # Item: {}
+
+Bite 		[Dark] 		(Lv. 39)
+Iron Tail 	[Steel] 	(TM  23)
+Thunder 	[Electric] 	(Lv. 45)
+Secret Power 	[Normal] 	(TM  43)
+
+
+* Flygon [Ground/Dragon] # Item: {}
+
+Dragon Claw 	[Dragon] 	(TM  02)
+Fire Blast 	[Fire] 		(TM  38)
+Double Team 	[Normal] 	(TM  32)
+Sandstorm 	[Rock] 		(Lv. 53)
+
+
+#######################################################################################################################
+
+
+
+
+
+
+2nd Team {Legendary Team}
+
+* Kyrogue [Water] # Item: {}
+
+Ancientpower 	[Rock] 		(Lv. 15)
+Ice Beam	[Ice] 		(Lv. 35)
+Double-edge 	[Normal]	(Lv. 65)
+Water Spout 	[Water] 	(Lv. 75)
+
+
+
+
+
