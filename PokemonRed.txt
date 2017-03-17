@@ -38,7 +38,7 @@ Sky Attack	[Flying] 	(HM  02)	140
 Sand-Attack	[Normal]	(Lv. 00)	 --
 
 
-* Rydon [Ground/Rock]
+* Rhydon [Ground/Rock]
 
 Submission 	[Fight] 	(TM  17)	 80
 Thunder 	[Electric] 	(TM  25)	120
