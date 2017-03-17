@@ -1,9 +1,4 @@
-
-
-
-
-
-*Alakazam [Psychic] # Item: {} 
+*Alakazam [Psychic] 
 
 Psychic 	[Psychic] 	(Lv. 36)
 Flash 		[Normal] 	(HM  05)
@@ -11,26 +6,26 @@ Hyper Beam	[Normal]	(TM  15)
 Toxic 		[Poison] 	(TM  06)
  
 
-* Charizard [Flying/Fire] # Item: {} 
+* Charizard [Flying/Fire] 
 
 Cut 		[Grass] 	(HM  01)
 
 
-*Tentacuel [Water/Posion] # Item: {} 
+*Tentacuel [Water/Posion] 
 
 Surf		[Water] 	(HM  03)
 Acid 		[Poison] 	(Lv.  -)
 
 
-* Arboc [Poison] # Item: {} 
+* Arboc [Poison] 
 
 Strength 	[Normal] 	(HM  04)
 Dig 		[Ground] 	(TM  28)
 
 
-*Pidgeot [Normal/Flying] # Item: {} 
+*Pidgeot [Normal/Flying] 
 
 Fly 		[Flying] 	(HM  02)
 
 
-* ?
+* ??????
