@@ -68,12 +68,18 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 #########################    	    TMs        		  ##########################################
 
 4	TM04
+8	TM08
 11	TM11 
 12	TM12
+28	TM28		[Arbok]
 34	TM34
+44	TM44
+45	TM45
 
 #########################    	    HMs        		  ##########################################
 
+
+1	HM01		[Charizard]	
 
 #########################    	    BADGE       	   ##########################################
 
@@ -145,7 +151,7 @@ TRAINERS
 FOSSIL
 
 1	Dome Fossil	Listo
-2	Helix Fossil			(Trade)
+2	Helix Fossil			(Optional)
 
 
 ITEMS
@@ -195,7 +201,7 @@ TRAINERS
 
 1	
 
-###############################
+##############################################
 
 
 
@@ -206,7 +212,7 @@ TRAINERS
 
 
 
-######### Cerulean City ############
+######### Cerulean City ##########################
 
 
 
@@ -228,13 +234,10 @@ TRAINERS
 TEAM ROCKET
 
 
-1	Rocket		
+1	Rocket		Listo
 
 
-###############################
-
-
-
+##############################################
 
 
 
@@ -242,7 +245,10 @@ TEAM ROCKET
 
 
 
-######### Route 24 ############ 	
+
+
+
+######### Route 24 ########################### 	
 
 
 ITEMS
@@ -270,7 +276,7 @@ TEAM ROCKET
 1	Rocket		Listo
 
 
-###############################
+##############################################
 
 
 
@@ -281,7 +287,7 @@ TEAM ROCKET
 
 
 
-######### Route 25 ############ 
+######### ROUTE 25 ########################### 
 
 
 
@@ -289,7 +295,7 @@ ITEMS
 
 1	TM19	
 2	Elixir		Listo		(Hide)
-3	Ether				(Hide)	
+3	Ether		Listo		(Hide)	
 
 
 TRAINERS
@@ -298,7 +304,7 @@ TRAINERS
 1	Hiker		Listo
 2	Hiker		Listo
 3	Youngster	Listo
-4	Youngster	MEW
+4	Youngster			(MEW)
 5	Lass		Listo
 6	Hiker		Listo
 7	Jr. Trainer♂
@@ -306,7 +312,7 @@ TRAINERS
 9	Lass		Listo
 
 
-###############################
+##############################################
 
 
 
@@ -317,4 +323,178 @@ TRAINERS
 
 
 
-######### Route 5 ############ 
+######### UNDERGROUND PATH (ROUTE 5 - ROUTE 6) ############
+
+
+ITEMS
+
+	
+1	Full Restore				(Hide)
+2	X Special				(Hide)	
+
+
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
+######### ROUTE 6 ############ 
+
+
+TRAINERS
+
+
+1	Bug Catcher	Listo
+2	Jr. Trainer♂	Listo
+3	Jr. Trainer♀	Listo
+4	Bug Catcher	Listo
+5	Jr. Trainer♀	Listo
+6	Jr. Trainer♂	Listo
+
+
+##############################
+
+
+
+
+
+
+
+
+##########  S.S. Ane   ####################  
+
+
+[Atención: Después de recibir el HM01, al momento que sales del barco este se va y no regresa, por lo que es importante primero pelear contra todos los entrenadores y tomar todos los items.]
+
+
+
+### FLOOR 1
+
+TRAINERS
+
+
+2	Gentleman	Listo
+3	Gentleman	Listo	
+4	Lass		Listo
+1	Youngster	Listo
+
+ITEMS
+
+1	TM08		Listo
+
+
+
+
+
+
+
+
+### KITCHEN
+
+ITEMS
+
+1	Great Ball	Listo		(Hide)
+
+
+
+
+
+
+
+### FLOOR 2
+
+TRAINERS
+
+1	Fisherman	Listo
+2	Gentleman	Listo
+3	Gentleman	Listo
+4	Lass		Listo
+
+ITEMS
+
+1	Max Ether	Listo
+2	Rare Candy	Listo
+
+
+
+
+
+
+
+
+
+### BASEMENT 1
+
+TRAINERS
+
+1	Sailor		Listo
+2	Sailor		Listo
+3	Sailor		Listo
+4	Sailor		Listo
+5	Fisherman	Listo
+6	Sailor		Listo
+
+ITEMS
+
+1	Max Potion	Listo		
+2	Ether		Listo
+3	TM44		Listo		
+4	Hyper Potion	Listo		(Hide)
+
+
+
+
+### UPPER DECK 
+
+
+TRAINERS
+
+1	Sailor		Listo
+2	Sailor		Listo
+
+
+
+
+
+
+
+
+### MASTERCABIN
+
+ITEMS
+
+1	HM01		Listo		(Trade)
+
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+######### VERMILION CITY ##########################
+
+
+
+
+
+
+
+
+
+
+
+
+
