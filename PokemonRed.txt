@@ -2,15 +2,6 @@
 #############   TEAM 1 {GAME PLAY}  #########################
 
 
-
-* Alakazam [Psychic] 
-
-Psychic 	[Psychic] 	(Lv. 36)	 90	Leveling Up
-Flash 		[Normal] 	(HM  05)	 --	Route 2
-Hyper Beam	[Normal]	(TM  15)	150	Celadon City - Game Corner Exchange
-Toxic 		[Poison] 	(TM  06)	 --	Fuchsia City — Pokémon Gym
- 
-
 * Charizard [Fire/Flying] 
 
 Cut 		[Normal] 	(HM  01)	 50	S.S. Anne	
@@ -18,21 +9,6 @@ Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym
 Slash		[Normal]	(Lv. 36)	 70	Leveling Up
 Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.
 
-
-* Tentacruel [Water/Posion] 
-
-Surf		[Water] 	(HM  03)	 95	Fuchsia City - Safari Zone
-Acid 		[Poison] 	(Lv. 00)	 40	Leveling Up
-Blizzard	[Ice]		(TM  14)	120	Cinnabar Island's Pokemon Mansion
-Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
-
-
-* Arbok [Poison] 
-
-Strength 	[Normal] 	(HM  04)	 80	Fuchsia City
-Dig 		[Ground] 	(TM  28)	100	Cerulean City
-Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda
-Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym
 
 
 * Pidgeot [Normal/Flying] 
@@ -43,9 +19,302 @@ Sky Attack	[Flying] 	(TM  43)	140	Victory Road
 Sand-Attack	[Normal]	(Lv. 00)	 --	Leveling Up
 
 
+
+* Alakazam [Psychic] 
+
+Psychic 	[Psychic] 	(Lv. 36)	 90	Leveling Up
+Flash 		[Normal] 	(HM  05)	 --	Route 2
+Hyper Beam	[Normal]	(TM  15)	150	Celadon City - Game Corner Exchange
+Toxic 		[Poison] 	(TM  06)	 --	Fuchsia City — Pokémon Gym
+
+
+* Tentacruel [Water/Posion] 
+
+Surf		[Water] 	(HM  03)	 95	Fuchsia City - Safari Zone
+Acid 		[Poison] 	(Lv. 00)	 40	Leveling Up
+Blizzard	[Ice]		(TM  14)	120	Cinnabar Island's Pokemon Mansion
+Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
+
+
+
+* Arbok [Poison] 
+
+Strength 	[Normal] 	(HM  04)	 80	Fuchsia City
+Dig 		[Ground] 	(TM  28)	100	Cerulean City
+Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda
+Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym
+
+
+
+
 * Rhydon [Ground/Rock]
 
 Submission 	[Fight] 	(TM  17)	 80	Victory Road, Celadon Dept. Store
 Thunder 	[Electric] 	(TM  25)	120	Power Plant
 Double-Edge	[Normal] 	(TM  10)	100	Rocket Hideout
 Mega Kick	[Normal]	(TM  05)	120	Victory Road, Celadon Dept. Store
+
+
+
+
+########################################################################################################
+
+http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mt._Moon
+
+Hiden Items (http://www.smogon.com/oi/rby_items)
+
+Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
+
+#########################    	    TMs        		  ##########################################
+
+4	TM04
+11	TM11 
+12	TM12
+34	TM34
+
+#########################    	    HMs        		  ##########################################
+
+
+#########################    	    BADGE       	   ##########################################
+
+
+1
+2	Cascade Badge
+
+
+#########################    	   Key Items    	   ##########################################
+
+
+
+
+#########################             STONES             ##########################################
+
+1	MOON STONE x2
+
+#########################             FOSSILS            ##########################################
+
+1	Dome Fossil
+
+
+########################################################################################################
+
+Route 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### Mt. Moon  ############
+
+##### Floor 1
+
+ITEMS:
+
+A	TM 12		Listo
+B	Potion		Listo
+C	Potion
+D	Rare Candy
+E	Escape Rope
+F	Moon Stone	Listo
+
+
+TRAINERS
+
+1	Bug Catcher	Listo
+2	Lass	
+3	Super Nerd
+4	Bug Catcher	
+5	Lass		Listo
+6	Youngster	Listo
+7	Hiker		Listo
+
+###### Basement 1
+
+	Vacio
+
+##### Basement 2
+
+FOSSIL
+
+1	Dome Fossil	Listo
+2	Helix Fossil			(Trade)
+
+
+ITEMS
+
+A	TM 01
+B	Ether				(Hide)
+C	HP Up
+D	Moon Stone	Listo		(Hide)
+
+
+TEAM ROCKET
+
+1 	Rocket
+2 	Rocket
+3	Rocket		Listo
+4	Rocket		Listo
+
+TRAINERS
+
+
+1	Super Nerd	Listo
+
+###############################
+
+
+
+
+
+
+
+
+######### Route 4  ############
+
+
+
+
+
+ITEMS
+
+1	Great Ball			(Hide)
+2	TM 04		Listo
+
+
+
+TRAINERS
+
+
+1	
+
+###############################
+
+
+
+
+
+
+
+
+
+
+######### Cerulean City ############
+
+
+
+ITEMS
+
+1	Rare Candy	Listo		(Hide)
+2	TM11 		Listo		(GYM)
+
+
+
+TRAINERS
+
+
+1	Swimmer		Listo		(GYM)	
+2	Jr. Trainer	Listo		(GYM)
+3	Misty		Listo		(GYM)
+
+
+TEAM ROCKET
+
+
+1	Rocket		
+
+
+###############################
+
+
+
+
+
+
+
+
+
+
+######### Route 24 ############ 	
+
+
+ITEMS
+
+1	TM45		Listo
+2	Nugget		Listo		(Trade)
+
+
+
+TRAINERS
+
+
+1	Bug Catcher	Listo
+2	Lass		Listo
+3	Youngster	Listo
+4	Lass		Listo
+5	Jr. Trainer♂	Listo
+6	Jr. Trainer♂	Listo
+
+
+
+TEAM ROCKET
+
+
+1	Rocket		Listo
+
+
+###############################
+
+
+
+
+
+
+
+
+
+
+######### Route 25 ############ 
+
+
+
+ITEMS
+
+1	TM19	
+2	Elixir		Listo		(Hide)
+3	Ether				(Hide)	
+
+
+TRAINERS
+
+
+1	Hiker		Listo
+2	Hiker		Listo
+3	Youngster	Listo
+4	Youngster	MEW
+5	Lass		Listo
+6	Hiker		Listo
+7	Jr. Trainer♂
+8	Youngster
+9	Lass		Listo
+
+
+###############################
+
+
+
+
+
+
+
+
+
+
+######### Route 5 ############ 
