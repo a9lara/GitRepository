@@ -289,7 +289,7 @@ TEAM ROCKET
 
 ######### ROUTE 25 ########################### 
 
-
+[Atención: No pelear al entrenador Youngster que tiene marcado (MEW). Será necesario después para poder activar el glitch con el cuál se consigue a Mew.]
 
 ITEMS
 
@@ -484,14 +484,28 @@ ITEMS
 
 
 
-######### VERMILION CITY ##########################
+######### VERMILION CITY ##########################  
+
+
+TRAINERS
+
+1	Rocker				(GYM)
+2	Sailor				(GYM)
+3	Gentleman			(GYM)
+4	Lt. Surge			(GYM)
+
+
+ITMES
+
+1	Bike Voucher	Listo		(Trade)
+2	Old Rod		Listo		(Trade)
+3	TM24				(GYM)
 
 
 
+BADGES
 
-
-
-
+1	Thunder				(GYM)
 
 
 
