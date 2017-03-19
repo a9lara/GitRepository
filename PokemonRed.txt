@@ -80,7 +80,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 7	TM07
 8	TM08
 9	TM09
-10			[Rhydon]
+10	TM10		[Rhydon]
 11	TM11 
 12	TM12
 13	TM13
@@ -1131,7 +1131,169 @@ TEAM ROCKET
 1	ROCKET		Listo
 
 
-# BASEMENT  (Rocket Hideout) 
+
+
+
+
+
+
+
+##BASEMENT  (Rocket Hideout) 
+
+
+#BASEMENT 1 - SECTION 1
+
+ITEMS
+
+1	Escape Rope	Listo		
+2	PP UP		Listo		(Hide)
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+
+
+
+#BASEMENT 1 - SECTION 2
+
+ITEMS
+
+1	Potion		Listo		
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+
+
+#BASEMENT 1 - SECTION 3
+
+
+TEAM ROCKET
+
+
+1	Rocket		Listo
+
+
+
+
+
+
+
+#BASEMENT 2 
+
+
+
+ITEMS
+
+1	Nugget		Listo		
+2	TM07		Listo		
+1	Moon Stone	Listo		
+2	Super Potion	Listo		
+
+
+TEAM ROCKET
+
+1	Rocket		Listo
+
+
+
+
+
+
+
+
+
+#BASEMENT 3
+
+ITEMS
+
+1	TM10		Listo		
+2	Rare Candy	Listo
+3	Nugget		Listo		(Hide)
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+
+
+
+
+#BASEMENT 4 - SECTION 1
+
+ITEMS
+
+1	TM02		Listo		
+2	Lift Key	Listo
+3	HP UP		Listo		
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+
+
+#BASEMENT 4 - SECTION 2
+
+ITEMS
+
+1	Iron		Listo		
+
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+
+
+
+
+
+
+##BASEMENT 4 - SECTION 3
+
+
+ 
+ITEMS
+
+1	Sliph Scope	Listo		
+2	Super Potion 	Listo		(Hide)
+
+
+TEAM ROCKET
+
+1	Giovanni	Listo
+
+
+
+
 
 
 
