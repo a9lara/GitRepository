@@ -71,8 +71,10 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 8	TM08
 11	TM11 
 12	TM12
+24	TM24
 28	TM28		[Arbok]
 34	TM34
+42	TM42
 44	TM44
 45	TM45
 
@@ -104,10 +106,110 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 
 ########################################################################################################
 
-Route 3
 
 
 
+
+
+
+
+
+
+
+
+######## Veridian CITY ################
+
+
+
+ITEMS
+
+1	 TM42		Listo		(Trade) 
+
+
+##############################################
+
+
+
+
+
+
+
+
+########### Veridian Forest  #####################
+
+
+
+TRAINERS
+
+1	Bug Catcher	Listo
+2	Bug Catcher	Listo
+3	Bug Catcher	Listo
+
+
+
+ITEMS
+
+1	Poké Ball	Listo
+2	Potion		Listo		
+3	Antidote	Listo		(Hide)
+4	Potion		Listo		(Hide)
+
+
+
+
+
+
+
+##############################################
+
+
+
+
+
+
+
+
+
+############### Pewter City  #######################
+
+
+ITEMS
+
+1	TM 34		Listo		(GYM)
+2	Old Amber	Listo		(Trade)
+
+TRAINERS
+
+1	Jr. Trainer ♂	Listo		(GYM)
+2	Brock		Listo		(GYM)
+
+#################################################
+
+
+
+
+
+
+
+
+
+######################  ROUTE 3  ###################
+
+
+TRAINERS
+
+
+1	Lass		Listo
+2	Bug Catcher	Listo
+3	Youngter	Listo
+4	Bug Catcher	Listo
+5	Lass		Listo
+6	Youngster	Listo
+7	Bug Catcher	Listo
+8	Lass		Listo
+
+
+#################################################
 
 
 
@@ -120,33 +222,72 @@ Route 3
 
 ######### Mt. Moon  ############
 
-##### Floor 1
+
+
+
+
+
+#### Floor 1
 
 ITEMS:
 
-A	TM 12		Listo
-B	Potion		Listo
-C	Potion
-D	Rare Candy
-E	Escape Rope
-F	Moon Stone	Listo
+1	TM 12		Listo
+2	Potion		Listo
+3	Potion		Listo
+4	Rare Candy	Listo
+5	Escape Rope	Listo
 
 
 TRAINERS
 
 1	Bug Catcher	Listo
-2	Lass	
-3	Super Nerd
-4	Bug Catcher	
+2	Lass		Listo	
+3	Super Nerd	Listo
+4	Bug Catcher	Listo
 5	Lass		Listo
 6	Youngster	Listo
 7	Hiker		Listo
 
-###### Basement 1
 
-	Vacio
 
-##### Basement 2
+
+### Basement 1 - Any Section
+
+	{ EMPTY }
+
+
+
+
+### Basement 2 - Section 1
+
+
+TEAM ROCKET
+
+1	ROCKET		Listo
+
+ITEM
+
+1	HP UP		Listo
+
+
+### Basement 2 - Section 2
+
+ITEMS
+
+1	TM 01		Listo
+2	Ether		Listo		(Hide)     
+
+
+TEAM ROCKET
+
+1	ROCKET		Listo
+
+
+
+
+
+### Basement 2 - Section 3
+     
 
 FOSSIL
 
@@ -156,18 +297,14 @@ FOSSIL
 
 ITEMS
 
-A	TM 01
-B	Ether				(Hide)
-C	HP Up
-D	Moon Stone	Listo		(Hide)
+
+1	Moon Stone	Listo		(Hide)
 
 
 TEAM ROCKET
 
-1 	Rocket
-2 	Rocket
-3	Rocket		Listo
-4	Rocket		Listo
+1	Rocket		Listo
+2	Rocket		Listo
 
 TRAINERS
 
@@ -183,7 +320,7 @@ TRAINERS
 
 
 
-######### Route 4  ############
+######### Route 4  ########################
 
 
 
@@ -191,7 +328,7 @@ TRAINERS
 
 ITEMS
 
-1	Great Ball			(Hide)
+1	Great Ball	Listo		(Hide)
 2	TM 04		Listo
 
 
@@ -212,6 +349,13 @@ TRAINERS
 
 
 
+
+
+
+
+
+
+
 ######### Cerulean City ##########################
 
 
@@ -219,7 +363,8 @@ TRAINERS
 ITEMS
 
 1	Rare Candy	Listo		(Hide)
-2	TM11 		Listo		(GYM)
+2	Bicycle		Listo		(Trade)
+3	TM11 		Listo		(GYM)
 
 
 
@@ -329,8 +474,8 @@ TRAINERS
 ITEMS
 
 	
-1	Full Restore				(Hide)
-2	X Special				(Hide)	
+1	Full Restore		Listo		(Hide)
+2	X Special		Listo		(Hide)	
 
 
 #############################################################
@@ -489,26 +634,515 @@ ITEMS
 
 TRAINERS
 
-1	Rocker				(GYM)
-2	Sailor				(GYM)
-3	Gentleman			(GYM)
-4	Lt. Surge			(GYM)
+1	Rocker		Listo		(GYM)
+2	Sailor		Listo		(GYM)
+3	Gentleman	Listo		(GYM)
+4	Lt. Surge	Listo		(GYM)
 
 
 ITMES
 
 1	Bike Voucher	Listo		(Trade)
 2	Old Rod		Listo		(Trade)
-3	TM24				(GYM)
+3	TM24		Listo		(GYM)
+
+
+#######################################################
 
 
 
-BADGES
-
-1	Thunder				(GYM)
 
 
 
+
+
+
+
+
+
+
+######### ROUTE 11 ########################### 	
+
+
+
+TRAINERS
+
+
+1	Gambler		Listo
+2	Youngster	Listo
+3	Youngster	
+4	Youngster	
+5	Gambler
+6	Gambler
+7	Engineer
+8	Youngster
+9	Gambler
+10	Engineer
+
+
+
+ITEMS
+
+1	Escape Rope			(Hide)
+2	Itemfinder			(Trade)
+
+
+##############################################
+
+
+
+
+
+
+
+
+
+
+
+
+######### ROUTE 2 ########################### 	
+
+
+ITEMS
+
+1	HM05			(Trade)
+2	HP UP		Listo	
+3	Moon Stone	Listo
+
+
+
+
+#################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### Route 9  ########################
+
+
+TRAINERS
+
+
+1	Jr. Trainer♀	Listo
+2	Hiker
+3	Jr. Trainer♂
+4	Bug Catcher
+5	Bug Catcher	Listo
+6	Jr. Trainer♂
+7	Hiker
+8	Hiker
+9	Jr. Trainer♀
+
+
+
+ITEMS
+
+1	Ether				(Hide)
+2	TM30
+
+###########################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############       Route 10         ######################
+
+
+### BEFORE ROCK TUNNEL (PARTE NORTE)
+
+TRAINERS
+
+
+1	Jr. Trainer♀
+
+
+ITEMS
+
+1	Super Potion	Listo		(Hide)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############       ROCK TUNNEL        ######################
+
+
+
+###FLOOR  - SECTION 1
+
+TRAINERS
+
+1	Pokémaniac	Listo
+
+
+
+
+###BASEMENT  - SECTION 1
+
+TRAINERS
+
+1	Pokémaniac	Listo
+2	Jr. Trainer♀	Listo
+3	Pokémaniac	Listo
+4	Hiker
+5	Jr. Trainer♀
+
+
+
+
+
+
+###FLOOR  - SECTION 2
+
+TRAINERS
+
+1	Hiker
+2	Hiker
+3	Hiker
+
+
+
+
+
+
+
+
+
+###BASEMENT  - SECTION 2
+
+TRAINERS
+
+
+1	Jr. Trainer♀	
+2	Hiker		Listo
+3	Pokémaniac
+
+
+
+
+
+
+
+###FLOOR  - SECTION 3
+
+TRAINERS
+
+1	Jr. Trainer♀
+2	Jr. Trainer♀
+3	Jr. Trainer♀	Listo
+
+
+
+
+###################   END OF ROCK TUNNEL  #########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###AFTER ROCK TUNNEL (PARTE SUR)
+
+
+TRAINERS
+
+1	Jr. Trainer♀	Listo
+2	Hiker		Listo
+3	Hiker		Listo
+4	Pokémaniac	Listo
+
+
+ITMES
+
+1	Max Ether	Listo		(Hide)	
+
+
+###########################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################	Lavender Town 		#################################
+
+
+
+
+
+########################     Pokémon Tower	 ##############################################
+
+
+
+
+################ END OF POKÉMON TOWER  ####################################################
+
+
+
+
+############################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################	ROUTE 8 	#################################
+
+[Atención: No pelear contra Gambler 8]
+
+
+
+1	Lass
+2	Gambler		Listo
+3	Super Nerd
+4	Lass
+5	Super Nerd
+6	Lass
+7	Lass
+8	Gambler				(Mew)
+9	Super Nerd	Listo
+
+
+
+
+
+
+
+###################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### UNDERGROUND PATH (ROUTE 8 - ROUTE 7) ############
+
+
+ITEMS
+
+	
+1	Nugget			Listo		(Hide)
+2	Elixir			Listo		(Hide)	
+
+
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################     Celadon City     ######################
+
+
+
+
+
+
+
+ITEM
+
+1	PP Up		Flata		(Hide)
+2	TM41		Falta		(Trade)
+3	TM21		Flata		(GYM)
+
+TRAINERS
+
+1	Lass		Flata		(GYM)
+2	Beauty		Flata		(GYM)
+3	Beauty		Flata		(GYM)
+4	Jr. Trainer?	Flata		(GYM)
+5	Beauty		Flata		(GYM)
+6	Cooltrainer?	Flata		(GYM)
+7	Lass		Flata		(GYM)
+8	Erika		Flata		(GYM)
+
+
+
+
+###Game Corner 
+
+
+1	Coin Case 
+
+
+
+### Celadon Department Store
+
+#FLOOR 2
+
+
+ITMES
+
+
+1	TM01		Flata		(Buy)
+2	TM05		Flata		(Buy)
+3	TM07		Flata		(Buy)
+4	TM09		Flata		(Buy)
+5	TM17		Flata		(Buy)
+6	TM37		Flata		(Buy)
+
+
+
+#FLOOR 3
+
+1	TM18		Flata		(Trade)
+
+
+#FLOOR 4
+
+1	Poké Doll x2	FLATA		(Buy)
+
+
+# FLOOR 5
+
+
+1	TM13		Flata		(Trade)
+2	TM48		Flata		(Trade)		
+3	TM49		Flata		(Trade)
+4	Water x2	Flata		(Buy)	
+5	Soda x2		Flata		(Buy)	
+6	Lemonade x2	Flata		(Buy)	
+
+
+
+### Celadon Mansion
+
+ITEMS
+
+
+
+2	Pokédex Diploma Falta		(Trade)
+
+
+
+
+#######################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### ROUTE 12 ########################### 	
+
+
+ITEMS
+
+1	Hyper Potion				(Hide)
+2	HM 02			Listo		(Trade)
+
+
+#################################################
 
 
 
