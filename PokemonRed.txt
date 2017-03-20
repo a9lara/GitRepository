@@ -42,7 +42,7 @@ Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
 Strength 	[Normal] 	(HM  04)	 80	Fuchsia City
 Dig 		[Ground] 	(TM  28)	100	Cerulean City					*
 Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda	*
-Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym
+Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym			*
 
 
 
@@ -99,14 +99,14 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 26			[Charizard]
 27
 28	TM28		[Arbok]		*
-29
+29	TM29
 30
 31
 32	TM32
 33	TM33
 34	TM34
 35
-36
+36	TM36
 37	TM37
 38			[Charizard]
 39
@@ -1367,10 +1367,337 @@ ITEMS
 
 
 
+#######################	     Saffron City	##########################
+
+ITEMS
+
+1 	TM29 		Listo		(Trade)
+
+###Sliph Company (Saffron City)
 
 
 
-######### ROUTE 12 ########################### 	
+
+#Floor 1
+
+	{ Empty }
+
+
+
+
+
+#Floor 2 - Section 1
+
+TRAINERS
+
+1 	Scientist	Listo
+
+TEAM ROCKET
+
+1	ROCKET		Listo
+2	ROCKET		Listo
+
+
+
+
+
+#Floor 2 - Section 2
+
+
+ITEMS
+
+1	TM36		Listo
+
+
+
+
+
+#Floor 2 - Section 3
+
+
+TRAINERS
+
+1	Scientist	Listo
+
+
+
+
+
+#Floor 3 - Section 1
+
+TEAM ROCKET
+
+1	Rocket		Listo
+
+
+
+
+
+# Floor 3 - Section 2
+
+TRAINERS
+
+1 	Scientist	Listo
+
+ITEMS
+
+1 	Hyper Potion	Listo
+
+
+
+
+
+# Floor 4 -  Section 1
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+
+
+
+
+# Floor 4 - Section 2
+
+TRAINERS
+
+1 	Scientist	Listo
+
+
+
+
+
+# Floor 4 - Section 3
+
+ITEMS
+
+1	Full Heal	Listo
+2	Max Revive	Listo
+3	Escap Rope	Listo
+
+
+
+
+
+# Floor 5 - Section 1
+
+TRAINERS
+
+1 	Scientist	Listo
+2	Juggler		Listo
+
+TEAM ROCKET
+
+1	Rocket		Listo
+2	Rocket		Listo
+
+ITEMS
+
+1	Elixir		Listo		(Hide)
+2	Card Key	Listo
+
+
+
+
+
+# Floor 5 - Section 2
+
+ITEMS
+
+1	Protein 	Listo
+
+
+
+
+
+# Floor 5 - Section 3
+
+ITEMS
+
+1 	TM09		Listo
+
+
+
+
+
+# Floor 6 - Section 1
+
+TRAINERS
+
+1 	Scientist	Falta
+
+TEAM ROCKET
+
+1	Rocket		Falta
+2	Rocket		Falta
+
+
+
+
+
+# Floor 6 - Section 2
+
+ITEMS
+
+1	HP UP		Falta
+2	X Accuracy	Falta
+
+
+
+
+
+# Floor 7 - Section 1
+
+TRAINER
+
+1 	Scientist
+
+TEAM ROCKET
+
+1	Rocket		Falta
+2	Rocket		Falta
+
+ITEMS
+
+1 	Calcium		Falta
+
+
+
+
+
+# Floor 7 - Section 2
+
+ITEMS
+
+1	 TM03		Falta
+
+
+
+
+
+# Floor 7 - Section 3
+
+TEAM ROCKET
+
+1	Rocket		Falta
+
+
+
+
+
+# Floor 8 - Section 1
+
+TRAINERS
+
+1	Scientist	Falta
+
+TEAM ROCKET
+
+1	Rocket		Falta
+2	Rocket		Falta
+
+
+
+
+
+# Floor 9 - Section 1
+
+TRAINERS
+
+1	Scientist	Listo
+
+TEAM ROCKET
+
+1	Rocket		Listo
+
+
+
+
+
+# Floor 9 - Section 2
+
+TEAM ROCKET
+
+1	Rocket		Falta
+
+
+
+
+
+# Floor 9 - Section 3
+
+ITEMS
+
+1	Max Potion	Falta		(Hide)
+
+
+
+
+
+# Floor 10 - Section 1
+
+TRAINERS
+
+1 	Scientist	Falta
+
+TEAM ROCKET
+
+1	Rocket		Falta
+
+ITEMS
+
+1	Carbos		Falta		
+2	Rare Candy	Falta
+3	TM26		Falta
+
+
+
+
+
+# Floor 11 - Section 1
+
+TEAM ROCKET
+
+1	Rocket		Falta
+
+
+
+
+
+
+# Floor 11 - Section 2
+
+ITEMS
+
+1 	Master Balll	Falta
+
+TEAM ROCKET
+
+1	Giovanni	Falta
+
+
+
+
+#########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### ROUTE 12 ########################### 	[Está incompleta]
 
 
 ITEMS
