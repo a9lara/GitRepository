@@ -73,7 +73,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 
 1	TM01
 2	TM02
-3	TM03
+3	TM03		
 4	TM04
 5	TM05		[Rhydon]
 6			[Alakazam]
@@ -109,7 +109,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 36	TM36
 37	TM37
 38			[Charizard]
-39
+39	TM39
 40
 41
 42	TM42
@@ -128,6 +128,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 
 1	HM01		[Charizard]	*	
 2	HM02		[Pidgeot]	*
+3	HM03		[Tentacruel]
 
 #########################    	    BADGE       	   ##########################################
 
@@ -1797,6 +1798,67 @@ TRAIENRS
 
 
 
+############		Fuchsia City.		#############################
+
+
+BADGES
+
+1	Soul Badge
+
+TRAINERS
+
+1
+2
+3
+4
+
+ITEMS
+
+1	Good Rod		Falta		(Trade)
+2	HM04			Listo		(Trade)
+3	TM06			Falta		(GYM)
+
+
+
+##Safari Zone
+
+
+
+
+
+# Area 4 - Section 1
+
+ITEMS
+
+1	Wardens' teeth		Listo
+3	Revive			Listo		(Hidden)
+4	TM32			Listo
+5	HM03			Listo		(Trade)
+6	Rare Candy		Falta		(Hidden)
+
+
+
+# Area 3 - Section 2
+
+ITEMS
+
+1	Max Potion		Falta
+
+
+
+# Area 4 - Section 3
+
+ITEMS
+
+1	?			Falta
+
+
+#########################################################################
+
+
+
+
+
 
 
 
@@ -1824,6 +1886,7 @@ ITEMS
 2	Super Rod 		Falta		(Trade)
 4	TM16			Falta
 5	Iron			Falta	
+
 
 
 ###########################################################
