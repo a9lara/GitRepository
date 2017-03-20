@@ -73,7 +73,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 
 1	TM01
 2	TM02
-3
+3	TM03
 4	TM04
 5	TM05		[Rhydon]
 6			[Alakazam]
@@ -967,18 +967,17 @@ ITMES
 
 
 
-#################################	Lavender Town 		#################################
+#########	Lavender Town 		######################    [Falata Agregar los datos]
+
+ITEM
+
+1	 Pokéfluet	Listo		(Trade)
 
 
 
+### Pokémon Tower	 
 
 
-########################     Pokémon Tower	 ##############################################
-
-
-
-
-################ END OF POKÉMON TOWER  ####################################################
 
 
 
@@ -1525,12 +1524,12 @@ ITEMS
 
 TRAINERS
 
-1 	Scientist	Falta
+1 	Scientist	Listo
 
 TEAM ROCKET
 
-1	Rocket		Falta
-2	Rocket		Falta
+1	Rocket		Listo
+2	Rocket		Listo
 
 
 
@@ -1540,8 +1539,8 @@ TEAM ROCKET
 
 ITEMS
 
-1	HP UP		Falta
-2	X Accuracy	Falta
+1	HP UP		Listo
+2	X Accuracy	Listo
 
 
 
@@ -1551,16 +1550,16 @@ ITEMS
 
 TRAINER
 
-1 	Scientist
+1 	Scientist	Listo
 
 TEAM ROCKET
 
-1	Rocket		Falta
-2	Rocket		Falta
+1	Rocket		Listo
+2	Rocket		Listo
 
 ITEMS
 
-1 	Calcium		Falta
+1 	Calcium		Listo
 
 
 
@@ -1570,7 +1569,7 @@ ITEMS
 
 ITEMS
 
-1	 TM03		Falta
+1	 TM03		Listo
 
 
 
@@ -1580,7 +1579,7 @@ ITEMS
 
 TEAM ROCKET
 
-1	Rocket		Falta
+1	Rocket		Listo
 
 
 
