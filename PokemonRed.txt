@@ -5,9 +5,9 @@
 * Charizard [Fire/Flying] 
 
 Cut 		[Normal] 	(HM  01)	 50	S.S. Anne					*	
-Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym
+Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym			*
 Slash		[Normal]	(Lv. 36)	 70	Leveling Up					*
-Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.
+Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.			*
 
 
 
@@ -50,7 +50,7 @@ Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym			*
 * Rhydon [Ground/Rock]
 
 Submission 	[Fight] 	(TM  17)	 80	Victory Road, Celadon Dept. Store		*
-Thunder 	[Electric] 	(TM  25)	120	Power Plant
+Thunder 	[Electric] 	(TM  25)	120	Power Plant					*
 Double-Edge	[Normal] 	(TM  10)	100	Rocket Hideout					*
 Mega Kick	[Normal]	(TM  05)	120	Victory Road, Celadon Dept. Store		*
 
@@ -95,7 +95,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 22
 23
 24	TM24
-25			[Rhydon]
+25	{TM25}		[Rhydon]
 26	TM26		[Charizard]
 27
 28	{TM28}		[Arbok]		*
@@ -108,7 +108,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 35
 36	TM36
 37	TM37
-38			[Charizard]
+38	{TM38}		[Charizard]
 39	TM39
 40
 41	TM41
@@ -2092,23 +2092,23 @@ TRAINERS
 
 BADGES
 
-1	Volcano Badge	Falta		(GYM)
+1	Volcano Badge	Listo		(GYM)
 
 TRAINERS
 
-1	Supernerd	Falta		(GYM)
-2	Burglar		Falta		(GYM)
-3	Supernerd	Falta		(GYM)
-4	Burglar		Falta		(GYM)
-5	Supernerd	Falta		(GYM)
-6	Burglar		Falta		(GYM)
-7	Supernerd	Falta		(GYM)
-8	Blaine		Falta		(GYM)
+1	Supernerd	Listo		(GYM)
+2	Burglar		Listo		(GYM)
+3	Supernerd	Listo		(GYM)
+4	Burglar		Listo		(GYM)
+5	Supernerd	Listo		(GYM)
+6	Burglar		Listo		(GYM)
+7	Supernerd	Listo		(GYM)
+8	Blaine		Listo		(GYM)
 
 
 ITEMS
 
-1	TM38		Falta		(GYM)
+1	TM38		Listo		(GYM)
 
 
 # Pokémon Lab
@@ -2225,3 +2225,92 @@ ITEMS
 
 
 
+
+
+###########		Route 20 		####################
+
+
+TRAINERS
+
+
+1 Beauty 	Listo
+2
+3
+4
+5
+6
+7
+
+
+
+
+
+
+
+
+
+
+######################################################################
+
+
+
+
+
+
+
+
+
+
+
+##################  POWER PLANT  ###################################
+
+
+
+(2 hidden objects)
+
+
+1	TM25		Listo
+
+
+
+
+
+
+
+
+#####################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30 MIN 	A EVOLUCIONAR A KADABRA EN ALAKAZAM 
+2 HORA	B USAR LOS ITEMS Y ACOMODAR LA PC AL IGUAL QUE LA MALETA (NO TIRAR ITEMS QUE YA NO SE PUEDAN CONSEGUIR COMO LAS GOOD ROADS)
+4 HORAS C LO DEL PRINCIPIO: LAS PRIMERAS RUTAS MÁS LOS ENTRENADORES DE LA CUEVA Y LOS QUE ME HAYAN FALTADO JUTNO CON LOS TODOS LOS 		DEMÁS LUGARES QUE DEJÉ INCOMPLETOS COMO LA MANSIÓN POKÉMON, ETC... Y AGARRAR TODOS LOS ITMES
+3 HORAS	D POWER PLANT + ZAPPDOS
+2 HORA	C RUTA 20 
+3 HORAS	E SEAFOM ISLAND + ARTICUNO
+2 HORA	F RUTA 19
+3 HORAS	G Viridian City Gym 
+2 HORA	H ROUTE 23
+3 HORAS	I VICTORIA ROAD + MOLTRES + TM43
+1 HORA	J CASINO A COMPRAR TM50 Y TM 15 
+	K INDIGO PLATEAU (ELITE FOUR)
+3 HORAS L MEWTWO
+2 DÍAS  M PASAR LA LIGA ELITE FOUR HASTA CONSEGUIR MUCHAS MONEDAS Y PODER COMPRAR EL ULTIMO TM QUE ME VA A FALTAR (TM23 SOLAR BEAM)
+1 HORA  N ASEGURARME QUE YA TENGO TODO, ANOTAR CUANTOS ENTRENADORES HAY, ETC..., 
+	  ANOTAR QUÉ ITEMS NO VOY A TOMAR
+1 HORA	Ñ DISFRUTAR QUE YA LO ACABÉ :) Y SUBIR A MI TEAM A NIVEL 100
+
+
+¿PONERME A ATRAPAR TODOS?
