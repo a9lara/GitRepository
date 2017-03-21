@@ -39,7 +39,7 @@ Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
 
 * Arbok [Poison] 
 
-Strength 	[Normal] 	(HM  04)	 80	Fuchsia City
+Strength 	[Normal] 	(HM  04)	 80	Fuchsia City					*
 Dig 		[Ground] 	(TM  28)	100	Cerulean City					*
 Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda	*
 Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym			*
@@ -76,7 +76,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 3	TM03		
 4	TM04
 5	TM05		[Rhydon]
-6			[Alakazam]
+6	{TM06}		[Alakazam]
 7	TM07
 8	TM08
 9	TM09
@@ -86,11 +86,11 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 13	TM13
 14			[Tentacruel]
 15			[Alakazam]
-16
+16	TM16
 17	TM17		[Rhydon]
 18	TM18
 19
-20
+20	TM20
 21	{TM21}		[Arbok]		*
 22
 23
@@ -111,7 +111,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 38			[Charizard]
 39	TM39
 40
-41
+41	TM41
 42	TM42
 43			[Pidgeot]
 44	TM44
@@ -1010,14 +1010,14 @@ ITEM
 
 
 
-1	Lass
+1	Lass		Listo
 2	Gambler		Listo
-3	Super Nerd
-4	Lass
-5	Super Nerd
-6	Lass
-7	Lass
-8	Gambler				(Mew)
+3	Super Nerd	Listo
+4	Lass		Listo
+5	Super Nerd	Listo
+6	Lass		Listo
+7	Lass		Listo
+8	Gambler		Listo		(Mew)
 9	Super Nerd	Listo
 
 
@@ -1089,7 +1089,7 @@ ITEMS
 ITEM
 
 1	PP Up		Listo		(Hide)
-2	TM41		Falta		(Trade)
+2	TM41		Listo		(Trade)
 3	TM21		Listo		(GYM)
 4	Coin Case 	Listo		(Trade)
 
@@ -1803,24 +1803,59 @@ TRAIENRS
 
 BADGES
 
-1	Soul Badge
+1	Soul Badge		Listo		(GYM)
 
 TRAINERS
 
-1
-2
-3
-4
+1	Juggler			Listo		(GYM)
+2	Juggler			Listo		(GYM)
+3	Juggler			Listo		(GYM)
+4	Tamer			Listo		(GYM)
+5	Tamer			Listo		(GYM)
+6	Juggler			Listo		(GYM)
+7	Koga			Listo		(GYM)
+
+
 
 ITEMS
 
-1	Good Rod		Falta		(Trade)
+1	Good Rod		Listo		(Trade)
 2	HM04			Listo		(Trade)
-3	TM06			Falta		(GYM)
-
+3	TM06			Listo		(GYM)
+4	Rare Candy		Listo		
 
 
 ##Safari Zone
+
+
+# Area 1
+
+ITEMS
+
+1 	Nugget			Falta
+
+
+
+
+
+# Area 2
+
+ITEMS
+
+1	Carbos			Falta
+2	Max Potion		Falta
+3	Full Restore		Falta		
+4	TM36			Falta
+
+
+
+
+# Area 3
+
+ITEMS
+
+1	TM40			Falta
+2	Protein			Falta
 
 
 
@@ -1831,10 +1866,10 @@ ITEMS
 ITEMS
 
 1	Wardens' teeth		Listo
-3	Revive			Listo		(Hidden)
-4	TM32			Listo
-5	HM03			Listo		(Trade)
-6	Rare Candy		Falta		(Hidden)
+2	Revive			Listo		(Hidden)
+3	TM32			Listo
+4	HM03			Listo		(Trade)
+
 
 
 
@@ -1850,10 +1885,125 @@ ITEMS
 
 ITEMS
 
-1	?			Falta
+1	Max Revive		Falta
 
 
 #########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+############## ROUTE 15  ################################################
+
+
+ 
+
+TRAINERS
+
+
+1	Jr. Trainer♀		Listo	
+2	Beauty			Listo		
+3	Biker			Listo		
+4	Biker			Listo		
+5	Beauty			Listo		
+6	Jr. Trainer♀		Listo		
+7	Jr. Trainer♀		Listo	
+8	Birdkeeper		Listo	
+9	Birdkeeper		Listo
+10	Jr. Trainer♀		Listo
+
+
+ITEMS
+
+1	TM20			Listo		
+2	EXP. All 		Falta		(Trade)
+
+#########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+############## ROUTE 14  ################################################
+ 
+
+TRAINERS
+
+
+1	Biker			Listo		
+2	Birdkeeper		Listo		
+3	Biker			Listo		
+4	Biker			Listo		
+5	Biker			Listo		
+6	Birdkeeper		Listo	
+
+
+
+#########################################################################
+
+
+
+
+
+
+
+
+
+#########	 ROUTE 13	 ########################### 	
+
+TRAINERS
+
+
+1	Jr. Trainer?		Listo		
+2	Birdkeeper		Listo		
+3	Jr. Trainer?		Listo		
+4	Beauty			Listo		
+5	Beauty			Listo		
+6	Jr. Trainer?		Listo		
+7	Jr. Trainer♀		Listo	
+8	Birdkeeper		Listo	
+9	Biker			Listo
+10	Birdkeeper		Listo
+11	Birdkeeper		Listo
+12	Birdkeeper		Listo
+13	Birdkeeper		Listo
+14	Birdkeeper		Listo
+
+
+ITEMS
+
+1	Calcium			Listo		(Hidden)
+2	PP UP 			Listo		(Hidden)
+
+#########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1872,24 +2022,125 @@ TRAINERS
 2	Fisherman		Listo
 3	Fisherman		Listo
 4	Fisherman		Listo
-5	Fisherman		Falta
-6	Jr. Trainer		Falta
+5	Fisherman		Listo
+6	Rocker			Listo
+7	Jr. Trainer		Listo
 
-TEAM ROCKET
-
-3	ROCKET			Falta
 
 ITEMS
 
 1	TM39			Listo		(Trade)
 1	Hyper Potion		Listo		(Hide) 
-2	Super Rod 		Falta		(Trade)
-4	TM16			Falta
-5	Iron			Falta	
+2	Super Rod 		Listo		(Trade)
+4	TM16			Listo
+5	Iron			Listo	
 
 
 
 ###########################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########	 ROUTE 21	 ########################### 	
+
+TRAINERS
+
+1	Fisherman		Listo
+2	Fisherman		Listo
+3	Cue Ball		Listo
+4	Swimmer			Listo
+5	Fisherman		Listo
+6	Fisherman		Listo
+7	Swimmer			Listo
+8	Swimmer			Falta
+9	Swimmer			Falta
+
+
+
+############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#############		Cinnabar Island		###################
+
+
+BADGES
+
+1	Volcano Badge	Falta		(GYM)
+
+TRAINERS
+
+1	Supernerd	Falta		(GYM)
+2	Burglar		Falta		(GYM)
+3	Supernerd	Falta		(GYM)
+4	Burglar		Falta		(GYM)
+5	Supernerd	Falta		(GYM)
+6	Burglar		Falta		(GYM)
+7	Supernerd	Falta		(GYM)
+8	Blaine		Falta		(GYM)
+
+
+ITEMS
+
+1	TM38		Falta		(GYM)
+
+
+# Pokémon Lab
+
+ITEMS
+
+1	 TM35		Falta		(Trade)
+
+
+
+
+
+#Pokémon Mansion
+
+ITEMS
+
+Moon Stone (Hidden)
+Max Revive (Hidden)
+Rare Candy(Hidden)
+
+
+
+
+
+
+
+
+
+
+
+3###################################################################
+
 
 
 
