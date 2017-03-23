@@ -2,31 +2,6 @@
 #############   TEAM 1 {GAME PLAY}  #########################
 
 
-* Charizard [Fire/Flying] 
-
-Cut 		[Normal] 	(HM  01)	 50	S.S. Anne					*	
-Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym			*
-Slash		[Normal]	(Lv. 36)	 70	Leveling Up					*
-Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.			*
-
-
-
-* Pidgeot [Normal/Flying] 
-
-Fly 		[Flying] 	(HM  02)	 70	Route 16					*
-Quick Attack	[Normal]	(Lv. 00)	 40	Leveling Up					*
-Sky Attack	[Flying] 	(TM  43)	140	Victory Road	
-Sand-Attack	[Normal]	(Lv. 00)	 --	Leveling Up					*
-
-
-
-* Alakazam [Psychic] 
-
-Psychic 	[Psychic] 	(Lv. 36)	 90	Leveling Up					*
-Flash 		[Normal] 	(HM  05)	 --	Route 2						*
-Hyper Beam	[Normal]	(TM  15)	150	Celadon City - Game Corner Exchange
-Toxic 		[Poison] 	(TM  06)	 --	Fuchsia City — Pokémon Gym			*
-
 
 * Tentacruel [Water/Posion] 
 
@@ -36,23 +11,45 @@ Blizzard	[Ice]		(TM  14)	120	Cinnabar Island's Pokemon Mansion		*
 Substitute	[Normal]	(TM  50)	 --	Celadon City - Game Corner Exchange
 
 
+* Pidgeot [Normal/Flying] 
+
+Sky Attack	[Flying] 	(TM  43)	140	Victory Road					*
+Sand-Attack	[Normal]	(Lv. 00)	 --	Leveling Up					*
+Quick Attack	[Normal]	(Lv. 00)	 40	Leveling Up					*
+Fly 		[Flying] 	(HM  02)	 70	Route 16					*
+
 
 * Arbok [Poison] 
 
 Strength 	[Normal] 	(HM  04)	 80	Fuchsia City					*
-Dig 		[Ground] 	(TM  28)	100	Cerulean City					*
 Rock Slide	[Rock]		(TM  48)	 75	Celadon Dept. Store Roof - Give girl Soda	*
 Mega Drain	[Grass]		(TM  21)	 45	Celadon City — Pokémon Gym			*
+Dig 		[Ground] 	(TM  28)	100	Cerulean City					*
 
+* Charizard [Fire/Flying] 
 
-
+Slash		[Normal]	(Lv. 36)	 70	Leveling Up					*
+Earthquake 	[Ground] 	(TM  26)	100	Saffron City — Silph Co.			*	
+Fire Blast 	[Fire] 		(TM  38)	120	Cinnabar Island — Pokémon Gym			*
+Cut 		[Normal] 	(HM  01)	 50	S.S. Anne					*
 
 * Rhydon [Ground/Rock]
 
-Submission 	[Fight] 	(TM  17)	 80	Victory Road, Celadon Dept. Store		*
-Thunder 	[Electric] 	(TM  25)	120	Power Plant					*
-Double-Edge	[Normal] 	(TM  10)	100	Rocket Hideout					*
 Mega Kick	[Normal]	(TM  05)	120	Victory Road, Celadon Dept. Store		*
+Thunder 	[Electric] 	(TM  25)	120	Power Plant					*
+Submission 	[Fight] 	(TM  17)	 80	Victory Road, Celadon Dept. Store		*
+Double-Edge	[Normal] 	(TM  10)	100	Rocket Hideout					*
+
+
+* Alakazam [Psychic] 
+
+Psychic 	[Psychic] 	(Lv. 36)	 90	Leveling Up					*
+Flash 		[Normal] 	(HM  05)	 --	Route 2						*
+Hyper Beam	[Normal]	(TM  15)	150	Celadon City - Game Corner Exchange		*
+Toxic 		[Poison] 	(TM  06)	 --	Fuchsia City — Pokémon Gym			*
+
+
+
 
 
 #######################################################################################################
@@ -85,7 +82,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 12	TM12
 13	TM13
 14	{TM14}		[Tentacruel]
-15			[Alakazam]
+15	{TM15}		[Alakazam]
 16	TM16
 17	{TM17}		[Rhydon]
 18	TM18
@@ -96,11 +93,11 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 23
 24	TM24
 25	{TM25}		[Rhydon]
-26	TM26		[Charizard]
-27
+26	{TM26}		[Charizard]
+27	TM27
 28	{TM28}		[Arbok]		*
 29	TM29
-30
+30	TM30
 31	TM31
 32	TM32
 33	TM33
@@ -113,7 +110,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 40
 41	TM41
 42	TM42
-43			[Pidgeot]
+43	{TM43}		[Pidgeot]
 44	TM44
 45	TM45
 46	TM46
@@ -485,7 +482,7 @@ TEAM ROCKET
 
 ITEMS
 
-1	TM19	
+1	TM19		Falta
 2	Elixir		Listo		(Hide)
 3	Ether		Listo		(Hide)	
 
@@ -496,11 +493,11 @@ TRAINERS
 1	Hiker		Listo
 2	Hiker		Listo
 3	Youngster	Listo
-4	Youngster			(MEW)
+4	Youngster	Listo		(MEW)
 5	Lass		Listo
 6	Hiker		Listo
-7	Jr. Trainer♂
-8	Youngster
+7	Jr. Trainer♂	Listo
+8	Youngster	Listo
 9	Lass		Listo
 
 
@@ -786,25 +783,23 @@ TRAINERS
 
 
 1	Jr. Trainer♀	Listo
-2	Hiker
-3	Jr. Trainer♂
-4	Bug Catcher
+2	Hiker		Listo
+3	Jr. Trainer♂	Listo
+4	Bug Catcher	Listo
 5	Bug Catcher	Listo
-6	Jr. Trainer♂
-7	Hiker
-8	Hiker
-9	Jr. Trainer♀
+6	Jr. Trainer♂	Listo
+7	Hiker		Listo
+8	Hiker		Listo
+9	Jr. Trainer♀	Listo
 
 
 
 ITEMS
 
-1	Ether				(Hide)
-2	TM30
+1	Ether		Listo		(Hide)
+2	TM30		Listo
 
 ###########################################################
-
-
 
 
 
@@ -2256,6 +2251,34 @@ TRAINERS
 
 
 
+######################		ROUTE 19		##############
+
+TRAINERES
+
+1 		LISTO
+2
+3
+4
+4
+5
+
+
+
+
+
+
+####################################################################
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2265,14 +2288,24 @@ TRAINERS
 ##################  POWER PLANT  ###################################
 
 
+TRAINERS
 
-(2 hidden objects)
+
+
+1	Pokémaniac	Listo
+
+
+
+TRAINERS
 
 
 1	TM25		Listo
-
-
-
+2	Carbos		Listo
+3	Elixir		Listo		(Hidden)
+4	TM33		Listo
+5 	Rare Candy	Listo
+6	HP UP 		Listo
+7	PP UP 		Listo		(Hidden)
 
 
 
@@ -2283,6 +2316,22 @@ TRAINERS
 
 
 
+#####################    victoria road (la cueva) #######################
+
+
+
+
+
+el 5 del piso 2 
+
+
+(TOMÉ TM 43 Y LUCHÉ CON EL ENETRENADOR LLAMADO COOLTRAINER EN EL PRIMER PISO)
+	  EN EL SEGUNDO PISO PELEE CONTRA Blackbelt
+
+
+
+
+####################################################################
 
 
 
@@ -2293,17 +2342,21 @@ TRAINERS
 
 
 
+#####################################################33
 
-30 MIN 	A EVOLUCIONAR A KADABRA EN ALAKAZAM 
+
+
 2 HORAs	B USAR LOS ITEMS Y ACOMODAR LA PC AL IGUAL QUE LA MALETA (NO TIRAR ITEMS QUE YA NO SE PUEDAN CONSEGUIR COMO LAS GOOD ROADS)
 4 HORAS C LO DEL PRINCIPIO: LAS PRIMERAS RUTAS MÁS LOS ENTRENADORES DE LA CUEVA Y LOS QUE ME HAYAN FALTADO JUTNO CON LOS TODOS LOS 		  DEMÁS LUGARES QUE DEJÉ INCOMPLETOS COMO LA MANSIÓN POKÉMON, ETC... Y AGARRAR TODOS LOS ITMES
 3 HORAS	D POWER PLANT + ZAPPDOS
-2 HORA	C RUTA 20 
+2 HORA	C RUTA 20 (Solo me falta 1 TRAINER, creo)
 3 HORAS	E SEAFOM ISLAND + ARTICUNO
 2 HORA	F RUTA 19
-3 HORAS	G Viridian City Gym 
+3 HORAS	G Viridian City Gym (TOMÉ EL REVIVE Y OBVIAMENTE ME ECHÉ A TODOS Y TOMÉ EL ITEM QUE DA EL ENTRENADOR)
 2 HORA	H ROUTE 23
-3 HORAS	I VICTORIA ROAD + MOLTRES + TM43
+3 HORAS	I VICTORIA ROAD + MOLTRES + TM43 (TOMÉ TM 43 Y LUCHÉ CON EL ENETRENADOR LLAMADO COOLTRAINER EN EL PRIMER PISO)
+	  EN EL SEGUNDO PISO PELEE CONTRA Blackbelt
+
 1 HORA	J CASINO A COMPRAR TM50 Y TM 15 
 	K INDIGO PLATEAU (ELITE FOUR)
 3 HORAS L MEWTWO
