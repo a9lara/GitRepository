@@ -2222,52 +2222,110 @@ ITEMS
 
 
 
-###########		Route 20 		####################
 
-
-TRAINERS
-
-
-1 Beauty 	Listo
-2
-3
-4
-5
-6
-7
-
-
-
-
-
-
-
-
-
-
-######################################################################
-
-
-
-
-
-######################		ROUTE 19		##############
+######################		ROUTE 19		############## 
 
 TRAINERES
 
-1 		LISTO
-2
-3
-4
-4
-5
-
+1 	Beauty		Listo		
+2	Swimmer		Listo
+3	Beauty		Listo
+4	Beauty		Listo
+5	Swimmer		Listo
+6	Swimmer		Listo
+7	Swimmer		Listo
+8	Swimmer		Listo
+9	Swimmer		Listo
+10	Swimmer 	Listo	
 
 
 
 
 
 ####################################################################
+
+
+
+
+
+
+
+
+
+####################	ROUTE 20	####################
+
+
+TRAINERS
+
+
+1 	Beauty 		Listo
+2	Beauty 		Listo	
+3	Jr. Trainer♀	Listo
+4	Birdkeeper	Listo
+5	Swimmer		Listo
+6	Beauty		Listo
+7	Swimmer		Listo
+8	Swimmer		Listo
+9	Jr. Trainer♀	Listo
+10	Beauty		Listo
+
+
+
+
+####################################################################
+
+
+
+
+
+
+
+
+
+###########	Seafoam Islands   ####################	
+
+
+3 Hidden Items
+
+
+
+
+
+
+
+################################################################
+
+
+
+
+
+
+
+ROUTES
+
+Route 19 		[Listo]
+Route 20		[Listo]
+U
+
+BUILDINGS
+
+
+
+ISLANDS
+
+Seafoam Islands		[FALTA]
+
+
+
+UNDERGROUND PATH
+
+
+
+LOOKOUT STATION
+
+
+
+
 
 
 
@@ -2316,7 +2374,7 @@ TRAINERS
 
 
 
-#####################    victoria road (la cueva) #######################
+#####################    victoria road (la cueva) ¿Cerulean Cave? #######################
 
 
 
@@ -2348,18 +2406,12 @@ el 5 del piso 2
 
 2 HORAs	B USAR LOS ITEMS Y ACOMODAR LA PC AL IGUAL QUE LA MALETA (NO TIRAR ITEMS QUE YA NO SE PUEDAN CONSEGUIR COMO LAS GOOD ROADS)
 4 HORAS C LO DEL PRINCIPIO: LAS PRIMERAS RUTAS MÁS LOS ENTRENADORES DE LA CUEVA Y LOS QUE ME HAYAN FALTADO JUTNO CON LOS TODOS LOS 		  DEMÁS LUGARES QUE DEJÉ INCOMPLETOS COMO LA MANSIÓN POKÉMON, ETC... Y AGARRAR TODOS LOS ITMES
-3 HORAS	D POWER PLANT + ZAPPDOS
-2 HORA	C RUTA 20 (Solo me falta 1 TRAINER, creo)
 3 HORAS	E SEAFOM ISLAND + ARTICUNO
-2 HORA	F RUTA 19
 3 HORAS	G Viridian City Gym (TOMÉ EL REVIVE Y OBVIAMENTE ME ECHÉ A TODOS Y TOMÉ EL ITEM QUE DA EL ENTRENADOR)
 2 HORA	H ROUTE 23
 3 HORAS	I VICTORIA ROAD + MOLTRES + TM43 (TOMÉ TM 43 Y LUCHÉ CON EL ENETRENADOR LLAMADO COOLTRAINER EN EL PRIMER PISO)
 	  EN EL SEGUNDO PISO PELEE CONTRA Blackbelt
-
 1 HORA	J CASINO A COMPRAR TM50 Y TM 15 
-	K INDIGO PLATEAU (ELITE FOUR)
-3 HORAS L MEWTWO
 2 DÍAS  M PASAR LA LIGA ELITE FOUR HASTA CONSEGUIR MUCHAS MONEDAS Y PODER COMPRAR EL ULTIMO TM QUE ME VA A FALTAR (TM23 SOLAR BEAM)
 1 HORA  N ASEGURARME QUE YA TENGO TODO, ANOTAR CUANTOS ENTRENADORES HAY, ETC..., 
 	  ANOTAR QUÉ ITEMS NO VOY A TOMAR
@@ -2367,3 +2419,8 @@ el 5 del piso 2
 
 
 ¿PONERME A ATRAPAR TODOS?
+
+
+
+Subir a nivel 100 a mi Team
+
