@@ -86,10 +86,10 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 16	TM16
 17	{TM17}		[Rhydon]
 18	TM18
-19
+19	#:[#
 20	TM20
 21	{TM21}		[Arbok]		*
-22
+22	TM22
 23
 24	TM24
 25	{TM25}		[Rhydon]
@@ -102,7 +102,7 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 32	TM32
 33	TM33
 34	TM34
-35
+35	TM35
 36	TM36
 37	TM37
 38	{TM38}		[Charizard]
@@ -152,7 +152,20 @@ Mew Glitch (http://strategywiki.org/wiki/Pok%C3%A9mon_Red_and_Blue/Mew_glitch)
 
 
 
+################### 	   SUPLEMENTOS    	##############################
 
+
+
+CALCIUM 	SPECIAL		ALAKAZAM
+IRON		DEFENSE		ALAKAZAM
+
+
+
+
+
+
+
+#############################################################
 
 
 
@@ -2110,7 +2123,7 @@ ITEMS
 
 ITEMS
 
-1	 TM35		Falta		(Trade)
+1	 TM35		Listo		(Trade)
 
 
 
@@ -2123,7 +2136,7 @@ ITEMS
 ITEMS
 
 1	Escape Rope	Listo
-2	Moon Stone	Falta		(Hidden)		
+2	Moon Stone	Listo		(Hidden)		
 
 
 #Floor 1 - Section 2
@@ -2134,7 +2147,7 @@ TRAINERS
 
 ITEMS
 
-1	Carbos		Falta
+1	Carbos		Listo
 
 
 #Floor 2 - Section 1
@@ -2145,7 +2158,7 @@ TRAINERS
 
 ITEMS
 
-1 	Calcium		Falta
+1 	Calcium		Listo
 
 
 #Floor 3 - Section 1
@@ -2157,7 +2170,7 @@ TRAINERS
 ITEMS
 
 1	Max Revive	Listo		(Hidden)
-2 	Max Portion	Falta
+2 	Max Potion	Listo
 
 
 
@@ -2171,7 +2184,7 @@ TRAINERS
 
 ITEMS
 
-1 	Iron		Falta
+1 	Iron		Listo
 
 
 
@@ -2186,7 +2199,7 @@ TRAINERS
 ITEMS
 
 1	TM14		Listo
-2	Full Restore 	Falta
+2	Full Restore 	Listo
 
 
 
@@ -2201,9 +2214,9 @@ TRAINERS
 
 ITEMS
 
-1	Rare Candy	Falta
-2	TM22	 	Falta
-3	Rare Candy	Falta		(Hidden)
+1	Rare Candy	Listo
+2	TM22	 	Listo
+3	Rare Candy	Listo		(Hidden)
 4	Secret Key	Listo
 
 
@@ -2285,10 +2298,9 @@ TRAINERS
 ###########	Seafoam Islands   ####################	
 
 
-3 Hidden Items
 
 
-
+3 Hidden Items 		Listos   :)
 
 
 
@@ -2301,19 +2313,11 @@ TRAINERS
 
 
 
-ROUTES
-
-Route 19 		[Listo]
-Route 20		[Listo]
-U
-
-BUILDINGS
 
 
 
-ISLANDS
 
-Seafoam Islands		[FALTA]
+
 
 
 
@@ -2406,11 +2410,11 @@ el 5 del piso 2
 
 2 HORAs	B USAR LOS ITEMS Y ACOMODAR LA PC AL IGUAL QUE LA MALETA (NO TIRAR ITEMS QUE YA NO SE PUEDAN CONSEGUIR COMO LAS GOOD ROADS)
 4 HORAS C LO DEL PRINCIPIO: LAS PRIMERAS RUTAS MÁS LOS ENTRENADORES DE LA CUEVA Y LOS QUE ME HAYAN FALTADO JUTNO CON LOS TODOS LOS 		  DEMÁS LUGARES QUE DEJÉ INCOMPLETOS COMO LA MANSIÓN POKÉMON, ETC... Y AGARRAR TODOS LOS ITMES
-3 HORAS	E SEAFOM ISLAND + ARTICUNO
 3 HORAS	G Viridian City Gym (TOMÉ EL REVIVE Y OBVIAMENTE ME ECHÉ A TODOS Y TOMÉ EL ITEM QUE DA EL ENTRENADOR)
 2 HORA	H ROUTE 23
 3 HORAS	I VICTORIA ROAD + MOLTRES + TM43 (TOMÉ TM 43 Y LUCHÉ CON EL ENETRENADOR LLAMADO COOLTRAINER EN EL PRIMER PISO)
 	  EN EL SEGUNDO PISO PELEE CONTRA Blackbelt
+	Cerulean Cave
 1 HORA	J CASINO A COMPRAR TM50 Y TM 15 
 2 DÍAS  M PASAR LA LIGA ELITE FOUR HASTA CONSEGUIR MUCHAS MONEDAS Y PODER COMPRAR EL ULTIMO TM QUE ME VA A FALTAR (TM23 SOLAR BEAM)
 1 HORA  N ASEGURARME QUE YA TENGO TODO, ANOTAR CUANTOS ENTRENADORES HAY, ETC..., 
@@ -2423,4 +2427,35 @@ el 5 del piso 2
 
 
 Subir a nivel 100 a mi Team
+
+##########################################################
+
+
+
+
++ Fuchsia City		[Listo]
+  - Pokémon GYM		[Listo]
+  - Safari Zone		[Falta]
+
++ Route 19		[Listo]
+
++ Seafoam Islands	[Listo]
+
++ Route 20		[Listo]
+
++ Cinnabar Island	[Listo]
+  - Pokémon Lab		[Listo]
+  - Pokémon Mansion	[Listo]
+  - Pokémon GYM		[Listo]
+
++ Route 21		[Listo]
+
+
+
+
+
+
+
+
+#############################################################
 
