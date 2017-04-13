@@ -1,3 +1,7 @@
+ubuntu 15.10 
+64 bit
+
+	(Configurar Terminal para tener fondo negro y texto blanco.)
 
 	https://www.google.com.mx/chrome/browser/desktop/
 
