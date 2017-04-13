@@ -39,6 +39,8 @@ cd
 
 cd GitRepository
 
+git config --global push.default matching
+
 git config --global user.email a9lara@gmail.com
 
 	(Listo)
