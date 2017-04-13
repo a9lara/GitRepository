@@ -1,0 +1,79 @@
+
+# SPOTIFY
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+
+sudo apt-get update
+
+sudo apt-get install spotify-client
+
+spotify
+        
+
+
+# GITHUB
+
+sudo apt-get install git
+
+git clone https://github.com/a9lara/GitRepository.git
+
+sudo apt-get install xclip
+
+ssh-keygen
+
+ssh-add ~/.ssh/id_rsa
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+Selecciona Settings, que está en a la parte superior derecha en el engrante, son los settings.
+
+Selecciona SSH Keys.
+
+Selecciona Add SSH key.
+
+Ponle un título.
+
+Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
+
+Dale click en Add Key.
+
+Ahora regresate a tu paǵina principal.
+
+Entr al repositorio qué quieres pushear sin que te pida tu contraseña.
+
+Ahora, donde dice clonar selecciona SSH. Copia el URL.
+
+Ve a la Terminal.
+
+Abre el directorio de tu repo, es decir, escribe:
+
+$ cd "a"
+
+$ cd .git
+
+$ gedit config
+
+Cambia el URL de -remote "origin"- por el que copiaste.
+
+Regresa a tu GitHub.
+
+Salvalo y cierralo.
+
+
+$ git config --global user.email a9lara@gmail.com
+
+
+Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS enla URL de tu repositorio.
+
+Listo, ya no te pedirá la cuenta otra vez.z.
+
+Si al quererle dar:
+
+$ git push 
+
+antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, entonces, escribe en la terminal:
+
+$ git config --global push.default matching
+
