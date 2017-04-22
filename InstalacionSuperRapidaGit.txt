@@ -49,6 +49,8 @@ git config --global push.default matching
 
 git config --global user.email a9lara@gmail.com
 
+	(Y luego clonar y pegar en git config el link SSH para a9lara.github.io)
+	
 	(Listo)
 
 cd GitRepository
