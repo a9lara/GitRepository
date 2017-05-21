@@ -253,7 +253,7 @@ Control
 
 //////////////////////////////////////////////////
 
-New Perspective
+New Perspectives Deck
 
 1 Fetid Pools
 5 Forest
