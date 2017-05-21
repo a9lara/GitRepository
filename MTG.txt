@@ -253,4 +253,39 @@ Control
 
 //////////////////////////////////////////////////
 
+New Perspective
+
+1 Fetid Pools
+5 Forest
+2 Fortified Village
+1 Isalnd
+1 Plain
+4 Traverse the Ulvenwald
+4 Shadow of the Grave
+4 Haze of Pollen
+4 Renewed Faith
+4 Vizier of Tumbling Sands
+4 Weirding Wood
+4 Cast Out
+4 New Perspectives
+4 Sefet Monitor
+1 Sphinx of the Final Word
+1 Approach of the Second Sun
+4 Irrigated Farmeland
+4 Sheltered Thicket
+4 Scattered Groves
+4 Angel of Sanetions
+2 Dispel
+3 Negate
+2 Kefnet the Mindful
+4 Drake Haven
+
+
+//////////////////////////////////////////////////
+
+
+
+
+
+
 
