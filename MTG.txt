@@ -69,16 +69,17 @@ x1 Mortuary Mire
 
 
 Planeswalkers  - 64 cartas (hasta ahorita - 13 de abril 2017)
+Planeswalkers  - 74 cartas (hasta ahorita - 21 de mayo  2017)
 
 
 
-10 Planeswalkers
-10 Creatures
+11 Planeswalkers
+16 Creatures
 0  Artifacts
-9  Enchantments
+10  Enchantments
 10 Sorceries
 0  Instants
-25 Lands
+27 Lands
 
 
 
@@ -86,40 +87,50 @@ x1 Oath of Nissa
 x1 Oath of Chandra
 x2 Declaration in Stone
 x2 Rolling Thunder
+1 Thalia, Heretic Cathar
+2 Malakir Familiar
+2 Reclamation Sage
 x2 Lifespring Druid
 x2 Thriving Rhino
 x2 Jori En, Ruin Diver
-x3 Guardians of Leletis
+x3 Guardians of Meletis
 x1 Oath of Gideon
-x1 Oath of Jave
+x1 Oath of Jace
 x1 Sphinx's Tutelage
 x2 Claustrophobia
+1 Retreat to Kazandu
 x2 Call of the Gatewatch
 x2 Sheer Drop
 x1 Saheeli Raid
+1 Gisela, the Broken Blade
 x2 Suppression Bonds
 x2 Explosive Vegetation
 x1 Gideon, Ally of Zendikar
 x1 Tamiyo, Field Researcher
+1 Nahiri, the Harbinger
 x1 Kiora, Master of the Dephts
 x1 Arlinn Kord
-x1 Jave, Unraveler of Secrets
+x1 Jace, Unraveler of Secrets
 x1 Ob Nixilis Rignited
 x1 Nissa, Vital Force
 x1 Linvala, the Preserver
 x1 Chandra, Flamecaller
 x1 Sorin, Grim Nemesis
-x4 Plain
-x2 Island
-x3 Mountain
-x3 Forest
-x1 Cinder Glade
-x2 Drowned Caracomb
-x2 Rootbound Crag
-x2 Isolated Chapel
-x2 Sulfur Falls
-x2 Sunpetal Grove
-x2 Evolving Wilds
+2 Plain
+2 Island
+1 Swamp
+2 Mountain
+2 Forest
+2 Cinder Glade
+2 Canopy Vista
+1 Prairie Stream
+2 Drowned Caracomb
+2 Rootbound Crag
+1 Hinterland Harbor
+2 Isolated Chapel
+2 Sulfur Falls
+3 Evolving Wilds
+1 Stone Quarry
 //////////////////////////////////////////////////
 
 Infect
@@ -259,7 +270,7 @@ New Perspectives Deck
 5 Forest
 2 Fortified Village
 1 Isalnd
-1 Plain
+1 Plains
 4 Traverse the Ulvenwald
 4 Shadow of the Grave
 4 Haze of Pollen
