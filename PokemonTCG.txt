@@ -1,5 +1,5 @@
 
-Hidden Bewear
+Hidden Bewear (básico)
 
 
 2 Gothita
@@ -24,3 +24,30 @@ Hidden Bewear
 4 Double Colorless Energy
 10 Psychic Energy
 5 Fire Energy
+
+
+Hidden Bewear (MEJORADO)
+
+
+1 Venipede
+1 Meloetta EX
+1 Tornadus
+2 Hoothoot
+1 Mew
+4 Stufful
+4 Bewear
+3 Cosmog
+3 Cosmoem
+2 Lunala
+1 Mimikyu
+2 Rescue Stretcher
+2 Switch
+2 Nest Ball
+2 Timer Ball
+3 Tierno
+2 Professor Kukui
+2 Lysandre
+3 Hau
+4 Double Colorless Energy
+15 Psychic Energy
+
