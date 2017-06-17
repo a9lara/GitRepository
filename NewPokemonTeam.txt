@@ -1,0 +1,14 @@
+
+
+Nuevo Team Pokémon
+
+Gengar (M) @ Gengarite  
+Ability: Cursed Body  
+Level: 100  
+6IVs
+EVs: 56 HP / 252 SpA / 100 SpD / 100 Spe  
+Timid Nature  
+- Shadow Ball  
+- Sludge Bomb  
+- Mega Kick  
+- Protect
