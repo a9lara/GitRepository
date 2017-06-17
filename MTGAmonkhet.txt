@@ -36,6 +36,9 @@ Enchantment (6)
 3 Illusory Wrappings		2	$0.15 	$2.7	$5.4
 
 
+####### Hasta aquí van $95.4 pesos en cartas que me faltan #############
+
+
 Land (25)
 
 3 Painted Bluffs		3	$0.15	$2.7	$8.1		  	
@@ -51,4 +54,6 @@ Land (25)
 2 Swamp			
 2 Forest			
 
+############# En total son $1111.5 #####################
 
+O sea, son $1000 en tierras....
