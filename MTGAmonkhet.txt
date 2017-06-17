@@ -1,0 +1,54 @@
+
+Deck Amonkhet
+
+
+Token (8)
+
+4 Zombie 			3	$0.25	$4.5	$13.5
+4 Sacred Cat 			4	$0.25	$4.5	$18
+
+
+Creature (20)
+
+4 Baleful Ammit			3	$0.25	$4.5	$13.5
+4 Doomed Dissenter 		2	$0.15 	$2.7	$5.4
+2 Grim Strider 			1	$0.25	$4.5	$4.5
+2 Wasteland Scorpion 		1	$0.15 	$2.7	$2.7	
+4 Sacred Cat 			3	$0.15	$2.7	$8.1
+4 Defiant Greatmaw		3	$0.25	$2.7	$8.1
+
+
+Sorcery (2)
+
+2 Creeping Mold			
+
+
+Instant (7)
+
+3 Impeccable Timing		2	$0.15 	$2.7	$5.4 
+2 Pressure Point 		1	$0.15	$2.7	$2.7 
+2 Cancel			1	$0.15	$2.7	$2.7	 
+
+
+Enchantment (6)
+
+3 Cartouche of Knowledge 	2	$0.15 	$2.7	$5.4 
+3 Illusory Wrappings		2	$0.15 	$2.7	$5.4
+
+
+Land (25)
+
+3 Painted Bluffs		3	$0.15	$2.7	$8.1		  	
+2 Evolving Wilds		
+2 Blooming Marsh 		1	$7	$126	$126
+2 Fetid Pools			2	$4	$72	$144
+2 Irrigated Farmland		2	$5	$90	$180
+2 Scattered Groves   		2	$2.5	$45	$90
+2 Botanical Sanctum		2	$6	$108	$216
+2 Concealed Courtyard		2	$7	$126	$252
+2 Plains			
+2 Island			
+2 Swamp			
+2 Forest			
+
+
