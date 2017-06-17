@@ -49,11 +49,11 @@ Land (25)
 2 Scattered Groves   		2	$2.5	$45	$90
 2 Botanical Sanctum		2	$6	$108	$216
 2 Concealed Courtyard		2	$7	$126	$252
-2 Plains			
-2 Island			
-2 Swamp			
-2 Forest			
+2 Plains (Full-Art)		2	$0.5	$9	$18	
+2 Island (Full-Art)		2	$0.5	$9	$18		
+2 Swamp	 (Full-Art)		
+2 Forest (Full-Art)		1	$0.5	$9	$9			
 
-############# En total son $1111.5 #####################
+############# En total son $1156.5 #####################
 
-O sea, son $1000 en tierras....
+O sea, son $1061.1 en tierras....
