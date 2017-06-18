@@ -1,21 +1,21 @@
 
-Deck Amonkhet
+Doom Dissenter Deck
 
 
 Token (8)
 
-4 Zombie 			3	$0.25	$4.5	$13.5
-4 Sacred Cat 			4	$0.25	$4.5	$18
+4 Zombie 			
+4 Sacred Cat 			
 
 
-Creature (20)
+Creature (21)
 
-4 Baleful Ammit			3	$0.25	$4.5	$13.5
-4 Doomed Dissenter 		2	$0.15 	$2.7	$5.4
-2 Grim Strider 			1	$0.25	$4.5	$4.5
-2 Wasteland Scorpion 		1	$0.15 	$2.7	$2.7	
-4 Sacred Cat 			3	$0.15	$2.7	$8.1
-4 Defiant Greatmaw		3	$0.25	$2.7	$8.1
+4 Baleful Ammit			
+4 Doomed Dissenter 		
+3 Grim Strider 			
+2 Wasteland Scorpion 			
+4 Sacred Cat 			
+4 Defiant Greatmaw		
 
 
 Sorcery (2)
@@ -25,35 +25,39 @@ Sorcery (2)
 
 Instant (7)
 
-3 Impeccable Timing		2	$0.15 	$2.7	$5.4 
-2 Pressure Point 		1	$0.15	$2.7	$2.7 
-2 Cancel			1	$0.15	$2.7	$2.7	 
+2 Impeccable Timing		
+2 Pressure Point 		
+2 Disallow			2	$7.5	$135	$270
+2 Hieroglyphic Illumination	2	$0.15	$2.7	$5.4	 
 
 
 Enchantment (6)
 
-3 Cartouche of Knowledge 	2	$0.15 	$2.7	$5.4 
-3 Illusory Wrappings		2	$0.15 	$2.7	$5.4
+3 Cartouche of Knowledge 	
+2 Illusory Wrappings		
 
 
-####### Hasta aquí van $95.4 pesos en cartas que me faltan #############
+Land (24)
 
-
-Land (25)
-
-3 Painted Bluffs		3	$0.15	$2.7	$8.1		  	
+2 Painted Bluffs			  	
 2 Evolving Wilds		
 2 Blooming Marsh 		1	$7	$126	$126
 2 Fetid Pools			2	$4	$72	$144
 2 Irrigated Farmland		2	$5	$90	$180
 2 Scattered Groves   		2	$2.5	$45	$90
 2 Botanical Sanctum		2	$6	$108	$216
-2 Concealed Courtyard		2	$7	$126	$252
-2 Plains (Full-Art)		2	$0.5	$9	$18	
-2 Island (Full-Art)		2	$0.5	$9	$18		
-2 Swamp	 (Full-Art)		
-2 Forest (Full-Art)		1	$0.5	$9	$9			
+2 Concealed Courtyard		
+2 Plains (Full-Art)		1	$0.5	$9	$18	
+2 Island (Full-Art)				
+2 Swamp	 (Full-Art)		2	$0.5	$9	$18
+2 Forest (Full-Art)				
 
-############# En total son $1156.5 #####################
 
-O sea, son $1061.1 en tierras....
+Sideboard (4)
+
+2 Failure//Comply
+2 Fatal Push
+
+
+
+
