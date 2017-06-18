@@ -55,8 +55,8 @@ Land (24)
 
 Sideboard (4)
 
-2 Failure//Comply
-2 Fatal Push
+2 Failure//Comply		2	$0.5	$9	$18
+2 Fatal Push			1	$9	$162	$162
 
 
 
