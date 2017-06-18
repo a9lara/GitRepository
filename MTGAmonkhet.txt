@@ -23,7 +23,7 @@ Sorcery (2)
 2 Creeping Mold			
 
 
-Instant (7)
+Instant (8)
 
 2 Impeccable Timing		
 2 Pressure Point 		
@@ -31,7 +31,7 @@ Instant (7)
 2 Hieroglyphic Illumination	2	$0.15	$2.7	$5.4	 
 
 
-Enchantment (6)
+Enchantment (5)
 
 3 Cartouche of Knowledge 	
 2 Illusory Wrappings		
