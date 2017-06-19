@@ -42,8 +42,8 @@ Land (24)
 2 Painted Bluffs			  	
 2 Evolving Wilds		
 2 Blooming Marsh 		1	$7	$126	$126
-2 Fetid Pools			2	$4	$72	$144
-2 Irrigated Farmland		2	$5	$90	$180
+2 Fetid Pools			1	$4	$72	$72
+2 Irrigated Farmland		1	$5	$90	$90
 2 Scattered Groves   		2	$2.5	$45	$90
 2 Botanical Sanctum		2	$6	$108	$216
 2 Concealed Courtyard		
@@ -56,8 +56,8 @@ Land (24)
 Sideboard (4)
 
 2 Failure//Comply		2	$0.5	$9	$18
-2 Fatal Push			1	$9	$162	$162
-
+2 Fatal Push			
+2 Insidious Will		2	$0.5	$9	$18
 
 
 
