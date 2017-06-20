@@ -3,17 +3,23 @@
 
 NÚMERO DE SOBRES QUE ME FALTAN DE MAGIC DUELS:
 
-ELDRITCH MOON:		 32 SOBRES 		3200	 	[4800]		NO DESCUENTO			July 16–17, 2016
+
 AETHER REVOLT:		 64 SOBRES		[6400]		9600		DESCUENTO 1 DE JULIO		January 14–15, 2017
-AMONKHET:		100 SOBRES		[7500]		15000		DESCUENTO EN ¿SEPTIEMBRE?	April 22-23, 2017
-Hour of Devastation	?   SOBRES		[?]		?		DESCUENTO EN ?			July 8-9, 2017
-?			?			?		?		?				¿Spetiembre?
+AMONKHET:		100 SOBRES		[7500]		15000		?				
+
 
 
 
 #######################
 
+Número de Tierras que lleva por lo general un deck:
 
+L: Número de Tierras
+M: Número de Cartas que no son Tierra que lleva el Deck.
+
+L=(0.724138)(M)
+
+######################
 
 
 Deck
@@ -52,34 +58,34 @@ M Evolving Wilds x4
 
 Vampiros Luis Armando (Aún se puede mejorar agregando a Kalitas)
 
-x3 Indulgent Aristocrat
-x2 Sinister Concotion
-x2 Asylum Visitor [2]
-x2 Heir of Falkenrath
-x1 Olivia Bloodsworn
-x1 Ravenous Bloodseeker
-x1 Grasp of Darkness
-x2 macabre waltz [1]
-x4 Murderous Compulsion [3]
-x2 Avacyn's Judgement [2]
-x1 Liliana's Elite [1]
-x4 Bloodmad Vampire [1]
-x1 Olivia Mobilized For War [1]
-x2 Stensia Masquerade [1]
-x3 Stromkirk Mentor [3]
-x2 Bloodhall Priest [2]
-x1 Labguish
-x1 Twins of Maurer Estate [1]
-x1 Incorrigible Youths
-x1 Ob Nixilis Reignited 
-x6 Swamp
-x6 Mountain
-x2 Dragonskull Summit
-x1 Drownyard Temple
-x2 Evolving Wilds
-x4 Cinder Barrens 
-x1 Geier Reach Sanitarium [1]
-x1 Mortuary Mire
+x3 Indulgent Aristocrat		Black
+x2 Sinister Concotion		Black
+x2 Asylum Visitor 		Black
+x2 Heir of Falkenrath		Black
+x1 Olivia Bloodsworn		Black
+x1 Ravenous Bloodseeker		Red
+x1 Grasp of Darkness		Black
+x2 Macabre Waltz		Black 	
+x4 Murderous Compulsion 	Black
+x2 Avacyn's Judgement 		Red
+x1 Liliana's Elite 		Black
+x4 Bloodmad Vampire 		Red
+x1 Olivia Mobilized For War 	Black-Red
+x2 Stensia Masquerade 		Red
+x3 Stromkirk Mentor 		Black
+x2 Bloodhall Priest 		Black-Red
+x1 Languish			Black
+x1 Twins of Maurer Estate 	Black
+x1 Incorrigible Youths		Red
+x1 Ob Nixilis Reignited 	Black
+x6 Swamp			Land-Black		
+x6 Mountain			Land-Red
+x2 Dragonskull Summit		Land-Black-Red
+x1 Drownyard Temple		Land-Colorless
+x2 Evolving Wilds		Land-Colorless
+x4 Cinder Barrens 		Land-Black-Red
+x1 Geier Reach Sanitarium 	Land-Colorless
+x1 Mortuary Mire		Land-Black
 
 
 
