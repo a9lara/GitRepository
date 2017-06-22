@@ -28,7 +28,7 @@ Instant (8)
 2 Impeccable Timing		
 2 Pressure Point 		
 2 Disallow			2	$7.5	$135	$270
-2 Hieroglyphic Illumination	2	$0.15	$2.7	$5.4	 
+2 Hieroglyphic Illumination	2	$0.15	$3	$5.5	 
 
 
 Enchantment (5)
@@ -47,17 +47,19 @@ Land (24)
 2 Scattered Groves   		2	$2.5	$45	$90
 2 Botanical Sanctum		2	$6	$108	$216
 2 Concealed Courtyard		
-2 Plains (Full-Art)		1	$0.5	$9	$18	
+2 Plains (Full-Art)		1	$0.5	$9	$9	
 2 Island (Full-Art)				
 2 Swamp	 (Full-Art)		2	$0.5	$9	$18
 2 Forest (Full-Art)				
 
 
-Sideboard (4)
+Sideboard (16)
 
 2 Failure//Comply		2	$0.5	$9	$18
 2 Fatal Push			
 2 Insidious Will		2	$0.5	$9	$18
-
+2 Glimmer of Genius 		2	$0.9	$16	$32.5
+4 Bone Picker			4	$0.75	$9	$36
+4 Plague Belcher		4	$2	$36	$144
 
 
