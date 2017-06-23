@@ -19,6 +19,54 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 
 L=(0.724138)(M)
 
+
+
+
+########################
+
+-1/-1 Counter Deck
+
+Token (12)
+
+3 Zombie
+4 Snake				5	$0.5	$9	45
+5 Insect			6	$0.25	$4.5	27
+
+
+Creature (28)
+
+3 Festering Mummy		3	$0.15	$3	$9
+3 Diined Dussebter
+1 Bontu the Glorified
+3 Hapatra, Vizier of Poisons
+2 Grim Strider
+3 Defiant Greatmaw
+4 Bone Picker			2	$0.75	$9	$18
+2 Channeler Initiate		
+2 Crocodile of the Crossing	2 	$0.25	$4.5	$9
+2 Baleful Ammit
+2 Exemplar of Strength		2	$0.25	$4.5	$9
+
+
+Instant (5)
+
+2 Heroic Intervention		1	$1.5	$27	$27
+2 Fatal Push
+2 Shed Weakness			1	$0.15	$3	$3
+
+Enchantment (2)
+
+2 Nest of Scarabs		1	$0.25	$4.5	$4.5
+
+
+Land (25)
+
+12 Swamps
+12 Forest
+1  Painted Bluffs
+
+
+Toal: $80 pesos sin Tokens, de Tokens son otros $72
 ######################
 
 
