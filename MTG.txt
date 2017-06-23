@@ -24,13 +24,13 @@ L=(0.724138)(M)
 
 ########################
 
--1/-1 Counter Deck
+-1/-1 Counter Deck 
 
 Token (12)
 
 3 Zombie							C
-4 Snake				5	$0.5	$9	45	C
-5 Insect			6	$0.25	$4.5	27	C
+4 Snake				4	$0.5	$9	$36	C
+5 Insect			5	$0.25	$4.5	$23	C
 
 
 Creature (28)
@@ -69,6 +69,54 @@ Land (25)
 Toal: $80 pesos sin Tokens, de Tokens son otros $72 (Tomando el dolar a $18)
 
 ######################
+
+
+-1/-1 Counter Deck 
+
+[Versión Magic Duels]
+
+Le quito 1 Hapatra y 1 Bone Picker, 1  Painted Bluffs, 2 Heroic Intervention y 2  Channeler Initiate	 
+y le pongo:
+2 Ornery Kudu , 2 Decimator Beetle y 1 Nest of Scarabs 1 swamp, 1 forest
+
+Creature (27)
+
+2 Decimator Beetle
+3 Festering Mummy		
+3 Doomed Dissenter										
+1 Bontu the Glorified						
+2 Hapatra, Vizier of Poisons					
+2 Grim Strider							
+3 Defiant Greatmaw							
+3 Bone Picker			
+2 Ornery Kudu			
+2 Crocodile of the Crossing	
+2 Baleful Ammit							
+2 Exemplar of Strength		
+
+
+Instant (4)
+
+	
+2 Fatal Push			
+2 Shed Weakness			
+
+Enchantment (3)
+
+3 Nest of Scarabs		
+
+
+Land (26)
+
+13 Swamps							
+13 Forest							
+
+
+
+
+
+
+#######################
 
 
 Deck
