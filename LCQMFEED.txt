@@ -1,15 +1,15 @@
 
 
-4 Snake				
-5 Insect			
-3 Festering Mummy		
-2 Bone Picker				Omar 1(1)	
-2 Channeler Initiate				
-2 Crocodile of the Crossing		Omar 2(3)
-2 Exemplar of Strength			Omar 2(4)
-1 Heroic Intervention		
-1 Shed Weakness			
-1 Nest of Scarabs			Omar 1(3)
+4 Snake				T 9  V
+5 Insect			T 5  N
+3 Festering Mummy		C 3  N
+2 Bone Picker			U 9  N	Omar 1(1)	
+2 Channeler Initiate		R 23 V		
+2 Crocodile of the Crossing	U 5  V	Omar 2(3)
+2 Exemplar of Strength		U 5  V	Omar 2(4)
+1 Heroic Intervention		R 27 V
+1 Shed Weakness			C 3  V
+1 Nest of Scarabs		U 5  N  Omar 1(3)
 
 
 
