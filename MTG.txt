@@ -28,45 +28,46 @@ L=(0.724138)(M)
 
 Token (12)
 
-3 Zombie
-4 Snake				5	$0.5	$9	45
-5 Insect			6	$0.25	$4.5	27
+3 Zombie							C
+4 Snake				5	$0.5	$9	45	C
+5 Insect			6	$0.25	$4.5	27	C
 
 
 Creature (28)
 
-3 Festering Mummy		3	$0.15	$3	$9
-3 Diined Dussebter
-1 Bontu the Glorified
-3 Hapatra, Vizier of Poisons
-2 Grim Strider
-3 Defiant Greatmaw
-4 Bone Picker			2	$0.75	$9	$18
-2 Channeler Initiate		
-2 Crocodile of the Crossing	2 	$0.25	$4.5	$9
-2 Baleful Ammit
-2 Exemplar of Strength		2	$0.25	$4.5	$9
+3 Festering Mummy		3	$0.15	$3	$9	C
+3 Doomed Dissenter						C				
+1 Bontu the Glorified						M
+3 Hapatra, Vizier of Poisons					R
+2 Grim Strider							U
+3 Defiant Greatmaw						U	
+4 Bone Picker			2	$0.75	$9	$18	U
+2 Channeler Initiate		2	$1.25	$22.5	$45	R		
+2 Crocodile of the Crossing	2 	$0.25	$4.5	$9	U
+2 Baleful Ammit							U
+2 Exemplar of Strength		2	$0.25	$4.5	$9	U
 
 
 Instant (5)
 
-2 Heroic Intervention		1	$1.5	$27	$27
-2 Fatal Push
-2 Shed Weakness			1	$0.15	$3	$3
+2 Heroic Intervention		1	$1.5	$27	$27	R
+2 Fatal Push							U
+2 Shed Weakness			1	$0.15	$3	$3	C
 
 Enchantment (2)
 
-2 Nest of Scarabs		1	$0.25	$4.5	$4.5
+2 Nest of Scarabs		1	$0.25	$4.5	$4.5	U
 
 
 Land (25)
 
-12 Swamps
-12 Forest
-1  Painted Bluffs
+12 Swamps							C
+12 Forest							C
+1  Painted Bluffs						R
 
 
-Toal: $80 pesos sin Tokens, de Tokens son otros $72
+Toal: $80 pesos sin Tokens, de Tokens son otros $72 (Tomando el dolar a $18)
+
 ######################
 
 
