@@ -26,31 +26,31 @@ L=(0.724138)(M)
 
 -1/-1 Counter Deck 
 
-Token (12)
+Token (15)
 
-3 Zombie				
-4 Snake					
+5 Zombie						
+5 Snake					
 5 Insect				
 
 
-Creature (28)
+Creature (27)
 
-3 Festering Mummy		
-3 Doomed Dissenter										
+4 Festering Mummy		
+4 Doomed Dissenter										
 1 Bontu the Glorified						
 3 Hapatra, Vizier of Poisons					
 2 Grim Strider							
-3 Defiant Greatmaw							
-4 Bone Picker			
-2 Channeler Initiate		2	$1.25	$22.5	$45	R		
+2 Defiant Greatmaw							
+3 Bone Picker			
+2 Channeler Initiate				
 2 Crocodile of the Crossing	
 2 Baleful Ammit							
 2 Exemplar of Strength		
 
 
-Instant (5)
+Instant (6)
 
-2 Heroic Intervention		1	$1.5	$27	$27	R
+2 Heroic Intervention			
 2 Fatal Push							
 2 Shed Weakness			
 
@@ -61,9 +61,9 @@ Enchantment (2)
 
 Land (25)
 
-12 Swamps							
-12 Forest							
-1  Painted Bluffs						
+11 Swamps							
+11 Forest							
+3  Blooming Marsh								
 
 
 ######################
@@ -73,19 +73,24 @@ Land (25)
 
 [Versión Magic Duels]
 
-Le quito 1 Hapatra y 1 Bone Picker, 1  Painted Bluffs, 2 Heroic Intervention y 2  Channeler Initiate	 
-y le pongo:
-2 Ornery Kudu , 2 Decimator Beetle y 1 Nest of Scarabs 1 swamp, 1 forest
+Le quito 1 Hapatra y le pongo 1 Nest of Scarabs
+Le quito 2 Heroic Intervention y le pongo 2 cartuchos negros
+Le quito 2 Channeler Inititate y le pongo 2 Ornery Kudu
+Le quito 3 Painted Buffs y le pongo 2 Swamps y 1 Forest
 
-Creature (27)
 
-2 Decimator Beetle
-3 Festering Mummy		
-3 Doomed Dissenter										
+-1/-1 Counter Deck 
+			
+
+
+Creature (26)
+
+4 Festering Mummy		
+4 Doomed Dissenter										
 1 Bontu the Glorified						
 2 Hapatra, Vizier of Poisons					
 2 Grim Strider							
-3 Defiant Greatmaw							
+2 Defiant Greatmaw							
 3 Bone Picker			
 2 Ornery Kudu			
 2 Crocodile of the Crossing	
@@ -93,27 +98,20 @@ Creature (27)
 2 Exemplar of Strength		
 
 
-Instant (4)
+Instant (6)
 
-	
-2 Fatal Push			
+2 Cartouche of Ambition
+2 Fatal Push							
 2 Shed Weakness			
-
 
 Enchantment (3)
 
 3 Nest of Scarabs		
 
-
-Land (26)
+Land (25)
 
 13 Swamps							
-13 Forest							
-
-
-
-
-
+12 Forest							
 
 #######################
 
