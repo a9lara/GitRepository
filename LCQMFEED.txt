@@ -7,7 +7,11 @@ R  V	$1.25	$22.5	$45
 1 Heroic Intervention	
 R  V    $1.5	$27	$27	
 
+2 Blooming Marsh
+R  L	$7	$126	$252
 
+1 Token Zombie Negro de Amonkhet
+R  L	$1	$18	$18
 
 
 
