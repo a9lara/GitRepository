@@ -51,3 +51,42 @@ Hidden Bewear (MEJORADO)
 4 Double Colorless Energy
 15 Psychic Energy
 
+################################################
+
+Hidden Bewear (Definitivo)
+Formato {Expanded}
+
+
+Pokémon (23)
+
+2 Rattata					(1 Paralyzing Gaze)	
+2 Raticate					(1 Gnaw Through)	(Super Fang)
+1 Meloetta EX					(2 Brilliant Voice)	(3 Round)				
+4 Stufful		[Rake It In]		(1 Tackle)	 	(3 Hammer In)
+3 Bewear					(3 Dangerous Blow)				
+3 Cosmog					(1 Dust Gathering)
+3 Cosmoem					(1 Teleport)
+2 Lunala					(1 Dhatter Shot)	(3 Wings of the Moone)
+3 Mimikyu					(1 Filch)		(2 Copycat)
+
+Item (8)
+
+2 Rescue Stretcher			
+2 Switch
+2 Nest Ball
+2 Timer Ball
+
+Supporter (10)
+
+3 Tierno
+2 Professor Kukui
+2 Lysandre
+3 Hau
+
+Energy (19)
+
+4 Double Colorless Energy
+15 Psychic Energy
+
+
+############################################
