@@ -19,8 +19,8 @@ Creature (16)
 1 Jace, Vryn's Prodigy
 2 Thing in the Ice
 2 Baral, Chief of Compliane
-3 Mist Intruder
-2 Benthic Infiltrator
+2 Mist Intruder
+3 Benthic Infiltrator
 1 Glyph Keeper				
 
 
