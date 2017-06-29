@@ -12,23 +12,22 @@ L=(0.724138)(M)
 
 Deck vs Deck [Magic Duels]
 
-Creature (19)
+Creature (16)
 
 3 Minister of Inquiries 
-3 Salvage Drone
+2 Salvage Drone
 1 Jace, Vryn's Prodigy
 2 Thing in the Ice
 2 Baral, Chief of Compliane
 3 Mist Intruder
-3 Benthic Infiltrator
-2 Glyph Keeper				1
+2 Benthic Infiltrator
+1 Glyph Keeper				
 
 
 Instant (13)
 
 2 Dispel
-3 Telling Time
-2 Hydrolash
+3 Glimmer of Genius
 2 Countermand				
 2 Essence Scatter			1
 2 Sweep Away
@@ -49,9 +48,9 @@ Enchantment (7)
 2 Spontaneous Mutation
 
 
-Lands (30)
+Lands (25)
 
-30 Island
+25 Island
 
 
 ########################
