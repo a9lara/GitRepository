@@ -1,14 +1,3 @@
-####################################
-
-
-NÚMERO DE SOBRES QUE ME FALTAN DE MAGIC DUELS:
-
-
-AETHER REVOLT:		 64 SOBRES		[6400]		9600		DESCUENTO 1 DE JULIO		January 14–15, 2017
-AMONKHET:		100 SOBRES		[7500]		15000		?				
-
-
-
 
 #######################
 
@@ -19,7 +8,50 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 
 L=(0.724138)(M)
 
+############################################
 
+Deck vs Deck [Magic Duels]
+
+Creature (19)
+
+3 Minister of Inquiries 
+3 Salvage Drone
+1 Jace, Vryn's Prodigy
+2 Thing in the Ice
+2 Baral, Chief of Compliane
+3 Mist Intruder
+3 Benthic Infiltrator
+2 Glyph Keeper				1
+
+
+Instant (13)
+
+2 Dispel
+3 Telling Time
+2 Hydrolash
+2 Countermand				
+2 Essence Scatter			1
+2 Sweep Away
+
+
+Sorcery (7)
+
+3 Compelling Argument			2
+2 Anchor to the AEther			
+2 Talent of the Telepath		
+
+
+Enchantment (7)
+
+
+3 Sphinx's Tutelage
+2 Impresioned in the Moon
+2 Spontaneous Mutation
+
+
+Lands (30)
+
+30 Island
 
 
 ########################
