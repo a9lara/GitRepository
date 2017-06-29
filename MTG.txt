@@ -116,28 +116,32 @@ Le quito 3 Painted Buffs y le pongo 2 Swamps y 1 Forest
 
 Creature (26)
 
-4 Festering Mummy		
-4 Doomed Dissenter										
+4 Festering Mummy			2	
+4 Doomed Dissenter			4							
 1 Bontu the Glorified						
-2 Hapatra, Vizier of Poisons					
-2 Grim Strider							
+2 Hapatra, Vizier of Poisons		2			
+2 Grim Strider				1			
 2 Defiant Greatmaw							
-3 Bone Picker			
-2 Ornery Kudu			
-2 Crocodile of the Crossing	
-2 Baleful Ammit							
-2 Exemplar of Strength		
+3 Bone Picker				2
+2 Ornery Kudu				
+2 Crocodile of the Crossing		1
+2 Baleful Ammit				2			
+2 Exemplar of Strength			
 
 
-Instant (6)
+Instant (4)
 
-2 Cartouche of Ambition
+		
 2 Fatal Push							
 2 Shed Weakness			
 
-Enchantment (3)
 
-3 Nest of Scarabs		
+
+Enchantment (5)
+
+3 Nest of Scarabs			3
+2 Cartouche of Ambition			
+
 
 Land (25)
 
