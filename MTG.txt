@@ -12,8 +12,70 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 
 L=(0.724138)(M)
 
+############################################
+
+
+		Draw-Go [LegenVD]
+
+
+
+
+############################################
+
+
+		Energy Agro
+
+Creature (28)
+
+2 Minister of Inquiries
+2 Thriving Turtle
+2 Greenbelt Rampager
+1 Aether Theorist
+2 Longtusk Cub
+3 Sage of Shaila's
+2 Architect of the Untamed
+3 Thriving Rhino
+2 Rouge Refiner
+1 Enpyreal Voyager
+1 Shipwreck Moray
+2 Bristling Hydra
+1 Aether Herder
+3 Riparian Tiger
+
+
+Enchantment (1)
+
+1 Aether Meltdown
+
+
+Vehicle (4)
+
+2 Aethersphere Harvester
+2 Fleetwheel Cruiser
+
+
+Instant (2)
+
+2 Glimmer of Genius
+
+
+Sorcery (2)
+
+1 Confiscation Coup
+1 Aethersquall Ancient
+
+
+Land (24)
+
+10 Island 
+10 Forest
+2 Hinisterland Harbor
+2 Aether Hub
+
+
 
 #############################################
+
 
 		Planeswalkers
 
@@ -201,7 +263,7 @@ Creature (26)
 3 Bone Picker				2
 2 Ornery Kudu				
 2 Crocodile of the Crossing		1
-2 Baleful Ammit				2			
+2 Baleful Ammit							
 2 Exemplar of Strength			
 
 
