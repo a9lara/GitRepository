@@ -12,6 +12,78 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 
 L=(0.724138)(M)
 
+
+#############################################
+
+		Planeswalkers
+
+
+Enchantment (8)
+
+1 Oath of Nissa
+1 Oath of Chandra
+1 Oath of Ajani
+1 Oath of Gideon
+1 Oath of Jace
+1 Oath of Liliana
+2 Suppression Bonds
+
+
+Instant (2)
+ 
+2 Fatal Push
+
+
+Sorcery (5)
+
+2 Declaration in Stone
+2 Languish
+1 Explosive Vegetation 
+
+
+Creature (7)
+
+2 Malakir Familiar
+2 Reclamation Sage
+2 Guardians of Meletis
+1 Linvala, the Preserver
+
+
+Planeswalker (14)
+
+1 Liliana, the Last Hope
+1 Saheeli Rai
+1 Gideon, ALly of Zenkikar
+1 Tamiyo, Field Researcher
+1 Nahiri, the Harbinger
+1 Tezzeret the Schemer
+1 Kiora, Master of the Depths
+1 Arlinn Kord
+1 Jace, Unraveler of Secrets
+1 Ob Nixilis Reignited
+1 Nissa, Vital Force
+1 Chandra, Flamecaller
+1 Sorin Nemesis
+1 Ajani Unyielding
+
+
+Lands (24)
+
+2 Plains
+2 Island
+2 Swamp
+2 Mountain
+2 Forest
+2 Drowned Catacomb
+2 Rootbound Crag
+2 Dragonskull Summit
+2 Glacial Fortress
+2 Sunpetal Grove
+2 Evolving Wilds
+
+
+
+
 ############################################
 
 Deck vs Deck [Magic Duels]
