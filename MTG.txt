@@ -12,6 +12,31 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 
 L=(0.724138)(M)
 
+
+##########################################
+
+		-1/-1 Modificado
+
+4 Baleful Ammit
+4 Blisterpod
+3 Bone Picker
+3 Cartouche of Ambition
+4 Channeler Initiate
+4 Exemplar of Strength
+3 Fatal Push
+4 Festering Mummy
+6 Forest 
+2 Gift of Paradise
+4 Hapatra, Vizier of Poisons
+2 Lay Bare the Heart
+3 Nest of Scarabs
+4 Painful Lesson
+3 Splendid Agony
+7 Swamp
+
+
+
+
 ############################################
 
 
