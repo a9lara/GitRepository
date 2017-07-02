@@ -1,13 +1,13 @@
 
-Mi progreso en Magikarp Jump [1-julio-2017]		77%
+Mi progreso en Magikarp Jump [2-julio-2017]		89%
 /Version 1.2/
 
 
-Jump Power			2G/8.2G			24%
-Trainer Rank	 		72/79			91%
-Magikarp Level    		82/89			91%
+Jump Power			8.3G/8.3G		100%
+Trainer Rank	 		79/79			100%
+Magikarp Level    		89/89			100%
 
-Jump Power Bonuses  		1190%/1250%		95%
+Jump Power Bonuses  		1250%/1250%		100%
 
 Food				15/15			100%
 Training			15/15			100%
@@ -16,13 +16,13 @@ Themes				7/7			100%
 Decorations			16/16			100%
 Friendship Items		14/14			100%
 
-Pattern				27/29			93%
-Event				37/40			92%
+Pattern				28/29			96%
+Event				39/40			97%
 Hall of Fame			8/8			100%
 
-Extra Leagues			1/3			33%
+Extra Leagues			3/3			100%
 
-Achievements			5/14			36%
+Achievements			6/14			43%
 
 Exchange Office			0/10			0%
 
