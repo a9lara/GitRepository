@@ -1,4 +1,7 @@
+
 Mi progreso en Magikarp Jump [1-julio-2017]		77%
+/Version 1.2/
+
 
 Jump Power			2G/8.2G			24%
 Trainer Rank	 		72/79			91%
