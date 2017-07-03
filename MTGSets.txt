@@ -1,0 +1,116 @@
+		SETS
+
+1993		Limited Edition Alpha		
+1993		Arabian Nights				
+
+1994		Antiquities			
+1994		Legends								
+1994		The Dark			
+1994		Fallen Empires			
+
+1995		Ice Age						
+1995		Homelands					
+
+1996		Alliances
+1996		Mirage
+
+1997		Weatherlight
+1997		Visions
+1997		Tempest
+
+1998		Stronghold
+1998		Exodus
+1998		Urza's Saga
+
+1999		Urza's Legacy
+1999		Urza's Destiny
+1999		Mercadian Masques
+
+2000		Nemesis
+2000		Prophecy
+2000		Invasion
+
+2001		Planeshift
+2001		Apocalypse
+2001		Odyssey	
+
+2002		Torment
+2002		Judgment	
+2002		Onslaught
+
+2003		Legions
+2003		Scourge
+2003		Mirrodin
+
+2004		Darksteel
+2004		Fifth Dawn
+2004		Champions of Kamigawa
+
+2005		Betrayers of Kamigawa
+2005		Saviors of Kamigawa
+2005		Ravinca: City of Guilds
+
+2006		Guildpact
+2006		Dissension
+2006		Coldsnap
+2006		Time Spiral
+
+2007		Planar Chaos
+2007		Future Sight
+2007		Lorwyn
+
+2008		Morningtide
+2008		Shadowmoor
+2008		Eventide
+2008		Shards of Alara
+
+2009		Conflux
+2009		Alara Reborn
+2009		Zendikar
+
+2010		Worldwake
+2010		Rise of the Eldrazi
+2010		Scars of Mirrodin
+
+2011		Mirrodin Besieged
+2011		New Phyrexia
+2011		Inistrad
+
+2012		Dark Ascension
+2012		Avacyn Restored
+2012		Return to Ravinca
+
+2013		Gatecrash
+2013		Dragon's Maze
+2013		Theros
+
+2014		Corn of the Gods
+2014		Journey into Nyx		
+2014		Khans of Tarkir
+
+2015		Fate Reforged
+2015		Dragons of Tarkir
+2015		Magic Origins
+2015		Battle For Zendikar
+
+2016 		Oath of the Gatewatch
+2016		Shadows over Innistrad
+2016		Eldritch Moon
+2016		Kaladesh
+
+2017		Aether Revolt
+2017		Amonkhet
+2017		Hour of Devastation
+2017		Ixalan
+2017		Explorers of Ixalan
+
+2018		Rivals of Ixalan
+2018		Dominaria
+
+
+			Un-Sets
+
+1998		Unglued
+2004		Unhinged
+2017		Unstable
+	
