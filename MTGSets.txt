@@ -14,8 +14,8 @@
 1996		Alliances
 1996		Mirage
 
-1997		Weatherlight
 1997		Visions
+1997		Weatherlight
 1997		Tempest
 
 1998		Stronghold
