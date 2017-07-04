@@ -13,6 +13,37 @@ M: Número de Cartas que no son Tierra que lleva el Deck.
 L=(0.724138)(M)
 
 
+###########################################
+
+
+		-1/-1 Versión 3
+
+
+Main (60)
+
+4 Baleful Ammit
+4 Blisterpod
+4 Blooming Marsh
+3 Bone Picker
+3 Cartouche of Ambition
+4 Channeler Initiate
+4 Exemplar of Strength
+2 Fatal Push
+4 Festering Mummy
+8 Forest
+2 Grasp of Darkness
+4 Hapatra, Vizier of Poisons
+3 Nest of Scarabs
+3 Painful Lesson
+8 Swamp
+
+
+Sideboard (4)
+
+2 Lay Bare the Heart
+2 Splendid Agony
+
+
 ##########################################
 
 		-1/-1 Modificado
