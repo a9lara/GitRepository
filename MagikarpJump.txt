@@ -1,5 +1,5 @@
 
-Mi progreso en Magikarp Jump [2-julio-2017]		89%
+Mi progreso en Magikarp Jump [5-julio-2017]		92%
 /Version 1.2/
 
 
@@ -17,13 +17,13 @@ Themes				7/7			100%
 Decorations			16/16			100%
 Friendship Items		14/14			100%
 
-Pattern				28/29			96%
+Pattern				29/29			100%
 Event				39/40			97%
 Hall of Fame			8/8			100%
 
 Extra Leagues			3/3			100%
 
-Achievements			7/14			50%
+Achievements			8/14			57%
 
 Exchange Office			0/10			0%
 
