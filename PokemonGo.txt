@@ -228,6 +228,74 @@
 
 
 
+###################################################
+
+
+		Items para cada incursión diaria de Pokémon Go
+
+
+NECESARIO PARA JUGAR:
+
+1   Camera
+1   Egg Incubator inf
+5   Sun Stone
+5   King's Rock
+5   Metal Coat
+5   Dragon Scale
+5   Up-Grade
+60  Premium Raid Pass
+100 Max Revive
+15  Max Potion
+500 Ultra Ball
+70  Free Space
+
+
+CAMBIA EL JUEGO:
+
+30  Charge TM
+30  Fast   TM
+
+
+AYUDA EN EL JUEGO
+
+80  Nanab Berry
+150 Pinap Berry
+100 Golden Razz Berry
+10  Lucky Egg
+300 Rare Candy
+28  Egg Incubator
+
+
+
+
+###########################################
+
+
+EN EL ORDEN EN EL QUE APARECEN EN LA MOCHILA:
+
+
+15  Max Potion
+100 Max Revive
+10  Lucky Egg
+30  Fast   TM
+30  Charge TM
+300 Rare Candy
+60  Premium Raid Pass
+500 Ultra Ball
+80  Nanab Berry
+150 Pinap Berry
+100 Golden Razz Berry
+1   Camera
+1   Egg Incubator inf
+28  Egg Incubator
+5   Sun Stone
+5   King's Rock
+5   Metal Coat
+5   Dragon Scale
+5   Up-Grade
+70  Free Space
+
+
 
 
 
