@@ -1,4 +1,27 @@
 
+
+Lo que me falta comprar en Magic Duels:
+
+		CARD SLEEVS
+
+Kaladesh 	1200
+Gatewatch 	1500
+Aether Revolt   1500
+Amonkhet	1500
+Premium		2250
+
+		PERSONS
+
+Legends		2500
+Planeswalkers	2500
+Amonkhet	2500
+
+
+TOTAL: 		15450 Monedas
+
+
+#########################################################
+
 Para ver las cartas que hay en Magic Duels: 
 
 https://www.magicduelshelper.com/cardlist
@@ -49,6 +72,7 @@ Lands (24)
 
 Main (60)
 
+1 Bontu the GLorified
 
 4 Baleful Ammit
 4 Blisterpod
@@ -65,16 +89,15 @@ Main (60)
 4 Blooming Marsh
 8 Swamp
 8 Forest
-1 Bontu the GLorified
 
-Sideboard (4)
+Sideboard (15)
 
 2 Lay Bare the Heart
 2 Splendid Agony
 3 Bone Picker
 3 Cartouche of Ambition
 4 Festering Mummy
-
+1 Obelisk Spider
 
 ###########################################
 
