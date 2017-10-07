@@ -1,0 +1,8 @@
+Team:
+
+Feralogatr	Water
+Beedrill	Bug - Poison
+Togetic		Normal - Flying
+Exeggutor 	Grass - Psychic
+Hitmontop	Fighting
+Ampharos	Electric
