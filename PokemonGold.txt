@@ -1,6 +1,6 @@
 Team:
 
-Feralogatr	Water
+Feraligatr	Water
 Beedrill	Bug - Poison
 Togetic		Normal - Flying
 Exeggutor 	Grass - Psychic
