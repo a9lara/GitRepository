@@ -4,10 +4,12 @@ Mi progreso en Magikarp Jump [5-julio-2017]		92%
 
 
 Jump Power			8.3G/8.3G		100%	
+Jump Powe			?/12,900,000,000,000	200%
 		
 Trainer Rank	 		79/79			100%
 Magikarp Level    		89/89			100%
 Jump Power Bonuses  		1250%/1250%		100%
+Motivation Bonus		2500%/2500%		100%
 High				200m/200m		100%	
 
 Food				15/15			100%
@@ -18,24 +20,24 @@ Decorations			16/16			100%
 Friendship Items		14/14			100%
 
 Pattern				29/29			100%
-Event				39/40			97%
+Event				40/40			100%
 Hall of Fame			8/8			100%
 
 Extra Leagues			3/3			100%
 
-Achievements			8/14			57%
+Achievements			13/14			93%
 
-Exchange Office			0/10			0%
+Exchange Office			10/10			100%
 
 #####################################################################
 
 Precio 		Tickets y Diamantes
 
-$650		2150 
-$650		2150 
-$200		550
-$20		50
-$20		50
+$650		2150 	    [Listo]
+$650		2150 	    [Listo]
+$200		550	    [Listo]
+$20		50	    [Listo]
+$20		50	    [Listo]
 $20		50	    [Listo]
 
-$1560 		5000
+$1560 		5000	    [Listo]
