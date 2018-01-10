@@ -1,0 +1,60 @@
+DECKS
+
+##########################  Deck 1  ##################
+
+Figures:
+
+Lucario
+Reuniclus
+Pikachu
+Latios
+Galvantula
+Squirtle
+
+Plates:
+
+Hurdle Jump
+Double Chance
+Pokémon Switch
+X Attack
+Goal Block
+Ice Heal
+
+##########################  Deck 2  ##################
+
+Figures:
+
+Lucario
+Reuniclus
+Solgaleo
+Tapu Koko
+Gastly
+Squirtle
+
+Plates:
+
+Hurdle Jump
+Double Chance
+Pokémon Switch
+X Attack
+Invisibility Cape
+
+##########################  Deck 3  ##################
+
+Figures:
+
+Decidueye
+Latios
+Mew
+Tapu Koko
+Lucario
+Infernape
+
+Plates:
+
+Hurdle Jump
+Double Chance
+Pokémon Switch
+X Attack
+Goal Block
+Scoop Up
