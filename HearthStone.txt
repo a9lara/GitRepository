@@ -828,5 +828,38 @@ Totally Totems
 + Sunwalker x2 (**6** [4/5] Taunt Divine Shield) 
 
 
+##################################
+
+
+### Giant Hunt
+# Class: Hunter
+# Format: Wild
+#
+# 2x (1) Arcane Shot
+# 2x (1) Tracking
+# 2x (2) Annoy-o-Tron
+# 2x (2) Bear Trap
+# 2x (2) Explosive Trap
+# 2x (2) King's Elekk
+# 2x (2) Novice Engineer
+# 2x (3) Coldlight Oracle
+# 2x (3) Ironbeak Owl
+# 2x (5) Naga Sea Witch
+# 1x (6) Sylvanas Windrunner
+# 1x (8) Ragnaros the Firelord
+# 1x (10) Sea Giant
+# 2x (12) Arcane Giant
+# 2x (12) Clockwork Giant
+# 1x (12) Mountain Giant
+# 2x (25) Molten Giant
+# 
+AAEBAR8E0wH2AuEHuQ0NnAKiAskE7Qb4B5cI3AqFELkRyxTRFN4WgrQCAA==
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+#######################################################
+
+
 
 
