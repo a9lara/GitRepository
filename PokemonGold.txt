@@ -68,5 +68,4 @@ Strenght	Normal		80
 Dig		Ground		20		[FALTA]		[TM28]
 Thief		Dark		40		[FALTA]		[TM46]
 
-
 Item:
