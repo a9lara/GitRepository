@@ -1,8 +1,72 @@
-Team:
+TEAM:
 
 Feraligatr	Water
-Beedrill	Bug - Poison
 Togetic		Normal - Flying
+Beedrill	Bug - Poison
+Ampharos	Electric
 Exeggutor 	Grass - Psychic
 Hitmontop	Fighting
-Ampharos	Electric
+
+
+
+
+
+
+
+MOVESETS:
+
+################      FERALIGATR	################
+
+Surf 		Water		95 
+Slash 	 	Normal 		70
+Bite		Dark		60		[FALTA]		[Lv.21]
+Earthquake	Ground		100		[FALTA]		[TM26]
+
+Item:	
+
+################	TOGETIC		################		
+
+Metronome	Normal		--
+Fly		Flying		70
+Fire Blast	Fire		120		[FALTA]		[TM38]
+Shadow Ball	Ghost		80
+
+Item: 
+
+################	BEEDRILL	################		
+
+Cut		Normal		50
+Pursuit		Dark		40		[FALTA]		[Lv.30]
+Pin Missile	Bug		14		[FALTA]		[Lv.35]
+Poison Sting	Poison		15
+
+Item:
+
+################	AMPHAROS	################
+
+Flash		Normal		--
+Thunder		Electric	120		[FALTA]		[Lv.57]
+Dynamic Punch	Fight		100	
+Hyper Beam	Normal		150		[FALTA]		[Lv.15]
+
+Item:
+
+################	EXEGGUTOR	################
+
+Sludge Bumb	Poison		90		[FALTA]		[TM36]
+Solar Beam	Grass		120		[FALTA]		[TM22]	
+Confusion	Psychic		50
+Egg Bomb	Normal 		100		[FALTA]		[Lv.31]
+
+Item:
+
+################	HITMONTOP	################
+
+
+Hi Jump Kick	Fight		85
+Strenght	Normal		80
+Dig		Ground		20		[FALTA]		[TM28]
+Thief		Dark		40		[FALTA]		[TM46]
+
+
+Item:
