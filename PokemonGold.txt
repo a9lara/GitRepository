@@ -5,7 +5,7 @@ Togetic		Normal - Flying
 Beedrill	Bug - Poison
 Ampharos	Electric
 Exeggutor 	Grass - Psychic
-Hitmontop	Fighting
+Hitmontop	Fighting		 Resistente contra Bug, Rock y Dark. 		Debil contra Psychic y Flying
 
 
 
@@ -18,54 +18,55 @@ MOVESETS:
 ################      FERALIGATR	################
 
 Surf 		Water		95 
-Slash 	 	Normal 		70
-Bite		Dark		60		[FALTA]		[Lv.21]
+Blizzard	Ice		120		[FALTA]		[TM14]
 Earthquake	Ground		100		[FALTA]		[TM26]
+Whirlpool	Water		15		[Falta]		[HM06]
 
 Item:	
 
 ################	TOGETIC		################		
 
-Metronome	Normal		--
-Fly		Flying		70
 Fire Blast	Fire		120		[FALTA]		[TM38]
+Fly		Flying		70
 Shadow Ball	Ghost		80
+Double-Edge	Normal		120		
 
 Item: 
 
 ################	BEEDRILL	################		
 
 Cut		Normal		50
-Pursuit		Dark		40		[FALTA]		[Lv.30]
+Hyper Beam	Normal		150		[FALTA]		[TM15]
+Sludge Bumb	Poison		90		[FALTA]		[TM36]
 Pin Missile	Bug		14		[FALTA]		[Lv.35]
-Poison Sting	Poison		15
 
 Item:
 
 ################	AMPHAROS	################
 
 Flash		Normal		--
+Iron Tail	Steel 		100		[FALTA]		[TM23]
 Thunder		Electric	120		[FALTA]		[Lv.57]
 Dynamic Punch	Fight		100	
-Hyper Beam	Normal		150		[FALTA]		[Lv.15]
+
 
 Item:
 
 ################	EXEGGUTOR	################
 
-Sludge Bumb	Poison		90		[FALTA]		[TM36]
 Solar Beam	Grass		120		[FALTA]		[TM22]	
-Confusion	Psychic		50
+Psychic		Psychic		100		
+Rollout		Rock		30		[FALTA]		[TM04]
 Egg Bomb	Normal 		100		[FALTA]		[Lv.31]
 
 Item:
 
 ################	HITMONTOP	################
 
-
-Hi Jump Kick	Fight		85
-Strenght	Normal		80
-Dig		Ground		20		[FALTA]		[TM28]
 Thief		Dark		40		[FALTA]		[TM46]
+Strenght	Normal		80
+Rock Smash 	Fight		20		[FALTA]		[TM08]	
+??????????????????????????????????????????????????????????????????????
+
 
 Item:
