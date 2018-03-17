@@ -1,0 +1,24 @@
+
+###########################       Sylvan Rampage         #################################
+
+
+DECK´S NAME 		Sylvan Rampage
+TYPE DECK		Plant Deck
+TYPE OF CARDS NAME	Sylvan
+
+MAIN DECK		20
+EFFECT MONSTERS		17
+SPELL CARDS		3
+
+x2 Gigaplant 			[Plant/Gremini/Effect] 		EARTH  	L6 	[SR] 
+x3 Sylvan Komushroomo 		[Plant/Effect] 			FIRE 	L2 	[SR] 
+x3 Rose Lover 			[Plant/Effect] 	 		EARTH  	L1 	[SR] 
+x3 Sylvan Hermitree 		[Plant/Effect] 	 		FIRE  	L8 	[R] 
+x1 Sylvan Flowerknight		[Plant/Effect] 	 		EARTH  	L4 	[R] 
+x3 Sylvan Marshalleaf 		[Plant/Effect] 	 		WATER  	L3 	[R] 
+x2 Sylvan Peaskeeper 		[Plant/Effect] 	 		WIND  	L1 	[R]
+X2 Dark Core							SPELL		[SR]
+X1 Hey, Trunade!						SPELL		[SR]
+
+
+##########################################################################################
