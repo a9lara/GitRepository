@@ -1,0 +1,6 @@
+Descargar Top Cat (full)
+Extraerlo en home
+Entrar a la terminal y escribir
+*cd topcat-full
+*sudo apt-get install topcat
+*topcat
