@@ -58,3 +58,23 @@ Pokémon Switch
 X Attack
 Goal Block
 Scoop Up
+
+##########################  Deck 4 [El Deck Soñado]  ##################
+
+Figures:
+
+Decidueye
+Latios
+Bulbasaur
+Tapu Koko
+Lucario
+Gengar ---> Mega Gengar
+
+Plates:
+
+X Speed
+Double Chance
+Gengarite
+X Attack
+Goal Block
+Scoop Up
