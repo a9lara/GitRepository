@@ -1,0 +1,12 @@
+DESCARGAR IRAF DE http://iraf.noao.edu/
+CREAR UNA CARPETA EN HOME QUE SE LLAME Iraf
+EXTRAER EL ARCHIVO EN ESA CARPETA
+IR A LA TERMINAL, ENTRAR EN ESA CARPETA Y ESCRIBIR:
+
+./install
+sudo -s
+mkdir /iraf
+mkdir /iraf/x11iraf
+sudo apt-get install tcsh
+./install
+
