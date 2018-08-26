@@ -36,7 +36,7 @@ EFECTOS ACTIVOS DEL GIMNASIO:
 \\\\\\\\\\\\\\\\	       QUEEN'S CUP 		        \\\\\\\\\\\\\\\\\\\\
 ####################################################################################
 
-EVENTO: Queen's Cup S.S. Carmonite Carnaval
+EVENTO: Queen's Cup S.S. Carmonte Carnaval
 
 FECHA:
 24 agosto - 29 agosto
