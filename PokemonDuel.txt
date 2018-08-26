@@ -1,7 +1,11 @@
 ####################################################################################
 \\\\\\\\\\\\\\\\		INFO DE EVENTOS 		\\\\\\\\\\\\\\\\\\\\
 ####################################################################################
-	
+
+####################################################################################
+\\\\\\\\\\\\\\\\	       	FIRE GYM CUP 		        \\\\\\\\\\\\\\\\\\\\
+####################################################################################
+
 EVENTO: FIRE GYM CUP
 
 FECHA:
@@ -28,14 +32,44 @@ EFECTOS ACTIVOS DEL GIMNASIO:
 1) Fire Type Figures + 1MP
 2) Water Type Figures + 20 Attack
 
+####################################################################################
+\\\\\\\\\\\\\\\\	       QUEEN'S CUP 		        \\\\\\\\\\\\\\\\\\\\
+####################################################################################
+
+EVENTO: Queen's Cup S.S. Carmonite Carnaval
+
+FECHA:
+24 agosto - 29 agosto
+
+COSTO ENERGÍA: 
+Varía según la clase
+
+FIGURA PREMIO:
+[UX] Mega Gyarados - (Al conseguir 10 000 puntos) 
+
+MÁSCARAS PREMIO:
+Mega Gyarados Event-Exclusive Mask - (Top Ranking 3 000)
+
+CLASES:
+F,E,D,C,B,A,S
+
+KAROLINE, THE WEALTHY HOST OF THE QUEEN'S CUP ESTÁ ESPECIALMENTE ACTIVA EN LOS
+SIGUIENTES HORARIOS (HORARIO DE LA CIUDAD DE MÉXICO):
+9:00 PM - 10:00 PM 
+9:00 AM - 10:00 AM 
+
+FECHAS LÍMITE (HORARIO DE LA CIUDAD DE MÉXICO):
+QUEEN'S CUP: Martes 28 de agosto del 2018 - 9:00 PM
+RECLAMAR PREMIOS: Jueves 30 de agosto del 2018 - 9:00 PM
+
+EFECTOS ACTIVOS DEL GIMNASIO:
+1) Fire Type Figures + 1MP
+2) Water Type Figures + 20 Attack
+
 
 ####################################################################################
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ####################################################################################
-
-
-
-
 
 
 
