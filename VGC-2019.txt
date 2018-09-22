@@ -11,6 +11,8 @@ Check out the Event Locator to find an event near you and start your trek toward
 #	REGLAS GENERALES	    #
 #####################################
 
+All battles will be Double Battles played in Pokémon Ultra Sun and Pokémon Ultra Moon.
+
 All Pokémon from National Pokédex No. 001 through 807 are allowed, with the following restrictions:
 
 Mythical Pokémon and Ash-Greninja are not permitted.
