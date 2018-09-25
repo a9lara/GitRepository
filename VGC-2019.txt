@@ -68,7 +68,9 @@ All moves and items obtainable through normal gameplay are permitted.
 ##########################################################################################################
 
 
-
+#####################################
+#	      MI TEAM		    #
+#####################################
 
 
 
@@ -125,6 +127,16 @@ Lonely Nature
 - Trick Room
 - Rock Slide
 - Protect
+
+Metagross @ Choice Band
+Ability: Clear Body
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 4 SpD / 0 Spe
+Adamant Nature
+- Hammer Arm
+- Zen Headbutt
+- Iron Head
+- Bullet Punch
+
 
 
 
