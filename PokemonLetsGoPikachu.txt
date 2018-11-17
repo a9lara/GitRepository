@@ -1,6 +1,6 @@
 Adventure Team:
 
-Pikachu		Electric
+Pikachu	Electric
 Mew		Psychic			
 Beedrill	Bug Poison
 Farfetch'd	Normal Flying
