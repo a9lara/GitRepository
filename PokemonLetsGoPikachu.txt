@@ -1,0 +1,9 @@
+Adventure Team:
+
+Pikachu		Electric
+Mew		Psychic			
+Beedrill	Bug Poison
+Farfetch'd	Normal Flying
+Wartortle	Water
+Melmetal	Steel
+
