@@ -1,0 +1,152 @@
+####################################################################################################
+
+						INFO
+
+####################################################################################################
+
+Name: Armando's Enlightened Control Field Plan for Parque Arboledas, CDMX, Mexico.
+Time: 2h?
+Portals: 19
+Portal Keys: 54
+Links (Connector): 46 
+Control Fields (Mind Controller): 47
+Mind Units (Illuminator): ?
+Walk Distance (Trekker): 3km?
+AP: ?
+
+####################################################################################################
+
+						PORTAL KEYS
+
+####################################################################################################
+
+x14 UNAM Personal
+x2 Sitios de Interés
+x2 Gimnasio Callejero Pilares
+x2 Estructura Abstracta
+x3 Ojitos Enamorados (Cala De Veraz)
+x2 Corcholata Cala De Veraz Hidalgo
+x2 La Cabaña
+x3 Portal Paque Arboledas
+x6 Mini Pirámides
+x1 Chucho Monge
+x2 Mural del Paque Arboledas
+x1 Busto Baden Powell
+x1 Universidad del Desarrollo Empresarial y ...?
+x2 Fuente de la Glorieta de División 
+x4 Mural Cielito
+x2 Cervecería De Barrio
+x2 La Chelería
+x2 Buho Hooters Universidad
+x1 Parroquía de la Medalla Milagrosa
+
+
+####################################################################################################
+				    
+						Procedure
+		
+####################################################################################################
+
+
+I) Before starting
+
+	a) Be sure you have all necessary portal keys and no links are interfering with the plan.
+	b) Be sure UNAM Personal is capable to be connected. 
+	c) Go to park Parque Arboledas and make sure all portals are enlightened and have 8 resonators.
+	d) Go to Portal Mini Pirámides.
+
+
+
+II) Anchor 1: Mini Pirámides
+
+	a) From Mini Pirámides connect to
+		1) UNAM Personal
+		2) Sitios de Interés
+		3) Gimnasio Callejero Pilares
+		4) Estructura Abstracta
+		5) Ojitos Enamorados (Cala De Veraz)
+		6) Corcholata Cala De Veraz Hidalgo
+		7) La Cabaña
+		8) Portal Paque Arboledas
+
+
+	b) Walk to X and conect to Y
+		X) Sitios de Interés
+			Y1) UNAM Personal
+		X) Gimnasio Callejero Pilares
+			Y1) UNAM Personal
+			Y2) Sitios de Interés	
+		X) Estructura Abstracta
+			Y1) UNAM Personal
+			Y2) Gimnasio Callejero Pilares	
+		X) Ojitos Enamorados (Cala De Veraz)
+			Y1) UNAM Personal
+			Y2) Estructura Abstracta
+		X) Corcholata Cala De Veraz Hidalgo
+			Y1) Ojitos Enamorados (Cala De Veraz)
+		X) La Cabaña
+			Y1) UNAM Personal
+			Y2) Ojitos Enamorados (Cala De Veraz)
+			Y3) Corcholata Cala De Veraz Hidalgo
+		X) Portal Paque Arboledas
+			Y1)UNAM Personal
+			Y2) La Cabaña
+		X) Chucho Monge
+			Y1) Mini Pirámides
+			Y2) Portal Paque Arboledas
+		X) Mural del Paque Arboledas
+			Y1) Mini Pirámides
+			Y2) UNAM Personal
+			Y3) Portal Paque Arboledas
+			Y4) Chucho Monge	
+		X) Busto Baden Powell
+			Y1) Mini Pirámides
+			Y2) Mural del Paque Arboledas
+		X) Universidad del Desarrollo Empresarial y ...?
+			Y1) Mini Pirámides
+			Y2) UNAM Personal
+			Y3) Mural del Paque Arboledas
+			Y4) Busto Baden Powell
+
+III) Anchor 2: Parroquia de la Medalla Milagrosa 
+
+	a) From Parroquia de la Medalla Milagrosa connect to
+		1) Mini Pirámides
+		2) UNAM Personal
+		3) Fuente de la Glorieta de División 
+		4) Mural Cielito
+		5) Cervecería De Barrio
+		6) La Chelería
+		7) Buho Hooters Universidad
+
+
+	b) Walk to X and conect to Y
+		X) Fuente de la Glorieta de División
+			Y1) UNAM Personal
+		X) Mural Cielito
+			Y1) UNAM Personal
+			Y2) Fuente de la Glorieta de División
+		X) Cervecería De Barrio
+			Y1) Mural Cielito	
+		X) La Chelería
+			Y1) Mural Cielito
+			Y2) Cervecería De Barrio
+		X) Buho Hooters Universidad
+			Y1) UNAM Personal
+			Y1) Mural Cielito
+			Y2) La Chelería
+
+III) Anchor 3: Metro Zapata
+
+	a) From Metro Zapata connect to
+		1) Mini Pirámides
+		2) Parroquia de la Medalla Milagrosa 
+		3) UNAM Personal
+		4) Universidad del Desarrollo Empresarial y ...?
+		5) Buho Hooters Universidad
+		
+####################################################################################################
+				    
+						END
+		
+####################################################################################################
