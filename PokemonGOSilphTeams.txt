@@ -1,0 +1,29 @@
+Pokémon: 	Raticate / CP1493 	[Dark/Normal]
+Ataque Rápido:  Quick Attack 8	 	[Normal]
+Ataque Cargado:	Hyper Fang 80 (--) 	[Normal]
+
+Pokémon: 	Hypno CP1482		[Psychic] 	
+Ataque Rápido:  Confusion 20		[Psychic] 	
+Ataque Cargado: Future Sight 120 (-) 	[Psychic] 	
+Ataque Cargado: Focus Blast 140 (-) 	[Fighting] 
+
+Pokémon: 	Umbreon / CP1494 	[Dark]
+Ataque Rápido:  Snarl 12 		[Dark]
+Ataque Cargado:	Foul Play 70 (--) 	[Dark]
+
+Pokémon: 	Skuntank / CP1489 	[Poison/Dark]
+Ataque Rápido:  Poison Jab 10 		[Poison]
+Ataque Cargado:	Flamethrower (--) 	[Fire]
+
+Pokémon: 	Lucario CP1492		[Fighting/Steel] 	
+Ataque Rápido:  Counter 12 		[Fighting] 	
+Ataque Cargado: Shadow Ball 100 (--) 	[Ghost] 	
+Ataque Cargado: Powe-Up Punch 50 (---) 	[Fighting] 		
+
+Pokémon: 	Toxicroak / CP1474 	[Poison/Fighting]
+Ataque Rápido:  Counter 12 		[Fighting]
+Ataque Cargado:	Mud Bomb 55 (---) 	[Ground]
+
+
+
+
