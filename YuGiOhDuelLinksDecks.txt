@@ -1,0 +1,55 @@
+#############################################
+################   SYLVAN   #################   
+#############################################
+
+### Packs:
+Rampage of the Forest
+Land of the Titans
+Crimson Kingdom
+
+### Monster cards:
+x3 Sylvan Komushroomo [SR]  		// Rampage of the Forest
+x1 Sylvan Hermitree  [R]  		// Rampage of the Forest
+x3 World Carrotweight Champion [R]	// Rampage of the Forest
+x2 Sylvan Marshalleaf [R]		// Rampage of the Forest
+x1 Naturia Pineapple [R]		// Land of the Titans
+x3 Amarylease [R]			// Land of the Titans
+x3 Sylvan Guardioak [N] 		// Rampage of the Forest
+x1 Sylvan Lotuswain [N] 		// Rampage of the Forest
+
+### Trap cards:
+x3 Ultimate Providence [R]		// Crimson Kingdom
+
+### Skills:
+Beatdown!  	[Seto Kaiba]		// Lv. 13
+
+
+#############################################
+###############   SUBTERROR   ###############   
+#############################################
+
+### Packs:
+Blazing Rose
+
+### Monster cards:
+x3 Subterror Behemoth Umastryx [SR]	// Blazing Rose
+x3 Mahjong Munia Maidens  [SR]		// Blazing Rose
+x3 Guardian Statue [R]			// Blazing Rose
+x3 Subterror Nemesis Warrior [N]	// Blazing Rose
+x2 Subterror Behemoth Stygokraken [R]	// Blazing Rose
+x1 Subterror Behemoth Speleogeist [N]	// Blazing Rose
+
+### Spell cards: 
+x2 Enemy Controller [SR]		// Blazing Rose
+
+### Trap cards:
+x3 Subterror Final Battle [SR]		// Blazing Rose
+
+### Skills:
+Heavy Starter 	[Seto Kaiba]		// Reward for defeating Legendary Duelists when ou play as Seto Kaiba.
+Masked TRibute 	[Umbra & Lumis]		// Drop Rewards of Umbra & Lumis by defeating Legendary Duelist / PvP Duel Rewards
+
+
+#############################################
+###############               ###############   
+#############################################
