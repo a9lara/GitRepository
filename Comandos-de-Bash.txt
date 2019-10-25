@@ -1,0 +1,95 @@
+###################################################
+
+
+#### CREAR MÚLTIPLES ARCHIVOS EN UN FORLDER ####
+
+touch {a,b,c}
+
+###################################################
+
+#### CREAR MÚLTIPLES FOLDERS Y ARCHIVOS DESDE LA TERMINAL ####
+
+mkdir -p 1/2 && touch 1/2/{a,b,c}
+
+###################################################
+
+#### CREAR UNA LISTA CON LOS NOBRES DE LOS ARCHIVOS ####
+
+ls *name.txt > filenames.txt
+
+###################################################
+
+### correr un archivo .csh desde la terminal
+
+csh filename.csh 
+
+###################################################
+
+### Escribir un comando para cada uno de los archvos
+
+set numline = `wc filenames.txt`
+@ line = 1
+while ( $line <= $numline[1] )
+set specid = `sed -n ${line}p filenames.txt  | awk '{print $1}'`
+cat <<EOF >gnuplot_fit_${specid}.gp
+
+f(x) = a*exp(-((x/b)**2))+c
+fit f(x) "${specid}" using 1:3:4 yerr via a,b,c
+
+exit()
+EOF
+@ line ++
+end
+
+
+
+###################################################
+
+### Correr en el programa cada uno de los archivos
+
+set numline = `wc filenames.txt`
+##
+@ line = 1
+##
+while ( $line <= $numline[1] )
+
+
+
+set specid = `sed -n ${line}p filenames.txt  | awk '{print $1}'`
+
+
+gnuplot fit_gnuplot_${specid}.gp
+
+
+EOF
+
+
+@ line ++
+end
+
+###################################################
+
+### Cambiar la extensión de muchos archivos Por ejemplo, si quiero cambiar .dat a .txt
+
+
+for x in *.dat; do mv "$x" "${x%.dat}.txt"; done
+
+###################################################
+
+### Extraer info de un archivo
+
+
+#!/bin/bash
+
+for x in "*.ajuste.txt"
+do
+   grep "H_beta_NL.ampl" $x | cut -d " " -f 7 >> amplitud.txt
+done
+
+
+
+# OTRO EJEMPLO:
+
+for x in fit.log; do grep "+/-" $x | cut -b 19-24  >> sigma1.txt; done
+
+
