@@ -42,6 +42,41 @@
 	git config --global user.name <<Your Name>> 
 	git config --global user.email <<your@email.com>>
 	git config user.name <<Your Name>> 
+	ssh-keygen
+	ssh-add ~/.ssh/id_rsa
+	xclip -sel clip < ~/.ssh/id_rsa.pub
+	
+Entra a tu cuenta de GitHub.
+Selecciona Settings, que está en a la parte superior derecha en el engrante.
+Selecciona Deploy keys.
+Selecciona Add SSH key.
+Ponle un título.
+Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
+Dale click en Add Key.
+Ahora regresate a tu paǵina principal.
+Entra al repositorio qué quieres pushear sin que te pida tu contraseña.
+Ahora, donde dice Clone or download selecciona SSH. Copia el URL.
+Ve a la Terminal.
+Abre el directorio de tu repositorio, es decir, escribe:
+
+	cd <<nombre del repositorio>>
+	cd .git
+	gedit config
+
+Cambia el URL de -remote "origin"- por el que copiaste.
+Regresa a tu GitHub.
+Salvalo y cierralo.
+Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS en la URL de tu repositorio.
+Listo, ya no te pedirá la cuenta otra vez.
+Si al quererle dar:
+
+	git push 
+
+antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, entonces, escribe en la terminal:
+
+	git config --global push.default matching
+
+Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos.
 	
 	git add <<c.ipynb>>
 	git commit -m"escribimos un mensaje señalando los cambios qué hicimos"
