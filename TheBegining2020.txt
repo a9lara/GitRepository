@@ -52,6 +52,7 @@ Selecciona Deploy keys.
 Selecciona Add SSH key.
 Ponle un título.
 Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
+Habilita el permiso de write.
 Dale click en Add Key.
 Ahora regresate a tu paǵina principal.
 Entra al repositorio qué quieres pushear sin que te pida tu contraseña.
@@ -84,6 +85,6 @@ Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos
 
 	
 
-
+git@github.com:a9lara/GitRepository.git
 
 
