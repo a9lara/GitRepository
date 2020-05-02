@@ -85,6 +85,5 @@ Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos
 
 	
 
-git@github.com:a9lara/GitRepository.git
 
 
