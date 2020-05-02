@@ -42,18 +42,19 @@
 	git config --global user.name <<Your Name>> 
 	git config --global user.email <<your@email.com>>
 	git config user.name <<Your Name>> 
+	git clone <<URL del repositorio>>
 	ssh-keygen
 	ssh-add ~/.ssh/id_rsa
 	xclip -sel clip < ~/.ssh/id_rsa.pub
 	
 Entra a tu cuenta de GitHub.
 Selecciona Settings, que está en a la parte superior derecha en el engrante.
-Selecciona Deploy keys.
-Selecciona Add SSH key.
+Selecciona -Deploy keys-.
+Selecciona -Add deploy key-.
 Ponle un título.
 Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
-Habilita el permiso de write.
-Dale click en Add Key.
+Habilita la opción de -Allow write access-
+Dale click en -Add Key-.
 Ahora regresate a tu paǵina principal.
 Entra al repositorio qué quieres pushear sin que te pida tu contraseña.
 Ahora, donde dice Clone or download selecciona SSH. Copia el URL.
