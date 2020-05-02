@@ -1,0 +1,54 @@
+1. Descargar el ISO de Ubuntu
+2. Descargar Rufus para quemar el ISO de Ubuntu en una USB y hacerla booteable
+3. Una vez en Ubuntu instalar los siguientes programas desde la terminal
+
+	sudo apt-get install gnuplot
+	sudo apt-get install xclip
+	sudo apt-get install git
+
+4. Descargar Anaconda e instalarlo escribiendo en la terminal
+
+	bash Anaconda3-2020.02-Linux-x86_64.sh
+	
+5. Ahora instalamos Julia y Jupyter
+
+	sudo apt install jupyter
+	sudo apt-get install julia 
+	julia
+	using Pkg
+	Pkg.add("IJulia")
+	Pkg.build("IJulia")
+	ENV["PYTHON"]=""
+	Pkg.add("PyPlot")
+	exit()
+	ipython notebook
+
+6. Instalamos Ledger Live
+
+	chmod +x ledger-live-desktop-2.3.2-linux-x86_64.AppImage
+
+7. Descargamos Chrome
+
+	sudo apt install '/home/username/google-chrome-stable_current_amd64.deb' 
+
+8. Nos metemos a la tienda de Ubuntu para descargar
+
+	Skype
+	Spotify
+	
+9. Comandos referentes a GitHub	
+	
+	git init
+	git config --global user.name <<Your Name>> 
+	git config --global user.email <<your@email.com>>
+	git config user.name <<Your Name>> 
+	
+	git add <<c.ipynb>>
+	git commit -m"escribimos un mensaje señalando los cambios qué hicimos"
+	git push
+
+	
+
+
+
+
