@@ -1,5 +1,5 @@
 1. Descargar el ISO de Ubuntu
-2. Descargar Rufus para quemar el ISO de Ubuntu en una USB y hacerla booteable
+2. Descargar Rufus para quemar el ISO de Ubuntu en una USB y hacerla booteable 
 3. Una vez en Ubuntu instalar los siguientes programas desde la terminal
 
 	sudo apt-get install gnuplot
@@ -35,6 +35,7 @@
 
 	Skype
 	Spotify
+	GIMP
 	
 9. Comandos referentes a GitHub	
 	
@@ -72,7 +73,7 @@ Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS en la URL de t
 Listo, ya no te pedirá la cuenta otra vez.
 Si al quererle dar:
 
-	git push 
+	git push
 
 antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, entonces, escribe en la terminal:
 
@@ -83,6 +84,32 @@ Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos
 	git add <<c.ipynb>>
 	git commit -m"escribimos un mensaje señalando los cambios qué hicimos"
 	git push
+	
+10. Instalar Sherpa
+
+Ir a https://cxc.harvard.edu/ciao/download/ y descargar ciao-install dándole click en -Standard Install with the base CALDB-
+
+Crear una carpeta en home que se llame <<ciao>> y pegar ahí el ciao-install 
+
+	bash ciao-install
+	alias ciao="source /ciao/ciao-4.12/bin/ciao.csh"
+	cd /ciao/ciao-4.12/bin/
+	source ciao.bash
+	cd
+	sherpa
+	quit()
+	
+11. 
+
+
+
+  	  
+
+	
+
+	
+	  	  
+
 
 	
 
