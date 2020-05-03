@@ -71,25 +71,15 @@ $ sudo apt-get install pandoc (Permite descargar los códigos que hagamos en IJu
 
 2.2) Formateando una USB/SD
 
-Desde la Terminal:
+En la Terminal:
 
-Instalamos:
+$ df -h
 
-$ sudo aptitude install dosfstools
-
-Escribimos lo que sigue y ubicamos el lugar de la USB/SD fijándonos en /dev/sdb1     ----  nos fijamos en "sdb1" o lo que diga.
-
-$ sudo fdisk -1
-
-Escribimos (según en lo que diga en "sdb1":
+Nos fijamos que nuestra USB esté en /dev/sdb1
 
 $ sudo umount /dev/sdb1
 
-Ponemos nombre a nuestra memoria y formateamos (De igual manera nos fijamos en "sdb1"):
-
-$ sudo mkfs.vfat -F 32 -n Mi_Memoria /dev/sdb1
-
-$ exit
+$ sudo mkfs.vfat -F 32 -n Nombre_de_la_USB /dev/sdb1
 
 2.3) Borrar usuario guardado en el login de Skype
 
