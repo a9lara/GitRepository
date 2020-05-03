@@ -105,7 +105,7 @@ Crear una carpeta en home que se llame <<ciao>> y pegar ahí el ciao-install
 
   	  
 
-	
+	asdfasdf
 
 	
 	  	  
