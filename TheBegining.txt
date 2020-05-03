@@ -803,7 +803,11 @@ El vínculo para descargar el software es el siguiente:
 
 http://software.unam.mx/
 
-Un tutorial para instalar el software se puede consultar en la parte final de la página en el mismo vínculo.
+Un tutorial para instalar el software se puede consultar en:
+
+https://support.wolfram.com/es/12453?src=mathematica
+
+sudo bash installer.sh
 
 17.1) Como Pasar Tablas de Excel a de Mathematica 
 
