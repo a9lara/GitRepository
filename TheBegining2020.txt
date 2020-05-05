@@ -49,16 +49,15 @@
 	xclip -sel clip < ~/.ssh/id_rsa.pub
 	
 Entra a tu cuenta de GitHub.
-Selecciona Settings, que está en a la parte superior derecha en el engrante.
-Selecciona -Deploy keys-.
-Selecciona -Add deploy key-.
+Selecciona Settings, que está en a la parte superior desplegando el menú junto a la imagen de perfil.
+Selecciona -SSH and GPG keys-.
+Selecciona -New SSH key-.
 Ponle un título.
 Ahora pega la clave qué traes en tu clipboard. (Es decir, solo dale click derehco, pegar)
-Habilita la opción de -Allow write access-
-Dale click en -Add Key-.
+Dale click en -Add SSH key-.
 Ahora regresate a tu paǵina principal.
 Entra al repositorio qué quieres pushear sin que te pida tu contraseña.
-Ahora, donde dice Clone or download selecciona SSH. Copia el URL.
+Ahora, donde dice Clone or download selecciona SSH. Copia esa SSH.
 Ve a la Terminal.
 Abre el directorio de tu repositorio, es decir, escribe:
 
@@ -67,9 +66,7 @@ Abre el directorio de tu repositorio, es decir, escribe:
 	gedit config
 
 Cambia el URL de -remote "origin"- por el que copiaste.
-Regresa a tu GitHub.
 Salvalo y cierralo.
-Vuelve a la página de tu GitHUb y vuleve a cambiar SSH por HTTPS en la URL de tu repositorio.
 Listo, ya no te pedirá la cuenta otra vez.
 Si al quererle dar:
 
@@ -80,6 +77,8 @@ antes de subirlo, te aparece un letrero qué te da a escoger dos opciones, enton
 	git config --global push.default matching
 
 Listo. Si no haces este paso no te preocupes, se seguirán subiendo tus archivos.
+
+Para subir archivos se usan los siguientes comnados:
 	
 	git add <<c.ipynb>>
 	git commit -m"escribimos un mensaje señalando los cambios qué hicimos"
@@ -99,13 +98,16 @@ Crear una carpeta en home que se llame <<ciao>> y pegar ahí el ciao-install
 	sherpa
 	quit()
 	
-11. 
+11. Instalar Exodus
+
+Descargar exodus_20.4.23_amd64.deb de exodus.io
+Abrelo con Open With Software Install
+	
+	
+12.
 
 
-
-  	  
-
-	asdfasdf
+  	 
 
 	
 	  	  
