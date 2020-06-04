@@ -1,0 +1,11 @@
+awk "{print NF}" < Tabla12-McLauhlin.dat | uniq
+awk '{print $1" " $15" "$16" "$17}' Tabla12-McLauhlin.dat > Densidades_Centrales_Volumétricas.dat
+awk "{print NF}" < Densidades_Centrales_Volumétricas.dat | uniq
+
+awk 'NR%3==1' Densidades_Centrales_Volumétricas.dat > K_Densidades_Centrales_Volumétricas.dat
+awk 'NR%3==2' Densidades_Centrales_Volumétricas.dat > W_Densidades_Centrales_Volumétricas.dat
+awk 'NR%3==0' Densidades_Centrales_Volumétricas.dat > PL_Densidades_Centrales_Volumétricas.dat
+
+awk "{print NF}" < K_Densidades_Centrales_Volumétricas.dat | uniq
+awk "{print NF}" < W_Densidades_Centrales_Volumétricas.dat | uniq
+awk "{print NF}" < PL_Densidades_Centrales_Volumétricas.dat | uniq
