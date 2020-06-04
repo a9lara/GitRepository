@@ -1,0 +1,140 @@
+ #####################################################################################################################
+ ################################################       PARTE 1       ################################################
+ #####################################################################################################################
+
+Supongamos que tenemos un archivo que contiene muchos datos y que se llama datos_originales.dat
+Los datos que contiene se ven como sigue
+
+NGC104	84.08	11.14	0.19	0.19	W15
+NGC104	86.37	10.7	0.68	0.62	RV
+NGC104	88.51	11.04	0.19	0.19	W15
+NGC104	93.08	10.79	0.17	0.17	W15
+NGC104	97.88	10.69	0.18	0.18	W15
+NGC104	103.52	10.39	0.18	0.18	W15
+NGC104	110.45	10.5	0.15	0.15	W15
+NGC104	118.74	10.03	0.64	0.58	RV
+NGC104	123.35	10.36	0.2	0.2	W15
+NGC104	132.92	9.31	0.4	0.37	GDR2
+NGC104	161.21	9.46	0.6	0.55	RV
+NGC104	205.62	8.55	0.55	0.5	RV
+NGC104	225.37	8.3	0.35	0.33	GDR2
+NGC104	254.39	8.46	0.54	0.49	RV
+NGC104	295.99	8.13	0.53	0.47	RV
+NGC104	313.56	9.03	0.38	0.35	GDR2
+NGC362	53.38	7.62	0.17	0.17	W15
+NGC362	57.03	6.91	0.17	0.17	W15
+NGC362	60.87	7.07	0.16	0.16	W15
+NGC362	64.64	6.8	0.17	0.17	W15
+NGC362	68.5	6.79	0.62	0.55	RV
+NGC362	68.54	6.77	0.15	0.15	W15
+NGC362	72.85	6.67	0.16	0.16	W15
+NGC362	77.46	6.83	0.16	0.16	W15
+NGC362	77.56	7.52	0.55	0.5	GDR2
+NGC362	83.05	6.26	0.17	0.17	W15
+NGC362	90.09	6.76	0.15	0.15	W15
+NGC362	102.69	6.3	0.58	0.51	RV
+NGC362	131.89	6.37	0.49	0.44	GDR2
+
+Como vemos, únicamente tenemos 2 objetos, NGC104 y NGC362, pero cada uno tiene varios tipos de observaciones, RV, W15 y GDR2.  
+
+Supongamos que solo nos interesan los datos del GDR2 y queremos pasarlos a un archivo llamado datos_GDR2.dat
+
+Primero nos queremos asegurar que todos los datos estén en sus respectivas columnas.
+
+OJO, aveces parecieran desordenados, pero realmente están ordenados y aveces están desordenados 
+y parecen estar ordenados, por lo que siempre es bueno estar seguros y confirmarlo.
+
+Para confirmarlo lo que podemos hacer es preguntarle a AWK cuántas columnas tiene el archivo.
+Esto se lo preguntamos desde la terminal escribiendo:
+
+awk "{print NF}" < datos_originales.dat | uniq
+
+En este caso nos tiene que arrojar:
+
+6
+
+Si los datos estuvieran desordenados, muy probablemente nos arrojaría algo como
+
+6
+7
+6
+7
+
+y primero tendríamos que acomoda bien los datos en sus respectivas columnas (aveces es fácil utilizando excel).
+
+Una vez que estamos seguros que están ordenados podemos escribir en la terminal:
+
+awk '/GDR2/' datos_originales.dat > datos_GDR2.dat
+
+Esto nos hará un archivo llamado datos_GDR2.dat únicamente con los datos que contengan la etiqueta GDR2.
+
+datos_GDR2.dat ahora contiene los siguientes datos:
+
+NGC104	132.92	9.31	0.4	0.37	GDR2
+NGC104	225.37	8.3	0.35	0.33	GDR2
+NGC104	313.56	9.03	0.38	0.35	GDR2
+NGC362	77.56	7.52	0.55	0.5	GDR2
+NGC362	131.89	6.37	0.49	0.44	GDR2
+
+Ahora queremos tener una lista con los nombres de los objetos que aparecen en nuestro arhivo datos_GDR2.dat
+
+Nos fijamos qué columna tiene el nombre de nuestros objetos (en este caso es la columna 1).
+
+Y escribímos en la terminal:
+
+awk '{print $1}' datos_GDR2.dat > todosnombres.txt
+cat todosnombres.txt | sort | uniq > GDR2-ObjectsName.txt
+rm todosnombres.txt
+
+Así nos quedará un archivo llamado GDR2-ObjectsName.txt con la lista de nombres de los objetos contenidos en datos_GDR2.dat
+
+En este caso, nuestro archivo GDR2-ObjectsName.txt se verá así
+
+NGC104
+NGC362
+
+Ahora supongamos que queremos volver a hacer esto para GDR2, W15 y , pero no queremos ponerlos a mano.
+
+Entonces vamos a automatizar el procedimiento escribiendo un código.
+
+Para ello, primero hagamos un archivo que contenga todas las etiquetas que deseamos.
+
+Sabieno que las etiquetas están en la columna 6 del archivo datos_originales.dat, escribimos:
+
+awk '{print $6}' datos_originales.dat > todasetiquetas.txt
+cat todasetiquetas.txt | sort | uniq > etiquetas.txt
+rm todasetiquetas.txt
+
+Así, ya tenemos enlistadas todas las etiquetas que nos interesan en el archivo etiquetas.txt que se ve así:
+
+GDR2
+RV
+W15
+
+Ahora escribamos el código que automatizará el procedimiento.
+
+En un archivo de texto que llamaremos autimatizar.csh escribimos lo siguiente:
+
+set numline = `wc etiquetas.txt`
+@ line = 1
+while ( $line <= $numline[1] )
+set object = `sed -n ${line}p etiquetas.txt ` 
+awk '/'$object'/' datos_originales.dat > datos_$object.dat
+@ line ++
+end
+
+Lo salvamos y escribimos en la terminal
+
+csh autimatizar.csh
+
+Esto nos arrojará los siguientes 3 archivos: datos_GDR2.dat, datos_RV.dat Y datos_W15.dat
+
+Y simplemente podemos repetir el procedimiento que habíamos hecho al principio una vez que obtuvimos datos_GDR2.dat (es decir, línea 69)
+
+ #####################################################################################################################
+ ################################################       PARTE 2       ################################################
+ #####################################################################################################################
+
+
+
+
