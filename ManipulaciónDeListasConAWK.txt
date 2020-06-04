@@ -135,6 +135,34 @@ Y simplemente podemos repetir el procedimiento que habíamos hecho al principio 
  ################################################       PARTE 2       ################################################
  #####################################################################################################################
 
+Supongamos que tenemos una lista del número de frutas que tienen Juan, Paco y Luis en un archivo llamado furtas.dat de la siguiente forma
+
+manzana 4
+manzana 2
+manzana 1
+pera    5
+pera    9
+pera    10
+plátano 2
+plátano 1
+plátano 0
+...
+
+Sabemos que la información de cada primera fruta es de Juan, el segundo es de Paco y el tercer es de Luis, y solo nos interesa hacer una lista con las futas que tiene Juan en un archivo que se llame frutas_Juan.dat
+
+Lo que hacemos es ecribir en la terminal lo siguiente
+
+awk 'NR%3==1' frutas.dat > frutas_Juan.dat
+
+Donde hemos puesto el 3 porque queremos que tome cada 3 renglónes emézando por el 1.
+
+En caso de que quiera los de Paco (que es el segundo lugar), la notación sería:
+
+awk 'NR%3==2' frutas.dat > frutas_Paco.dat
+
+En caso de que quiera los de Luis (que es el tercer lugar), la notación sería:
+
+awk 'NR%3==0' frutas.dat > frutas_Luis.dat
 
 
 
