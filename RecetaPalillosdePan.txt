@@ -6,9 +6,9 @@ Información de la receta
 
 Nombre:				Crazy Breads
 Autor:             		El Guzii
-Tiempo:             			2 horas 
+Tiempo:             		2 horas 
 Número de Ingredientes:  	10
-Número de Utensilios:  	22
+Número de Utensilios:  		22
 Calorías:           		1792 
 Porciones:          		9 
 Número de Personas: 		3
