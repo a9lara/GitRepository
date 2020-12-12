@@ -4,12 +4,24 @@
 using Markdown
 using InteractiveUtils
 
+# This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
+macro bind(def, element)
+    quote
+        local el = $(esc(element))
+        global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : missing
+        el
+    end
+end
+
+# ╔═╡ 26584540-3c0a-11eb-268a-27d361009c1c
+using Plots
+
 # ╔═╡ 24f93ad2-3b57-11eb-3aff-7964ec8e894a
 md"
 # 5 Line Atomic Parameters
 
 ## 5.1 Overview
-To **describe how matter and light intercact** we need to understand many **atomic physics quantits** and how they are related to one another.
+To **describe how matter and light interact** we need to understand many **atomic physics quantits** and how they are related to one another.
 ## 5.2 Line Absorption
 This is seen in the spectra when material between the source of light and the observer absorbs some of the light.
 ### 5.2.1 Line optical depths
@@ -52,7 +64,7 @@ There are two Oscillator Strenght Coefficients:
 And are related by:
 	
 $\boxed{g_B \ f_{B,A} = - \ g_A \ f_{A,B}} \ \ \ (2)$
-	
+
 **$\boxed{g}$**'s are the **statistical weights**.
 
 The convention is that emission lines have negative oscillator strength.
@@ -84,6 +96,69 @@ x(ν,νo,Δν_Doppler) = (ν-νo/Δν_Doppler)
 # Absorption Cross Section
 αν(f_absorption,λ,v_Doppler,ν,νo,Δν_Doppler) = 149.74*f_absorption*λ/v_Doppler*φν(ν,νo,Δν_Doppler)
 
+# ╔═╡ 41ae4c22-3c03-11eb-2374-4da29bb8c418
+md"
+## 5.3 The Line Profile Function
+### 5.3.1 Velocities in a thermal distribution
+The dimensionless velocity distribution function for a Maxwellian distribution is
+given by
+
+$\boxed{f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}v^2 e^{\frac{-mv^2}{2kT}}}$
+"
+
+# ╔═╡ a94070d2-3c09-11eb-22fe-776f72d0035a
+begin
+
+function Maxwellian_Distribution(T)
+thermal_distributions=Float64[]
+vs=Float64[]
+	for v in 0:0.1:50
+thermal_distribution = T^(3/2) * v^2*exp.(-v^2/T)
+push!(thermal_distributions,thermal_distribution)
+		push!(vs,v)
+	end
+		thermal_distributions,vs
+end
+end
+
+# ╔═╡ e7ce9450-3c0e-11eb-3ed3-899a0cbf7974
+begin
+	struct MySlider 
+	    range::AbstractRange
+	    default::Number
+	end
+	function Base.show(io::IO, ::MIME"text/html", slider::MySlider)
+	    print(io, """
+			<input type="range" 
+			min="$(first(slider.range))" 
+			step="$(step(slider.range))"
+			max="$(last(slider.range))" 
+			value="$(slider.default)"
+			oninput="this.nextElementSibling.value=this.value">
+			<output>$(slider.default)</output>""")
+	end
+end
+
+# ╔═╡ 57fed056-3c0e-11eb-056c-37f7b45ae745
+md"Temperature: $(@bind T1111 MySlider(0:10, 0.01)) K"
+
+# ╔═╡ 7097507e-3c0a-11eb-0e6c-c96b22de9c71
+begin
+
+t,v = Maxwellian_Distribution(T1111)
+ta,va = Maxwellian_Distribution(T1111)
+end
+
+# ╔═╡ d664b216-3c0a-11eb-0399-4b10b37dabf4
+begin 
+	plot(v,t,label="T=$T1111")
+	plot!(va,ta,label="T=$T1111")
+	xlabel!("Velocity")
+	ylabel!("Thermal Distribution")
+	xlims!((0,10))
+	ylims!((0,120))
+end
+
 # ╔═╡ Cell order:
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
 # ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
@@ -92,3 +167,10 @@ x(ν,νo,Δν_Doppler) = (ν-νo/Δν_Doppler)
 # ╠═df8d4dd6-3be6-11eb-0d1d-cda97c11c343
 # ╠═6683e03a-3be6-11eb-0276-150b8856697f
 # ╠═9d73b22a-3be6-11eb-3b54-1714e19b250c
+# ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
+# ╠═a94070d2-3c09-11eb-22fe-776f72d0035a
+# ╠═26584540-3c0a-11eb-268a-27d361009c1c
+# ╠═e7ce9450-3c0e-11eb-3ed3-899a0cbf7974
+# ╟─57fed056-3c0e-11eb-056c-37f7b45ae745
+# ╟─7097507e-3c0a-11eb-0e6c-c96b22de9c71
+# ╟─d664b216-3c0a-11eb-0399-4b10b37dabf4
