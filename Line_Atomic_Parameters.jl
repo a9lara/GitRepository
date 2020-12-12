@@ -13,8 +13,42 @@ macro bind(def, element)
     end
 end
 
-# ╔═╡ 26584540-3c0a-11eb-268a-27d361009c1c
-using Plots
+# ╔═╡ a94070d2-3c09-11eb-22fe-776f72d0035a
+begin
+
+
+	############################################
+	# Credits for MySlider: https://github.com/barucden
+	struct MySlider 
+	    range::AbstractRange
+	    default::Number
+	end
+	function Base.show(io::IO, ::MIME"text/html", slider::MySlider)
+	    print(io, """
+			<input type="range" 
+			min="$(first(slider.range))" 
+			step="$(step(slider.range))"
+			max="$(last(slider.range))" 
+			value="$(slider.default)"
+			oninput="this.nextElementSibling.value=this.value">
+			<output>$(slider.default)</output>""")
+	end
+	###########################################
+	
+	using Plots
+	
+	function Maxwellian_Distribution(T)
+thermal_distributions=Float64[]
+vs=Float64[]
+	for v in 0:0.1:50
+thermal_distribution = T^(3/2) * v^2*exp.(-v^2/T)
+push!(thermal_distributions,thermal_distribution)
+		push!(vs,v)
+	end
+		thermal_distributions,vs
+end
+	
+end
 
 # ╔═╡ 24f93ad2-3b57-11eb-3aff-7964ec8e894a
 md"
@@ -106,41 +140,6 @@ given by
 $\boxed{f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}v^2 e^{\frac{-mv^2}{2kT}}}$
 "
 
-# ╔═╡ a94070d2-3c09-11eb-22fe-776f72d0035a
-begin
-
-function Maxwellian_Distribution(T)
-thermal_distributions=Float64[]
-vs=Float64[]
-	for v in 0:0.1:50
-thermal_distribution = T^(3/2) * v^2*exp.(-v^2/T)
-push!(thermal_distributions,thermal_distribution)
-		push!(vs,v)
-	end
-		thermal_distributions,vs
-end
-end
-
-# ╔═╡ e7ce9450-3c0e-11eb-3ed3-899a0cbf7974
-# Credits for this cell: https://github.com/barucden
-
-begin
-	struct MySlider 
-	    range::AbstractRange
-	    default::Number
-	end
-	function Base.show(io::IO, ::MIME"text/html", slider::MySlider)
-	    print(io, """
-			<input type="range" 
-			min="$(first(slider.range))" 
-			step="$(step(slider.range))"
-			max="$(last(slider.range))" 
-			value="$(slider.default)"
-			oninput="this.nextElementSibling.value=this.value">
-			<output>$(slider.default)</output>""")
-	end
-end
-
 # ╔═╡ 57fed056-3c0e-11eb-056c-37f7b45ae745
 md"Temperature: $(@bind T1111 MySlider(0:10, 0.01)) K"
 
@@ -170,9 +169,7 @@ end
 # ╠═6683e03a-3be6-11eb-0276-150b8856697f
 # ╠═9d73b22a-3be6-11eb-3b54-1714e19b250c
 # ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
-# ╠═a94070d2-3c09-11eb-22fe-776f72d0035a
-# ╠═26584540-3c0a-11eb-268a-27d361009c1c
-# ╠═e7ce9450-3c0e-11eb-3ed3-899a0cbf7974
+# ╟─a94070d2-3c09-11eb-22fe-776f72d0035a
 # ╟─57fed056-3c0e-11eb-056c-37f7b45ae745
 # ╟─7097507e-3c0a-11eb-0e6c-c96b22de9c71
 # ╟─d664b216-3c0a-11eb-0399-4b10b37dabf4
