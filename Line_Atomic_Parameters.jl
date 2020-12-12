@@ -122,6 +122,8 @@ end
 end
 
 # ╔═╡ e7ce9450-3c0e-11eb-3ed3-899a0cbf7974
+# Credits for this cell: https://github.com/barucden
+
 begin
 	struct MySlider 
 	    range::AbstractRange
