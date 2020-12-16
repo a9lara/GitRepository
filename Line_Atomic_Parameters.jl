@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.12
+# v0.12.17
 
 using Markdown
 using InteractiveUtils
@@ -35,7 +35,14 @@ begin
 	end
 	###########################################
 	
+		
+	# import Pkg; Pkg.add("Plots")
+	# import Pkg; Pkg.add("PlotlyBase")
+	
 	using Plots
+	plotly()
+	
+		###########################################
 	
 	function Maxwellian_Distribution(T)
 thermal_distributions=Float64[]
