@@ -1,0 +1,23 @@
+# To Install SAS we would also need PYTHON, PERL and HEASARC
+# Coplete downloads and instalation could take stalation could take 8 hours... if everything goes well.
+
+
+# In home: Crl+h 
+# Open: .bashrc
+# Paste:
+export SAS_PERL=$PATH:/perl5/perlbrew/bin 
+export PYTHONPATH=$PYTHONPATH:/home/dev/python-files
+# Close and Save
+
+# Terminal
+sudo apt-get install python-is-python3
+sudo apt install perlbrew
+sudo cpan App::perlbrew
+perlbrew init
+perl -MCPAN -eshell
+tar zxf sas_19.0.0-Ubuntu18.04.tgz
+./install.sh
+sudo apt install python3-pip
+pip3 install -r sas_19.0.0_python_packages.txt
+
+source xmmsas_20201028_0905/setsas.sh
