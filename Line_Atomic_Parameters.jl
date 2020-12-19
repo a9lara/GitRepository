@@ -339,9 +339,26 @@ optical_depth_displaced(τo,Voigt) = τo*Voigt
 md"
 ## 5.4 The Einstein coefficients
 
-The dimensionless **`OSCILLATOR STRENGTH`**, $gf$ is related to the **`TRANSITION PROBABILITY`** $A_{ul}$
+The **`DIMENSIONLESS OSCILLATOR STRENGTH`**, $\boxed{gf}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l} \ [s^{-1}]}$ by
+
+$\boxed{g_lf_{abs}=\frac{m \ c \ \lambda_ {\mathrm{cm}}^2}{8 \ \pi^2 \ q_e^2} \ g_u \ A_{u,l}}$
  
+$\boxed{g_lf_{abs}=1.4992 \ g_u \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+
+where $\boxed{f_{abs}}$ is the **`ABSORPTION OSCILLATOR STRENGTH`**.
+
+That way, we can combine the equations seen in this Pluto.jl notebook to get different expresions relating the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l}}$, **`ABSORPTION CORSS SECTION`** $\boxed{\alpha_{nu}}$, **`ABSORPTION OSCILLATOR STRENGTH`**, $\boxed{f_{abs}}$, **`DOPPLER VELOCITY WIDTH`** $\boxed{\mathrm{v}_\mathrm{ \ Doppler}}$, etc. Such as:
+
+$\boxed{f_{abs}=1.4992 \ \frac{g_u}{g_l} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+
+$\boxed{ A_{u,l} = \frac{f_{abs}}{1.4992} \ \frac{g_l}{g_u} \ \lambda_ {\mathrm{cm}}^{-2}}$
+
+$\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^3 \frac{g_u}{g_l} \ \frac{\varphi_{\nu}(x)}{\mathrm{v}_\mathrm{ \ Doppler}} \ [\mathrm{cm}^2]}$
+
 "
+
+# ╔═╡ 0993d1a2-4238-11eb-1e43-9918fbd8b9e0
+
 
 # ╔═╡ Cell order:
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
@@ -385,4 +402,5 @@ The dimensionless **`OSCILLATOR STRENGTH`**, $gf$ is related to the **`TRANSITIO
 # ╠═294d9c5e-4232-11eb-0aee-c7c22ad6d36e
 # ╠═0779c330-4234-11eb-2e28-374080d859b4
 # ╟─8239d1b8-4235-11eb-0639-efcbffca6299
-# ╠═8326694c-4235-11eb-3ace-73dcfaa2a010
+# ╟─8326694c-4235-11eb-3ace-73dcfaa2a010
+# ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
