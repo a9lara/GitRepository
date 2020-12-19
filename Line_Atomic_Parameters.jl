@@ -64,7 +64,7 @@ md"
 
 ## 5.1 Overview
 
->To **describe how matter and light interact** we need to understand many **atomic physics quantits** and how they are related to one another.
+To **describe how matter and light interact** we need to understand many **atomic physics quantits** and how they are related to one another.
 
 ## 5.2 Line Absorption
 
@@ -91,9 +91,15 @@ dτ_AB(αν,nu,nl,gu,gl,r) = αν*(nl-nu*gl/gu)*f(r)
 # Filling Factor
 filling_factor(r) = r^3
 
+# ╔═╡ a56a6b1c-4246-11eb-18d5-bf0c5e519018
+
+
 # ╔═╡ f0ada102-3be5-11eb-2f6a-d77bf434a7e5
 md"
 ### 5.2.2 Oscillator Strength
+
+
+
 **What is it?** It is a **dimensionless number** of order unity.
 	
 **What is its concept?** It can be thought of as a **correction factor** to make the expression for a classical oscillator agree with the quantum mechanical value.
@@ -109,20 +115,47 @@ $\boxed{g_l \ f_{l,u} = - \ g_u \ f_{u,l}} \ \ \ (2)$
 **$\boxed{g}$**'s are the **statistical weights**.
 
 The convention is that emission lines have negative oscillator strength.
-	
+
+"
+
+# ╔═╡ 3601f4a6-4246-11eb-247d-891777c4f0ac
+
+
+# ╔═╡ 34e9501c-4246-11eb-2004-43b848503e9a
+md"
+
 ### 5.2.3 Absorption Cross Section
 
-The **`VOIGT FUNCTION`**, $\boxed{\varphi(x)}$, the **`RELATIVE LINE DISPLACEMENT`** , $\boxed{x \ \equiv \ \frac{\nu \ - \ \nu_o}{\Delta\nu_\mathrm{Doppler}}}$ (with this definition of the **relative line displacement**, the **line profile** due to **thermal motions** alone is $\boxed{e^{-x^2}}$), and the **`DOPPLER VELOCITY WIDTH`**  $\boxed{v_\mathrm{Doppler} \ [\mathrm{cm} \ \mathrm{s}^{-1}]}$ (the point where the line profile falls to $\boxed{\frac{1}{e}}$ of its peak) will be seen later.
-	
-Wright now, what is important to hightlight is that the **`LINE CENTER ABSORPTION CORSS SECTION`** $\boxed{\alpha_{\nu} \ [\mathrm{cm}^2]}$ is related with the **`ABSORPTION OSCILLATOR STRENGTH COEFFICIENT`**, $\boxed{f_{\mathrm{absorption}}}$, by:
+The **`VOIGT FUNCTION`**, $\boxed{\varphi(x)}$, 
 
-$\boxed{\alpha_{\nu} = \frac{\sqrt{\pi} \ q_e^2 \ \lambda  \ f_{\mathrm{absorption}} \  \varphi_{\nu}(x)}{m_e \ c \ v_\mathrm{Doppler}} = 149.74 \ f_{\mathrm{absorption}} \ \frac{\lambda_{\mathrm{cm}}}{v_{\mathrm{Doppler}}} \ \varphi_{\nu}(x) \ \ [\mathrm{cm}^2]}\ \ \ (3)$
+> **Voigt Function**: Is a probability distribution given by a convolution of a Cauchy-Lorentz distribution and a Gaussian distribution. It is often used in analyzing data from spectroscopy or diffraction.
+
+the **`RELATIVE LINE DISPLACEMENT`** , $\boxed{x \ \equiv \ \frac{\nu \ - \ \nu_o}{\Delta\nu_\mathrm{Doppler}}}$,
+
+> With this definition of the **relative line displacement**, the **line profile** due to **thermal motions** alone is $\boxed{e^{-x^2}}$.
+
+the **`WAVELENGTH IN CENTIMETERS`**  $\boxed{\lambda_\mathrm{cm}}$, and the **`DOPPLER VELOCITY WIDTH`**  $\boxed{v_\mathrm{Doppler} \ [\mathrm{cm} \ \mathrm{s}^{-1}]}$, 
+
+> The point where the line profile falls to $\boxed{\frac{1}{e}}$ of its peak.
+
+will be seen later.
+	
+Wright now, what is important to hightlight is that the **`LINE CENTER ABSORPTION CORSS SECTION`**, $\boxed{\alpha_{\nu} \ [\mathrm{cm}^2]}$, is related with the **`ABSORPTION OSCILLATOR STRENGTH COEFFICIENT`**, $\boxed{f_{\mathrm{absorption}}}$, by:
+
+$\boxed{\alpha_{\nu} = \frac{\sqrt{\pi} \ q_e^2 \ \lambda  \ f_{\mathrm{absorption}} \  \varphi_{\nu}(x)}{m_e \ c \ v_\mathrm{Doppler}}\ \ [\mathrm{cm}^2]}\ \ \ (3.a)$
+
+$\boxed{\alpha_{\nu}= 149.74 \ f_{\mathrm{absorption}} \ \frac{\lambda_{\mathrm{cm}}}{v_{\mathrm{Doppler}}} \ \varphi_{\nu}(x) \ \ [\mathrm{cm}^2]}\ \ \ (3.b)$
 
 "
 
 # ╔═╡ df8d4dd6-3be6-11eb-0d1d-cda97c11c343
-# Absorption Cross Section
-αν(f_absorption,λ,v_Doppler,ν,νo,Δν_Doppler) = 149.74*f_absorption*λ/v_Doppler*φν(ν,νo,Δν_Doppler)
+Absorption_Cross_Section(Voigt,f_absorption,λ,v_Doppler,ν,νo,Δν_Doppler) = 149.74*f_absorption*λ/v_Doppler*Voigt
+
+# ╔═╡ 5ddc5df2-4246-11eb-1a3f-751eb48b06ea
+αν = Absorption_Cross_Section(1,1,1,1,1,1,1)
+
+# ╔═╡ 4cc7b320-4246-11eb-3896-1d9eb3af6146
+
 
 # ╔═╡ 41ae4c22-3c03-11eb-2374-4da29bb8c418
 md"
@@ -360,8 +393,13 @@ $\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
 # ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
 # ╠═df1a21c6-3b5a-11eb-3b57-756ae2eb251a
-# ╠═f0ada102-3be5-11eb-2f6a-d77bf434a7e5
-# ╟─df8d4dd6-3be6-11eb-0d1d-cda97c11c343
+# ╟─a56a6b1c-4246-11eb-18d5-bf0c5e519018
+# ╟─f0ada102-3be5-11eb-2f6a-d77bf434a7e5
+# ╟─3601f4a6-4246-11eb-247d-891777c4f0ac
+# ╟─34e9501c-4246-11eb-2004-43b848503e9a
+# ╠═df8d4dd6-3be6-11eb-0d1d-cda97c11c343
+# ╠═5ddc5df2-4246-11eb-1a3f-751eb48b06ea
+# ╟─4cc7b320-4246-11eb-3896-1d9eb3af6146
 # ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
 # ╟─a94070d2-3c09-11eb-22fe-776f72d0035a
 # ╟─47d760f4-40c2-11eb-37ad-279f3504f746
