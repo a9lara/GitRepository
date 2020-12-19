@@ -270,7 +270,7 @@ Doppler_b_parameter(T,m,v_Trubulance) = sqrt(2*Boltzman_Constant*T/m)+v_Trubulan
 md"
 ### 5.3.4 Voigt function 
 
-The **`rleative displacement`** is given by 
+The **`RELATIVE DISPLACEMENT`** is given by 
 
 $\boxed{x \equiv \frac{\nu - \nu_\mathrm{o}}{\Delta\nu_{\mathrm{Doppler}}}}$
 
@@ -280,7 +280,7 @@ $\boxed{x \equiv \frac{\nu - \nu_\mathrm{o}}{\Delta\nu_{\mathrm{Doppler}}}}$
 relative_displacement(ν,νo,Δν_Doppler) = (ν-νo)/Δν_Doppler
 
 # ╔═╡ 2d51fb46-4233-11eb-16d2-d901efddf3db
-xx = relative_displacement(2000,1,1)
+xx = relative_displacement(2,1,1)
 
 # ╔═╡ 0804d794-4235-11eb-1ff8-43557d6de7ad
 
@@ -288,11 +288,11 @@ xx = relative_displacement(2000,1,1)
 # ╔═╡ a19b1b74-4234-11eb-2041-a9c728c0d4ac
 md"
 
-The **`Voigt function`** ,$\boxed{\varphi(x)}$, is normalized to unity at line center and is approximately given by
+The **`VOIGT FUNCTION`** ,$\boxed{\varphi(x)}$, is normalized to unity at line center and is approximately given by
 
 $\boxed{\varphi(x) \approx \frac{e^{-x^2} + a}{\sqrt{\pi} \ x^2} }$
 
-where $\boxed{a}$ is the **`damping constant`**.
+where $\boxed{a}$ is the **`DAMPING CONSTANT`**.
 
 "
 
@@ -314,7 +314,7 @@ Voigt = voigt_function(xx ,a)
 # ╔═╡ b1c8b2c4-4234-11eb-2f3a-27120018dd90
 md"
 
-**`Optical depths a relative displacement x away from line center`** are related to the line center optical depth **$\boxed{\tau_\mathrm{o}}$** by
+**`OPTICAL DEPTHS A RELATIVE DISPLACEMENT x AWAY FROM LINE CENTER`** are related to the **`LINE CENTER OPTICAL DEPTH`** $\boxed{\tau_\mathrm{o}}$ by
 
 $\boxed{\tau = \tau_\mathrm{o} \ \varphi(x)}$
 
@@ -331,6 +331,17 @@ optical_depth_displaced(τo,Voigt) = τo*Voigt
 
 # ╔═╡ 0779c330-4234-11eb-2e28-374080d859b4
 τ = optical_depth_displaced(τo,Voigt)
+
+# ╔═╡ 8239d1b8-4235-11eb-0639-efcbffca6299
+
+
+# ╔═╡ 8326694c-4235-11eb-3ace-73dcfaa2a010
+md"
+## 5.4 The Einstein coefficients
+
+The dimensionless **`OSCILLATOR STRENGTH`**, $gf$ is related to the **`TRANSITION PROBABILITY`** $A_{ul}$
+ 
+"
 
 # ╔═╡ Cell order:
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
@@ -373,3 +384,5 @@ optical_depth_displaced(τo,Voigt) = τo*Voigt
 # ╠═dac8b652-4233-11eb-23e8-a9e829253b8d
 # ╠═294d9c5e-4232-11eb-0aee-c7c22ad6d36e
 # ╠═0779c330-4234-11eb-2e28-374080d859b4
+# ╟─8239d1b8-4235-11eb-0639-efcbffca6299
+# ╠═8326694c-4235-11eb-3ace-73dcfaa2a010
