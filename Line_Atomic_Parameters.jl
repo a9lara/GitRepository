@@ -63,15 +63,18 @@ md"
 # 5 Line Atomic Parameters
 
 ## 5.1 Overview
-To **describe how matter and light interact** we need to understand many **atomic physics quantits** and how they are related to one another.
+
+>To **describe how matter and light interact** we need to understand many **atomic physics quantits** and how they are related to one another.
+
 ## 5.2 Line Absorption
+
 This is seen in the spectra when material between the source of light and the observer absorbs some of the light.
 ### 5.2.1 Line optical depths
-Imagine we have a transition from an upper level **A**, to a lower level **B**.
+Imagine we have a transition from an upper level **u**, to a lower level **l**.
 
 The **optical depth** for such transition is given by:
 
-$\boxed{dτ_{A,B}=α_{ν}\left(n_B-\frac{n_Ag_B}{g_A}\right)f(r)} \ \ \ (1)$
+$\boxed{dτ_{u,l}=α_{ν}\left(n_l-n_u \ \frac{g_l}{g_u}\right) \ f(r) \ dr } \ \ \ (1)$
 
  $\boxed{f(r)}$ is the **filling factor**
 
@@ -82,7 +85,7 @@ The term in parenthesis is the **population** [cm$^3$] of the lower level, with 
 
 # ╔═╡ da7393f6-3b59-11eb-2aed-4d327edeb345
 # Optical Depth 
-dτ_AB(αν,nA,nB,gA,gB,r) = αν*(nB-nA*gB/gA)*f(r) 
+dτ_AB(αν,nu,nl,gu,gl,r) = αν*(nl-nu*gl/gu)*f(r) 
 
 # ╔═╡ df1a21c6-3b5a-11eb-3b57-756ae2eb251a
 # Filling Factor
@@ -97,42 +100,25 @@ md"
 	
 **What other line parameters are related to it?** Many, such as the **absorption coefficient** and the **transition probability**.
 	
-There are two Oscillator Strenght Coefficients:
-	
-**1) Absorption Oscillator Strenght Coefficient** (f$_{\mathrm{B,A}}$ = f$_{\mathrm{absorption}}$ )
-	
-**2) Emission Oscillator Strenght Coefficient**  (f$_{\mathrm{A,B}}$ = f$_{\mathrm{emision}}$)
+There are two Oscillator Strenght Coefficients, the **`ABSORPTION OSCILLATOR STRENGTH COEFFICIENT`** $\boxed{f_{{l,u}} = f_{\mathrm{absorption}}}$, and the  **`EMISSION OSCILLATOR STRENGTH COEFFICIENT`** $\boxed{f_{{u,l}} = f_{\mathrm{emision}}}$ 
 	
 And are related by:
 	
-$\boxed{g_B \ f_{B,A} = - \ g_A \ f_{A,B}} \ \ \ (2)$
+$\boxed{g_l \ f_{l,u} = - \ g_u \ f_{u,l}} \ \ \ (2)$
 
 **$\boxed{g}$**'s are the **statistical weights**.
 
 The convention is that emission lines have negative oscillator strength.
 	
 ### 5.2.3 Absorption Cross Section
+
+The **`VOIGT FUNCTION`**, $\boxed{\varphi(x)}$, the **`RELATIVE LINE DISPLACEMENT`** , $\boxed{x \ \equiv \ \frac{\nu \ - \ \nu_o}{\Delta\nu_\mathrm{Doppler}}}$ (with this definition of the **relative line displacement**, the **line profile** due to **thermal motions** alone is $\boxed{e^{-x^2}}$), and the **`DOPPLER VELOCITY WIDTH`**  $\boxed{v_\mathrm{Doppler} \ [\mathrm{cm} \ \mathrm{s}^{-1}]}$ (the point where the line profile falls to $\boxed{\frac{1}{e}}$ of its peak) will be seen later.
 	
-The line center **absorption cross section** $\alpha_{\nu}$ (cm$^2$) is related with f$_{\mathrm{absorption}}$ by:
+Wright now, what is important to hightlight is that the **`LINE CENTER ABSORPTION CORSS SECTION`** $\boxed{\alpha_{\nu} \ [\mathrm{cm}^2]}$ is related with the **`ABSORPTION OSCILLATOR STRENGTH COEFFICIENT`**, $\boxed{f_{\mathrm{absorption}}}$, by:
 
-$\boxed{\alpha_{\nu} = \frac{\sqrt{\pi} \ q_e^2 \ \lambda  \ f_{\mathrm{abs}} \  \varphi_{\nu}(x)}{m_e \ c \ v_\mathrm{Doppler}} = 149.74 \ f_{\mathrm{absorption}} \ \frac{\lambda_{\mathrm{cm}}}{v_{\mathrm{Doppler}}} \ \varphi_{\nu}(x) \ \ [\mathrm{cm}^2]}\ \ \ (3)$
+$\boxed{\alpha_{\nu} = \frac{\sqrt{\pi} \ q_e^2 \ \lambda  \ f_{\mathrm{absorption}} \  \varphi_{\nu}(x)}{m_e \ c \ v_\mathrm{Doppler}} = 149.74 \ f_{\mathrm{absorption}} \ \frac{\lambda_{\mathrm{cm}}}{v_{\mathrm{Doppler}}} \ \varphi_{\nu}(x) \ \ [\mathrm{cm}^2]}\ \ \ (3)$
 
- $\boxed{v_\mathrm{Doppler}}$ is the **Doppler velocity** width (cm s$^{-1}$), the point where the line profile falls to $\boxed{\frac{1}{e}}$ of its peak.
-
- $\boxed{\varphi(x)}$ is the **Voigt function**.
-
- $\boxed{x \ \equiv \ \frac{\nu \ - \ \nu_o}{\Delta\nu_\mathrm{Doppler}}}$ is the **relative line displacement**.
-
-With this definition of the **relative line displacement**, the **line profile** due to **thermal motions** alone is $\boxed{e^{-x^2}}$.
 "
-
-# ╔═╡ 9d73b22a-3be6-11eb-3b54-1714e19b250c
-# relative line displacement
-x(ν,νo,Δν_Doppler) = (ν-νo/Δν_Doppler)
-
-# ╔═╡ 6683e03a-3be6-11eb-0276-150b8856697f
-# Voigt function
-φν(ν,νo,Δν_Doppler) = x(ν,νo,Δν_Doppler)^2
 
 # ╔═╡ df8d4dd6-3be6-11eb-0d1d-cda97c11c343
 # Absorption Cross Section
@@ -341,33 +327,41 @@ md"
 
 The **`DIMENSIONLESS OSCILLATOR STRENGTH`**, $\boxed{gf}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l} \ [s^{-1}]}$ by
 
-$\boxed{g_lf_{abs}=\frac{m \ c \ \lambda_ {\mathrm{cm}}^2}{8 \ \pi^2 \ q_e^2} \ g_u \ A_{u,l}}$
+ $\boxed{g_lf_{abs}=\frac{m \ c \ \lambda_ {\mathrm{cm}}^2}{8 \ \pi^2 \ q_e^2} \ g_u \ A_{u,l}}$
  
-$\boxed{g_lf_{abs}=1.4992 \ g_u \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+ $\boxed{g_lf_{abs}=1.4992 \ g_u \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
 
 where $\boxed{f_{abs}}$ is the **`ABSORPTION OSCILLATOR STRENGTH`**.
 
 That way, we can combine the equations seen in this Pluto.jl notebook to get different expresions relating the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l}}$, **`ABSORPTION CORSS SECTION`** $\boxed{\alpha_{nu}}$, **`ABSORPTION OSCILLATOR STRENGTH`**, $\boxed{f_{abs}}$, **`DOPPLER VELOCITY WIDTH`** $\boxed{\mathrm{v}_\mathrm{ \ Doppler}}$, etc. Such as:
 
-$\boxed{f_{abs}=1.4992 \ \frac{g_u}{g_l} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+ $\boxed{f_{abs}=1.4992 \ \frac{g_u}{g_l} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
 
-$\boxed{ A_{u,l} = \frac{f_{abs}}{1.4992} \ \frac{g_l}{g_u} \ \lambda_ {\mathrm{cm}}^{-2}}$
+ $\boxed{ A_{u,l} = \frac{f_{abs}}{1.4992} \ \frac{g_l}{g_u} \ \lambda_ {\mathrm{cm}}^{-2}}$
 
-$\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^3 \frac{g_u}{g_l} \ \frac{\varphi_{\nu}(x)}{\mathrm{v}_\mathrm{ \ Doppler}} \ [\mathrm{cm}^2]}$
+ $\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^3 \frac{g_u}{g_l} \ \frac{\varphi_{\nu}(x)}{\mathrm{v}_\mathrm{ \ Doppler}} \ [\mathrm{cm}^2]}$
 
+The **`COEFFICIENT FOR INDUCED EMISSION`**, $\boxed{B_{ul}}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{ul}}$ by the **`PAHSE SPACE FACTOR`** given by $\boxed{\frac{2h\nu ^3}{c^2}}$;
+
+$\boxed{A_{u,l}=\frac{2h\nu ^3}{c^2} B_{ul} \ [\mathrm{s}^{-1}]}$
+
+And the **`INDUCED EMISSION PROBABILITY`** $\boxed{g_u}$ and the **`INDUCED ABSORPTION PROBABILITY`** $\boxed{g_u}$ are related by
+
+$\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
 "
+
+# ╔═╡ b7ad29b0-423c-11eb-0e69-e974b103458b
+
 
 # ╔═╡ 0993d1a2-4238-11eb-1e43-9918fbd8b9e0
 
 
 # ╔═╡ Cell order:
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
-# ╟─da7393f6-3b59-11eb-2aed-4d327edeb345
-# ╟─df1a21c6-3b5a-11eb-3b57-756ae2eb251a
-# ╟─f0ada102-3be5-11eb-2f6a-d77bf434a7e5
+# ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
+# ╠═df1a21c6-3b5a-11eb-3b57-756ae2eb251a
+# ╠═f0ada102-3be5-11eb-2f6a-d77bf434a7e5
 # ╟─df8d4dd6-3be6-11eb-0d1d-cda97c11c343
-# ╟─6683e03a-3be6-11eb-0276-150b8856697f
-# ╟─9d73b22a-3be6-11eb-3b54-1714e19b250c
 # ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
 # ╟─a94070d2-3c09-11eb-22fe-776f72d0035a
 # ╟─47d760f4-40c2-11eb-37ad-279f3504f746
@@ -403,4 +397,5 @@ $\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm
 # ╠═0779c330-4234-11eb-2e28-374080d859b4
 # ╟─8239d1b8-4235-11eb-0639-efcbffca6299
 # ╟─8326694c-4235-11eb-3ace-73dcfaa2a010
+# ╟─b7ad29b0-423c-11eb-0e69-e974b103458b
 # ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
