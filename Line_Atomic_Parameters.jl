@@ -38,6 +38,7 @@ begin
 		
 	# import Pkg; Pkg.add("Plots")
 	# import Pkg; Pkg.add("PlotlyBase")
+	# import Pkg; Pkg.add("PlutoUI")
 	
 	using PlutoUI
 	using Plots
