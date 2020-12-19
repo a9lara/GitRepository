@@ -39,6 +39,7 @@ begin
 	# import Pkg; Pkg.add("Plots")
 	# import Pkg; Pkg.add("PlotlyBase")
 	
+	using PlutoUI
 	using Plots
 	plotly()
 	
@@ -79,13 +80,13 @@ $\boxed{dτ_{A,B}=α_{ν}\left(n_B-\frac{n_Ag_B}{g_A}\right)f(r)} \ \ \ (1)$
 The term in parenthesis is the **population** [cm$^3$] of the lower level, with correction for **stimulated emission**. This term is the only place where **stimulated emission** enters in the **radiative balance** equations.
 "
 
-# ╔═╡ df1a21c6-3b5a-11eb-3b57-756ae2eb251a
-# Filling Factor
-f(r) = r^3
-
 # ╔═╡ da7393f6-3b59-11eb-2aed-4d327edeb345
 # Optical Depth 
 dτ_AB(αν,nA,nB,gA,gB,r) = αν*(nB-nA*gB/gA)*f(r) 
+
+# ╔═╡ df1a21c6-3b5a-11eb-3b57-756ae2eb251a
+# Filling Factor
+filling_factor(r) = r^3
 
 # ╔═╡ f0ada102-3be5-11eb-2f6a-d77bf434a7e5
 md"
@@ -144,39 +145,231 @@ md"
 The dimensionless velocity distribution function for a Maxwellian distribution is
 given by
 
-$\boxed{f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}v^2 e^{\frac{-mv^2}{2kT}}}$
+$\boxed{f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}v^2 e^{\frac{-mv^2}{2kT}}} \ (4)$ 
 "
+
+# ╔═╡ 47d760f4-40c2-11eb-37ad-279f3504f746
+Boltzman_Constant = 1.381e-16 # [erg K^-1]
 
 # ╔═╡ 57fed056-3c0e-11eb-056c-37f7b45ae745
 md"Temperature: $(@bind T1111 MySlider(0:10, 0.01)) K"
 
 # ╔═╡ 7097507e-3c0a-11eb-0e6c-c96b22de9c71
 begin
-
-t,v = Maxwellian_Distribution(T1111)
-ta,va = Maxwellian_Distribution(T1111)
+	t,v = Maxwellian_Distribution(T1111)
+	ta,va = Maxwellian_Distribution(T1111)
 end
 
 # ╔═╡ d664b216-3c0a-11eb-0399-4b10b37dabf4
 begin 
-	plot(v,t,label="T=$T1111")
-	plot!(va,ta,label="T=$T1111")
+	plot(v,t,label="T = $T1111 K")
+	plot(va,ta,label="T = $T1111 K")
 	xlabel!("Velocity")
 	ylabel!("Thermal Distribution")
 	xlims!((0,10))
 	ylims!((0,120))
+	title!("Maxwellian Distribution")
 end
+
+# ╔═╡ 490dc08e-40be-11eb-1ee3-7526cbcc6c45
+md"
+
+It is important to know that there are 3 mean speeds in a **thermal velocity distribution**
+
+#### 1) The first speed is the **`Most Probable Speed`**
+
+[It] is also known as **Mean Velocity**. It turns out that it is equal to the **Doppler Velocity Width**, sometiemes referred to as **Velocity Dispersion**. 
+
+The important thing is that **it is the peak of the velocity distribution**, and is found by setting the derivative of the distribution function to zero. 
+
+$\boxed{\mathrm{v}_\mathrm{ \ mean} = \sqrt{\frac{2 \ \mathrm{k}_\mathrm{B} \ T}{m}} \ [\mathrm{cm} \ \mathrm{s}^{-1}]} \ (5)$ 
+
+Therefore, the **velocity distribution can be expressed in terms of the mean speed** as:
+
+$\boxed{f(\mathrm{v}) = \frac{\sqrt{\frac{16}{\pi}} \ \left(\frac{\mathrm{v}^{\ 2}}{\mathrm{v}_\mathrm{\ mean}^{\ 3}}\right)}{\exp\left({\frac{\mathrm{v}^2}{\mathrm{v}_\mathrm{\ mean}^{\ 3}}}\right)}} \ (6)$ 
+
+Regarding the **Doppler Velocity Width**: The observed linewidth is proportional to the velocity projected along our line of sight. The **Doppler Velocity Width**, $\mathrm{v_{Doppler}}$, is the velocity averaged over the projected line of sight. $\mathrm{v_{Doppler}}$ is the distance form line center where the line profile falls to $e^{-1}$  of its central value. 
+
+#### 2) The second speed is the **`Average Speed`**
+
+It is also known as **Expected Value**.
+
+It is obtained by averaging over this function and is given by
+
+$\boxed{\mathrm{v}_{\mathrm{\ average}}=\sqrt{\frac{8 \ \mathrm{k_B} \ T}{\pi \ m}}} \ (7)$ 
+
+#### 3) The third speed is the **`Root Mean Square Speed`**
+
+It corresponds to the speed of a particle with median kinetic energy.
+
+$\boxed{\mathrm{v}_{\mathrm{\ rms}}=\sqrt{\frac{3}{8}} \ \mathrm{v}_\mathrm{ \ mean}} \ (7)$ 
+
+"
+
+# ╔═╡ 4b8b2b70-40ba-11eb-350b-971e7040f47c
+v_mean(T,m) = sqrt(2*Boltzman_Constant*T/m)
+
+# ╔═╡ 9582d11a-40c9-11eb-3476-cbafd81d7973
+v_average(T,m) = sqrt(8*Boltzman_Constant*T/(π*m))
+
+# ╔═╡ 9583b364-40c9-11eb-257c-3f2d926a3a91
+v_rms(T,m) = sqrt(3/8)*v_mean(T,m)
+
+# ╔═╡ 95e6bbd8-40c6-11eb-0851-9779c5789838
+begin
+	v_mean_ARRAY=Float64[]
+	T_ARRAY=Float64[]
+	for T in 0:1:50000
+	v = v_mean(T,1)	
+	push!(v_mean_ARRAY,v)
+	push!(T_ARRAY,T)
+	end
+	T_ARRAY,v_mean_ARRAY
+end
+
+# ╔═╡ 87e2a4fc-40c6-11eb-37b8-d3a434c3465c
+begin 
+	plot(T_ARRAY,v_mean_ARRAY,label=false)
+	xlabel!("Temperature")
+	ylabel!("Velocity")
+end
+
+# ╔═╡ 4150c22e-4235-11eb-3079-1549a7209d3a
+
+
+# ╔═╡ 55241024-4228-11eb-0391-f90756271892
+md"
+### 5.3.2 Line Widths
+
+If there is no thermal component, the micr
+"
+
+# ╔═╡ 3c737760-4235-11eb-1be8-79b212f9f6eb
+
+
+# ╔═╡ c7ddac9e-40b6-11eb-37f5-716ef3b2db5e
+md"
+### 5.3.3 The Doppler b parameter
+
+It is simply the name that is given to de **velocity width** or  **velocity dispersion with turbulence included**, and is given by:
+
+$\boxed{b^2 = \frac{2kT}{m_A}+v_\mathrm{ \ Turbulance}^{\ 2} \ \left[\mathrm{cm}^{2}  \ 
+\mathrm{s}^{-2}\right]}$
+
+$\boxed{b = \frac{\Delta v_\mathrm{FWHM}}{2 \ \sqrt{\ln (2)}} \ \left[\mathrm{cm}^{2}  \ 
+\mathrm{s}^{-2}\right]}$
+"
+
+# ╔═╡ 8cf72bda-40ca-11eb-0ab7-fdb3f1c916f9
+Doppler_b_parameter(T,m,v_Trubulance) = sqrt(2*Boltzman_Constant*T/m)+v_Trubulance^2 # [cm^2 s^-2]
+
+# ╔═╡ 05ac39ce-4235-11eb-201a-0bcb6612d928
+
+
+# ╔═╡ 89bc8eb8-422a-11eb-036b-0fd5e71e75b5
+md"
+### 5.3.4 Voigt function 
+
+The **`rleative displacement`** is given by 
+
+$\boxed{x \equiv \frac{\nu - \nu_\mathrm{o}}{\Delta\nu_{\mathrm{Doppler}}}}$
+
+"
+
+# ╔═╡ ea76aaba-4232-11eb-23ec-abb60f290167
+relative_displacement(ν,νo,Δν_Doppler) = (ν-νo)/Δν_Doppler
+
+# ╔═╡ 2d51fb46-4233-11eb-16d2-d901efddf3db
+xx = relative_displacement(2000,1,1)
+
+# ╔═╡ 0804d794-4235-11eb-1ff8-43557d6de7ad
+
+
+# ╔═╡ a19b1b74-4234-11eb-2041-a9c728c0d4ac
+md"
+
+The **`Voigt function`** ,$\boxed{\varphi(x)}$, is normalized to unity at line center and is approximately given by
+
+$\boxed{\varphi(x) \approx \frac{e^{-x^2} + a}{\sqrt{\pi} \ x^2} }$
+
+where $\boxed{a}$ is the **`damping constant`**.
+
+"
+
+# ╔═╡ 39a86a4c-4233-11eb-1c34-1be5c9b5d4f7
+damping_constant = 1
+
+# ╔═╡ fd96acd0-4232-11eb-38bf-ff83f01d94f2
+a = damping_constant
+
+# ╔═╡ da2132aa-4234-11eb-2b2d-d90d38979a2f
+voigt_function(x,a) = (exp(-x ^2) + a)/(sqrt(π)*x ^2)
+
+# ╔═╡ e06b358e-4234-11eb-0202-fb8f1315d0d2
+Voigt = voigt_function(xx ,a) 
+
+# ╔═╡ 150d054c-4235-11eb-3df3-4138d650c12e
+
+
+# ╔═╡ b1c8b2c4-4234-11eb-2f3a-27120018dd90
+md"
+
+**`Optical depths a relative displacement x away from line center`** are related to the line center optical depth **$\boxed{\tau_\mathrm{o}}$** by
+
+$\boxed{\tau = \tau_\mathrm{o} \ \varphi(x)}$
+
+"
+
+# ╔═╡ df78508e-4233-11eb-2b41-b9496b2b6aba
+center_optical_depth = 100
+
+# ╔═╡ dac8b652-4233-11eb-23e8-a9e829253b8d
+τo = center_optical_depth
+
+# ╔═╡ 294d9c5e-4232-11eb-0aee-c7c22ad6d36e
+optical_depth_displaced(τo,Voigt) = τo*Voigt
+
+# ╔═╡ 0779c330-4234-11eb-2e28-374080d859b4
+τ = optical_depth_displaced(τo,Voigt)
 
 # ╔═╡ Cell order:
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
-# ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
-# ╠═df1a21c6-3b5a-11eb-3b57-756ae2eb251a
+# ╟─da7393f6-3b59-11eb-2aed-4d327edeb345
+# ╟─df1a21c6-3b5a-11eb-3b57-756ae2eb251a
 # ╟─f0ada102-3be5-11eb-2f6a-d77bf434a7e5
-# ╠═df8d4dd6-3be6-11eb-0d1d-cda97c11c343
-# ╠═6683e03a-3be6-11eb-0276-150b8856697f
-# ╠═9d73b22a-3be6-11eb-3b54-1714e19b250c
+# ╟─df8d4dd6-3be6-11eb-0d1d-cda97c11c343
+# ╟─6683e03a-3be6-11eb-0276-150b8856697f
+# ╟─9d73b22a-3be6-11eb-3b54-1714e19b250c
 # ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
 # ╟─a94070d2-3c09-11eb-22fe-776f72d0035a
+# ╟─47d760f4-40c2-11eb-37ad-279f3504f746
 # ╟─57fed056-3c0e-11eb-056c-37f7b45ae745
 # ╟─7097507e-3c0a-11eb-0e6c-c96b22de9c71
 # ╟─d664b216-3c0a-11eb-0399-4b10b37dabf4
+# ╟─490dc08e-40be-11eb-1ee3-7526cbcc6c45
+# ╟─4b8b2b70-40ba-11eb-350b-971e7040f47c
+# ╟─9582d11a-40c9-11eb-3476-cbafd81d7973
+# ╟─9583b364-40c9-11eb-257c-3f2d926a3a91
+# ╟─95e6bbd8-40c6-11eb-0851-9779c5789838
+# ╟─87e2a4fc-40c6-11eb-37b8-d3a434c3465c
+# ╟─4150c22e-4235-11eb-3079-1549a7209d3a
+# ╟─55241024-4228-11eb-0391-f90756271892
+# ╟─3c737760-4235-11eb-1be8-79b212f9f6eb
+# ╟─c7ddac9e-40b6-11eb-37f5-716ef3b2db5e
+# ╟─8cf72bda-40ca-11eb-0ab7-fdb3f1c916f9
+# ╟─05ac39ce-4235-11eb-201a-0bcb6612d928
+# ╟─89bc8eb8-422a-11eb-036b-0fd5e71e75b5
+# ╠═ea76aaba-4232-11eb-23ec-abb60f290167
+# ╠═2d51fb46-4233-11eb-16d2-d901efddf3db
+# ╟─0804d794-4235-11eb-1ff8-43557d6de7ad
+# ╟─a19b1b74-4234-11eb-2041-a9c728c0d4ac
+# ╠═39a86a4c-4233-11eb-1c34-1be5c9b5d4f7
+# ╠═fd96acd0-4232-11eb-38bf-ff83f01d94f2
+# ╠═da2132aa-4234-11eb-2b2d-d90d38979a2f
+# ╠═e06b358e-4234-11eb-0202-fb8f1315d0d2
+# ╟─150d054c-4235-11eb-3df3-4138d650c12e
+# ╟─b1c8b2c4-4234-11eb-2f3a-27120018dd90
+# ╠═df78508e-4233-11eb-2b41-b9496b2b6aba
+# ╠═dac8b652-4233-11eb-23e8-a9e829253b8d
+# ╠═294d9c5e-4232-11eb-0aee-c7c22ad6d36e
+# ╠═0779c330-4234-11eb-2e28-374080d859b4
