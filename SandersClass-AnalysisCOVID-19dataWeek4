@@ -28,10 +28,10 @@ md"
 url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 
 # ╔═╡ ab231ef0-4284-11eb-2b04-9172ba4a23d6
-download(url, "covid_data1.csv");
+download(url, "covid_data.csv");
 
 # ╔═╡ d2aada30-4284-11eb-24c0-1dd5868b2327
-csv_data = CSV.File("covid_data1.csv");
+csv_data = CSV.File("covid_data.csv");
 
 # ╔═╡ c30cb6ac-4284-11eb-2319-411579f77c05
 data = DataFrame(csv_data)
