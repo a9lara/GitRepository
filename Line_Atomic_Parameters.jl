@@ -13,51 +13,20 @@ macro bind(def, element)
     end
 end
 
-# ╔═╡ a94070d2-3c09-11eb-22fe-776f72d0035a
+# ╔═╡ 816dadd8-4288-11eb-2ee7-81dd43d2d9dc
 begin
-
-
-	############################################
-	# Credits for MySlider: https://github.com/barucden
-	struct MySlider 
-	    range::AbstractRange
-	    default::Number
-	end
-	function Base.show(io::IO, ::MIME"text/html", slider::MySlider)
-	    print(io, """
-			<input type="range" 
-			min="$(first(slider.range))" 
-			step="$(step(slider.range))"
-			max="$(last(slider.range))" 
-			value="$(slider.default)"
-			oninput="this.nextElementSibling.value=this.value">
-			<output>$(slider.default)</output>""")
-	end
-	###########################################
-	
-		
-	# import Pkg; Pkg.add("Plots")
-	# import Pkg; Pkg.add("PlotlyBase")
-	# import Pkg; Pkg.add("PlutoUI")
-	
+	using CSV
+	using DataFrames
 	using PlutoUI
 	using Plots
+	using PlotlyBase
 	plotly()
-	
-		###########################################
-	
-	function Maxwellian_Distribution(T)
-thermal_distributions=Float64[]
-vs=Float64[]
-	for v in 0:0.1:50
-thermal_distribution = T^(3/2) * v^2*exp.(-v^2/T)
-push!(thermal_distributions,thermal_distribution)
-		push!(vs,v)
-	end
-		thermal_distributions,vs
 end
-	
-end
+
+# ╔═╡ 875420ea-4288-11eb-1251-2918c68f29ae
+md"
+### Packages
+"
 
 # ╔═╡ 24f93ad2-3b57-11eb-3aff-7964ec8e894a
 md"
@@ -150,10 +119,10 @@ $\boxed{\alpha_{\nu}= 149.74 \ f_{\mathrm{absorption}} \ \frac{\lambda_{\mathrm{
 "
 
 # ╔═╡ df8d4dd6-3be6-11eb-0d1d-cda97c11c343
-Absorption_Cross_Section(Voigt,f_absorption,λ,v_Doppler,ν,νo,Δν_Doppler) = 149.74*f_absorption*λ/v_Doppler*Voigt
+absorption_cross_section(Voigt,f_absorption,λ,v_Doppler,ν,νo,Δν_Doppler) = 149.74*f_absorption*λ/v_Doppler*Voigt
 
 # ╔═╡ 5ddc5df2-4246-11eb-1a3f-751eb48b06ea
-αν = Absorption_Cross_Section(1,1,1,1,1,1,1)
+αν = absorption_cross_section(1,1,1,1,1,1,1)
 
 # ╔═╡ 4cc7b320-4246-11eb-3896-1d9eb3af6146
 
@@ -167,6 +136,41 @@ given by
 
 $\boxed{f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{\frac{3}{2}}v^2 e^{\frac{-mv^2}{2kT}}} \ (4)$ 
 "
+
+# ╔═╡ a94070d2-3c09-11eb-22fe-776f72d0035a
+begin
+
+
+	############################################
+	# Credits for MySlider: https://github.com/barucden
+	struct MySlider 
+	    range::AbstractRange
+	    default::Number
+	end
+	function Base.show(io::IO, ::MIME"text/html", slider::MySlider)
+	    print(io, """
+			<input type="range" 
+			min="$(first(slider.range))" 
+			step="$(step(slider.range))"
+			max="$(last(slider.range))" 
+			value="$(slider.default)"
+			oninput="this.nextElementSibling.value=this.value">
+			<output>$(slider.default)</output>""")
+	end
+
+	
+	function Maxwellian_Distribution(T)
+thermal_distributions=Float64[]
+vs=Float64[]
+	for v in 0:0.1:50
+thermal_distribution = T^(3/2) * v^2*exp.(-v^2/T)
+push!(thermal_distributions,thermal_distribution)
+		push!(vs,v)
+	end
+		thermal_distributions,vs
+end
+	
+end
 
 # ╔═╡ 47d760f4-40c2-11eb-37ad-279f3504f746
 Boltzman_Constant = 1.381e-16 # [erg K^-1]
@@ -391,6 +395,8 @@ $\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
 
 
 # ╔═╡ Cell order:
+# ╟─875420ea-4288-11eb-1251-2918c68f29ae
+# ╠═816dadd8-4288-11eb-2ee7-81dd43d2d9dc
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
 # ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
 # ╠═df1a21c6-3b5a-11eb-3b57-756ae2eb251a
