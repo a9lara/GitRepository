@@ -1,0 +1,50 @@
+### A Pluto.jl notebook ###
+# v0.12.17
+
+using Markdown
+using InteractiveUtils
+
+# ╔═╡ b5687fa4-4284-11eb-0590-df966a809462
+begin
+	using CSV
+	using DataFrames
+	using PlutoUI
+	using Plots
+	using PlotlyBase
+	plotly()
+end
+
+# ╔═╡ 97b0ac9c-4285-11eb-22d3-49b2fe6e565f
+md"
+### Packages
+"
+
+# ╔═╡ 8aecc3be-4286-11eb-200c-df76fb3fdbb4
+md"
+### Uniform Resource Locators
+"
+
+# ╔═╡ 64a6e87e-4284-11eb-39f4-8be1644c5217
+url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+
+# ╔═╡ ab231ef0-4284-11eb-2b04-9172ba4a23d6
+download(url, "covid_data1.csv");
+
+# ╔═╡ d2aada30-4284-11eb-24c0-1dd5868b2327
+csv_data = CSV.File("covid_data1.csv");
+
+# ╔═╡ c30cb6ac-4284-11eb-2319-411579f77c05
+data = DataFrame(csv_data)
+
+# ╔═╡ 2f8f5780-4285-11eb-207b-5929ccb9ef9c
+
+
+# ╔═╡ Cell order:
+# ╟─97b0ac9c-4285-11eb-22d3-49b2fe6e565f
+# ╠═b5687fa4-4284-11eb-0590-df966a809462
+# ╟─8aecc3be-4286-11eb-200c-df76fb3fdbb4
+# ╠═64a6e87e-4284-11eb-39f4-8be1644c5217
+# ╠═ab231ef0-4284-11eb-2b04-9172ba4a23d6
+# ╠═d2aada30-4284-11eb-24c0-1dd5868b2327
+# ╠═c30cb6ac-4284-11eb-2319-411579f77c05
+# ╠═2f8f5780-4285-11eb-207b-5929ccb9ef9c
