@@ -1,0 +1,11 @@
+using Pkg
+Pkg.add.(["Pluto", "Plots", "PlotlyBase", "CSV", "DataFrames", "Pluto"])
+
+import Pluto; Pluto.run();
+
+using CSV
+using DataFrames
+using PlutoUI
+using Plots
+using PlotlyBase
+plotly()
