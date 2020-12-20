@@ -42,9 +42,9 @@ This is seen in the spectra when material between the source of light and the ob
 ### 5.2.1 Line optical depths
 Imagine we have a transition from an upper level **u**, to a lower level **l**.
 
-The **optical depth** for such transition is given by:
+The **`OPTICAL DEPTH`**, $\boxed{dτ_{l,u}}$, for such transition is given by:
 
-$\boxed{dτ_{u,l}=α_{ν}\left(n_l-n_u \ \frac{g_l}{g_u}\right) \ f(r) \ dr } \ \ \ (1)$
+$\boxed{dτ_{l,u}=α_{ν}\left(n_l-n_u \ \frac{g_l}{g_u}\right) \ f(r) \ dr } \ \ \ (1)$
 
  $\boxed{f(r)}$ is the **filling factor**
 
@@ -53,13 +53,17 @@ $\boxed{dτ_{u,l}=α_{ν}\left(n_l-n_u \ \frac{g_l}{g_u}\right) \ f(r) \ dr } \ 
 The term in parenthesis is the **population** [cm$^3$] of the lower level, with correction for **stimulated emission**. This term is the only place where **stimulated emission** enters in the **radiative balance** equations.
 "
 
-# ╔═╡ da7393f6-3b59-11eb-2aed-4d327edeb345
-# Optical Depth 
-dτ_AB(αν,nu,nl,gu,gl,r) = αν*(nl-nu*gl/gu)*f(r) 
-
-# ╔═╡ df1a21c6-3b5a-11eb-3b57-756ae2eb251a
-# Filling Factor
+# ╔═╡ 59d32bb8-42ec-11eb-3e86-b1057be05172
 filling_factor(r) = r^3
+
+# ╔═╡ 3aa2f1d8-42ec-11eb-163a-a5a17e9c9072
+f = filling_factor(1)
+
+# ╔═╡ da7393f6-3b59-11eb-2aed-4d327edeb345
+optical_depth(αν,nu,nl,gu,gl,fr) = αν*(nl-nu*gl/gu)*fr 
+
+# ╔═╡ 1652fc4c-42ec-11eb-1ca8-8509b1589380
+dτ_lu = optical_depth(1,0,1,1,1,f)
 
 # ╔═╡ a56a6b1c-4246-11eb-18d5-bf0c5e519018
 
@@ -381,25 +385,62 @@ That way, we can combine the equations seen in this Pluto.jl notebook to get dif
 
 The **`COEFFICIENT FOR INDUCED EMISSION`**, $\boxed{B_{ul}}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{ul}}$ by the **`PAHSE SPACE FACTOR`** given by $\boxed{\frac{2h\nu ^3}{c^2}}$;
 
-$\boxed{A_{u,l}=\frac{2h\nu ^3}{c^2} B_{ul} \ [\mathrm{s}^{-1}]}$
+$\boxed{A_{u,l}=\frac{2h\nu ^3}{c^2} B_{u,l} \ [\mathrm{s}^{-1}]}$
 
-And the **`INDUCED EMISSION PROBABILITY`** $\boxed{g_u}$ and the **`INDUCED ABSORPTION PROBABILITY`** $\boxed{g_u}$ are related by
+And the **`INDUCED EMISSION PROBABILITY`** $\boxed{gu \ B_{u,l}}$ and the **`INDUCED ABSORPTION PROBABILITY`** $\boxed{gl \ B_{l,u}}$ are related by
 
 $\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
+
+The  **`ABSORPTION CORSS SECTION`**, $\boxed{\alpha_{\nu}}$, is related to  **`??????`**, $\boxed{B_{l,u}}$, by
+
+ $\boxed{\alpha_{\nu}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x) \ [\mathrm{cm}^2]}$
+
+In these terms the **`OPTICAL DEPTH INCREMENT`**, $\boxed{d\tau_{l,u}}$,is given by
+
+ $\boxed{d\tau_{l,u}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x)\left(n_l-n_u\frac{g_l}{g_u}\right)f(r)dr}$
 "
 
 # ╔═╡ b7ad29b0-423c-11eb-0e69-e974b103458b
 
+
+# ╔═╡ 09e2993c-42f0-11eb-06a8-dfca1bdfc019
+md"
+## 5.5 Continumm pumping
+
+### 5.5.1 Photon occupation number
+
+The **`INTENSITY`**,  $\boxed{I_{\nu}}$ of a **radiation field** can be thought of as two parts, the **`AVAILABLE VOLUME OF PHASE SPACE`**, $\boxed{\frac{2 \ h \ \nu^3}{c^2}}$, and a **`DIMENSIONLESS OCCUPATION NUMBER GIVING THE FRACTION OF THE SPACE THAT IS FILLED`**, $\boxed{\eta}$. 
+
+> **Ocupation numbers** can be larger than unity for photons, which are **Bose-Einstein particles**.
+
+For reference, the **`PLANCK FUNCTION`** is given by
+
+$\boxed{B_{\nu}=I_{\nu}=\frac{F_{\nu}}{\pi}=\frac{2 \ h \ \nu^3}{c^2}\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T})-1} \ [\mathrm{erg \ cm^{-2} \ s^{-1} \ Hz^{-1} \ sr^{-1}} ]}$
+
+where $\boxed{F_{\nu}}$ is **`THE SINGLE-HEMISPHERE EMITTANCE FROM AN OPAQUE SURFACE.`**
+ 
+The **`PHOTON OCCUPATION NUMBER OF A BLACKBODY`** is
+
+ $\boxed{\eta_{\nu}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T})-1}}$
+
+The **`DIMENSIONLESS OCCUPATION NUMBER`** $\boxed{\eta_\nu}$  **`FOR ANY CONTINUUM WITH A MEAN INTENSITY`** $\boxed{J_{\nu} \ [\mathrm{erg \ cm^{-2} \ s^{-1} \ Hz^{-1} \ sr^{-1}} ]}$ **`AT A FREQUENCY`** $\boxed{\nu}$ is defined as
+
+ $\boxed{\eta_{\nu}\equiv\frac{J_{\nu}}{\frac{2 \ h \ \nu^3}{c^2}}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T_\mathrm{ex}})-1}}$
+
+Where $\boxed{T_\mathrm{ex}}$ is the **`EXCITATION TEMPERATURE OF THE CONTINMMUM AT THE FREQUENCY`**.
+"
 
 # ╔═╡ 0993d1a2-4238-11eb-1e43-9918fbd8b9e0
 
 
 # ╔═╡ Cell order:
 # ╟─875420ea-4288-11eb-1251-2918c68f29ae
-# ╠═816dadd8-4288-11eb-2ee7-81dd43d2d9dc
+# ╟─816dadd8-4288-11eb-2ee7-81dd43d2d9dc
 # ╟─24f93ad2-3b57-11eb-3aff-7964ec8e894a
+# ╠═59d32bb8-42ec-11eb-3e86-b1057be05172
+# ╠═3aa2f1d8-42ec-11eb-163a-a5a17e9c9072
 # ╠═da7393f6-3b59-11eb-2aed-4d327edeb345
-# ╠═df1a21c6-3b5a-11eb-3b57-756ae2eb251a
+# ╠═1652fc4c-42ec-11eb-1ca8-8509b1589380
 # ╟─a56a6b1c-4246-11eb-18d5-bf0c5e519018
 # ╟─f0ada102-3be5-11eb-2f6a-d77bf434a7e5
 # ╟─3601f4a6-4246-11eb-247d-891777c4f0ac
@@ -443,4 +484,5 @@ $\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
 # ╟─8239d1b8-4235-11eb-0639-efcbffca6299
 # ╟─8326694c-4235-11eb-3ace-73dcfaa2a010
 # ╟─b7ad29b0-423c-11eb-0e69-e974b103458b
+# ╟─09e2993c-42f0-11eb-06a8-dfca1bdfc019
 # ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
