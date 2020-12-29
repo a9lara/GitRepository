@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.17
+# v0.12.18
 
 using Markdown
 using InteractiveUtils
@@ -369,19 +369,19 @@ md"
 
 The **`DIMENSIONLESS OSCILLATOR STRENGTH`**, $\boxed{gf}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l} \ [s^{-1}]}$ by
 
- $\boxed{g_lf_{abs}=\frac{m \ c \ \lambda_ {\mathrm{cm}}^2}{8 \ \pi^2 \ q_e^2} \ g_u \ A_{u,l}}$
+$\boxed{g_lf_{abs}=\frac{m \ c \ \lambda_ {\mathrm{cm}}^2}{8 \ \pi^2 \ q_e^2} \ g_u \ A_{u,l}}$
  
- $\boxed{g_lf_{abs}=1.4992 \ g_u \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+$\boxed{g_lf_{abs}=1.4992 \ g_u \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
 
 where $\boxed{f_{abs}}$ is the **`ABSORPTION OSCILLATOR STRENGTH`**.
 
 That way, we can combine the equations seen in this Pluto.jl notebook to get different expresions relating the **`TRANSITION PROBABILITY`** $\boxed{A_{u,l}}$, **`ABSORPTION CORSS SECTION`** $\boxed{\alpha_{nu}}$, **`ABSORPTION OSCILLATOR STRENGTH`**, $\boxed{f_{abs}}$, **`DOPPLER VELOCITY WIDTH`** $\boxed{\mathrm{v}_\mathrm{ \ Doppler}}$, etc. Such as:
 
- $\boxed{f_{abs}=1.4992 \ \frac{g_u}{g_l} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
+$\boxed{f_{abs}=1.4992 \ \frac{g_u}{g_l} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^2}$
 
- $\boxed{ A_{u,l} = \frac{f_{abs}}{1.4992} \ \frac{g_l}{g_u} \ \lambda_ {\mathrm{cm}}^{-2}}$
+$\boxed{ A_{u,l} = \frac{f_{abs}}{1.4992} \ \frac{g_l}{g_u} \ \lambda_ {\mathrm{cm}}^{-2}}$
 
- $\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^3 \frac{g_u}{g_l} \ \frac{\varphi_{\nu}(x)}{\mathrm{v}_\mathrm{ \ Doppler}} \ [\mathrm{cm}^2]}$
+$\boxed{\alpha_{\nu} = 2.24484 \times 10 ^{-2} \ A_{u,l}  \ \lambda_ {\mathrm{cm}}^3 \frac{g_u}{g_l} \ \frac{\varphi_{\nu}(x)}{\mathrm{v}_\mathrm{ \ Doppler}} \ [\mathrm{cm}^2]}$
 
 The **`COEFFICIENT FOR INDUCED EMISSION`**, $\boxed{B_{ul}}$ is related to the **`TRANSITION PROBABILITY`** $\boxed{A_{ul}}$ by the **`PAHSE SPACE FACTOR`** given by $\boxed{\frac{2h\nu ^3}{c^2}}$;
 
@@ -393,11 +393,11 @@ $\boxed{g_l \ B_{l,u} = g_u \ B_{u,l}}$
 
 The  **`ABSORPTION CORSS SECTION`**, $\boxed{\alpha_{\nu}}$, is related to  **`??????`**, $\boxed{B_{l,u}}$, by
 
- $\boxed{\alpha_{\nu}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x) \ [\mathrm{cm}^2]}$
+$\boxed{\alpha_{\nu}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x) \ [\mathrm{cm}^2]}$
 
 In these terms the **`OPTICAL DEPTH INCREMENT`**, $\boxed{d\tau_{l,u}}$,is given by
 
- $\boxed{d\tau_{l,u}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x)\left(n_l-n_u\frac{g_l}{g_u}\right)f(r)dr}$
+$\boxed{d\tau_{l,u}=\frac{h \ c}{4 \ \pi^{3/2}}\frac{B_{l,u}}{v_{\mathrm{Doppler}}}\varphi_{\nu}(x)\left(n_l-n_u\frac{g_l}{g_u}\right)f(r)dr}$
 "
 
 # ╔═╡ b7ad29b0-423c-11eb-0e69-e974b103458b
@@ -421,17 +421,79 @@ where $\boxed{F_{\nu}}$ is **`THE SINGLE-HEMISPHERE EMITTANCE FROM AN OPAQUE SUR
  
 The **`PHOTON OCCUPATION NUMBER OF A BLACKBODY`** is
 
- $\boxed{\eta_{\nu}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T})-1}}$
+$\boxed{\eta_{\nu}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T})-1}}$
 
 The **`DIMENSIONLESS OCCUPATION NUMBER`** $\boxed{\eta_\nu}$  **`FOR ANY CONTINUUM WITH A MEAN INTENSITY`** $\boxed{J_{\nu} \ [\mathrm{erg \ cm^{-2} \ s^{-1} \ Hz^{-1} \ sr^{-1}} ]}$ **`AT A FREQUENCY`** $\boxed{\nu}$ is defined as
 
- $\boxed{\eta_{\nu}\equiv\frac{J_{\nu}}{\frac{2 \ h \ \nu^3}{c^2}}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T_\mathrm{ex}})-1}}$
+$\boxed{\eta_{\nu}\equiv\frac{J_{\nu}}{\frac{2 \ h \ \nu^3}{c^2}}=\frac{1}{\exp(\frac{\mathrm{h} \ \nu}{\mathrm{k_B} \ T_\mathrm{excitation}})-1}}$
 
-Where $\boxed{T_\mathrm{ex}}$ is the **`EXCITATION TEMPERATURE OF THE CONTINMMUM AT THE FREQUENCY`**.
+Where $\boxed{T_\mathrm{excitation}}$ is the **`EXCITATION TEMPERATURE OF THE CONTINMMUM AT THE FREQUENCY`**.
 "
+
+# ╔═╡ 85e4d3f8-43ed-11eb-1b69-65b3047c1d11
+
+
+# ╔═╡ 725e7970-43e2-11eb-3944-b576fdc4f08b
+c_light = 2.99e10 # Light Velocity [cm s^-1]
+
+# ╔═╡ 2f62d794-43de-11eb-3c35-abd4c3f1d582
+h_Planck = 6.626e-27 # Plank's Constant [erg s^-1]
+
+# ╔═╡ 53d07d9e-43df-11eb-3436-53f8032ce66f
+k_Boltzman = 1.381e-16 # Boltzman's Constant [erg K^-1]
+
+# ╔═╡ 8443944c-43ed-11eb-0b7d-e7baa044d2ba
+
+
+# ╔═╡ 4cbfa2f8-43e1-11eb-1d88-319d38af6365
+md"**`EXCITATION FREQUENCY`**: $(@bind νo MySlider(1e10:1e18,1e10)) Hz"
+
+# ╔═╡ 9a32422c-43eb-11eb-029d-d9b1245f0692
+md"**`FREQUENCY`**: $(@bind ν MySlider(1e10:1e18,1e10)) Hz"
+
+# ╔═╡ 833223d6-43ed-11eb-122e-d129afb9df33
+
+
+# ╔═╡ 4e25d73a-43e2-11eb-3a5c-47c259346605
+# I'm not sure abaout this cell.
+excitation_temperature(νo)=h_Planck*νo/k_Boltzman
+
+# ╔═╡ d82de736-43e2-11eb-352f-3b5759becf95
+T_excitation = excitation_temperature(νo) # K
+
+# ╔═╡ f0cef5a0-43dd-11eb-0ba8-714473a60998
+dimensionless_occupation_number_of_a_blackbody(ν,T_excitation)=1/(exp((h_Planck*ν)/(k_Boltzman*T_excitation)))
+
+# ╔═╡ b230d436-43eb-11eb-2bd2-9df1cc168ee6
+ην = dimensionless_occupation_number_of_a_blackbody(ν,T_excitation)
 
 # ╔═╡ 0993d1a2-4238-11eb-1e43-9918fbd8b9e0
 
+
+# ╔═╡ 96b4a50e-43dd-11eb-3b2a-83dad1d169f9
+md"
+### 5.5.2 Pumping rates
+
+>> **Continuum pumping:** Is the rate of induced radiative excitation by continuum photos. 
+
+**`CONTINUUM PUMPING`** $\boxed{r_{l,u}}$ is given by:
+
+$\boxed{r_{l,u} = n_l \ B_{l,u} \ J_{l,u}} \ (156)$
+
+$\boxed{r_{l,u} = n_l \ A_{u,l} \ \frac{J_{l,u}}{\frac{2 \ h\ \nu^3}{c^2}} \ \frac{g_u}{g_l}} \ (156)$
+
+$\boxed{r_{l,u} = n_l \ A_{u,l} \ \eta_c \ \frac{g_u}{g_l} \ [\mathrm{cm}^{-3} \ \mathrm{s}^{-1}]} \ (156)$
+
+Where $\boxed{\eta_{c}}$ is the **`DIMENSIONLESS CONTINUUM OCCUPATION NUMBER AT THE LINE ENERGY`**.
+
+The **`RATE OF INDUCED RADIATIVE DE-EXCITATION`**, $\boxed{r_{u,l}}$, is related by detailed balance and is given by
+
+$\boxed{r_{u,l}=r_{l,u} \ \frac{g_l}{g_u} \ [\mathrm{cm}^{-3} \ \mathrm{s}^{-1}]} \ (157)$
+
+The **`OCUPATION NUMBER`** has the advantage that the Einstein B's do not enter any rate equations. All radiative rates can be expressed in terms of an A and $\eta$.
+
+### 5.5.3 Optical depth effects
+"
 
 # ╔═╡ Cell order:
 # ╟─875420ea-4288-11eb-1251-2918c68f29ae
@@ -449,11 +511,11 @@ Where $\boxed{T_\mathrm{ex}}$ is the **`EXCITATION TEMPERATURE OF THE CONTINMMUM
 # ╠═5ddc5df2-4246-11eb-1a3f-751eb48b06ea
 # ╟─4cc7b320-4246-11eb-3896-1d9eb3af6146
 # ╟─41ae4c22-3c03-11eb-2374-4da29bb8c418
-# ╟─a94070d2-3c09-11eb-22fe-776f72d0035a
+# ╠═a94070d2-3c09-11eb-22fe-776f72d0035a
 # ╟─47d760f4-40c2-11eb-37ad-279f3504f746
-# ╟─57fed056-3c0e-11eb-056c-37f7b45ae745
-# ╟─7097507e-3c0a-11eb-0e6c-c96b22de9c71
-# ╟─d664b216-3c0a-11eb-0399-4b10b37dabf4
+# ╠═57fed056-3c0e-11eb-056c-37f7b45ae745
+# ╠═7097507e-3c0a-11eb-0e6c-c96b22de9c71
+# ╠═d664b216-3c0a-11eb-0399-4b10b37dabf4
 # ╟─490dc08e-40be-11eb-1ee3-7526cbcc6c45
 # ╟─4b8b2b70-40ba-11eb-350b-971e7040f47c
 # ╟─9582d11a-40c9-11eb-3476-cbafd81d7973
@@ -485,4 +547,17 @@ Where $\boxed{T_\mathrm{ex}}$ is the **`EXCITATION TEMPERATURE OF THE CONTINMMUM
 # ╟─8326694c-4235-11eb-3ace-73dcfaa2a010
 # ╟─b7ad29b0-423c-11eb-0e69-e974b103458b
 # ╟─09e2993c-42f0-11eb-06a8-dfca1bdfc019
+# ╟─85e4d3f8-43ed-11eb-1b69-65b3047c1d11
+# ╟─725e7970-43e2-11eb-3944-b576fdc4f08b
+# ╟─2f62d794-43de-11eb-3c35-abd4c3f1d582
+# ╟─53d07d9e-43df-11eb-3436-53f8032ce66f
+# ╟─8443944c-43ed-11eb-0b7d-e7baa044d2ba
+# ╟─4cbfa2f8-43e1-11eb-1d88-319d38af6365
+# ╟─9a32422c-43eb-11eb-029d-d9b1245f0692
+# ╟─833223d6-43ed-11eb-122e-d129afb9df33
+# ╟─4e25d73a-43e2-11eb-3a5c-47c259346605
+# ╟─d82de736-43e2-11eb-352f-3b5759becf95
+# ╟─f0cef5a0-43dd-11eb-0ba8-714473a60998
+# ╟─b230d436-43eb-11eb-2bd2-9df1cc168ee6
 # ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
+# ╟─96b4a50e-43dd-11eb-3b2a-83dad1d169f9
