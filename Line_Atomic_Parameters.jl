@@ -506,6 +506,14 @@ If the **`EMISSION COEFFICIENT`** is $\boxed{j}$ and **`ABSORPTION COEFFICIENT`*
 
 where $\boxed{B(T)}$ is **`PLANCK'S FUNCTION`**
 
+## 5.7 The line source function and mean intensity
+
+The **`SOURCE FUNCTION FOR A LINE`** $\boxed{S_l(T_\mathrm{exc})}$ is defined as the planck function at the **`LINE EXCITATION TEMPERAUTRE`**, $\boxed{T_\mathrm{exc}}$.
+
+$\boxed{S_l(T_\mathrm{exc}) \equiv B_l(T_\mathrm{exc}) \ \equiv \frac{j_l}{k_l}} \ (162)$ 
+
+\
+
 "
 
 # ╔═╡ Cell order:
