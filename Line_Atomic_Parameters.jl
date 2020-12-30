@@ -495,6 +495,19 @@ The **`OCUPATION NUMBER`** has the advantage that the Einstein B's do not enter 
 ### 5.5.3 Optical depth effects
 "
 
+# ╔═╡ e55b183a-4a3f-11eb-3f82-bd49b45d8592
+md"
+### 5.6 Kirchhoff's Law
+> Is the statement that **in thermodynamic equilibrium the energy emitted is equal to the energy absorbed**.
+
+If the **`EMISSION COEFFICIENT`** is $\boxed{j}$ and **`ABSORPTION COEFFICIENT`** is $\boxed{k}$, then
+
+ $\boxed{j = k \ B(T)} \ (161)$
+
+where $\boxed{B(T)}$ is **`PLANCK'S FUNCTION`**
+
+"
+
 # ╔═╡ Cell order:
 # ╟─875420ea-4288-11eb-1251-2918c68f29ae
 # ╟─816dadd8-4288-11eb-2ee7-81dd43d2d9dc
@@ -561,3 +574,4 @@ The **`OCUPATION NUMBER`** has the advantage that the Einstein B's do not enter 
 # ╟─b230d436-43eb-11eb-2bd2-9df1cc168ee6
 # ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
 # ╟─96b4a50e-43dd-11eb-3b2a-83dad1d169f9
+# ╟─e55b183a-4a3f-11eb-3f82-bd49b45d8592
