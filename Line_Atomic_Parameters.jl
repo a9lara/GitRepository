@@ -474,7 +474,7 @@ dimensionless_occupation_number_of_a_blackbody(ν,T_excitation)=1/(exp((h_Planck
 md"
 ### 5.5.2 Pumping rates
 
->> **Continuum pumping:** Is the rate of induced radiative excitation by continuum photos. 
+>> **Continuum pumping:** Is the rate of induced radiative excitation by continuum photons. 
 
 **`CONTINUUM PUMPING`** $\boxed{r_{l,u}}$ is given by:
 
@@ -513,6 +513,151 @@ The **`SOURCE FUNCTION FOR A LINE`** $\boxed{S_l(T_\mathrm{exc})}$ is defined as
 $\boxed{S_l(T_\mathrm{exc}) \equiv B_l(T_\mathrm{exc}) \ \equiv \frac{j_l}{k_l}} \ (162)$ 
 
 \
+
+The radiation field within the line  is given by the mean intensity $\boxed{\bar{J}}$
+
+ $\boxed{\eta_l=\frac{\frac{n_u}{g_u}}{\frac{n_l}{g_l}-\frac{n_u}{g_u}}\left(1-P_{\mathrm{esc}}\right)}$
+
+So, something important to notice is that the **`PHOTON OCCUPATION NUMBER`** $\boxed{\eta_l}$ is given by the **`ESCAPE PROBABILITY`** $\boxed{P_\mathrm{esc}}$, the **`STATISTICAL WEIGHT`** $\boxed{g}$ and the numberl... $\boxed{n}$
+
+
+
+"
+
+# ╔═╡ d6b4888a-4d60-11eb-28d2-85ffa42fa195
+md"
+# 6. Line Details
+## 6.1 Overview
+
+
+"
+
+
+
+# ╔═╡ d48cecbe-5047-11eb-1955-fd2d8077638e
+md"
+# 11 The Heavy Elements
+
+## 11.1 Overview
+
+Concepts to review
+
+1. **`NET RADIATIVE RECOMBINATION COEFFICIENTS`**
+
+Ehich have been summed over all levels. ¿Is it valid at low densities?
+
+2. **`PARTITION FUNCTION`**
+
+3. **`STATISTICAL WEIGHT`**
+
+## 11.4 Ionization Balance
+
+Concepts to review
+
+4. **`CROSS SECTION FOR EACH SHELL OF SINGLY IONIZED IRON`**
+
+5. **`COMPTON SCATTERING IONIZATION`**
+
+6. **`RADIATIVE RECOMBINATION`**
+Radiative recombination is a process which takes place when a positively charged ion captures an electron to one of its bound orbits with a simultaneous emission of a photon
+
+7. **`DIELECTRONIC RECMOBINATION`**
+In the dielectronic recombination process the energy which becomes available during the capture process is carried away by the promotion of a bound electron to another bound orbit:
+
+8. **`VALENCE SHELL IONIZATION POTENTIALS`**
+
+
+
+
+"
+
+# ╔═╡ 8a1b3142-51e9-11eb-1d57-dde1978a92ce
+
+
+# ╔═╡ 89b4871c-51e9-11eb-0240-ddc7bd8b6a6c
+md" # 12. Thermal Equilibrium
+
+We need a **`SYSTEM OF EQUATIONS`** that setts the **`THERMAL BALANCE`** of the gas.
+
+ $\boxed{\text{¿Qué es el balance térmico?}}$
+
+ $\boxed{\text{¿Cómo se define el balance térmico?}}$
+
+ $\boxed{\text{¿Vamos a considerar balance térmico local?}}$
+
+To do that we need to **`CHARACTERIZE THE PHOTOIONIZED GAS`**.
+
+The only **`THERMODYNAMIC QUANTITY`** used to do that is the **`ELECTRON TEMPERATURE`**.
+
+$\boxed{\text{¿Únicamente vamos a utilizar la temperatura electrónica para caracterizar nuestro gas fotoionizado?}}$
+
+The first thing to know is that the **`VELOCITY DISTRIBUTION`** of the **`ELECTRONS`** is mostly caracterized by their **`KINETIC ETEMPERATURE`**.
+
+ $\boxed{\text{¿Cuál va a ser la distribución de velocidades que vamos a utilizar nosotors?}}$
+
+$\boxed{\text{¿Qué otra cosa, además de la temperatura cinética de los electrones va a caracterizar nuestra distribución de velocidades, la energía de los fotones?}}$
+
+The **`KINETIC TEMPERATURE`** is defined by the **`BALANCE`** between **`PROCESSES THAT ADD ENERGY`** and **`PROCESSES THAT REMOVE ENERGY`** to/from the **`ELECTRONS`**.
+
+**`PROCESSES THAT ADD ENERGY`** are called **`HEATING`**
+
+**`PROCESSES THAT REMOVE ENERGY`** are called **`COOLING`**.
+
+**`HEATING`** will be denoted by $\boxed{G}$
+
+**`COOLING`** will be denoted by $\boxed{Λ}$
+
+**`HEATING`** and **`COOLING`** can be defined relative to the **`GROUND STATE`** or to the **`CONTINUUM`**.
+
+ $\boxed{\text{¿Nosotros respecto a qué lo vamos a definir?}}$
+
+
+
+## Definitinos
+
+**`THERMAL EQUILIBRIUM`**
+
+ $\boxed{G - \Lambda = 0}$
+
+**`THERMAL BALANCE`**
+
+**`ELECTRON TEMPERATURE`**
+
+**`THERMODYNAMIC QUANTITY`**
+
+**`THERMAL STABILITY`**
+
+ $\boxed{\frac{d(G - \Lambda)}{dT} > 0}$
+
+
+
+
+##  Processes that Heat and Cool the gas
+
+The **`PHOTOIONIZATION`** contributes an amount of heat given by $h(\nu-\nu_o)$
+
+
+
+
+
+
+"
+
+# ╔═╡ 896c7fc6-51e9-11eb-0008-9d169b44570d
+md"
+La temperatura baja bastante
+
+Compton energy exchange
+
+Calentamiento Compton
+
+GAS SE CALIENTA
+
+Calentamiento colisional
+
+Gas por fotoionización
+
+a una de las fases???? qué fases
 
 "
 
@@ -583,3 +728,8 @@ $\boxed{S_l(T_\mathrm{exc}) \equiv B_l(T_\mathrm{exc}) \ \equiv \frac{j_l}{k_l}}
 # ╟─0993d1a2-4238-11eb-1e43-9918fbd8b9e0
 # ╟─96b4a50e-43dd-11eb-3b2a-83dad1d169f9
 # ╟─e55b183a-4a3f-11eb-3f82-bd49b45d8592
+# ╠═d6b4888a-4d60-11eb-28d2-85ffa42fa195
+# ╟─d48cecbe-5047-11eb-1955-fd2d8077638e
+# ╟─8a1b3142-51e9-11eb-1d57-dde1978a92ce
+# ╠═89b4871c-51e9-11eb-0240-ddc7bd8b6a6c
+# ╠═896c7fc6-51e9-11eb-0008-9d169b44570d
