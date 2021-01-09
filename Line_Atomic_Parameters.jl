@@ -659,6 +659,14 @@ Gas por fotoionización
 
 a una de las fases???? qué fases
 
+Si 
+
+leete todos los procesos y cómo lo calcula
+
+GAS ESTÁ EN EQUILIBRIO --- SI
+
+HEATING... PHOTIONIZACIÓN 
+
 "
 
 # ╔═╡ Cell order:
