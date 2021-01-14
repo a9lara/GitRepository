@@ -24,9 +24,7 @@ begin
 end
 
 # ╔═╡ 875420ea-4288-11eb-1251-2918c68f29ae
-md"
-### Packages
-"
+md" ### Packages "
 
 # ╔═╡ 24f93ad2-3b57-11eb-3aff-7964ec8e894a
 md"
@@ -669,6 +667,62 @@ HEATING... PHOTIONIZACIÓN
 
 "
 
+# ╔═╡ 4ee64dd2-5626-11eb-2b77-e7199ff3e225
+
+
+# ╔═╡ 5050948e-5626-11eb-0fe8-bd0dd86d2b49
+md" # Temperatures that Characterize a Gas"
+
+# ╔═╡ 81506a0c-5626-11eb-3599-13ea9cd42b2e
+
+
+# ╔═╡ 80d63cf8-5626-11eb-206b-99bc1290acc6
+md" # Distributions"
+
+# ╔═╡ c0fa970c-5626-11eb-36c9-29cb32c3dacf
+md" # **`EXCITATION TEMPERATURE`** 
+
+If photon with an energy h$\nu$ > h$\nu_o$ are exciting atoms, then, at a given time, at
+
+**`LOCAL THERMODYNAMIC EQUILIBRIUM`** $\boxed{\frac{dT(\vec{x})}{dt} = 0}$, 
+
+the **`RATIO BETWEEN THE NUMBER OF ATOMS IN AN EXCITED STATED`** $\boxed{n_2}$ and **`THE NUMBER OF ATOMS IN THE GRPUND STATE`** $\boxed{n_1}$ will be given by the
+
+**`BOLTZMAN DISTRIBUTION`** $\boxed{\frac{n_2}{n_1}=\frac{g_2}{g_1}\left(\frac{1}{\exp\left(\frac{E_2 - E_1}{kT}\right)}\right)}$
+
+Where $\boxed{\frac{g_2}{g_1}}$ is the **`RATIO OF DEGENERACY OF THE STAGES`** which is **how many different ways could the atom be in the excited state and in the ground state**.
+
+
+"
+
+# ╔═╡ eb14ffa8-5628-11eb-2d59-5184037fe0b0
+boltzman_distribution(E1,E2,T) = exp((E2-E1)/T)
+
+# ╔═╡ ea667c44-5628-11eb-2747-a3ee24d817bb
+
+
+# ╔═╡ b435154c-5626-11eb-0b36-91920a923f06
+
+
+# ╔═╡ 56b0a8c8-5626-11eb-10a8-83bbaa71ff88
+Iν(T,ν) = 2*h_Planck*ν^2/(c_light^2*(exp((h_Planck*ν)/(k_Boltzman*T)-1)))
+
+# ╔═╡ 6a0de084-5626-11eb-0523-35e0a9228272
+temperature = 5 # K
+
+# ╔═╡ 6d0892f4-5626-11eb-1897-353a79b1860b
+frequency = 1e4 # Hz	
+
+# ╔═╡ 61a0a42a-5626-11eb-2fca-5fcdd190a666
+begin
+	intensity = round(Iν(temperature,frequency),sigdigits=3)
+	with_terminal() do
+		println("TEMPERATURE\t = $temperature K")
+		println("FREQUENCY\t = $frequency Hz")
+  		println("INTENSITY\t = $intensity ")
+	end
+end
+
 # ╔═╡ Cell order:
 # ╟─875420ea-4288-11eb-1251-2918c68f29ae
 # ╟─816dadd8-4288-11eb-2ee7-81dd43d2d9dc
@@ -740,4 +794,16 @@ HEATING... PHOTIONIZACIÓN
 # ╟─d48cecbe-5047-11eb-1955-fd2d8077638e
 # ╟─8a1b3142-51e9-11eb-1d57-dde1978a92ce
 # ╠═89b4871c-51e9-11eb-0240-ddc7bd8b6a6c
-# ╠═896c7fc6-51e9-11eb-0008-9d169b44570d
+# ╟─896c7fc6-51e9-11eb-0008-9d169b44570d
+# ╟─4ee64dd2-5626-11eb-2b77-e7199ff3e225
+# ╟─5050948e-5626-11eb-0fe8-bd0dd86d2b49
+# ╟─81506a0c-5626-11eb-3599-13ea9cd42b2e
+# ╟─80d63cf8-5626-11eb-206b-99bc1290acc6
+# ╟─c0fa970c-5626-11eb-36c9-29cb32c3dacf
+# ╠═eb14ffa8-5628-11eb-2d59-5184037fe0b0
+# ╠═ea667c44-5628-11eb-2747-a3ee24d817bb
+# ╠═b435154c-5626-11eb-0b36-91920a923f06
+# ╠═56b0a8c8-5626-11eb-10a8-83bbaa71ff88
+# ╠═6a0de084-5626-11eb-0523-35e0a9228272
+# ╠═6d0892f4-5626-11eb-1897-353a79b1860b
+# ╟─61a0a42a-5626-11eb-2fca-5fcdd190a666
