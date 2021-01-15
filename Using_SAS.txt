@@ -1,0 +1,58 @@
+######################################
+###				    ###
+###	       USING SAS	    ###
+###				    ###
+######################################
+######################################
+
+     GENERATING AN ENVIRONMENT
+	
+######################################
+Create an environmet, lets say: Documents/Objects/Galaxy1
+Which contains two directories Data_Galaxy1 and Work_Galaxy1
+################################
+
+	DOWNLOADING DATA
+	
+#################################
+Download ODF Files data from: http://nxsa.esac.esa.int/nxsa-web/#search
+#################################
+
+	EXTRACTING DATA
+
+#################################
+Lets say we just download 0790600101.tar.gz
+We move that file to  Documents/Objects/Galaxy1/Data_Galaxy1
+---------------------------------------------------------
+--- LOCATION --- ~/Documents/Objects/Galaxy1/Data_Galaxy1
+---------------------------------------------------------
+And uncompress the .tar.gz file using:
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+tar -zxvf 0790600101.tar.gz	
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°	
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Then we go inside the folder 0790600101	
+--------------------------------------------------------------------
+--- LOCATION --- ~/Documents/Objects/Galaxy1/Data_Galaxy1/0790600101
+--------------------------------------------------------------------
+And uncompress the .TAR file using:
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+tar xvf 3063_0790600101.TAR
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+Lets say I down
+
+
+x-special/nautilus-clipboard
+copy
+file:///home/migitalo/Documents/2021/Academy/PhD/3rd_Semester/Objects/3C382
+
