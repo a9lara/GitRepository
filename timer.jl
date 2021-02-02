@@ -68,4 +68,28 @@ function timer()
 	println("")
 	println("to")
 	println("$hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
+	println("")
+	println("#################################")
+	final_seconds = seconds_time_right_now + seconds_for_timer
+	final_minutes = minutes_time_right_now + minutes_for_timer
+	final_hours = hours_time_right_now + hour_for_timer
+	if abs(final_seconds) ≥ 60
+		new_final_minutes = floor(final_seconds/60)
+		new_final_minutes = Int(new_final_minutes + final_minutes)
+		new_final_seconds = final_seconds % 60
+	else	
+	new_final_seconds = final_seconds
+	new_final_minutes = final_minutes
+	end
+	if abs(new_final_minutes) ≥ 60
+		new_final_hours = floor(new_final_minutes/60)
+		new_final_hours = Int(new_final_hours + final_hours)
+		new_final_minutes = new_final_minutes % 60
+	else	
+	new_final_minutes = final_minutes
+	new_final_hours = final_hours
+	end	
+	println("")
+	println("That sum of them is")
+	println("$new_final_hours h : $new_final_minutes min : $new_final_seconds sec")
 end
