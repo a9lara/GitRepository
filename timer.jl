@@ -60,11 +60,19 @@ function timer()
 		minutes_for_timer = 60 + minutes_for_timer
 		hour_for_timer = hour_for_timer + 1 
 	end
+	if hour_for_timer ≥ 24
+		days_for_timer = Int(floor(hour_for_timer/24))
+		hour_for_timer = hour_for_timer % 24
+	end 
 	println("")
 	println("#################################")
 	println("")
 	println("That means yo want to add")
-	println("$hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
+	if days_for_timer == 1
+		println("$days_for_timer day : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
+	else
+		println("$days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
+	end
 	println("")
 	println("to")
 	println("$hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
