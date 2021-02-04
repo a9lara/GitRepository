@@ -1,4 +1,26 @@
 function timer()
+	println("This program supose that the year consists of 360 days.")
+	println("Which contains 12 months of 30 days each.")
+	println("And no weeks.")
+	println("")
+	println("I will consider the current year as the year 0")
+	println("")
+	println("Tell me the month we are on right now.")
+	year_right_now = 0
+	month_right_now = parse(Int,readline())
+	if 0 > month_right_now || month_right_now ≥ 13 
+		println("")
+		println("Format not correct")
+		return
+	end
+	println("")
+	println("Now tell me the day.")
+	day_right_now = parse(Int,readline())
+	if 0 > day_right_now || day_right_now ≥ 31 
+		println("")
+		println("Format not correct")
+		return
+	end
 	println("")
 	println("What time is it right now? (In 24 hours format.)")
 	println("")
@@ -42,7 +64,7 @@ function timer()
 	println("#################################")
 	println("")
 	println("Right now it is:")
-	println("$hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
+	println("0 year : $month_right_now month : $day_right_now day : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
 	println("")
 	println("And you want an alarm in:")
 	println("$hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
@@ -60,6 +82,7 @@ function timer()
 		minutes_for_timer = 60 + minutes_for_timer
 		hour_for_timer = hour_for_timer + 1 
 	end
+	days_for_timer = 0 ##################################### TENGO QUE QUITAR ESTE RENGLÓN, LO PUSE TEMPORALMENTE
 	if hour_for_timer ≥ 24
 		days_for_timer = Int(floor(hour_for_timer/24))
 		hour_for_timer = hour_for_timer % 24
@@ -67,7 +90,7 @@ function timer()
 	println("")
 	println("#################################")
 	println("")
-	println("That means yo want to add")
+	println("That means you want to add")
 	if days_for_timer == 1
 		println("$days_for_timer day : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
 	else
