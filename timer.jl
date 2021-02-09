@@ -52,6 +52,15 @@ function timer()
 	println("")
 	println("For how long you want your timer?") 
 	println("")
+	println("Input the amount of years") 
+	years_for_timer = parse(Int,readline())
+	println("")
+	println("Input the amount of months") 
+	months_for_timer = parse(Int,readline())
+	println("")
+	println("Input the amount of days") 
+	days_for_timer = parse(Int,readline())
+	println("")
 	println("Input the amount of hours") 
 	hour_for_timer = parse(Int,readline())
 	println("")
@@ -67,7 +76,7 @@ function timer()
 	println("0 year : $month_right_now month : $day_right_now day : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
 	println("")
 	println("And you want an alarm in:")
-	println("$hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
+	println("$years_for_timer years : $months_for_timer months : $days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
 	if abs(seconds_for_timer) ≥ 60
 		new_minutes_for_timer =  floor(seconds_for_timer/60)
 		minutes_for_timer = Int(minutes_for_timer + new_minutes_for_timer)
@@ -82,23 +91,24 @@ function timer()
 		minutes_for_timer = 60 + minutes_for_timer
 		hour_for_timer = hour_for_timer + 1 
 	end
-	days_for_timer = 0 ##################################### TENGO QUE QUITAR ESTE RENGLÓN, LO PUSE TEMPORALMENTE
 	if hour_for_timer ≥ 24
-		days_for_timer = Int(floor(hour_for_timer/24))
+		new_days_for_timer = floor(hour_for_timer/24)
+		days_for_timer = Int(days_for_timer + new_days_for_timer)
 		hour_for_timer = hour_for_timer % 24
+	end 
+	if days_for_timer ≥ 31
+		new_months_for_timer = floor(days_for_timer/31)
+		months_for_timer = Int(months_for_timer + new_months_for_timer)
+		days_for_timer = days_for_timer % 31 + 1
 	end 
 	println("")
 	println("#################################")
 	println("")
 	println("That means you want to add")
-	if days_for_timer == 1
-		println("$days_for_timer day : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
-	else
-		println("$days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
-	end
+	println("$months_for_timer months : $days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
 	println("")
 	println("to")
-	println("$hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
+	println("0 year : $month_right_now month : $day_right_now days : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
 	println("")
 	println("#################################")
 	final_seconds = seconds_time_right_now + seconds_for_timer
