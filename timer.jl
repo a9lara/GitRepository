@@ -73,7 +73,7 @@ function timer()
 	println("#################################")
 	println("")
 	println("Right now it is:")
-	println("0 year : $month_right_now month : $day_right_now day : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
+	println("0 year : $month_right_now months : $day_right_now day : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
 	println("")
 	println("And you want an alarm in:")
 	println("$years_for_timer years : $months_for_timer months : $days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
@@ -105,10 +105,10 @@ function timer()
 	println("#################################")
 	println("")
 	println("That means you want to add")
-	println("$months_for_timer months : $days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
+	println("$years_for_timer years : $months_for_timer months : $days_for_timer days : $hour_for_timer h : $minutes_for_timer min : $seconds_for_timer sec")
 	println("")
 	println("to")
-	println("0 year : $month_right_now month : $day_right_now days : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
+	println("0 years : $month_right_now months : $day_right_now days : $hours_time_right_now h : $minutes_time_right_now min : $seconds_time_right_now sec")
 	println("")
 	println("#################################")
 	final_seconds = seconds_time_right_now + seconds_for_timer
@@ -130,7 +130,15 @@ function timer()
 	new_final_minutes = final_minutes
 	new_final_hours = final_hours
 	end	
+	if abs(new_final_hours) ≥ 24
+		new_final_days = floor(new_final_hours/24)
+		new_final_days = Int(new_final_days + days_for_timer)
+		new_final_hours = new_final_hours % 24	
+	else
+		new_final_hours = final_hours
+		new_final_days = days_for_timer
+	end			
 	println("")
-	println("That sum of them is")
-	println("$new_final_hours h : $new_final_minutes min : $new_final_seconds sec")
+	println("That sum of that is")
+	println("$new_final_days days : $new_final_hours h : $new_final_minutes min : $new_final_seconds sec")
 end
