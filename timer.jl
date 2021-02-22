@@ -101,6 +101,11 @@ function timer()
 		months_for_timer = Int(months_for_timer + new_months_for_timer)
 		days_for_timer = days_for_timer % 31 + 1
 	end 
+	if months_for_timer ≥ 13
+		new_years_for_timer = floor(months_for_timer/12)
+		years_for_timer = Int(years_for_timer + new_years_for_timer)
+		months_for_timer = months_for_timer % 12 
+	end 
 	println("")
 	println("#################################")
 	println("")
@@ -114,6 +119,9 @@ function timer()
 	final_seconds = seconds_time_right_now + seconds_for_timer
 	final_minutes = minutes_time_right_now + minutes_for_timer
 	final_hours = hours_time_right_now + hour_for_timer
+	final_days = days_time_right_now + days_for_timer
+	final_months = months_time_right_now + months_for_timer
+	final_years = years_for_timer
 	if abs(final_seconds) ≥ 60
 		new_final_minutes = floor(final_seconds/60)
 		new_final_minutes = Int(new_final_minutes + final_minutes)
