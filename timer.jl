@@ -80,12 +80,12 @@ function timer()
 	if abs(seconds_for_timer) ≥ 60
 		new_minutes_for_timer =  floor(seconds_for_timer/60)
 		minutes_for_timer = Int(minutes_for_timer + new_minutes_for_timer)
-		seconds_for_timer = seconds_for_timer % 60
+		seconds_for_timer = seconds_for_timer % 60 
 	end
 	if abs(minutes_for_timer) ≥ 60
 		new_hours_for_timer =  floor(minutes_for_timer/60)
 		hour_for_timer = Int(hour_for_timer + new_hours_for_timer)
-		minutes_for_timer = minutes_for_timer % 60
+		minutes_for_timer = minutes_for_timer % 60 + 1
 	end
 	if minutes_for_timer < 0
 		minutes_for_timer = 60 + minutes_for_timer
@@ -94,7 +94,7 @@ function timer()
 	if hour_for_timer ≥ 24
 		new_days_for_timer = floor(hour_for_timer/24)
 		days_for_timer = Int(days_for_timer + new_days_for_timer)
-		hour_for_timer = hour_for_timer % 24
+		hour_for_timer = hour_for_timer % 24 + 1
 	end 
 	if days_for_timer ≥ 31
 		new_months_for_timer = floor(days_for_timer/31)
@@ -104,7 +104,7 @@ function timer()
 	if months_for_timer ≥ 13
 		new_years_for_timer = floor(months_for_timer/12)
 		years_for_timer = Int(years_for_timer + new_years_for_timer)
-		months_for_timer = months_for_timer % 12 
+		months_for_timer = months_for_timer % 12 + 1
 	end 
 	println("")
 	println("#################################")
@@ -119,34 +119,50 @@ function timer()
 	final_seconds = seconds_time_right_now + seconds_for_timer
 	final_minutes = minutes_time_right_now + minutes_for_timer
 	final_hours = hours_time_right_now + hour_for_timer
-	final_days = days_time_right_now + days_for_timer
-	final_months = months_time_right_now + months_for_timer
+	final_days = day_right_now + days_for_timer
+	final_months = month_right_now + months_for_timer
 	final_years = years_for_timer
 	if abs(final_seconds) ≥ 60
 		new_final_minutes = floor(final_seconds/60)
 		new_final_minutes = Int(new_final_minutes + final_minutes)
 		new_final_seconds = final_seconds % 60
 	else	
-	new_final_seconds = final_seconds
-	new_final_minutes = final_minutes
+		new_final_seconds = final_seconds
+		new_final_minutes = final_minutes
 	end
 	if abs(new_final_minutes) ≥ 60
 		new_final_hours = floor(new_final_minutes/60)
 		new_final_hours = Int(new_final_hours + final_hours)
 		new_final_minutes = new_final_minutes % 60
 	else	
-	new_final_minutes = final_minutes
-	new_final_hours = final_hours
+		new_final_minutes = final_minutes
+		new_final_hours = final_hours
 	end	
 	if abs(new_final_hours) ≥ 24
 		new_final_days = floor(new_final_hours/24)
-		new_final_days = Int(new_final_days + days_for_timer)
+		new_final_days = Int(new_final_days + final_days)
 		new_final_hours = new_final_hours % 24	
 	else
 		new_final_hours = final_hours
-		new_final_days = days_for_timer
-	end			
+		new_final_days = final_days
+	end
+		if abs(new_final_days) ≥ 30
+		new_final_months = floor(new_final_days/30)
+		new_final_months = Int(new_final_months + final_months)
+		new_final_days = new_final_days % 30	
+	else
+		new_final_days = final_days
+		new_final_months = final_months
+	end	
+	if abs(new_final_months) ≥ 12
+		new_final_years = floor(new_final_months/12)
+		new_final_years = Int(new_final_years + final_years)
+		new_final_months = new_final_months % 12	
+	else
+		new_final_months = final_months
+		new_final_years = final_years
+	end		
 	println("")
 	println("That sum of that is")
-	println("$new_final_days days : $new_final_hours h : $new_final_minutes min : $new_final_seconds sec")
+	println("$new_final_years years : $new_final_months months : $new_final_days days : $new_final_hours h : $new_final_minutes min : $new_final_seconds sec")
 end
