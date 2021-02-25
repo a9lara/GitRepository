@@ -85,26 +85,22 @@ function timer()
 	if abs(minutes_for_timer) ≥ 60
 		new_hours_for_timer =  floor(minutes_for_timer/60)
 		hour_for_timer = Int(hour_for_timer + new_hours_for_timer)
-		minutes_for_timer = minutes_for_timer % 60 + 1
+		minutes_for_timer = minutes_for_timer % 60 
 	end
-	if minutes_for_timer < 0
-		minutes_for_timer = 60 + minutes_for_timer
-		hour_for_timer = hour_for_timer + 1 
-	end
-	if hour_for_timer ≥ 24
+	if abs(hour_for_timer) ≥ 24
 		new_days_for_timer = floor(hour_for_timer/24)
 		days_for_timer = Int(days_for_timer + new_days_for_timer)
-		hour_for_timer = hour_for_timer % 24 + 1
+		hour_for_timer = hour_for_timer % 24 
 	end 
-	if days_for_timer ≥ 31
+	if abs(days_for_timer) ≥ 31
 		new_months_for_timer = floor(days_for_timer/31)
 		months_for_timer = Int(months_for_timer + new_months_for_timer)
-		days_for_timer = days_for_timer % 31 + 1
+		days_for_timer = days_for_timer % 31 
 	end 
-	if months_for_timer ≥ 13
+	if abs(months_for_timer) ≥ 13
 		new_years_for_timer = floor(months_for_timer/12)
 		years_for_timer = Int(years_for_timer + new_years_for_timer)
-		months_for_timer = months_for_timer % 12 + 1
+		months_for_timer = months_for_timer % 12 
 	end 
 	println("")
 	println("#################################")
@@ -146,7 +142,7 @@ function timer()
 		new_final_hours = final_hours
 		new_final_days = final_days
 	end
-		if abs(new_final_days) ≥ 30
+	if abs(new_final_days) ≥ 30
 		new_final_months = floor(new_final_days/30)
 		new_final_months = Int(new_final_months + final_months)
 		new_final_days = new_final_days % 30	
