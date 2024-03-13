@@ -1,0 +1,61 @@
+----------------------
+1) Vivaldi Browser
+----------------------
+
+1.1 Please do yourself a favor and download Vivaldi Browser, and set it as your default browser. It's the best browser ever!
+
+----------------------
+2) GitHub
+----------------------
+
+2.1 To use GitHub commands seamlessly, open your Terminal and enter the following commands:
+
+$ ssh-keygen 
+
+% ssh-add ~/.ssh/id_ed25519 
+
+% pbcopy < ~/.ssh/id_ed25519.pub  
+
+Enter to your GitHub account and click on profile picture, then go to:
+
+Settings >> SSH and GPC keys >> New SSH key
+
+Give it a Titile
+
+Paste the key on your clipboard. (Use the keyboard shortcut ⌘ + C to copy).
+
+Click on Add Key.
+
+Now go back to your main page.
+
+Access the repository you want to push to without being prompted to enter your password.
+
+Now, where it says 'clone', select SSH. Copy the URL.
+
+Go to the Terminal.
+
+Navigate to your repository directory. Once there, type:
+
+% cd .git
+
+$ open config
+
+Change the URL of -remote "origin"- for the one you copied.
+
+Save and close the file
+
+Done!
+
+To upload any file on that repository use:
+
+% git add <<file_name.tex>>
+
+% git commit -m "Write a descriptive message summarizing the changes made"
+
+% git push
+
+Done!!!
+
+----------------------
+2) Visual Studio Code
+----------------------
