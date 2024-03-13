@@ -7,7 +7,7 @@ Información de la receta
 Nombre:				Lasagna
 Autor:             		Armando Lara
 Tiempo:             		1 hora
-Número de Ingredientes:  		8
+Número de Ingredientes:  	8
 Número de Utensilios:  		5
 Calorías:           		??? 
 Porciones:          		6 
@@ -42,10 +42,10 @@ Ingredientes
 
 ################################################################
 
-1)  	10ml	Aceite de oliva extra virgen
-2)  	500g 	Salsa de tomate 
-3)  	500g 	Pasta de Lasagna
-4)	600g	Queso Mozzarella
+1)  	15ml	Aceite de oliva extra virgen
+2)  	450g 	Salsa de tomate 
+3)  	400g 	Pasta de Lasagna
+4)	500g	Queso Mozzarella
 5)  	5g 	Sal
 6)  	5g 	Hierbas Finas en polvo
 7)  	5g 	Pimienta molida
