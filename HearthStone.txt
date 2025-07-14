@@ -288,7 +288,7 @@ Druid ese
 + Murloc Warleader
 * Innervate
 + Coldlight Seer
-+ Bluegilli Warrior
++ Bluegill Warrior
 + Murloc Tidecaller
 + Murloc Raider
 * Savage Roar
