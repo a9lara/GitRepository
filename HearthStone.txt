@@ -294,8 +294,8 @@ Druid ese
 * Savage Roar
 * Power of the Wild
 * Naturalize
-+ Old MUrloc Eye
-+ Grime Scale Oracle
++ Old Murk-Eye
++ Grimscale Oracle
 
 
 
