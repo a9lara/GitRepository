@@ -5,36 +5,52 @@ Hidden Bewear - Formato {Expanded}
 --------------
 POKÉMON (23)
 -------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 2 Rattata       (1 Paralyzing Gaze)
-Colorless
+Colorless (Basic)
 Black & White—Boundaries Crossed - 105/149 - (Common)
 
 2 Raticate      (1 Gnaw Through) (3 Super Fang)
-Colorless
+Colorless (Stage 1)
 Black & White—Boundaries Crossed - (105/149 - Uncommon)
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 Meloetta EX   (2 Brilliant Voice) (3 Round)
-Psychic
+Psychic (Basic)
 Black & White—Legendary Treasures - (RC11 - Rare)
 Black & White—Legendary Treasures - (RC25 - Ultra Rare) 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 4 Stufful       (1 Tackle) (3 Hammer In)
-Colorless
+Colorless (Basic)
 SM—Guardians Rising - (112/145 Common) - Colorless
 
 3 Bewear        [Rake It In] (3 Dangerous Blow)
-Colorless
-SM—Guardians Rising - (113/145 Uncommon) - Colorless				
+Colorless (Stage 1)
+SM—Guardians Rising - (113/145 Uncommon) - Colorless	
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 3 Cosmog        (1 Dust Gathering)
-Psychic
+Psychic (Basic)
 Sun & Moon - (64/149 Common)
 Sun & Moon Promo - (SM42 Promo)
 
-3 Cosmoem       (1 Teleport) - Sun & Moon65/149 Rare - Ultra Prism61/138 Uncommon - Psychic
-2 Lunala        (1 Shatter Shot) (3 Wings of the Moone) - SM—Guardians Rising - 61/145 Rare
+3 Cosmoem       (1 Teleport)
+Psychic (Stage 1)
+Sun & Moon - (65/149 Rare)
+Ultra Prism - (61/138 Uncommon)
+
+2 Lunala        (1 Shatter Shot) (3 Wings of the Moone)
+Psychic (Stage 2)
+SM—Guardians Rising - (61/145 Rare)
+
 3 Mimikyu       (1 Filch) (2 Copycat)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 --------------
 TRAINERS (18)
