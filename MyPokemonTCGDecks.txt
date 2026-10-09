@@ -80,4 +80,5 @@ ENERGY (19)
 -------------
 
 4 Double Colorless Energy
-15 Psychic Energy
+12 Psychic Energy
+3 Darkness Energy
