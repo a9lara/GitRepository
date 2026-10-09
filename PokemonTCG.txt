@@ -1,73 +1,24 @@
+############################################
+Hidden Bewear - Formato {Expanded}
+############################################
 
-Hidden Bewear (básico)
-
-
-2 Gothita
-1 Gothorita
-1 Litwick
-2 Salandit
-1 Salazzle
-4 Stufful
-3 Bewear
-3 Cosmog
-3 Cosmoem
-2 Lunala
-1 Mimikyu
-2 Rescue Stretcher
-2 Switch
-2 Nest Ball
-2 Timer Ball
-3 Tierno
-2 Professor Kukui
-2 Lysandre
-3 Hau
-4 Double Colorless Energy
-10 Psychic Energy
-5 Fire Energy
-
-
-Hidden Bewear (MEJORADO)
-
-
-1 Venipede
-1 Meloetta EX
-1 Tornadus
-2 Hoothoot
-1 Mew
-4 Stufful
-4 Bewear
-3 Cosmog
-3 Cosmoem
-2 Lunala
-1 Mimikyu
-2 Rescue Stretcher
-2 Switch
-2 Nest Ball
-2 Timer Ball
-3 Tierno
-2 Professor Kukui
-2 Lysandre
-3 Hau
-4 Double Colorless Energy
-15 Psychic Energy
-
-################################################
-
-Hidden Bewear (Definitivo)
-Formato {Expanded}
-
-
-Pokémon (23)
+--------------
+POKÉMON (23)
+-------------
 
 2 Rattata       (1 Paralyzing Gaze)	
-2 Raticate      (1 Gnaw Through)	(3 Super Fang)
-1 Meloetta EX   (2 Brilliant Voice)	(3 Round)				
+2 Raticate      (1 Gnaw Through) (3 Super Fang)
+1 Meloetta EX   (2 Brilliant Voice) (3 Round)				
 4 Stufful       (1 Tackle) (3 Hammer In)
 3 Bewear        [Rake It In] (3 Dangerous Blow)				
 3 Cosmog        (1 Dust Gathering)
 3 Cosmoem       (1 Teleport)
 2 Lunala        (1 Dhatter Shot) (3 Wings of the Moone)
 3 Mimikyu       (1 Filch) (2 Copycat)
+
+--------------
+TRAINERS (18)
+-------------
 
 Item (8)
 
@@ -83,10 +34,9 @@ Supporter (10)
 2 Lysandre
 3 Hau
 
-Energy (19)
+--------------
+ENERGY (19)
+-------------
 
 4 Double Colorless Energy
 15 Psychic Energy
-
-
-############################################
