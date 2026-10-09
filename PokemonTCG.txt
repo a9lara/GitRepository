@@ -76,12 +76,7 @@ XY—Phantom Forces - (107/119 Uncommon)
 XY—BREAKpoint - (112/122 Uncommon)
 
 2 Professor Kukui
-2 Lysandre / Boss’s Orders (Lysandre)
-XY—Flashfire104/106 Ultra Rare
-XY—Flashfire90/106 Uncommon
-XY—Phantom Forces99/119 Uncommon
-XY—Phantom Forces118/119 Ultra Rare
-
+2 Boss’s Orders
 3 Hau
 
 --------------
