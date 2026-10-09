@@ -70,14 +70,10 @@ Item (8)
 
 Supporter (10)
 
-3 Tierno 
-XY—Kalos Starter Set - (39/39)
-XY—Phantom Forces - (107/119 Uncommon)
-XY—BREAKpoint - (112/122 Uncommon)
-
 2 Professor Kukui
 2 Boss’s Orders
 3 Hau
+3 Hop
 
 --------------
 ENERGY (19)
